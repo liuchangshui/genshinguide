@@ -89,18 +89,18 @@
   ],
   "talent_priority": [
     {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 1"
+    },
+    {
       "icon": "E",
       "label": "Elemental Skill",
-      "priority": ""
+      "priority": "Priority 2"
     },
     {
       "icon": "Q",
       "label": "Elemental Burst",
-      "priority": ""
-    },
-    {
-      "icon": "NA",
-      "label": "Normal Attack",
       "priority": "Priority 3"
     }
   ],

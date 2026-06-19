@@ -48,10 +48,10 @@
     "circlet_note": "Aim for 60%+ CR. XL crits a lot."
   },
   "sub_priority": [
-    "⚡ Genshin Guide Home",
-    "Guides",
-    "Calculator",
-    "Pro $5/mo"
+    "1. Energy Recharge — 180-200% minimum. Non-negotiable for burst uptime.",
+    "2. CRIT Rate / CRIT DMG — 1:2 ratio. Aim for 60/120.",
+    "3. ATK% — more damage after ER requirements met.",
+    "4. Elemental Mastery — only in reaction teams (Vape/Melt)."
   ],
   "teams": [
     {

@@ -83,7 +83,7 @@
     {
       "icon": "NA",
       "label": "Normal Attack",
-      "priority": "Priority 1 (Crown)"
+      "priority": "Priority 1"
     },
     {
       "icon": "E",
@@ -106,12 +106,12 @@
   ],
   "related_guides": [
     {
-      "id": "hutao",
-      "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "id": "zhongli",
+      "name": "Zhongli",
+      "element": "geo",
+      "emoji": "🪨",
+      "tier": "A",
+      "desc": "Shield / Support · Tenacity set · HP build"
     },
     {
       "id": "yelan",

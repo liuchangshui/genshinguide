@@ -158,22 +158,44 @@ def build_scaffold(character_id: str):
 
 def render_guide(guide_data, character_id, char_data):
     """Render a guide JSON into HTML using the Jinja2 template."""
-    element_css = guide_data.get("_element", "electro")
+    # Element: prefer API vision, fall back to JSON _element
+    api_element = char_data.get("vision", "")
+    element_css = config.ELEMENT_MAP.get(api_element) or guide_data.get("_element", "electro")
+
     color_hex = config.ELEMENT_COLORS.get(element_css, "#448aff")
     color_clean = color_hex.lstrip("#")
     r, g, b = int(color_clean[0:2], 16), int(color_clean[2:4], 16), int(color_clean[4:6], 16)
+
+    # Weapon: prefer API weapon, fall back to JSON
+    weapon_type = (char_data.get("weapon") or guide_data.get("_weapon_type", "Sword")).title()
+
+    # Role: lookup table (API doesn't provide role data)
+    ROLE_MAP = {
+        "raiden": "Sub DPS / Battery", "hutao": "Main DPS", "yelan": "Sub DPS / Support",
+        "nahida": "Sub DPS / Support", "kazuha": "Support / CC", "zhongli": "Shield / Support",
+        "ayaka": "Main DPS", "albedo": "Sub DPS", "bennett": "Support / Healer",
+        "furina": "Sub DPS / Buffer", "arlecchino": "Main DPS", "neuvillette": "Main DPS",
+        "xiangling": "Sub DPS",
+    }
+    char_role = ROLE_MAP.get(character_id, char_data.get("role") or "Support")
+    # Generate clean i18n key suffix (e.g., "sub_dps_battery")
+    char_role_key = char_role.lower().replace(' / ', '_').replace(' ', '_').replace('/', '_').replace('__', '_')
 
     template_vars = {
         "char_id": character_id,
         "prefix": character_id,
         "char_name": char_data.get("name", character_id.title()),
-        "char_role": char_data.get("role", "Support"),
-        "char_weapon_type": char_data.get("weapon_type", "Sword").title(),
+        "char_role": char_role,
+        "char_role_key": char_role_key,
+        "char_weapon_type": weapon_type,
         "char_role_desc": char_data.get("description", ""),
         "element": element_css,
         "element_display": ELEMENT_DISPLAY.get(element_css, element_css.title()),
         "element_emoji": ELEMENT_EMOJI.get(element_css, "✦"),
         "element_color_hex": color_hex,
+        "element_color_r": str(r),
+        "element_color_g": str(g),
+        "element_color_b": str(b),
         "element_color_rgb": f"{r},{g},{b}",
         "version": config.CURRENT_VERSION,
         "date_modified": date.today().isoformat(),

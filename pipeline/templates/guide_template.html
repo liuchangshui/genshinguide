@@ -36,7 +36,7 @@
 
 <section class="character-showcase {{ element }}">
   <div class="char-portrait">
-    <div class="char-portrait-placeholder {{ element }}" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba({{ element_color_hex[1:]|slice(0,2) }},{{ element_color_hex[1:]|slice(2,4) }},{{ element_color_hex[1:]|slice(4,6) }},0.15));">
+    <div class="char-portrait-placeholder {{ element }}" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba({{ element_color_r }},{{ element_color_g }},{{ element_color_b }},0.15));">
       <span>{{ char_id | capitalize }}</span>
     </div>
   </div>
@@ -47,7 +47,7 @@
       <span class="elem-tag" data-i18n="guide.weapon_{{ char_weapon_type | lower }}">{{ char_weapon_type }}</span>
       <span class="elem-tag" data-i18n="guide.element_{{ element }}">{{ element_display }}</span>
       <span class="grade grade-s">S</span>
-      <span class="char-role" data-i18n="guide.role_{{ char_role | lower | replace(' ','_') | replace('/','_') }}">{{ char_role }}</span>
+      <span class="char-role" data-i18n="guide.role_{{ char_role_key }}">{{ char_role }}</span>
     </div>
     <p class="char-desc" data-i18n="{{ prefix }}.desc">{{ char_role_desc }}</p>
   </div>
