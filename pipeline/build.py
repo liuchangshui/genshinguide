@@ -207,6 +207,13 @@ def build():
 
     # Localize all pages - read source content FIRST before overwriting
     print(f"[4/5] Localizing pages...")
+    # Restore homepage from template (pr-site/index.html is the redirect from last build)
+    home_template = os.path.join(os.path.dirname(__file__), "templates", "home.html")
+    home_dest = os.path.join(OUTPUT_DIR, "index.html")
+    if os.path.exists(home_template):
+        shutil.copy(home_template, home_dest)
+        print(f"  Restored homepage from template")
+
     all_source_html = list(Path(OUTPUT_DIR).glob("*.html"))
 
     # Save source content in memory (we'll overwrite index.html later)
