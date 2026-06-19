@@ -196,7 +196,7 @@ function scoreBuild(c, w){
 document.addEventListener('DOMContentLoaded',()=>{
   const charSel = document.getElementById('char-select');
   if(!charSel) return;
-  charSel.innerHTML = '<option value="">— Select Character —</option>' +
+  charSel.innerHTML = '<option value="">' + t('home.calc_placeholder') + '</option>' +
     Object.entries(DATA).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join('');
   charSel.addEventListener('change', ()=>updateCalc());
   document.getElementById('weapon-select').addEventListener('change', ()=>updateCalc());

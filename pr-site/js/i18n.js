@@ -262,6 +262,7 @@ const I18N = {
     annual_price: { en:'¥36<span style="font-size:0.9rem;color:var(--text-muted);">/year</span>', zh:'¥36<span style="font-size:0.9rem;color:var(--text-muted);">/年</span>' },
     annual_sub: { en:'Save ¥24 — just ¥3/month', zh:'省¥24 — 仅 ¥3/月' },
     annual_btn: { en:'Go Annual →', zh:'开通年度 →' },
+    checkout_soon: { en:'Checkout coming soon! We use Lemon Squeezy for secure payments.', zh:'支付功能即将上线！我们使用 Lemon Squeezy 处理安全支付。' },
   },
 
   // ===== guides =====
@@ -302,6 +303,7 @@ const I18N = {
     copyright: { en:'Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.', zh:'粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。' },
     about: { en:'About', zh:'关于' },
     privacy: { en:'Privacy', zh:'隐私' },
+    pipeline: { en:'Pipeline', zh:'流水线' },
   },
 
   // ===== ad =====
