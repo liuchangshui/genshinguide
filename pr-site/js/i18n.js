@@ -300,6 +300,8 @@ const I18N = {
     calc: { en:'Calculator', zh:'计算器' },
     pro: { en:'Pro', zh:'会员' },
     copyright: { en:'Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.', zh:'粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。' },
+    about: { en:'About', zh:'关于' },
+    privacy: { en:'Privacy', zh:'隐私' },
   },
 
   // ===== ad =====
