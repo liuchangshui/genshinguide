@@ -287,12 +287,11 @@ def build():
     location.href = path;
   }
 
-  document.addEventListener('DOMContentLoaded', function(){
-    document.querySelectorAll('.lang-toggle').forEach(function(btn){
-      btn.addEventListener('click', function(){
-        var lang = btn.dataset.lang;
-        if (lang && lang !== currentLang) switchTo(lang);
-      });
+  // DOM already loaded (script at end of body)
+  document.querySelectorAll('.lang-toggle').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var lang = btn.dataset.lang;
+      if (lang && lang !== currentLang) switchTo(lang);
     });
   });
 })();
