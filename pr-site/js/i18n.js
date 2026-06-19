@@ -339,6 +339,25 @@ const I18N = {
     pro_lock_btn: { en:'Unlock Pro — $5/month', zh:'解锁Pro — ¥5/月' },
   },
 
+  // ===== about =====
+  about: {
+    title: { en:'About GenshinGuide', zh:'关于 GenshinGuide' },
+    subtitle: { en:'AI-powered, data-driven, always up-to-date.', zh:'AI驱动，数据为准，保持更新。' },
+    mission_title: { en:'Our Mission', zh:'我们的使命' },
+    mission_text: { en:'Every patch breaks old guides. Most sites copy-paste wiki data and never update. We built GenshinGuide to fix this: AI-generated build guides that auto-update within 24 hours of a new patch.', zh:'每个版本更新都让旧攻略过时。大多数网站复制粘贴 wiki 数据，从不更新。我们创建 GenshinGuide 来解决这个问题：AI 生成的攻略会在新版本发布后 24 小时内自动更新。' },
+    how_title: { en:'How It Works', zh:'工作原理' },
+    how_1: { en:'Daily data sync — our pipeline pulls the latest game data from public APIs', zh:'每日数据同步 — 流水线从公共 API 拉取最新游戏数据' },
+    how_2: { en:'AI generates guides — DeepSeek V4 creates structured builds from current data', zh:'AI 生成攻略 — DeepSeek V4 基于最新数据生成结构化 Build' },
+    how_3: { en:'Self-verification — a second pass checks numbers against source material', zh:'自动验证 — 二次校验数值与源数据的一致性' },
+    how_4: { en:'Auto-publish — verified guides go live with version tags and full meta data', zh:'自动发布 — 验证通过的攻略附带版本标签和完整元数据上线' },
+    contact_title: { en:'Contact', zh:'联系我们' },
+    contact_text: { en:'Questions, feedback, or bug reports? We would love to hear from you.', zh:'有疑问、反馈或 bug 报告？欢迎联系我们。' },
+    email_label: { en:'Email:', zh:'邮箱：' },
+    github_label: { en:'GitHub:', zh:'GitHub：' },
+    disclaimer_title: { en:'Disclaimer', zh:'免责声明' },
+    disclaimer_text: { en:'GenshinGuide is a fan-made project. We are not affiliated with, endorsed by, or connected to HoYoverse or COGNOSPHERE. All game assets, character names, and data are property of their respective owners.', zh:'GenshinGuide 是粉丝制作的项目。我们与 HoYoverse 或 COGNOSPHERE 无关，也未获得其认可。所有游戏资产、角色名称和数据均属于其各自所有者。' },
+  },
+
   // ===== albedo =====
   albedo: {
     intro: { en:'Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with "unwanted" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v4.8.', zh:'阿贝多是一位优质的后台岩系副C：他的元素战技会生成一个领域，每2秒对敌人造成岩元素伤害。他的伤害完全基于防御力，因此很容易用“没人要”的圣遗物来培养。他完美适配纯岩队，以及任何需要稳定后台伤害和通过元素爆发提供元素精通加成的灵活位置。本指南涵盖在4.8版本中优化培养他所需的一切。' },
@@ -889,6 +908,29 @@ const I18N = {
     talent2_label: { en:'Elemental Skill', zh:'元素战技' },
     talent3_label: { en:'Elemental Burst', zh:'元素爆发' },
     desc: { en:'Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.', zh:'原神4.8版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。' },
+  },
+
+  // ===== privacy =====
+  privacy: {
+    title: { en:'Privacy Policy', zh:'隐私政策' },
+    updated: { en:'Last updated: June 2026', zh:'最后更新：2026年6月' },
+    h1_title: { en:'1. Information We Collect', zh:'1. 我们收集的信息' },
+    h1_text: { en:'We collect minimal information to provide our services:', zh:'我们仅收集提供服务所需的必要信息：' },
+    h1_email: { en:'Email address — only if you subscribe to our newsletter', zh:'邮箱地址 — 仅在订阅新闻通讯时收集' },
+    h1_payment: { en:'Payment information — processed entirely by Lemon Squeezy; we never see your credit card details', zh:'支付信息 — 由 Lemon Squeezy 完全处理；我们不会看到您的信用卡信息' },
+    h1_usage: { en:'Usage data — anonymized page views via Google Analytics (if enabled)', zh:'使用数据 — 通过 Google Analytics 收集的匿名页面访问量（如启用）' },
+    h2_title: { en:'2. Cookies', zh:'2. Cookie 政策' },
+    h2_text: { en:'We use essential cookies for:', zh:'我们使用必要的 Cookie：' },
+    h2_lang: { en:'Language preference — remembers your EN/中文 setting (localStorage)', zh:'语言偏好 — 记住您的 EN/中文 设置（localStorage）' },
+    h2_ads: { en:'Google AdSense — may set cookies for ad personalization. You can opt out via Google Ad Settings', zh:'Google AdSense — 可能设置 Cookie 用于广告个性化，您可通过 Google 广告设置退出' },
+    h3_title: { en:'3. Third-Party Services', zh:'3. 第三方服务' },
+    h3_adsense: { en:'Google AdSense — serves advertisements', zh:'Google AdSense — 提供广告服务' },
+    h3_lemon: { en:'Lemon Squeezy — processes payments', zh:'Lemon Squeezy — 处理支付' },
+    h3_cloudflare: { en:'Cloudflare — hosts our site and provides CDN/security', zh:'Cloudflare — 托管网站并提供 CDN/安全服务' },
+    h4_title: { en:'4. Your Rights', zh:'4. 您的权利' },
+    h4_text: { en:'You can request access to, correction of, or deletion of your personal data at any time.', zh:'您可以随时请求访问、更正或删除您的个人数据。' },
+    h5_title: { en:'5. Contact', zh:'5. 联系方式' },
+    h5_text: { en:'For privacy questions, see our About page.', zh:'隐私相关问题，请查看我们的关于页面。' },
   },
 
   // ===== proDemo =====
