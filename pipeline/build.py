@@ -252,6 +252,7 @@ def build():
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GenshinGuide</title>
 <script>
