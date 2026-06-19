@@ -30,7 +30,9 @@ I18N.current = 'zh';
 
 // ---- Helpers ----
 
-/** Check if text needs translation (UI text, not game proper nouns) */
+/** Check if text needs translation (UI text, not game proper nouns).
+ *  KEY RULE: Long English paragraphs (>60 chars) are ALWAYS a problem.
+ */
 function isEnglishHeavy(text) {
   const latin = (text.match(/[a-zA-Z]/g) || []).length;
   const cjk = (text.match(/[一-鿿㐀-䶿]/g) || []).length;
@@ -39,23 +41,18 @@ function isEnglishHeavy(text) {
   if (cjk > 0 && latin < 10) return false;
   if (latin <= cjk) return false;
 
-  // Game proper nouns that are OK to stay in English:
-  // Weapon names: "Crimson Moon's Semblance", "Staff of Homa", "The Catch"
-  // Character names: "Raiden Shogun", "Hu Tao", "Arlecchino"
-  // Artifact sets: "Emblem of Severed Fate", "Blizzard Strayer"
-  // Stats: "ATK", "CRIT Rate", "HP%"
-  // These appear in TL;DR and table cells — acceptable
+  // CRITICAL: long English text is always a problem
+  // (catches weapon_bottom_line, team descriptions, etc. that escaped data-i18n)
+  if (latin > 60) return true;
+
+  // Game proper nouns that are OK to stay in English
   const properNounPatterns = [
     /^(Crimson|Staff|Primordial|Engulfing|Skyward|Aquila|Favonius|Sacrificial|Mistsplitter|Amenoma|Harbinger|Blackcliff|Deathmatch|White\s+Tassel|Dragon'?s?\s+Bane|Sapwood|Festering|Iron\s+Sting|Xiphos|Freedom-Sworn|Splendor|Tome|Key|Jade|Cinnabar|Fleuve|Prototype)/i,
     /\b(Shogun|Raiden|Furina|Arlecchino|Neuvillette|Kazuha|Nahida|Bennett|Xiangling|Yelan|Zhongli|Albedo|Ayaka|Hu\s+Tao|Xingqiu|Fischl|Gorou|Itto|Shenhe|Kokomi|Mona|Sucrose|Diona|Chevreuse|Layla|Baizhu|Jean|Childe|Ganyu|Yoimiya|Wanderer|Lyney|Navia|Yae|Kuki|Beidou|Nilou|Noelle)\b/i,
-    /^\d+$/,  // pure numbers (ATK values)
-    /^[⭐]+$/, // rarity stars
+    /^\d+$/,
+    /^[⭐]+$/,
   ];
-
-  // If text is mostly game data (weapon table cells, stat values), allow it
   if (properNounPatterns.some(p => p.test(text))) return false;
-
-  // Known acceptable: game terms that appear alone
   if (/^(Sword|Polearm|Claymore|Bow|Catalyst|Pyro|Hydro|Electro|Dendro|Anemo|Geo|Cryo|v\d+\.\d+|ATK|CRIT|HP|DEF|EM|ER|DPS|DMG)$/i.test(text.trim())) return false;
 
   return latin >= 12;
