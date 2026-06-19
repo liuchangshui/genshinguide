@@ -273,32 +273,26 @@ def build():
     switcher_js = os.path.join(OUTPUT_DIR, "js", "lang-switcher.js")
     os.makedirs(os.path.dirname(switcher_js), exist_ok=True)
     with open(switcher_js, "w", encoding="utf-8") as f:
-        f.write("""// GenshinGuide Language Switcher (~1KB)
+        f.write("""// GenshinGuide Language Switcher
 (function(){
   var currentLang = document.documentElement.lang.startsWith('zh') ? 'zh' : 'en';
 
   function switchTo(lang) {
     localStorage.setItem('lang', lang);
-    var path = location.pathname;
-    if (lang === 'zh') {
-      path = path.replace('/en/', '/zh/');
-      if (path === location.pathname) path = '/zh/' + path.replace(/^\\//, '');
-    } else {
-      path = path.replace('/zh/', '/en/');
-      if (path === location.pathname) path = '/en/' + path.replace(/^\\//, '');
-    }
+    var path = location.pathname.replace(/\\/$/, '');
+    if (path.startsWith('/en')) path = path.replace(/^\\/en/, '/zh');
+    else if (path.startsWith('/zh')) path = path.replace(/^\\/zh/, '/en');
+    else path = (lang === 'zh' ? '/zh' : '/en') + path;
+    if (path === '/en' || path === '/zh') path += '/';
     location.href = path;
   }
 
   document.addEventListener('DOMContentLoaded', function(){
-    var btns = document.querySelectorAll('.lang-toggle');
-    btns.forEach(function(btn){
+    document.querySelectorAll('.lang-toggle').forEach(function(btn){
       btn.addEventListener('click', function(){
         var lang = btn.dataset.lang;
-        if (lang) switchTo(lang);
+        if (lang && lang !== currentLang) switchTo(lang);
       });
-      // Highlight active
-      if (btn.dataset.lang === currentLang) btn.classList.add('active');
     });
   });
 })();
