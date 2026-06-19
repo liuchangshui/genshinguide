@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Interactive Genshin Impact build calculator. Pick a character and weapon — get optimal artifacts, main stats, and team recommendations instantly.">
+<title>Build Calculator — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="calc">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" class="active" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero container" style="padding-bottom:40px;">
+  <div class="hero-badge" data-i18n="calc.badge">🧮 Interactive Tool</div>
+  <h1 data-i18n="calc.title">Build <span class="highlight">Calculator</span></h1>
+  <p class="hero-sub" data-i18n="calc.subtitle">Pick a character, pick a weapon — get optimal artifacts, main stats, sub-stat priority, and best teams. Free.</p>
+</section>
+
+<!-- Free Calculator -->
+<section class="container" style="margin-bottom:40px;">
+  <div class="calc-section" style="max-width:800px;margin:0 auto;">
+    <div class="calc-grid">
+      <div class="calc-inputs">
+        <h4 data-i18n="calc.free_label">⚙️ Free Calculator</h4>
+        <div class="calc-group">
+          <label data-i18n="home.calc_char">Character</label>
+          <select id="char-select"><option data-i18n="home.calc_placeholder">— Select Character —</option></select>
+        </div>
+        <div class="calc-group">
+          <label data-i18n="home.calc_weapon">Weapon</label>
+          <select id="weapon-select"><option data-i18n="home.calc_wpn_placeholder">— Select Weapon First —</option></select>
+        </div>
+      </div>
+      <div class="calc-result" id="calc-result">
+        <p class="calc-hint" data-i18n="home.calc_hint">👈 Select a character to see build recommendations</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AD #3: Between free calc and Pro demo -->
+<div class="ad-native">
+  <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+  <div class="ad-unit">
+    <div class="ad-icon">📱</div>
+    <div class="ad-text">
+      <div class="ad-headline" data-i18n="ad.ad3_head">Play Genshin on Cloud — No Download</div>
+      <div class="ad-desc" data-i18n="ad.ad3_desc">Stream Genshin to any device. First month free.</div>
+    </div>
+    <span class="ad-cta" data-i18n="ad.ad3_cta">Try Free →</span>
+  </div>
+</div>
+
+<!-- Pro DMG Simulator Demo — the conversion engine -->
+<section class="container" style="margin-bottom:40px;">
+  <div class="pro-demo-section">
+    <div class="pro-demo-header">
+      <span style="font-size:1.6rem;">🔮</span>
+      <div>
+        <h3 data-i18n="proDemo.title">Pro DMG Simulator — Preview</h3>
+        <p class="text-muted-sm" data-i18n="proDemo.subtitle">Select character to see sample. Pro unlocks full frame data, buff timing, and team DPS.</p>
+      </div>
+    </div>
+
+    <!-- Character tabs for demo -->
+    <div class="demo-tabs" id="demo-tabs">
+      <button class="demo-tab electro active" data-char="raiden">⚡ Raiden</button>
+      <button class="demo-tab pyro" data-char="hutao">🔥 Hu Tao</button>
+      <button class="demo-tab hydro" data-char="yelan">💧 Yelan</button>
+      <button class="demo-tab dendro" data-char="nahida">🌿 Nahida</button>
+    </div>
+
+    <!-- DMG simulation cards -->
+    <div class="pro-demo-grid" id="demo-cards">
+      <!-- Raiden demo (default) -->
+      <div class="pro-demo-card demo-card active" data-char="raiden">
+        <div class="char-name" style="color:#c59dff;">⚡ Raiden Shogun · C0, Lv90, R1 Engulfing</div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.slash1">Burst Slash #1</span></span><span class="value">28,432</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.slash2">Burst Slash #2</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.slash3">Burst Slash #3</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.total_burst">Total Burst DMG</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.team_dps_national">Team DPS (National)</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span data-i18n="proDemo.locked">Unlock Pro to see exact numbers</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="hutao" style="display:none;">
+        <div class="char-name" style="color:#ff6b6b;">🔥 Hu Tao · C0, Lv90, R1 Homa</div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.charged_atk_vape">Charged ATK (Vape)</span></span><span class="value">62,841</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.burst_low_hp">Burst (low HP)</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.rotation_total">Rotation Total</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.team_dps_hydro">Team DPS (2x Hydro)</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span data-i18n="proDemo.locked">Unlock Pro to see exact numbers</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="yelan" style="display:none;">
+        <div class="char-name" style="color:#6ba3ff;">💧 Yelan · C0, Lv90, R1 Aqua</div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.skill_dmg">Skill DMG</span></span><span class="value">31,204</span></div>
+        <div class="dmg-line"><span class="label">Burst Dice (×3 hits)</span><span class="value locked">███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.rotation_total">Rotation Total</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.team_dps_national">Team DPS (National)</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span data-i18n="proDemo.locked">Unlock Pro to see exact numbers</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="nahida" style="display:none;">
+        <div class="char-name" style="color:#6be085;">🌿 Nahida · C0, Lv90, R1 Floating Dreams</div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.tri_karma">Tri-Karma (spread)</span></span><span class="value">38,712</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.hyperbloom_seed">Hyperbloom Seed</span></span><span class="value locked">███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.rotation_total">Rotation Total</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span data-i18n="proDemo.team_dps_hyperbloom">Team DPS (Hyperbloom)</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span data-i18n="proDemo.locked">Unlock Pro to see exact numbers</span></div>
+      </div>
+    </div>
+
+    <!-- Pro feature grid -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px;">
+      <div class="pro-feature-card" style="border-left-color:#b388ff;">
+        <div class="feature-title">🎯 DMG Simulator</div>
+        <div class="feature-desc">Input enemy stats, buffs, rotation — get exact damage per hit. Frame-perfect.</div>
+      </div>
+      <div style="background:var(--bg-card);padding:16px;border-radius:var(--radius);border:1px solid var(--border);border-left:3px solid #ffd700;">
+        <div style="font-weight:700;color:var(--gold);margin-bottom:6px;">⚖️ Artifact Optimizer</div>
+        <div style="font-size:0.85rem;color:var(--text-secondary);">Upload artifacts — we score every combination and tell you the highest DPS setup.</div>
+      </div>
+      <div class="pro-feature-card" style="border-left-color:#69f0ae;">
+        <div class="feature-title">🔄 Rotation Analyzer</div>
+        <div class="feature-desc">Simulate full team rotations. Energy, buff uptime, frame timing — all calculated.</div>
+      </div>
+      <div class="pro-feature-card" style="border-left-color:#448aff;">
+        <div class="feature-title">📊 Build Comparison</div>
+        <div class="feature-desc">Compare up to 3 builds side by side. See exactly which does more damage.</div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="pro-demo-cta" style="margin-top:28px;">
+      <p data-i18n="calc.cta_text">See <strong>your exact character's</strong> damage. Stop guessing. Start optimizing.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="calc.unlock_btn">🔓 Unlock Pro — $5/month</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/calculator.js"></script>
+<script>
+// Init selects, then delegate to calculator.js updateCalc()
+(function(){
+  const charS = document.getElementById('char-select');
+  const wpnS   = document.getElementById('weapon-select');
+  if(!charS || !wpnS) return;
+
+  // Populate character select
+  Object.keys(CHARACTERS).forEach(k => {
+    const o = document.createElement('option');
+    o.value = k; o.textContent = CHARACTERS[k].name;
+    charS.appendChild(o);
+  });
+
+  // Character change → populate weapons, then updateCalc
+  charS.addEventListener('change', ()=>{
+    wpnS.innerHTML = '<option value="">'+t('home.calc_wpn_placeholder')+'</option>';
+    const cid = charS.value;
+    if(!cid){
+      document.getElementById('calc-result').innerHTML =
+        '<p style="color:var(--text-muted);text-align:center;padding:40px 0;">'+t('home.calc_hint')+'</p>';
+      return;
+    }
+    (CHARACTER_WEAPONS[cid]||[]).forEach(w => {
+      const o = document.createElement('option');
+      o.value = w; o.textContent = (WEAPONS[w]||{name:w}).name;
+      wpnS.appendChild(o);
+    });
+    if(typeof updateCalc === 'function') updateCalc();
+  });
+
+  // Weapon change → updateCalc
+  wpnS.addEventListener('change', ()=>{
+    if(typeof updateCalc === 'function') updateCalc();
+  });
+
+  // Pro demo tab switching
+  document.querySelectorAll('.demo-tab').forEach(btn => {
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.demo-tab').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const ch = this.dataset.char;
+      document.querySelectorAll('.demo-card').forEach(card => {
+        card.style.display = card.dataset.char === ch ? 'block' : 'none';
+      });
+    });
+  });
+
+  // Init: select Raiden (removed ||true debug leftover)
+  charS.value = 'raiden';
+  charS.dispatchEvent(new Event('change'));
+})();
+</script>
+</html>

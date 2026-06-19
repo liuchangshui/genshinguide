@@ -1,0 +1,135 @@
+{
+  "_character_id": "hutao",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Hu Tao Build Guide — GenshinGuide",
+    "description": "Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Staff of Homa (F2P: Dragon's Bane)",
+  "tldr_artifact": "4pc Crimson Witch / 4pc Shimenawa (HP%/Pyro DMG/CRIT)",
+  "tldr_team": "Double Hydro Vape (HuTao·Yelan·XQ·Zhongli)",
+  "tldr_key_stats": "HP 30K · EM 100-200 · CRIT 70/200 · NA > E > Q",
+  "intro": "Hu Tao is a top-tier Pyro polearm main DPS. Her E sacrifices HP to infuse her attacks with Pyro and massively boost her ATK based on max HP. She deals devastating charged attack DMG when below 50% HP. She requires animation canceling to reach her ceiling — C1 eliminates stamina concerns. This guide covers everything you need to build her optimally in v4.8.",
+  "weapon_bottom_line": "Staff of Homa is BiS and practically tailor-made for Hu Tao. Dragon's Bane (R5) is shockingly strong for vape — often better than 5-star stat sticks. Only pull Homa if you want the absolute best.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Signature. HP to ATK conversion + massive CRIT DMG. Made for Hu Tao."
+    },
+    {
+      "rank": 2,
+      "name": "Dragon's Bane R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "EM 221",
+      "notes": "Best F2P. EM + DMG% vs Hydro/Pyro. Perfect for vape. R5 rivals 5-stars."
+    },
+    {
+      "rank": 3,
+      "name": "Deathmatch",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "CRIT Rate 36.8%",
+      "notes": "BP weapon. High CRIT Rate makes building easier. Solid stat stick."
+    },
+    {
+      "rank": 4,
+      "name": "White Tassel",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "CRIT Rate 23.4%",
+      "notes": "Budget 3★. CRIT Rate + NA DMG bonus. Surprisingly good for CA spam."
+    }
+  ],
+  "best_artifact": "4-Piece Crimson Witch of Flames",
+  "artifact_alt": "4pc Shimenawa's Reminiscence (higher CA damage, but drains energy — managing burst uptime is harder). 4pc Crimson Witch is the goal for vape consistency.",
+  "main_stats": {
+    "sands": "HP% / EM",
+    "sands_note": "HP% best for damage and survival. EM sands if using Dragon's Bane + low EM subs.",
+    "goblet": "Pyro DMG",
+    "goblet_note": "Always Pyro DMG. HP% goblet is a significant damage loss.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 ratio. ~70% CR, ~200%+ CD with Homa."
+  },
+  "sub_priority": [
+    "CRIT Rate / CRIT DMG (1:2 ratio — she needs both)",
+    "Elemental Mastery (100-200 — essential for vape DMG)",
+    "HP% (more damage + survivability)",
+    "ATK% (low priority — Hu Tao gets massive ATK from her E already)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Double Hydro",
+      "members": "Tao + Yelan",
+      "desc": "Hu Tao + Yelan + Xingqiu + Zhongli. The best Hu Tao team. Double Hydro resonance (+25% HP) benefits Hu Tao. Massive vape uptime. Zhongli prevents low-HP deaths."
+    },
+    {
+      "name": "Team 2: VV Vape",
+      "members": "Tao + Xingqiu",
+      "desc": "Hu Tao + Xingqiu + Kazuha + Bennett. Kazuha swirls Pyro for VV shred + DMG bonus. Bennett's healing is anti-synergy (Hu Tao wants"
+    },
+    {
+      "name": "Team 3: Funerational",
+      "members": "Tao + Yelan",
+      "desc": "Hu Tao + Yelan + Xingqiu + Xiangling. All gas, no brakes. Triple Pyro/Hydro offense. No shielder — high risk, very high reward. Needs good dodging."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 1 (Crown)"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 3"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Zhongli hold E → Xingqiu E Q E → Yelan E Q → Hu Tao E → CA spam (C1: dash cancel, C0: jump cancel) → Q (when low HP or iframe)",
+  "mistakes": [
+    "❌ Building too much ATK. Hu Tao converts HP to ATK with her E. ATK% substats are nearly wasted — focus on HP% and EM instead.",
+    "❌ Too little EM. Without EM, vape DMG is significantly lower. Aim for 100-200 EM from subs or weapon. Dragon's Bane solves this automatically.",
+    "❌ Not jump/dash canceling at C0. Without canceling, Hu Tao's CA sends her flying and wastes time. Jump cancel (C0) or dash cancel (C1) between each CA.",
+    "❌ Healing Hu Tao above 50% HP. Her A4 passive gives 33% Pyro DMG bonus when below 50% HP. Avoid healers — use shields instead (Zhongli)."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Hu Tao Charged Attack Vape Simulation (C1, 90, 4pc Crimson Witch, 32K HP, 200 EM) Weapon: Staff of Homa R1 | Enemy: Lv.103 · RES 10% [Frame 015] CA Vape #1: 62,341 DMG (CRIT, below 50% HP) [Frame 032] CA Vape #2: ███ VAPE ███ ← Pro only [Frame 049] CA Vape #3: ████ VAPE ████ ← Pro only ... Total E DMG (9s): ███,███ ← Unlock Optimizer: \"HP% sands → EM sands (with Homa) = +11.2% vape DMG at current EM\" ► Full simulation: 9 CA -> dash cancels · HP thresholds · team buff sync → Pro",
+  "artifact_why": "4-Piece Crimson Witch of Flames is the optimal set for Hutao."
+}

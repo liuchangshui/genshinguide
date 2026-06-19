@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide.">
+<title>Zhongli Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Zhongli Build Guide — v4.8","description":"Optimal weapon, artifact, and team build for Zhongli in Genshin Impact 4.8.","dateModified":"2026-06-17"}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header-legacy geo">
+  <div class="version-badge" data-i18n="guide.version_badge">✅ Applicable to v4.8 · Updated 2026-06-17</div>
+  <h1>Zhongli <span style="color:var(--accent);">Build Guide</span></h1>
+  <div class="meta">Shield / Support · <span class="geo">Geo</span> · Polearm · <span class="grade grade-s">S</span> <span data-i18n="guide.tier_label">Tier</span></div>
+</header>
+
+<article class="article-body">
+
+  <!-- TL;DR: first principles — answer first, explain later -->
+  <div class="tldr-box geo">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">⚡ Best Weapon</div>
+        <div class="tldr-value">Staff of Homa <span class="tldr-muted">(F2P: Black Tassel)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 Best Artifact</div>
+        <div class="tldr-value">4pc Tenacity of the Millelith <span class="tldr-muted">(HP/HP/HP)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 Best Team</div>
+        <div class="tldr-value">Universal Shield <span class="tldr-muted">(Zhongli + any 3 — fits every team)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 Key Stats</div>
+        <div class="tldr-value">HP 40K+ · CRIT 60/120 · E > Q > NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="zhongli.intro">Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v4.8.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="geo" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box geo">
+    <strong>Bottom line:</strong> Staff of Homa is BiS for damage. Black Tassel (3★) is shockingly effective for pure shield — and essentially free. Favonius Lance for team energy.
+  </div>
+  <table class="weapon-table">
+    <thead><tr style="border-bottom-color:rgba(179,136,255,0.2);">
+      <th data-i18n="guide.th_rank">Rank</th>
+      <th data-i18n="guide.th_weapon">Weapon</th>
+      <th data-i18n="guide.th_rarity">Rarity</th>
+      <th data-i18n="guide.th_atk">Base ATK</th>
+      <th data-i18n="guide.th_substat">Sub-stat</th>
+      <th data-i18n="guide.th_notes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td><span class="rank rank-1">1</span></td><td>Staff of Homa</td><td>⭐⭐⭐⭐⭐</td><td>608</td><td>CRIT DMG 66.2%</td><td >Best all-around. HP to ATK conversion + massive CRIT DMG.</td></tr>
+      <tr><td><span class="rank rank-2">2</span></td><td>Black Tassel</td><td>⭐⭐⭐</td><td>354</td><td>HP 46.9%</td><td >Best F2P shield. Massive HP% for shields. 3★ — very common.</td></tr>
+      <tr><td><span class="rank rank-3">3</span></td><td>Favonius Lance</td><td>⭐⭐⭐⭐</td><td>565</td><td>ER 30.6%</td><td >Team battery. Generates energy for team. Good for burst uptime.</td></tr>
+      <tr><td><span class="rank rank-4">4</span></td><td>Deathmatch</td><td>⭐⭐⭐⭐</td><td>454</td><td>CRIT Rate 36.8%</td><td >BP weapon. High CRIT Rate for burst DPS builds.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- AD #2: Between weapons and artifacts — answer received, now context -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div class="ad-icon">🖱️</div>
+      <div class="ad-text">
+        <div class="ad-headline" data-i18n="ad.ad2_head">Gaming Gear Deals — Up to 40% Off</div>
+        <div class="ad-desc" data-i18n="ad.ad2_desc">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      </div>
+      <span class="ad-cta" data-i18n="ad.ad2_cta">View Deals →</span>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="geo" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box geo">
+    0🎯 Best: 4-Piece Tenacity of the Millelith</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" >Tenacity gives 20% HP (bigger shields) and 20% ATK for the team when Zhongli's pillar hits enemies. Perfect synergy with his kit — shield, buff, and survive all in one.</p>
+  </div>
+  <p style="font-size:0.9rem;"><span >Alternative:</span> 4pc Archaic Petra (buff support via crystallize shards) or 2pc Tenacity + 2pc Noblesse (burst DPS focus). 4pc Tenacity is the goal for shield support.</p>
+
+  <h3 class="electro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead><tr>
+      <th data-i18n="guide.th_slot">Slot</th>
+      <th data-i18n="guide.th_mainstat">Main Stat</th>
+      <th data-i18n="guide.th_mnotes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td data-i18n="guide.sands_label">Sands</td><td><b>HP%</b></td><td >Always HP% for shield build. More HP = bigger shield.</td></tr>
+      <tr><td data-i18n="guide.goblet_label">Goblet</td><td><b>HP%</b> / Geo DMG</td><td >HP% for pure shield. Geo DMG for burst DPS hybrid.</td></tr>
+      <tr><td data-i18n="guide.circlet_label">Circlet</td><td><b>HP%</b> / CRIT</td><td >HP% for pure shield. CRIT for burst DPS builds (60/120 target).</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="electro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    <li >HP% (stack as much as possible — 40K+ HP target)</li>
+    <li >Energy Recharge (enough to burst when needed)</li>
+    <li >CRIT Rate / CRIT DMG (for burst DPS hybrid builds)</li>
+    <li >ATK% (lowest priority — Zhongli scales on HP, not ATK)</li>
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="geo" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  <div class="emphasis-box geo">
+    <strong >Team 1: Universal Shield Flex</strong><br>
+    <span >Zhongli + any 3 characters. His shield fits every team — hyperbloom, vape, freeze, Itto, Xiao. 20% universal RES shred benefits everyone.</span>
+  </div>
+  <div class="emphasis-box geo">
+    <strong >Team 2: Mono Geo</strong><br>
+    <span >Itto + Zhongli + Gorou + Albedo. Geo resonance + Zhongli shield shred = massive Itto DMG. Gorou buffs all Geo. Classic mono element team.</span>
+  </div>
+  <div class="emphasis-box geo">
+    <strong >Team 3: Hu Tao Double Hydro</strong><br>
+    <span >Hu Tao + Yelan + Xingqiu + Zhongli. Zhongli protects Hu Tao at low HP while shredding Hydro and Pyro RES for the team.</span>
+  </div>
+
+  <!-- Section 4: Talents -->
+  <h2 class="geo" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    <div class="talent-item" style="border-color:rgba(179,136,255,0.3);">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">E</div>
+      <div class="talent-label">Elemental Skill</div>
+      <div class="talent-priority p1">Priority 1 (Shield)</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(179,136,255,0.15);color:#c59dff;">Q</div>
+      <div class="talent-label">Elemental Burst</div>
+      <div class="talent-priority p2">Priority 2 (Burst)</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(102,102,138,0.1);color:var(--text-muted);">NA</div>
+      <div class="talent-label">Normal Attack</div>
+      <div class="talent-priority p3">Priority 3 (Skip)</div>
+    </div>
+  </div>
+  <p >Level E as high as possible for maximum shield strength. Q to 8-9 for decent burst DMG. NA can stay at 1 — Zhongli's normal attacks are negligible.</p>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="geo" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box geo">
+    <div >Standard shield rotation:</div>
+    <code style="font-size:0.85rem;">Zhongli hold E (shield up) → Supports set up buffs → DPS rotation → Refresh shield at 12s (E cooldown ends)</code>
+  </div>
+  <p style="font-size:0.85rem;color:var(--text-muted);" >⚠️ Hold E — tap E only places a pillar with no shield. The shield lasts 20s, but refresh every 12s to match E cooldown. Place pillar near enemies for Tenacity buff uptime.</p>
+
+  <!-- Section 6: Mistakes -->
+  <h2 class="geo" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Not holding E. Tap E only places a pillar — no shield. You must HOLD E to get the shield.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Building ATK on a shield build. ATK does nothing for Zhongli's shield. HP% is all that matters for shield strength.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Not refreshing the shield. Shield lasts 20s but E cooldown is 12s. Always refresh on cooldown — a shield break mid-rotation is deadly.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Using burst DPS build without ER. Burst Zhongli needs ~140% ER minimum. Without it, his 40-cost burst still won't be up every rotation.</p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Pro Deep Dive Teaser -->
+  <div class="pro-teaser" style="background:linear-gradient(135deg, rgba(179,136,255,0.06), rgba(179,136,255,0.01));">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 >Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:14px;" >Here's what our DMG simulator outputs. Pro members get full frame data, buff timing, and team DPS comparison.</p>
+    <pre><code><span class="highlight-line">// Zhongli Shield Calculator (C0, 90, 4pc Tenacity, 45K HP)</span>
+Weapon: Black Tassel R5 | Talent E: Lv.10
+
+<span class="highlight-line">Shield HP:  24,321  (base) + 150% DMG absorption = 60,803 effective HP</span>
+Tenacity Buff:  20% ATK team-wide  <span style="color:var(--gold);">███ ATK gain ███</span>    ← Pro only
+RES Shred:    20% universal (passive)  <span style="color:var(--gold);">████ DPS increase ████</span>  ← Pro only
+...
+Team DPS impact:  <span style="color:var(--accent);">███,███</span>  ← Unlock
+
+<span class="highlight-line">Optimizer: "HP% → HP% → HP% is optimal. Geo DMG goblet = +12.4% burst DMG"</span>
+<span style="color:var(--text-muted);">► Full shield calc · RES shred impact · team DPS simulation → Pro</span></code></pre>
+    <div class="teaser-cta">
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin:0;" >See your exact DMG numbers. Compare builds. Win more Abyss floors.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="zhongli.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      <a href="guide-hutao.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Hu Tao <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Main DPS · Crimson Witch · Double Hydro</p>
+        </div>
+      </a>
+      <a href="guide-yelan.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <div class="elem-icon hydro">💧</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Yelan <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Emblem set · Aqua Simulacra</p>
+        </div>
+      </a>
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Xiangling <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Noblesse set · The Catch R5</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

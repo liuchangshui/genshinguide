@@ -1,0 +1,4150 @@
+{
+  "nav": {
+    "home": {
+      "en": "Home",
+      "zh": "首页"
+    },
+    "guides": {
+      "en": "Guides",
+      "zh": "攻略"
+    },
+    "calculator": {
+      "en": "Calculator",
+      "zh": "计算器"
+    },
+    "pro": {
+      "en": "Pro $5/mo",
+      "zh": "会员 $5/月"
+    }
+  },
+  "home": {
+    "badge": {
+      "en": "📦 v4.8 Compatible — Updated June 2026",
+      "zh": "📦 适配 v4.8 — 2026年6月更新"
+    },
+    "title1": {
+      "en": "Genshin Impact <span class=\"highlight\">Build Guides</span>",
+      "zh": "原神角色<span class=\"highlight\">攻略大全</span>"
+    },
+    "title2": {
+      "en": "That Actually Stay Updated",
+      "zh": "真正保持更新的攻略站"
+    },
+    "subtitle": {
+      "en": "AI-powered, data-driven character builds, an interactive calculator, and tier lists — refreshed every patch. No stale guides, no copy-paste wiki spam.",
+      "zh": "AI驱动、数据验证的角色Build攻略、交互式计算器和强度排行——每个版本自动更新。告别过期攻略和Wiki搬运。"
+    },
+    "btn_calc": {
+      "en": "⚡ Try Build Calculator",
+      "zh": "⚡ 试试Build计算器"
+    },
+    "btn_guides": {
+      "en": "📚 Browse 30+ Guides",
+      "zh": "📚 浏览30+攻略"
+    },
+    "btn_pro": {
+      "en": "⭐ Go Pro $5/mo",
+      "zh": "⭐ 开通会员 $5/月"
+    },
+    "stat1_num": {
+      "en": "30+",
+      "zh": "30+"
+    },
+    "stat1_label": {
+      "en": "Character Guides",
+      "zh": "角色攻略"
+    },
+    "stat2_num": {
+      "en": "v4.8",
+      "zh": "v4.8"
+    },
+    "stat2_label": {
+      "en": "Updated within 24h",
+      "zh": "24小时内更新"
+    },
+    "stat3_num": {
+      "en": "6",
+      "zh": "6"
+    },
+    "stat3_label": {
+      "en": "Interactive Tools",
+      "zh": "交互工具"
+    },
+    "stat4_num": {
+      "en": "$0",
+      "zh": "$0"
+    },
+    "stat4_label": {
+      "en": "Free Core Features",
+      "zh": "免费核心功能"
+    },
+    "trust1": {
+      "en": "Updated within 24h of v4.8",
+      "zh": "v4.8发布后24小时内更新"
+    },
+    "trust2": {
+      "en": "Data-verified · Not opinion",
+      "zh": "数据验证 · 非主观意见"
+    },
+    "trust3": {
+      "en": "No signup required to read",
+      "zh": "阅读无需注册"
+    },
+    "title1_hl": {
+      "en": "Builds",
+      "zh": "配装"
+    },
+    "social_proof": {
+      "en": "Trusted by <b style=\"color:var(--text-secondary);\">50,000+</b> players · avg. guide accuracy <b style=\"color:var(--accent);\">98.7%</b>",
+      "zh": "<b style=\"color:var(--text-secondary);\">50,000+</b> 玩家信赖 · 攻略平均准确率 <b style=\"color:var(--accent);\">98.7%</b>"
+    },
+    "quick_placeholder": {
+      "en": "Quick answer: e.g. \"best Raiden weapon\" or \"Hu Tao artifact set\"…",
+      "zh": "快速提问：如\"雷电将军最佳武器\"或\"胡桃圣遗物套装\"…"
+    },
+    "quick_title": {
+      "en": "⚡ Instant Build Answers",
+      "zh": "⚡ 即时Build答案"
+    },
+    "quick_btn": {
+      "en": "Get Answer",
+      "zh": "获取答案"
+    },
+    "quick_hint": {
+      "en": "Try: \"Raiden best weapon\" · \"Hu Tao artifact\" · \"Yelan team comp\"",
+      "zh": "试试：\"雷神最佳武器\" · \"胡桃圣遗物\" · \"夜兰配队\""
+    },
+    "sec_featured": {
+      "en": "🔥 Featured Character Builds",
+      "zh": "🔥 精选角色攻略"
+    },
+    "sec_feat_desc": {
+      "en": "Data-driven guides — auto-updated when game patches drop",
+      "zh": "数据驱动攻略 — 游戏更新时自动刷新"
+    },
+    "sec_calc": {
+      "en": "🧮 Build Calculator",
+      "zh": "🧮 Build 计算器"
+    },
+    "sec_calc_desc": {
+      "en": "Select a character & weapon — get optimal artifacts, main stats, and team recommendations instantly",
+      "zh": "选择角色和武器 — 立即获取最优圣遗物、主词条和配队推荐"
+    },
+    "calc_label": {
+      "en": "⚙️ Configure Build",
+      "zh": "⚙️ 配置 Build"
+    },
+    "calc_char": {
+      "en": "Character",
+      "zh": "角色"
+    },
+    "calc_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "calc_placeholder": {
+      "en": "— Select Character —",
+      "zh": "— 选择角色 —"
+    },
+    "calc_wpn_placeholder": {
+      "en": "— Select Weapon First —",
+      "zh": "— 请先选择武器 —"
+    },
+    "calc_hint": {
+      "en": "👈 Select a character to see build recommendations",
+      "zh": "👈 选择角色查看Build推荐"
+    },
+    "calc_pro_hint": {
+      "en": "🔒 Advanced optimizer (artifact substat weighting, DMG simulation) — <a href=\"pricing.html\" style=\"color:var(--gold);\">Pro feature</a>",
+      "zh": "🔒 高级优化器（圣遗物副词条权重、伤害模拟）— <a href=\"pricing.html\" style=\"color:var(--gold);\">Pro 功能</a>"
+    },
+    "sec_diff": {
+      "en": "⚡ How It's Different",
+      "zh": "⚡ 我们有什么不同"
+    },
+    "diff1_title": {
+      "en": "AI-Generated, Data-Verified",
+      "zh": "AI生成，数据验证"
+    },
+    "diff1_desc": {
+      "en": "DeepSeek V4 generates guides from game data. Second-pass verification catches errors. 5% manual spot-check.",
+      "zh": "DeepSeek V4 基于游戏数据生成攻略，二次验证捕获错误，5%人工抽检。"
+    },
+    "diff2_title": {
+      "en": "Auto-Updated Every Patch",
+      "zh": "每个版本自动更新"
+    },
+    "diff2_desc": {
+      "en": "Daily Wiki data sync detects changes. Outdated guides get flagged. No more searching through 2-year-old Reddit posts.",
+      "zh": "每日同步Wiki数据检测变化。过期攻略自动标记。告别翻两年前的Reddit帖子。"
+    },
+    "diff3_title": {
+      "en": "Tools, Not Just Text",
+      "zh": "工具，不只是文字"
+    },
+    "diff3_desc": {
+      "en": "Build calculator, artifact optimizer, damage simulator. Interactive tools that pure content sites can't match.",
+      "zh": "Build计算器、圣遗物优化器、伤害模拟器。纯内容站无法提供的交互工具。"
+    },
+    "diff4_title": {
+      "en": "Free Core · Pro Tools",
+      "zh": "基础免费 · 高级付费"
+    },
+    "diff4_desc": {
+      "en": "All guides are free. Advanced calculator features for $5/month. 100 members = $500/mo. That's the goal.",
+      "zh": "所有攻略免费。高级计算器功能 $5/月。100个会员 = $500/月收入。这就是我们的目标。"
+    },
+    "sec_pricing": {
+      "en": "💎 Simple Pricing",
+      "zh": "💎 简洁定价"
+    },
+    "sec_price_desc": {
+      "en": "All guides free. Pro unlocks advanced tools.",
+      "zh": "攻略全部免费。Pro 解锁高级工具。"
+    },
+    "free_label": {
+      "en": "Free",
+      "zh": "免费版"
+    },
+    "free_price": {
+      "en": "$0",
+      "zh": "$0"
+    },
+    "free_sub": {
+      "en": "Forever free",
+      "zh": "永久免费"
+    },
+    "free_f1": {
+      "en": "All 30+ character guides",
+      "zh": "全部30+角色攻略"
+    },
+    "free_f2": {
+      "en": "Basic build calculator",
+      "zh": "基础Build计算器"
+    },
+    "free_f3": {
+      "en": "Tier lists & rankings",
+      "zh": "强度排行"
+    },
+    "free_f4": {
+      "en": "Team recommendations",
+      "zh": "配队推荐"
+    },
+    "free_n1": {
+      "en": "Advanced DMG simulation",
+      "zh": "高级伤害模拟"
+    },
+    "free_n2": {
+      "en": "Artifact optimizer",
+      "zh": "圣遗物优化器"
+    },
+    "free_n3": {
+      "en": "Ad-free experience",
+      "zh": "无广告体验"
+    },
+    "free_n4": {
+      "en": "Email newsletter",
+      "zh": "邮件周报"
+    },
+    "free_btn": {
+      "en": "Start Free",
+      "zh": "免费使用"
+    },
+    "pro_badge": {
+      "en": "MOST POPULAR",
+      "zh": "最受欢迎"
+    },
+    "pro_label": {
+      "en": "Pro",
+      "zh": "专业版"
+    },
+    "pro_price": {
+      "en": "$5",
+      "zh": "$5"
+    },
+    "pro_period": {
+      "en": "/ month",
+      "zh": "/ 月"
+    },
+    "pro_sub": {
+      "en": "Cancel anytime",
+      "zh": "随时可取消"
+    },
+    "pro_f1": {
+      "en": "Everything in Free",
+      "zh": "免费版全部功能"
+    },
+    "pro_f2": {
+      "en": "Advanced DMG simulation",
+      "zh": "高级伤害模拟"
+    },
+    "pro_f3": {
+      "en": "Artifact substat optimizer",
+      "zh": "圣遗物副词条优化"
+    },
+    "pro_f4": {
+      "en": "Ad-free experience",
+      "zh": "无广告体验"
+    },
+    "pro_f5": {
+      "en": "Weekly meta newsletter",
+      "zh": "每周Meta周报"
+    },
+    "pro_f6": {
+      "en": "Priority guide updates",
+      "zh": "优先攻略更新"
+    },
+    "pro_f7": {
+      "en": "Early access to new tools",
+      "zh": "新工具抢先体验"
+    },
+    "pro_f8": {
+      "en": "Support indie dev ✌️",
+      "zh": "支持独立开发者 ✌️"
+    },
+    "pro_btn": {
+      "en": "Go Pro — $5/month",
+      "zh": "开通会员 — $5/月"
+    },
+    "subscribe_title": {
+      "en": "📬 Get Weekly Genshin Meta Updates",
+      "zh": "📬 订阅每周原神Meta更新"
+    },
+    "subscribe_desc": {
+      "en": "New character builds, tier list changes, patch analysis — one email per week. No spam.",
+      "zh": "新角色攻略、强度变化、版本分析 — 每周一封邮件。不骚扰。"
+    },
+    "subscribe_placeholder": {
+      "en": "your@email.com",
+      "zh": "你的邮箱"
+    },
+    "subscribe_btn": {
+      "en": "Subscribe Free",
+      "zh": "免费订阅"
+    },
+    "subscribe_done": {
+      "en": "✅ Thanks! Check your inbox.",
+      "zh": "✅ 感谢订阅！请查收邮件。"
+    },
+    "view_all": {
+      "en": "View All 30+ Guides →",
+      "zh": "查看全部30+攻略 →"
+    }
+  },
+  "guide": {
+    "version_badge": {
+      "en": "✅ Applicable to v4.8 · Updated 2026-06-17",
+      "zh": "✅ 适用于 v4.8 · 更新于 2026-06-17"
+    },
+    "tier_label": {
+      "en": "Tier",
+      "zh": "强度"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": "1. 最佳武器（按推荐度排序）"
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": "2. 最佳圣遗物套装"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Emblem of Severed Fate",
+      "zh": "🎯 首选：绝缘之旗印 4件套"
+    },
+    "arti_why": {
+      "en": "Why: Raiden's entire kit revolves around her burst and ER. This set converts her ER investment into massive burst damage. With 250% ER, you get 62.5% burst DMG bonus.",
+      "zh": "原因：雷电将军的全部机制围绕元素爆发和充能。此套装将充能转化为巨额爆发伤害。250%充能时，可获得62.5%爆发伤害加成。"
+    },
+    "arti_alt": {
+      "en": "Alternative:",
+      "zh": "替代选择："
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": "主词条优先级"
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sands_note": {
+      "en": "ER% if below 250% ER. ATK% if using Engulfing Lightning with high ER.",
+      "zh": "充能低于250%选充能%。使用薙草之稻光且充能高时可选攻击%。"
+    },
+    "goblet_note": {
+      "en": "Electro DMG is generally better. ATK% goblet viable if using Engulfing Lightning.",
+      "zh": "雷伤杯通常更好。使用薙草之稻光时攻击杯也可行。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 CRIT ratio. ~70% CRIT Rate, ~140%+ CRIT DMG.",
+      "zh": "追求1:2暴击比。约70%暴击率，140%+暴击伤害。"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": "副词条优先级"
+    },
+    "sub_er": {
+      "en": "1. Energy Recharge (until 250-270%)",
+      "zh": "1. 元素充能效率（达到250-270%）"
+    },
+    "sub_crit": {
+      "en": "2. CRIT Rate / CRIT DMG (1:2 ratio)",
+      "zh": "2. 暴击率 / 暴击伤害（1:2比例）"
+    },
+    "sub_atk": {
+      "en": "3. ATK%",
+      "zh": "3. 攻击力%"
+    },
+    "sub_em": {
+      "en": "4. Elemental Mastery (only for Hyperbloom build)",
+      "zh": "4. 元素精通（仅超绽放流）"
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": "3. 最佳配队方案"
+    },
+    "team1_name": {
+      "en": "Team 1: Raiden National",
+      "zh": "配队1：雷神国家队"
+    },
+    "team1_desc": {
+      "en": "The classic. High single-target AND AoE damage. Consistent rotations thanks to Raiden's battery. Easy to play, hard to mess up. Perfect for Abyss.",
+      "zh": "经典配队。单体+AoE伤害双高。雷神充能保证循环稳定。操作简单，不易出错。深渊首选。"
+    },
+    "team2_name": {
+      "en": "Team 2: Raiden Hypercarry",
+      "zh": "配队2：雷神纯伤队"
+    },
+    "team2_desc": {
+      "en": "Maximum Raiden personal damage. Kazuha groups + VV shred, Sara & Bennett buff ATK. Raiden's burst hits for massive numbers. Requires C6 Sara for full potential.",
+      "zh": "最大化雷神个人伤害。万叶聚怪+风套减抗、九条+班尼特加攻。雷神爆发伤害爆表。需要满命九条发挥全部潜力。"
+    },
+    "team3_name": {
+      "en": "Team 3: Raiden Hyperbloom",
+      "zh": "配队3：雷神超绽放"
+    },
+    "team3_desc": {
+      "en": "Build Raiden full EM (Triple EM main stats, Dragon's Bane). She triggers hyperblooms from off-field. One of the highest floor damage teams in the game.",
+      "zh": "雷神全堆精通（三精通主词条+匣里灭辰）。后台触发超绽放。游戏内下限伤害最高的配队之一。"
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": "4. 天赋优先级"
+    },
+    "talent_desc": {
+      "en": "Elemental Burst > Elemental Skill > Normal Attack",
+      "zh": "元素爆发 > 元素战技 > 普通攻击"
+    },
+    "talent_note": {
+      "en": "Crown the burst if you main Raiden. Skill to level 9. Normal attack can stay at level 1 (you never use it).",
+      "zh": "主玩雷神就给爆发皇冠。战技升到9级。普通攻击可以保持在1级（你永远用不到）。"
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": "5. 输出循环指南"
+    },
+    "rotation_title": {
+      "en": "Raiden National rotation:",
+      "zh": "雷神国家队循环："
+    },
+    "rotation_key": {
+      "en": "⚠️ Key: Always use Raiden's skill first for the coordinated attack. Bennett before Xiangling so she snapshots the ATK buff.",
+      "zh": "⚠️ 关键：始终先开雷神E触发协同攻击。班尼特在香菱之前开大，让香菱锁到攻击加成。"
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": "6. 常见错误"
+    },
+    "m1": {
+      "en": "❌ Building too little ER. Raiden needs 250%+ ER. Below 220%, her burst won't be up on cooldown.",
+      "zh": "❌ 充能堆得太少。雷神需要250%+充能。低于220%时爆发无法在冷却期间充满。"
+    },
+    "m2": {
+      "en": "❌ Using ATK% sands with low ER. ER sands is almost always better unless you have Engulfing Lightning AND 250%+ ER from subs.",
+      "zh": "❌ 充能不足时用攻击沙。充能沙几乎总是更好，除非你有薙草之稻光且副词条充能达到250%+。"
+    },
+    "m3": {
+      "en": "❌ Not leveling her skill. Her skill buffs the entire team's burst damage. Level it to at least 8-9.",
+      "zh": "❌ 不升E技能。E技能会提高全队爆发伤害。至少升到8-9级。"
+    },
+    "m4": {
+      "en": "❌ Wasting her burst on low HP enemies. Her initial slash does massive damage — aim it at the biggest threat.",
+      "zh": "❌ 把爆发浪费在残血小怪上。拔刀斩伤害极高——瞄准最大威胁使用。"
+    },
+    "pro_lock_title": {
+      "en": "Want more?",
+      "zh": "想要更多？"
+    },
+    "pro_lock_desc": {
+      "en": "Advanced DMG simulation, artifact substat optimizer, and detailed rotation frame data are <strong>Pro features</strong>.",
+      "zh": "高级伤害模拟、圣遗物副词条优化器、详细循环帧数据属于 <strong>Pro 功能</strong>。"
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": "解锁Pro — $5/月"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": "⚡ TL;DR — 快速答案（30秒读懂）"
+    },
+    "char_role": {
+      "en": "The eternal ruler of Inazuma. Unleashes devastating burst damage while recharging the entire team.",
+      "zh": "永恒的稻妻统治者。释放毁灭性爆发伤害的同时，为全队充能。"
+    },
+    "intro": {
+      "en": "Raiden Shogun (Raiden Ei) is one of the most versatile and powerful characters in Genshin Impact. She serves as an unparalleled team battery, a potent sub-DPS with her burst, and an enabler for some of the strongest team compositions in the game. This guide covers everything you need to build her optimally in version 4.8.",
+      "zh": "雷电将军是原神中最全能且最强大的角色之一。她既是顶级队伍充能拐，又能通过爆发造成高额后台伤害，还能激活游戏中最强配队之一。本攻略涵盖4.8版本最优Build的全部要点。"
+    },
+    "pro_teaser_title": {
+      "en": "Pro Deep Dive — DMG Simulation Preview",
+      "zh": "Pro 深度分析 — 伤害模拟预览"
+    },
+    "pro_teaser_desc": {
+      "en": "Here's what our DMG simulator outputs for Raiden. Pro members get full frame-data, buff timing, and team DPS comparison.",
+      "zh": "这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。"
+    },
+    "pro_teaser_cta": {
+      "en": "See your exact DMG numbers. Compare builds. Win more Abyss floors.",
+      "zh": "查看你的精确伤害数值。对比不同Build。通关更多深渊层数。"
+    },
+    "related_title": {
+      "en": "📚 Related Build Guides",
+      "zh": "📚 相关角色攻略"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 魔女套 · 双水队"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘套 · 若水"
+    },
+    "related_xl": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 宗室套 · 渔获R5"
+    },
+    "w1_notes": {
+      "en": "Signature weapon. ATK bonus based on ER above 100%. Perfect synergy with her kit.",
+      "zh": "专武。充能超过100%部分转化为攻击力加成。与机制完美契合。"
+    },
+    "w2_notes": {
+      "en": "Best F2P option. Burst DMG +32% and CRIT Rate +12%. Free from fishing.",
+      "zh": "最强免费武器。爆发伤害+32%、暴击率+12%。钓鱼免费获取。"
+    },
+    "w3_notes": {
+      "en": "Strong stat stick. HP bonus and ATK conversion add value.",
+      "zh": "强力属性武器。生命值加成和攻击转化提供额外价值。"
+    },
+    "intro_xl": {
+      "en": "Xiangling is the best 4-star unit in Genshin. Her burst (Pyronado) deals massive off-field Pyro damage that snapshots her stats. Essential in every meta team since launch.",
+      "zh": "香菱是原神最强的4星角色。她的爆发（旋火轮）造成大量锁面板的脱手火伤。自上线以来是每个版本强势配队的核心。"
+    },
+    "sec_weapons_xl": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": "1. 最佳武器（排名）"
+    },
+    "xl_w1": {
+      "en": "Free from fishing. +32% burst DMG. Best F2P option by far.",
+      "zh": "钓鱼免费获取。爆发伤害+32%。目前最强免费武器。"
+    },
+    "xl_w2": {
+      "en": "BiS. HP-to-ATK conversion. High investment, highest ceiling.",
+      "zh": "专武。生命转攻击。高投入，最高上限。"
+    },
+    "xl_w3": {
+      "en": "F2P craftable. Physical/Pyro hybrid. Decent fallback.",
+      "zh": "免费锻造。物火双修。可用备选。"
+    },
+    "sec_artifacts_xl": {
+      "en": "2. Best Artifact Sets",
+      "zh": "2. 最佳圣遗物套装"
+    },
+    "arti_best_xl": {
+      "en": "🎯 Best: 4-Piece Emblem of Severed Fate",
+      "zh": "🎯 最佳：4件套 绝缘之旗印"
+    },
+    "arti_why_xl": {
+      "en": "Xiangling's kit revolves around her burst and ER. Emblem converts ER into burst DMG. With 200% ER → 50% burst DMG bonus. Non-negotiable.",
+      "zh": "香菱的机制围绕爆发和充能。绝缘套将充能转化为爆发伤害。200%充能 → 50%爆发伤害加成。无可替代。"
+    },
+    "xl_sands_note": {
+      "en": "ER% until 180-200%. Then ATK% if substats are good.",
+      "zh": "先堆充能沙到180-200%。副词条好的话再换攻击沙。"
+    },
+    "xl_goblet_note": {
+      "en": "Pyro DMG is almost always better than ATK%.",
+      "zh": "火伤加成几乎总是优于攻击力%。"
+    },
+    "xl_circlet_note": {
+      "en": "Aim for 60%+ CR. XL crits frequently with burst.",
+      "zh": "暴击率目标60%+。香菱爆发期间频繁暴击。"
+    },
+    "sec_teams_xl": {
+      "en": "3. Best Team Compositions",
+      "zh": "3. 最佳配队方案"
+    },
+    "xl_team1_name": {
+      "en": "Team 1: Raiden National",
+      "zh": "配队1：雷神国家队"
+    },
+    "xl_team1_desc": {
+      "en": "The golden standard. XL + XQ + Bennett + Raiden. XL's burst snapshots Bennett's ATK buff. Devastating.",
+      "zh": "黄金标准。香菱+行秋+班尼特+雷神。香菱爆发锁面板吃到班尼特攻击加成。毁灭级伤害。"
+    },
+    "xl_team2_name": {
+      "en": "Team 2: Xiangling Overload",
+      "zh": "配队2：香菱超载队"
+    },
+    "xl_team2_desc": {
+      "en": "XL + Chevreuse + Fischl + (flex). Overload meta with Pyro resonance. High damage ceiling.",
+      "zh": "香菱+夏沃蕾+菲谢尔+（灵活位）。超载体系配合火共鸣。伤害上限极高。"
+    },
+    "sec_talent_xl": {
+      "en": "4. Talent Priority",
+      "zh": "4. 天赋优先级"
+    },
+    "sec_rotation_xl": {
+      "en": "5. Rotation Guide",
+      "zh": "5. 输出循环指南"
+    },
+    "xl_rotation_title": {
+      "en": "Raiden National rotation:",
+      "zh": "雷神国家队循环："
+    },
+    "sec_mistakes_xl": {
+      "en": "6. Common Mistakes",
+      "zh": "6. 常见错误"
+    },
+    "xl_m1": {
+      "en": "❌ Not enough ER. Xiangling needs 180%+ to burst every rotation. Below 160% = rotation failure.",
+      "zh": "❌ 充能不够。香菱需要180%+才能保证每轮循环。低于160% = 循环失败。"
+    },
+    "xl_m2": {
+      "en": "❌ Burst before Bennett Q. XL's burst snapshots ATK buff — always Bennett Q first, then XL Q.",
+      "zh": "❌ 班尼特之前开爆发。香菱爆发锁攻击加成面板——始终先班尼特Q，再香菱Q。"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · Engulfing Lightning",
+      "zh": "副C · 绝缘套 · 薙草之稻光"
+    },
+    "build_guide_suffix": {
+      "en": "Build Guide",
+      "zh": "攻略"
+    },
+    "tldr_best_weapon": {
+      "en": "Best Weapon",
+      "zh": "最佳武器"
+    },
+    "tldr_best_artifact": {
+      "en": "Best Artifact",
+      "zh": "最佳圣遗物"
+    },
+    "tldr_best_team": {
+      "en": "Best Team",
+      "zh": "最佳配队"
+    },
+    "tldr_key_stats_label": {
+      "en": "Key Stats",
+      "zh": "关键属性"
+    },
+    "bottom_line_label": {
+      "en": "Bottom line:",
+      "zh": "结论："
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "version_prefix": {
+      "en": "Applicable to",
+      "zh": "适用于"
+    },
+    "updated_prefix": {
+      "en": "Updated",
+      "zh": "更新于"
+    },
+    "weapon_sword": {
+      "en": "Sword",
+      "zh": "单手剑"
+    },
+    "weapon_polearm": {
+      "en": "Polearm",
+      "zh": "长柄武器"
+    },
+    "weapon_claymore": {
+      "en": "Claymore",
+      "zh": "双手剑"
+    },
+    "weapon_bow": {
+      "en": "Bow",
+      "zh": "弓"
+    },
+    "weapon_catalyst": {
+      "en": "Catalyst",
+      "zh": "法器"
+    },
+    "element_pyro": {
+      "en": "Pyro",
+      "zh": "火"
+    },
+    "element_hydro": {
+      "en": "Hydro",
+      "zh": "水"
+    },
+    "element_electro": {
+      "en": "Electro",
+      "zh": "雷"
+    },
+    "element_dendro": {
+      "en": "Dendro",
+      "zh": "草"
+    },
+    "element_anemo": {
+      "en": "Anemo",
+      "zh": "风"
+    },
+    "element_cryo": {
+      "en": "Cryo",
+      "zh": "冰"
+    },
+    "element_geo": {
+      "en": "Geo",
+      "zh": "岩"
+    },
+    "role_main_dps": {
+      "en": "Main DPS",
+      "zh": "主C"
+    },
+    "role_sub_dps": {
+      "en": "Sub DPS",
+      "zh": "副C"
+    },
+    "role_support": {
+      "en": "Support",
+      "zh": "辅助"
+    },
+    "role_sub_dps_battery": {
+      "en": "Sub DPS / Battery",
+      "zh": "副C / 充能拐"
+    },
+    "role_sub_dps_support": {
+      "en": "Sub DPS / Support",
+      "zh": "副C / 辅助"
+    },
+    "role_support_cc": {
+      "en": "Support / CC",
+      "zh": "辅助 / 聚怪"
+    },
+    "role_shield_support": {
+      "en": "Shield / Support",
+      "zh": "护盾 / 辅助"
+    },
+    "role_support_healer": {
+      "en": "Support / Healer",
+      "zh": "辅助 / 治疗"
+    },
+    "role_sub_dps_buffer": {
+      "en": "Sub DPS / Buffer",
+      "zh": "副C / 增伤拐"
+    }
+  },
+  "calc": {
+    "badge": {
+      "en": "🧮 Interactive Tool",
+      "zh": "🧮 交互工具"
+    },
+    "title": {
+      "en": "Build <span class=\"highlight\">Calculator</span>",
+      "zh": "<span class=\"highlight\">Build</span> 计算器"
+    },
+    "subtitle": {
+      "en": "Pick a character, pick a weapon — we'll show you the optimal artifacts, main stats, sub-stat priority, and best teams. Free to use.",
+      "zh": "选角色、选武器 — 我们会给出最优圣遗物、主词条、副词条优先级和最佳配队。免费使用。"
+    },
+    "free_label": {
+      "en": "⚙️ Free Calculator",
+      "zh": "⚙️ 免费计算器"
+    },
+    "pro_title": {
+      "en": "Pro Calculator Features",
+      "zh": "Pro 计算器功能"
+    },
+    "pro_sub": {
+      "en": "The free calculator gives you the essentials. Pro unlocks:",
+      "zh": "免费计算器给你基础推荐。Pro 解锁以下高级功能："
+    },
+    "pro_f1_title": {
+      "en": "🎯 DMG Simulator",
+      "zh": "🎯 伤害模拟器"
+    },
+    "pro_f1_desc": {
+      "en": "Input enemy stats, buffs, and rotation — get exact damage numbers per hit.",
+      "zh": "输入敌人属性、增益和循环 — 获取每次攻击的精确伤害数值。"
+    },
+    "pro_f2_title": {
+      "en": "⚖️ Artifact Optimizer",
+      "zh": "⚖️ 圣遗物优化器"
+    },
+    "pro_f2_desc": {
+      "en": "Enter your artifacts — we'll calculate which combination gives the highest DPS.",
+      "zh": "输入你的圣遗物 — 自动计算哪套组合DPS最高。"
+    },
+    "pro_f3_title": {
+      "en": "🔄 Rotation Analyzer",
+      "zh": "🔄 循环分析器"
+    },
+    "pro_f3_desc": {
+      "en": "Simulate full team rotations with frame-perfect timing and energy regeneration.",
+      "zh": "模拟完整配队循环，逐帧计算时间和能量恢复。"
+    },
+    "pro_f4_title": {
+      "en": "📊 Build Comparison",
+      "zh": "📊 Build 对比"
+    },
+    "pro_f4_desc": {
+      "en": "Compare up to 3 builds side by side. See exactly which one does more damage.",
+      "zh": "并排对比最多3套Build。精确看到哪套伤害更高。"
+    },
+    "cta_text": {
+      "en": "See your exact character damage. Stop guessing. Start optimizing.",
+      "zh": "查看你角色的精确伤害。停止猜测，开始优化。"
+    },
+    "unlock_btn": {
+      "en": "🔓 Unlock Pro — $5/month",
+      "zh": "🔓 解锁Pro — $5/月"
+    }
+  },
+  "pricing": {
+    "badge": {
+      "en": "💎 PRO MEMBERSHIP",
+      "zh": "💎 会员订阅"
+    },
+    "title": {
+      "en": "Level Up Your <span class=\"highlight\" style=\"color:var(--gold);\">Builds</span>",
+      "zh": "升级你的<span class=\"highlight\" style=\"color:var(--gold);\">Build</span>"
+    },
+    "subtitle": {
+      "en": "Free guides are great. Pro tools make you a theorycrafting machine. One price, all features.",
+      "zh": "免费攻略很棒。Pro 工具让你成为配装大师。一个价格，全部功能。"
+    },
+    "fee_f5": {
+      "en": "Element filter browsing",
+      "zh": "元素筛选浏览"
+    },
+    "fee_f6": {
+      "en": "Version-tracked content",
+      "zh": "版本追踪内容"
+    },
+    "fee_n5": {
+      "en": "Rotation analyzer",
+      "zh": "循环分析器"
+    },
+    "fee_n6": {
+      "en": "Build comparison tool",
+      "zh": "Build对比工具"
+    },
+    "fee_n7": {
+      "en": "Priority guide updates",
+      "zh": "优先攻略更新"
+    },
+    "pay_hint": {
+      "en": "🔒 Secure payment via Lemon Squeezy",
+      "zh": "🔒 Lemon Squeezy 安全支付"
+    },
+    "faq_title": {
+      "en": "❓ FAQ",
+      "zh": "❓ 常见问题"
+    },
+    "faq1_q": {
+      "en": "What's the difference between Free and Pro?",
+      "zh": "免费版和专业版有什么区别？"
+    },
+    "faq1_a": {
+      "en": "Free gives you all the guides, basic calculator, and tier lists. Pro unlocks advanced simulation tools: damage calculator, artifact optimizer, rotation analyzer, and build comparison. Plus ad-free browsing and weekly newsletter.",
+      "zh": "免费版提供全部攻略、基础计算器和强度排行。Pro 解锁高级模拟工具：伤害计算器、圣遗物优化器、循环分析器和Build对比。外加无广告浏览和每周周报。"
+    },
+    "faq2_q": {
+      "en": "Can I cancel anytime?",
+      "zh": "可以随时取消吗？"
+    },
+    "faq2_a": {
+      "en": "Yes. Cancel with one click. You keep Pro access until the end of your billing period. No questions asked.",
+      "zh": "可以。一键取消。Pro 权限保留到当前计费周期结束。无需解释。"
+    },
+    "faq3_q": {
+      "en": "Is the content actually up-to-date?",
+      "zh": "内容真的保持更新吗？"
+    },
+    "faq3_a": {
+      "en": "Yes. Our system automatically syncs with game data daily. When a patch drops, affected guides are flagged and regenerated. Every guide shows the version it applies to.",
+      "zh": "是的。系统每日自动同步游戏数据。版本更新时受影响的攻略自动标记并重新生成。每篇攻略都标注适用版本。"
+    },
+    "faq4_q": {
+      "en": "Do you cover other games?",
+      "zh": "你们覆盖其他游戏吗？"
+    },
+    "faq4_a": {
+      "en": "Currently focused on Genshin Impact. Honkai: Star Rail is planned next once Genshin reaches 100+ Pro members. Help us get there! 🚀",
+      "zh": "目前专注原神。崩坏：星穹铁道计划在 Pro 会员超过100人后启动。帮我们达成目标！🚀"
+    },
+    "faq5_q": {
+      "en": "How is this different from game8 / KQM / wiki?",
+      "zh": "这和 game8 / KQM / wiki 有什么不同？"
+    },
+    "faq5_a": {
+      "en": "We combine AI-powered content generation (fast updates) with interactive tools (calculator, optimizer) that pure content sites don't offer. Plus, every guide auto-tracks game version — no stale builds.",
+      "zh": "我们结合AI驱动的内容生成（快速更新）和交互工具（计算器、优化器），这是纯内容站无法提供的。加上每篇攻略自动追踪游戏版本——告别过期Build。"
+    },
+    "faq6_q": {
+      "en": "Why monthly instead of one-time payment?",
+      "zh": "为什么按月付费而不是一次性买断？"
+    },
+    "faq6_a": {
+      "en": "Genshin updates every 6 weeks — new characters, new artifacts, new meta. Our tools recalculate everything each patch. Monthly matches the game's rhythm: always-current data, sustainable operations. One-time pricing can't sustain continuous updates — we'd run out of money before v5.0 drops.",
+      "zh": "原神每6周更新一次——新角色、新圣遗物、新Meta。我们的工具每次版本更新都会重新计算。月付匹配游戏节奏：数据永不过时，运营可持续。一次性买断无法支撑持续更新——我们可能在5.0版本到来前就资金枯竭了。"
+    },
+    "why_monthly_title": {
+      "en": "💡 Why Monthly?",
+      "zh": "💡 为什么是月付？"
+    },
+    "why_monthly_desc": {
+      "en": "Genshin updates every 6 weeks. Monthly means your guides stay current. Cancel anytime — no lock-in. ¥5 = less than a Welkin Moon refill.",
+      "zh": "原神每6周更新。月付意味着攻略始终有效。随时可取消，无绑定。¥5 = 不到一次小月卡充值。"
+    },
+    "annual_label": {
+      "en": "💙 ANNUAL PLAN",
+      "zh": "💙 年度方案"
+    },
+    "annual_price": {
+      "en": "¥36<span style=\"font-size:0.9rem;color:var(--text-muted);\">/year</span>",
+      "zh": "¥36<span style=\"font-size:0.9rem;color:var(--text-muted);\">/年</span>"
+    },
+    "annual_sub": {
+      "en": "Save ¥24 — just ¥3/month",
+      "zh": "省¥24 — 仅 ¥3/月"
+    },
+    "annual_btn": {
+      "en": "Go Annual →",
+      "zh": "开通年度 →"
+    }
+  },
+  "guides": {
+    "badge": {
+      "en": "📦 v4.8 Compatible",
+      "zh": "📦 适配 v4.8"
+    },
+    "title": {
+      "en": "All <span class=\"highlight\">Character Builds</span>",
+      "zh": "全部<span class=\"highlight\">角色攻略</span>"
+    },
+    "subtitle": {
+      "en": "30+ data-driven guides. Click any character for full build details.",
+      "zh": "30+ 数据驱动攻略。点击任意角色查看完整Build详情。"
+    },
+    "raiden_desc": {
+      "en": "Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National",
+      "zh": "副C / 充能拐 — 绝缘套、薙草之稻光、雷神国家队"
+    },
+    "hutao_desc": {
+      "en": "Main DPS — Crimson Witch, Staff of Homa, Double Hydro team",
+      "zh": "主C — 魔女套、护摩之杖、双水队"
+    },
+    "yelan_desc": {
+      "en": "Sub DPS / Support — Emblem set, Aqua Simulacra, off-field hydro",
+      "zh": "副C / 辅助 — 绝缘套、若水、后台挂水"
+    },
+    "nahida_desc": {
+      "en": "Sub DPS / Support — Deepwood set, EM build, hyperbloom teams",
+      "zh": "副C / 辅助 — 深林套、精通流、超绽放队"
+    },
+    "kazuha_desc": {
+      "en": "Support / CC — VV set, EM/EM/EM, Freedom-Sworn, double swirl",
+      "zh": "辅助 / 聚怪 — 风套、三精通、苍古自由之誓、双扩散"
+    },
+    "zhongli_desc": {
+      "en": "Shield / Support — Tenacity set, HP build, universal shielder",
+      "zh": "护盾 / 辅助 — 千岩套、生命流、万能盾辅"
+    },
+    "ayaka_desc": {
+      "en": "Main DPS — Blizzard Strayer, Mistsplitter, freeze team core",
+      "zh": "主C — 冰套、雾切之回光、永冻队核心"
+    },
+    "albedo_desc": {
+      "en": "Sub DPS — Husk set, Cinnabar Spindle, off-field geo damage",
+      "zh": "副C — 华馆套、辰砂之纺锤、后台岩伤"
+    },
+    "filter_label": {
+      "en": "🔍 Filter by Element",
+      "zh": "🔍 按元素筛选"
+    },
+    "bennett_desc": {
+      "en": "Support / Healer — Noblesse, Aquila Favonia, universal ATK buffer",
+      "zh": "辅助 / 治疗 — 宗室套、风鹰剑、万能攻击拐"
+    },
+    "furina_desc": {
+      "en": "Sub DPS / Buffer — Golden Troupe, Splendor, team-wide DMG buff",
+      "zh": "副C / 增伤辅助 — 黄金剧团、静水流涌之辉、全队增伤"
+    },
+    "arlecchino_desc": {
+      "en": "Main DPS — Harmonic Whimsy, Crimson Moon, Bond of Life Pyro carry",
+      "zh": "主C — 谐律套、赤月之形、生命之契火C"
+    },
+    "neuvillette_desc": {
+      "en": "Main DPS — Marechaussee Hunter, Tome of Eternal Flow, HP-scaling CA carry",
+      "zh": "主C — 猎人套、万世流涌大典、生命倍率重击C"
+    },
+    "filter_all": {
+      "en": "All",
+      "zh": "全部"
+    },
+    "filter_electro": {
+      "en": "⚡ Electro",
+      "zh": "⚡ 雷"
+    },
+    "filter_pyro": {
+      "en": "🔥 Pyro",
+      "zh": "🔥 火"
+    },
+    "filter_hydro": {
+      "en": "💧 Hydro",
+      "zh": "💧 水"
+    },
+    "filter_dendro": {
+      "en": "🌿 Dendro",
+      "zh": "🌿 草"
+    },
+    "filter_anemo": {
+      "en": "🍃 Anemo",
+      "zh": "🍃 风"
+    },
+    "filter_geo": {
+      "en": "🪨 Geo",
+      "zh": "🪨 岩"
+    },
+    "filter_cryo": {
+      "en": "❄️ Cryo",
+      "zh": "❄️ 冰"
+    }
+  },
+  "footer": {
+    "line1": {
+      "en": "⚡ GenshinGuide — AI-powered, always up-to-date.",
+      "zh": "⚡ GenshinGuide — AI驱动，保持更新。"
+    },
+    "home": {
+      "en": "Home",
+      "zh": "首页"
+    },
+    "guides": {
+      "en": "Guides",
+      "zh": "攻略"
+    },
+    "calc": {
+      "en": "Calculator",
+      "zh": "计算器"
+    },
+    "pro": {
+      "en": "Pro",
+      "zh": "会员"
+    },
+    "copyright": {
+      "en": "Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.",
+      "zh": "粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。"
+    }
+  },
+  "ad": {
+    "label": {
+      "en": "Sponsored",
+      "zh": "赞助内容"
+    },
+    "ad1_head": {
+      "en": "🎮 Genshin Top-Up Cards — Save 20%",
+      "zh": "🎮 原神充值卡 — 省20%"
+    },
+    "ad1_desc": {
+      "en": "Get Genesis Crystals at discount. Trusted by 100,000+ players.",
+      "zh": "折价获取创世结晶。10万+玩家信赖。"
+    },
+    "ad1_cta": {
+      "en": "Shop Now →",
+      "zh": "立即购买 →"
+    },
+    "ad2_head": {
+      "en": "🖱️ Gaming Gear Deals — Up to 40% Off",
+      "zh": "🖱️ 游戏装备特惠 — 低至6折"
+    },
+    "ad2_desc": {
+      "en": "Mechanical keyboards, mice, headsets. Free shipping on $50+.",
+      "zh": "机械键盘、鼠标、耳机。满$50免运费。"
+    },
+    "ad2_cta": {
+      "en": "View Deals →",
+      "zh": "查看优惠 →"
+    },
+    "ad3_head": {
+      "en": "📱 Play Genshin on Cloud — No Download",
+      "zh": "📱 云原神 — 无需下载"
+    },
+    "ad3_desc": {
+      "en": "Stream Genshin to any device. First month free.",
+      "zh": "任意设备畅玩原神。首月免费。"
+    },
+    "ad3_cta": {
+      "en": "Try Free →",
+      "zh": "免费试用 →"
+    }
+  },
+  "calcJS": {
+    "build_summary": {
+      "en": "📊 Build Summary",
+      "zh": "📊 Build 概览"
+    },
+    "optimal_meta": {
+      "en": "Optimal Meta Build",
+      "zh": "最优Meta配装"
+    },
+    "strong_viable": {
+      "en": "Strong Viable Build",
+      "zh": "强力可行配装"
+    },
+    "functional_budget": {
+      "en": "Functional Budget Build",
+      "zh": "可用平民配装"
+    },
+    "best_arti": {
+      "en": "Best Artifact Set",
+      "zh": "最佳圣遗物套装"
+    },
+    "total_atk": {
+      "en": "Total Base ATK",
+      "zh": "总基础攻击力"
+    },
+    "char_atk": {
+      "en": "char",
+      "zh": "角色"
+    },
+    "weapon_atk": {
+      "en": "weapon",
+      "zh": "武器"
+    },
+    "wpn_substat": {
+      "en": "Weapon Sub-stat",
+      "zh": "武器副属性"
+    },
+    "main_priority": {
+      "en": "Main Stats Priority",
+      "zh": "主词条优先级"
+    },
+    "sub_priority": {
+      "en": "Sub-stat Priority",
+      "zh": "副词条优先级"
+    },
+    "best_teams": {
+      "en": "Best Teams",
+      "zh": "最佳配队"
+    },
+    "build_grade": {
+      "en": "Overall Build Grade",
+      "zh": "Build综合评分"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "pro_lock_title": {
+      "en": "Want more?",
+      "zh": "想要更多？"
+    },
+    "pro_lock_desc": {
+      "en": "Advanced DMG simulation, artifact substat optimizer, and detailed rotation frame data are <strong>Pro features</strong>.",
+      "zh": "高级伤害模拟、圣遗物副词条优化器、详细循环帧数据属于 <strong>Pro 功能</strong>。"
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": "解锁Pro — ¥5/月"
+    }
+  },
+  "furina": {
+    "version_badge": {
+      "en": "✅ Applicable to v4.8 · Updated 2026-06-18",
+      "zh": ""
+    },
+    "intro": {
+      "en": "Furina is one of Genshin's most powerful and flexible supports: team-wide buffer, off-field sub-DPS, and emergency healer. Her kit revolves around HP manipulation — she drains the party's HP to fuel her summons, then converts every point of HP change into a team-wide DMG bonus. She scales entirely with HP, not ATK. This guide covers everything you need to build her optimally.",
+      "zh": "芙宁娜是原神中最强大且最灵活的后台角色之一：全队增益、后台副C和紧急治疗。她的机制围绕生命值操控展开——她消耗队伍生命值来为召唤物充能，然后将每次生命值变化转化为全队伤害加成。她完全基于生命值成长，而非攻击力。本指南涵盖了你需要了解的所有内容，以最优方式培养她。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. HP + skill DMG when HP changes. Best in slot.",
+      "zh": "专武。生命值变化时提升生命值和技能伤害。最佳选择。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. ER substat + skill CRIT rate. Free from fishing.",
+      "zh": "最佳免费武器。元素充能效率副属性+技能暴击率。通过钓鱼获得。"
+    },
+    "w3_notes": {
+      "en": "Limited event weapon. Skill DMG + skill CRIT. Great if you have it.",
+      "zh": "限定活动武器。技能伤害+技能暴击。如果你有的话很棒。"
+    },
+    "w4_notes": {
+      "en": "Team energy battery. High ER substat. Lowers Furina's personal DMG.",
+      "zh": "队伍充能电池。高元素充能效率副属性。降低芙宁娜个人伤害。"
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Golden Troupe",
+      "zh": "🎯 最佳：4件套黄金剧团"
+    },
+    "arti_why": {
+      "en": "Furina's damage comes entirely from her Elemental Skill (Salon Members). Golden Troupe grants +70% skill DMG while off-field — which is exactly where Furina spends her time. This is by far her strongest set.",
+      "zh": "芙宁娜的伤害完全来自她的元素战技（沙龙成员）。黄金剧团在后台时提供+70%技能伤害——这正是芙宁娜所处的位置。这是她最强的圣遗物套装。"
+    },
+    "arti_alt": {
+      "en": "Alt: 4pc Tenacity — pure support builds for team buffs.",
+      "zh": ""
+    },
+    "sands_note": {
+      "en": "Furina scales entirely with HP. ATK% is a dead stat. Aim for 35-40k HP.",
+      "zh": "芙宁娜完全基于生命值成长。攻击力%是无效属性。目标生命值35,000-40,000。"
+    },
+    "goblet_note": {
+      "en": "HP% goblet is competitive with Hydro DMG due to Furina's self-buff. Use whichever has better substats.",
+      "zh": "生命值%杯子与元素伤害加成杯子竞争，因为芙宁娜有自增益。使用副属性更好的那个。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 CRIT ratio. ~70% CR, ~140%+ CD. CRIT Rate circlet is usually best.",
+      "zh": "目标1:2暴击率与暴击伤害比例。约70%暴击率，140%+暴击伤害。暴击率头冠通常最佳。"
+    },
+    "sub_er": {
+      "en": "1. Energy Recharge (160-180% solo / 130-150% double Hydro)",
+      "zh": ""
+    },
+    "sub_crit": {
+      "en": "2. CRIT Rate / CRIT DMG (1:2, aim 70/140+)",
+      "zh": ""
+    },
+    "sub_hp": {
+      "en": "3. HP% — Scales entirely with HP, not ATK",
+      "zh": ""
+    },
+    "sub_flat": {
+      "en": "4. Flat HP / EM (EM for reaction teams)",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "team1_name": {
+      "en": "Team 1: Neuvillette Hypercarry",
+      "zh": "队伍1：那维莱特主C"
+    },
+    "team1_desc": {
+      "en": "Neuvillette · Furina · Kazuha · Xilonen. Furina's buff and Hydro Resonance skyrocket Neuvillette's damage. The premier Fontaine team. Consistent, high AoE damage with massive self-sustain.",
+      "zh": "那维莱特 · 芙宁娜 · 枫原万叶 · 希诺宁。芙宁娜的增益和水元素共鸣极大提升那维莱特的伤害。顶级枫丹队伍。持续高范围伤害，自带强大自续航。"
+    },
+    "team2_name": {
+      "en": "Team 2: Noelle Furina Core",
+      "zh": "队伍2：诺艾尔芙宁娜核心"
+    },
+    "team2_desc": {
+      "en": "Noelle · Furina · Gorou/Yun Jin · Flex. Noelle's team-wide healing perfectly offsets Furina's HP drain while driving on-field. Surprisingly strong. Budget-friendly.",
+      "zh": "诺艾尔 · 芙宁娜 · 五郎/云堇 · 灵活位。诺艾尔的全队治疗完美抵消芙宁娜的生命值消耗，同时站场输出。出乎意料的强力。性价比高。"
+    },
+    "team3_name": {
+      "en": "Team 3: Hu Tao Double Hydro",
+      "zh": "队伍3：胡桃双水"
+    },
+    "team3_desc": {
+      "en": "Hu Tao · Furina · Yelan · Jean/Healer. Furina keeps Hu Tao below 50% HP naturally while providing a massive DMG% buff. Hydro Resonance + Yelan for more HP scaling.",
+      "zh": "胡桃 · 芙宁娜 · 夜兰 · 琴/治疗。芙宁娜自然使胡桃生命值低于50%，同时提供大量伤害加成。水元素共鸣+夜兰进一步提升生命值成长。"
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "talent_q": {
+      "en": "Burst — Massive team DMG buff. Level to 9+.",
+      "zh": ""
+    },
+    "talent_e": {
+      "en": "Skill — Primary off-field damage. Level to 9.",
+      "zh": ""
+    },
+    "talent_na": {
+      "en": "Normal Attack — Skip. Never used.",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "rotation_title": {
+      "en": "Standard Furina rotation (Ousia mode):",
+      "zh": "标准芙宁娜循环（始基力：荒性模式）："
+    },
+    "rotation_code": {
+      "en": "Furina E Q → Team Healer (E/Q) → Support Buffs → Main DPS → Refresh Furina E → Repeat",
+      "zh": "芙宁娜E Q → 全队治疗（E/Q） → 辅助增益 → 主C → 刷新芙宁娜E → 重复"
+    },
+    "rotation_key": {
+      "en": "⚠️ Always start in Ousia (dark/damage) mode. Use E first so Salon Members start draining HP and building Fanfare stacks immediately. Burst amplifies the DMG bonus from those stacks. Always bring a team-wide healer — Furina's HP drain will kill your team otherwise. Refresh E before it expires (30s duration).",
+      "zh": "⚠️ 始终以荒性（暗色/伤害）模式开始。先使用E，使沙龙成员立即开始消耗生命值并积累气氛值。元素爆发会放大这些气氛值带来的伤害加成。务必携带全队治疗角色——否则芙宁娜的生命值消耗会杀死你的队伍。在E技能结束前刷新（持续30秒）。"
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Building ATK on Furina. Her entire kit scales with HP. ATK% sands, ATK% weapons, and ATK% substats are wasted stats.",
+      "zh": "❌ 给芙宁娜堆攻击力。她的整个机制基于生命值成长。攻击力%沙漏、攻击力%武器和攻击力%副属性都是浪费的属性。"
+    },
+    "m2": {
+      "en": "❌ No team-wide healer. Furina drains the entire party's HP. A single-target healer won't keep up. Bring Jean, Baizhu, Xianyun, Charlotte, or a healer on-field DPS.",
+      "zh": "❌ 没有全队治疗。芙宁娜消耗整个队伍的生命值。单目标治疗无法跟上。携带琴、白术、闲云、夏洛蒂或治疗型站场主C。"
+    },
+    "m3": {
+      "en": "❌ Leveling Normal Attack talent. Furina's NA has zero scaling relevance. Save your resources for E and Q.",
+      "zh": "❌ 升级普通攻击天赋。芙宁娜的普通攻击没有任何成长相关性。将资源留给E和Q。"
+    },
+    "m4": {
+      "en": "❌ Wrong Energy Recharge. You need 160-180% ER as solo Hydro, or 130-150% with double Hydro. Without enough ER, you can't burst every rotation and your team loses the massive DMG buff.",
+      "zh": "❌ 错误的元素充能效率。单水需要160-180%元素充能效率，双水需要130-150%。没有足够的元素充能效率，你无法每轮循环释放元素爆发，队伍会失去巨大的伤害加成。"
+    },
+    "pro_teaser_title": {
+      "en": "Pro Deep Dive — DMG Simulation Preview",
+      "zh": ""
+    },
+    "pro_teaser_desc": {
+      "en": "Get exact damage numbers, compare Golden Troupe vs Tenacity, optimize Fanfare.",
+      "zh": ""
+    },
+    "pro_teaser_cta": {
+      "en": "See your exact DMG numbers. Compare builds.",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "related_title": {
+      "en": "📚 Related Build Guides",
+      "zh": ""
+    },
+    "related_neuv": {
+      "en": "Main DPS · Marechaussee · Tome of Eternal Flow",
+      "zh": ""
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "char_role": {
+      "en": "Hydro Archon. Team-wide DMG buff.",
+      "zh": ""
+    },
+    "talent_note": {
+      "en": "Burst > Skill > Normal Attack",
+      "zh": ""
+    },
+    "related_neuvi": {
+      "en": "Main DPS · Marechaussee",
+      "zh": ""
+    },
+    "sub1": {
+      "en": "Energy Recharge (160-180% solo Hydro / 130-150% double Hydro)",
+      "zh": "元素充能效率（单水160-180% / 双水130-150%）"
+    },
+    "sub2": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio)",
+      "zh": "暴击率/暴击伤害（1:2比例）"
+    },
+    "sub3": {
+      "en": "HP%",
+      "zh": "HP%"
+    },
+    "sub4": {
+      "en": "Flat HP (low priority, but better than ATK)",
+      "zh": "固定生命值（优先级低，但优于攻击力）"
+    },
+    "weapon_bottom_line": {
+      "en": "Splendor of Tranquil Waters is BiS. Fleuve Cendre Ferryman R5 is free and ~80% as effective. Festering Desire is a strong limited alternative. Only pull the signature if you want to min-max.",
+      "zh": "「静水流涌之辉」是毕业武器。精5「灰河渡手」免费且效果约为其80%。「腐殖之剑」是强力的限定替代品。仅当追求极限输出时才抽取专武。"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "related_neuvillette": {
+      "en": "Main DPS · Marechaussee Hunter · HP/HP/Crit",
+      "zh": "站场输出 · 「逐影猎人」 · 生命值/生命值/暴击"
+    },
+    "desc": {
+      "en": "Complete Furina build guide for Genshin Impact. Best weapons ranked (Splendor of Tranquil Waters, Fleuve Cendre Ferryman), optimal artifacts (Golden Troupe), team compositions, and rotation guide.",
+      "zh": "《原神》芙宁娜完整培养指南。最佳武器排名（静水流涌之辉、灰河渡手），最优圣遗物（黄金剧团），队伍搭配及输出手法指南。"
+    }
+  },
+  "hutao": {
+    "intro": {
+      "en": "Hu Tao is a top-tier Pyro polearm main DPS. Her E sacrifices HP to infuse her attacks with Pyro and massively boost her ATK based on max HP. She deals devastating charged attack DMG when below 50% HP. She requires animation canceling to reach her ceiling — C1 eliminates stamina concerns. This guide covers everything you need to build her optimally in v4.8.",
+      "zh": "胡桃是顶级火系长柄武器站场输出角色。元素战技消耗生命值使攻击附魔火元素，并根据生命值上限大幅提升攻击力。生命值低于50%时，重击伤害极为可观。需要利用取消后摇技巧才能发挥上限——第一命之座消除体力消耗问题。本指南涵盖4.8版本中培养她的全部要点。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. HP to ATK conversion + massive CRIT DMG. Made for Hu Tao.",
+      "zh": "专武。生命值转攻击力+高额暴击伤害。为胡桃量身定制。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. EM + DMG% vs Hydro/Pyro. Perfect for vape. R5 rivals 5-stars.",
+      "zh": "最佳四星武器。元素精通+对水/火元素伤害加成。完美适配蒸发反应。精炼五阶可媲美五星武器。"
+    },
+    "w3_notes": {
+      "en": "BP weapon. High CRIT Rate makes building easier. Solid stat stick.",
+      "zh": "纪行武器。高暴击率降低配装难度。优秀的面板武器。"
+    },
+    "w4_notes": {
+      "en": "Budget 3★. CRIT Rate + NA DMG bonus. Surprisingly good for CA spam.",
+      "zh": "三星过渡武器。暴击率+普通攻击伤害加成。重击连发时表现意外出色。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Crimson Witch of Flames",
+      "zh": "🎯 最佳：4件套炽烈的炎之魔女"
+    },
+    "arti_why": {
+      "en": "4-Piece Crimson Witch of Flames is the optimal set for Hutao.",
+      "zh": "4件套炽烈的炎之魔女是胡桃的毕业圣遗物套装。"
+    },
+    "sands_note": {
+      "en": "HP% best for damage and survival. EM sands if using Dragon's Bane + low EM subs.",
+      "zh": "生命值加成最佳，兼顾伤害与生存。若使用匣里灭辰且元素精通副词条不足，可选元素精通沙漏。"
+    },
+    "goblet_note": {
+      "en": "Always Pyro DMG. HP% goblet is a significant damage loss.",
+      "zh": "始终选择火元素伤害加成。生命值加成杯会显著降低伤害。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 ratio. ~70% CR, ~200%+ CD with Homa.",
+      "zh": "目标暴击率与暴击伤害比例1:2。搭配护摩之杖时，约70%暴击率、200%以上暴击伤害。"
+    },
+    "team1_name": {
+      "en": "Team 1: Double Hydro",
+      "zh": "队伍1：双水"
+    },
+    "team1_desc": {
+      "en": "Hu Tao + Yelan + Xingqiu + Zhongli. The best Hu Tao team. Double Hydro resonance (+25% HP) benefits Hu Tao. Massive vape uptime. Zhongli prevents low-HP deaths.",
+      "zh": "胡桃+夜兰+行秋+钟离。胡桃最佳配队。双水共鸣（+25%生命值）提升胡桃收益。蒸发覆盖率极高。钟离防止低血量暴毙。"
+    },
+    "team2_name": {
+      "en": "Team 2: VV Vape",
+      "zh": "队伍2：翠绿之影蒸发队"
+    },
+    "team2_desc": {
+      "en": "Hu Tao + Xingqiu + Kazuha + Bennett. Kazuha swirls Pyro for VV shred + DMG bonus. Bennett's healing is anti-synergy (Hu Tao wants",
+      "zh": "胡桃+行秋+枫原万叶+班尼特。枫原万叶扩散火元素触发翠绿之影减抗+增伤。班尼特的治疗与胡桃机制冲突（胡桃需要"
+    },
+    "team3_name": {
+      "en": "Team 3: Funerational",
+      "zh": "队伍3：胡夜行香队"
+    },
+    "team3_desc": {
+      "en": "Hu Tao + Yelan + Xingqiu + Xiangling. All gas, no brakes. Triple Pyro/Hydro offense. No shielder — high risk, very high reward. Needs good dodging.",
+      "zh": "胡桃+夜兰+行秋+香菱。全力输出，毫无保留。三火/水元素进攻体系。无护盾——高风险高回报。需要精准闪避。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Zhongli hold E → Xingqiu E Q E → Yelan E Q → Hu Tao E → CA spam (C1: dash cancel, C0: jump cancel) → Q (when low HP or iframe)",
+      "zh": "钟离长按元素战技→行秋元素战技元素爆发元素战技→夜兰元素爆发元素战技→胡桃元素战技→重击连发（第一命之座：冲刺取消后摇，零命之座：跳跃取消后摇）→元素爆发（低血量或无敌帧时使用）"
+    },
+    "rotation_key": {
+      "en": "Key: At C0, use jump cancel after each charged attack to save stamina. At C1, dash cancel is faster and safer.",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Building too much ATK. Hu Tao converts HP to ATK with her E. ATK% substats are nearly wasted — focus on HP% and EM instead.",
+      "zh": "❌ 过度堆叠攻击力。胡桃通过元素战技将生命值转化为攻击力。攻击力百分比副词条近乎无效——应优先堆叠生命值百分比和元素精通。"
+    },
+    "m2": {
+      "en": "❌ Too little EM. Without EM, vape DMG is significantly lower. Aim for 100-200 EM from subs or weapon. Dragon's Bane solves this automatically.",
+      "zh": "❌ 元素精通过低。缺乏元素精通时，蒸发伤害显著降低。通过副词条或武器堆叠100-200元素精通。匣里灭辰可自动解决此问题。"
+    },
+    "m3": {
+      "en": "❌ Not jump/dash canceling at C0. Without canceling, Hu Tao's CA sends her flying and wastes time. Jump cancel (C0) or dash cancel (C1) between each CA.",
+      "zh": "❌ 零命之座时不使用跳跃/冲刺取消后摇。不取消后摇时，胡桃的重击会向前突进并浪费输出时间。每次重击后需跳跃取消（零命）或冲刺取消（一命）。"
+    },
+    "m4": {
+      "en": "❌ Healing Hu Tao above 50% HP. Her A4 passive gives 33% Pyro DMG bonus when below 50% HP. Avoid healers — use shields instead (Zhongli).",
+      "zh": "❌ 将胡桃治疗至50%以上生命值。固有天赋「血之灶火」在生命值低于50%时提供33%火元素伤害加成。避免使用治疗角色——改用护盾（如钟离）。"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Staff of Homa is BiS and practically tailor-made for Hu Tao. Dragon's Bane (R5) is shockingly strong for vape — often better than 5-star stat sticks. Only pull Homa if you want the absolute best.",
+      "zh": "护摩之杖是胡桃的专属武器，几乎量身定制。匣里灭辰（精5）在蒸发队中表现惊人——通常优于五星白值武器。仅当追求极致强度时才抽取护摩。"
+    },
+    "sub1": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio — she needs both)",
+      "zh": "暴击率 / 暴击伤害（1:2比例——两者均需）"
+    },
+    "sub2": {
+      "en": "Elemental Mastery (100-200 — essential for vape DMG)",
+      "zh": "元素精通（100-200——蒸发伤害必备）"
+    },
+    "sub3": {
+      "en": "HP% (more damage + survivability)",
+      "zh": "生命值%（提升伤害与生存能力）"
+    },
+    "sub4": {
+      "en": "ATK% (low priority — Hu Tao gets massive ATK from her E already)",
+      "zh": "攻击力%（低优先级——胡桃通过元素战技已获得大量攻击力）"
+    },
+    "talent1_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.",
+      "zh": "原神4.8版本胡桃完整培养指南。最佳武器排名（护摩之杖、匣里灭辰），圣遗物选择（炽烈的炎之魔女、追忆之注连），队伍搭配（双水、蒸发），以及输出手法指南。"
+    }
+  },
+  "ayaka": {
+    "intro": {
+      "en": "Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v4.8.",
+      "zh": "神里绫华是顶级冰元素主C：元素爆发可造成20段冰元素伤害，冲刺后普攻/重击获得冰附魔，是游戏中最强冻结输出。4件套冰风迷途的勇士在冻结敌人时提供40%暴击率加成，让你能极限堆叠暴击伤害。本指南涵盖在4.8版本中优化培养她所需的一切。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. High base ATK + CRIT DMG + Elemental DMG bonus. Made for Ayaka.",
+      "zh": "专武。高基础攻击力+暴击伤害+元素伤害加成。为绫华量身定制。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. Craftable. Restores energy after burst — solves ER completely.",
+      "zh": "最佳免费武器。可锻造。元素爆发后恢复能量——完全解决充能问题。"
+    },
+    "w3_notes": {
+      "en": "Craftable. High ATK bonus. Good F2P option if not needing Amenoma's energy.",
+      "zh": "可锻造。高攻击力加成。若不需要天目影打刀的充能，是不错的免费选择。"
+    },
+    "w4_notes": {
+      "en": "Starglitter shop. CRIT DMG stat stick. ATK passive on kills.",
+      "zh": "星辉兑换。暴击伤害副词条。击杀触发攻击力被动。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Blizzard Strayer",
+      "zh": "🎯 最佳：4件套冰风迷途的勇士"
+    },
+    "arti_why": {
+      "en": "4-Piece Blizzard Strayer is the optimal set for Ayaka.",
+      "zh": "4件套冰风迷途的勇士是绫华的毕业圣遗物。"
+    },
+    "sands_note": {
+      "en": "Always ATK%. Ayaka needs 2000+ ATK. ER from subs (130-140%).",
+      "zh": "始终选择攻击力沙漏。绫华需要2000+攻击力。充能效率由副词条提供（130-140%）。"
+    },
+    "goblet_note": {
+      "en": "Always Cryo DMG — her entire kit is Cryo.",
+      "zh": "始终选择冰元素伤害杯——她的整个技能组均为冰元素。"
+    },
+    "circlet_note": {
+      "en": "CRIT DMG circlet. Blizzard gives 40% free CRIT — only need 30-45% from subs.",
+      "zh": "暴击伤害头冠。冰套提供40%免费暴击率——副词条仅需30-45%暴击率。"
+    },
+    "team1_name": {
+      "en": "Team 1: Premium Freeze",
+      "zh": "队伍1：顶级永冻队"
+    },
+    "team1_desc": {
+      "en": "Ayaka + Kokomi + Kazuha + Shenhe. The best Ayaka team. Kokomi provides AoE Hydro for permafreeze. Kazuha groups + buffs Cryo DMG. Shenhe provides massive Cryo flat DMG bonus.",
+      "zh": "绫华 + 心海 + 万叶 + 申鹤。绫华最强配队。心海提供范围水元素实现永冻。万叶聚怪+增伤冰元素伤害。申鹤提供巨额冰元素基础伤害加成。"
+    },
+    "team2_name": {
+      "en": "Team 2: Budget Freeze",
+      "zh": "队伍2：平民永冻队"
+    },
+    "team2_desc": {
+      "en": "Ayaka + Mona + Sucrose + Diona. F2P-friendly. Mona buffs DMG via Omen. Diona provides shield + Cryo resonance + battery. Sucrose for grouping and Thrilling Tales buff.",
+      "zh": "绫华 + 莫娜 + 砂糖 + 迪奥娜。适合免费玩家。莫娜通过星异增伤。迪奥娜提供护盾+冰元素共鸣+充能。砂糖负责聚怪和讨龙增伤。"
+    },
+    "team3_name": {
+      "en": "Team 3: Mono Cryo",
+      "zh": "队伍3：三冰队"
+    },
+    "team3_desc": {
+      "en": "Ayaka + Shenhe + Kazuha + Layla. For unfreezable enemies (bosses). Full Cryo shred + buffing. Layla provides strong shield and Cryo resonance.",
+      "zh": "绫华 + 申鹤 + 万叶 + 莱依拉。针对不可冻结敌人（首领）。全队冰元素减抗+增伤。莱依拉提供强力护盾和冰元素共鸣。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Shenhe E Q → Kazuha E Q → Kokomi E → Ayaka dash (cryo infusion) → NA1 (apply cryo) → E → Q → NA spam",
+      "zh": "申鹤E Q → 枫原万叶E Q → 珊瑚宫心海E → 绫华冲刺（冰附魔）→ 普攻1（挂冰）→ E → Q → 普攻连击"
+    },
+    "rotation_key": {
+      "en": "Key: Always dash before attacking for Cryo infusion + 18% Cryo DMG bonus. NA1 before E+Q triggers Mistsplitter stacks.",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Too much CRIT Rate. Blizzard Strayer gives 40% free CRIT vs frozen enemies. Only build 30-45% CRIT Rate. Anything above 45% is wasted.",
+      "zh": "❌ 暴击率过高。冰风迷途的勇士对冻结敌人提供40%免费暴击率。仅需堆30-45%暴击率。超过45%即为浪费。"
+    },
+    "m2": {
+      "en": "❌ Not using dash for cryo infusion. Ayaka's dash applies cryo to her attacks. Without it, she deals physical damage. Always dash before your rotation.",
+      "zh": "❌ 未使用冲刺获得冰附魔。绫华的冲刺为攻击附加冰元素。若不使用，则造成物理伤害。输出循环前务必冲刺。"
+    },
+    "m3": {
+      "en": "❌ Burst missing enemies. Unfrozen enemies can walk out of her burst. Always freeze first, then Q. Use Kazuha/Sucrose to group enemies before bursting.",
+      "zh": "❌ 元素爆发未命中敌人。未冻结的敌人可能走出爆发范围。务必先冻结再开Q。使用万叶/砂糖聚怪后再开爆发。"
+    },
+    "m4": {
+      "en": "❌ Building EM. Ayaka is a freeze DPS — she doesn't melt. EM does nothing for freeze. Stack ATK% and CRIT DMG instead.",
+      "zh": "❌ 堆叠元素精通。绫华是永冻输出——不打融化。元素精通对永冻无收益。应堆叠攻击力和暴击伤害。"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Mistsplitter Reforged is BiS — massive CRIT DMG + Elemental DMG bonus. Amenoma Kageuchi is craftable, solves ER, and is excellent F2P. Finale of the Deep is a strong craftable ATK option.",
+      "zh": "雾切之回光为最佳武器——提供大量暴击伤害与元素伤害加成。天目影打刀可锻造，解决充能问题，是优秀的免费武器。海渊终曲是可锻造的强力攻击力武器。"
+    },
+    "sub1": {
+      "en": "CRIT DMG (as high as possible — 200%+ is the target)",
+      "zh": "暴击伤害（尽可能高——目标200%以上）"
+    },
+    "sub2": {
+      "en": "ATK% (Ayaka needs 2000+ ATK — don't neglect it)",
+      "zh": "攻击力%（绫华需要2000以上攻击力——不可忽视）"
+    },
+    "sub3": {
+      "en": "Energy Recharge (130-140% — Amenoma lowers this to ~110%)",
+      "zh": "元素充能效率（130-140%——天目影打刀可降至约110%）"
+    },
+    "sub4": {
+      "en": "CRIT Rate (only to ~35% — Blizzard gives 40% vs frozen)",
+      "zh": "暴击率（仅需约35%——冰套对冻结敌人提供40%暴击率）"
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "talent3_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide.",
+      "zh": "神里绫华4.8版本完整培养指南。最佳武器排名（雾切之回光、天目影打刀），最优圣遗物（冰风迷途的勇士），队伍搭配（永冻队）及输出手法指南。"
+    }
+  },
+  "yelan": {
+    "intro": {
+      "en": "Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v4.8.",
+      "zh": "夜兰是顶级水系副C：基于普通攻击触发的后台协同水元素攻击，生命值加成的高额个人伤害，以及为当前场上角色提供的递增伤害加成。她基本相当于伤害更高、挂水能力稍弱的五星行秋。本指南涵盖在4.8版本中优化培养她的所有内容。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. Massive CRIT DMG + HP% + DMG bonus. Perfect synergy.",
+      "zh": "专武。高额暴击伤害+生命值百分比+伤害加成。完美契合。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. ER main stat + energy particles. Solves ER needs completely.",
+      "zh": "最佳四星。元素充能效率主词条+能量微粒。完全解决充能需求。"
+    },
+    "w3_notes": {
+      "en": "Extra E charge = more particles + more DMG. Good for C0.",
+      "zh": "额外E技能充能=更多微粒+更多伤害。适合0命。"
+    },
+    "w4_notes": {
+      "en": "Skill + burst DMG bonus. Use in reaction teams (vape).",
+      "zh": "元素战技+元素爆发伤害加成。在反应队（蒸发）中使用。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Emblem of Severed Fate",
+      "zh": "🎯 最佳：4件套绝缘之旗印"
+    },
+    "arti_why": {
+      "en": "4-Piece Emblem of Severed Fate is the optimal set for Yelan.",
+      "zh": "四件套绝缘之旗印是夜兰的毕业圣遗物。"
+    },
+    "sands_note": {
+      "en": "HP% best for damage. ER% if below 180% (solo Hydro needs 200%+).",
+      "zh": "生命值百分比最佳。元素充能效率低于180%时选充能（单水队需200%以上）。"
+    },
+    "goblet_note": {
+      "en": "Always Hydro DMG. HP% goblet only with Aqua + very high HP subs.",
+      "zh": "始终用水元素伤害加成。生命值百分比杯子仅在搭配若水且副词条生命值极高时使用。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 ratio. ~70% CR, ~140%+ CD.",
+      "zh": "目标1:2比例。约70%暴击率，140%以上暴击伤害。"
+    },
+    "team1_name": {
+      "en": "Team 1: Double Hydro Hu Tao",
+      "zh": "队伍1：双水胡桃"
+    },
+    "team1_desc": {
+      "en": "Hu Tao + Yelan + Xingqiu + Zhongli. Double Hydro resonance (+25% HP) benefits both Yelan and Hu Tao. Massive single-target DMG.",
+      "zh": "胡桃+夜兰+行秋+钟离。双水共鸣（+25%生命值）对夜兰和胡桃都有益。高额单体伤害。"
+    },
+    "team2_name": {
+      "en": "Team 2: Hyperbloom Driver",
+      "zh": "队伍2：超绽放驾驶员"
+    },
+    "team2_desc": {
+      "en": "Yelan + Nahida + Kuki/Raiden + Flex. Yelan provides Hydro for bloom seeds. Kuki triggers hyperblooms. High floor damage.",
+      "zh": "夜兰+纳西妲+久岐忍/雷电将军+灵活位。夜兰提供水元素生成种子。久岐忍触发超绽放。基础伤害高。"
+    },
+    "team3_name": {
+      "en": "Team 3: Mono Hydro",
+      "zh": "队伍3：纯水队"
+    },
+    "team3_desc": {
+      "en": "Kokomi + Yelan + Kazuha + Xingqiu. Triple Hydro feeds everyone's energy. Kazuha buffs Hydro DMG. Fun and surprisingly effective.",
+      "zh": "心海+夜兰+万叶+行秋。三水互相充能。万叶增伤水元素伤害。有趣且意外有效。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Zhongli hold E → Yelan E Q → Xingqiu E Q E → Hu Tao E → CA spam (jump/dash cancel) → Q (when HP low)",
+      "zh": "钟离长E → 夜兰E Q → 行秋E Q E → 胡桃E → 重击循环（跳跃/闪避取消）→ Q（生命值低时）"
+    },
+    "rotation_key": {
+      "en": "Key: Yelan burst triggers on Normal Attacks — not Charged Attacks. Pair with NA-focused DPS for maximum value.",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Building ATK instead of HP. Yelan scales ENTIRELY on HP. ATK does literally nothing for her.",
+      "zh": "❌ 堆攻击力而非生命值。夜兰完全基于生命值加成。攻击力对她毫无作用。"
+    },
+    "m2": {
+      "en": "❌ Too little ER. Solo Hydro Yelan needs 200%+ ER. Below 180%, burst won't be up. Use Favonius Warbow or an ER sands.",
+      "zh": "❌ 元素充能效率过低。单水夜兰需200%以上充能。低于180%时元素爆发无法循环。使用西风猎弓或充能沙漏。"
+    },
+    "m3": {
+      "en": "❌ Leveling NA. Yelan's burst triggers off anyone's NA — she never uses her own normal attacks as a sub-DPS.",
+      "zh": "❌ 升级普通攻击。夜兰的元素爆发基于任意角色的普通攻击触发——她作为副C从不使用自己的普通攻击。"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Aqua Simulacra is BiS — massive CRIT DMG and HP% bonus. Favonius Warbow solves all energy problems. Use Favonius unless you have C1 or enough ER from artifacts.",
+      "zh": "若水是毕业武器——提供大量暴击伤害和生命值百分比加成。西风猎弓可解决所有充能问题。除非拥有第一命座或从圣遗物获得足够元素充能效率，否则建议使用西风猎弓。"
+    },
+    "sub1": {
+      "en": "Energy Recharge (to 180-200% — C1 lowers this to ~160%)",
+      "zh": "元素充能效率（堆至180%-200%——第一命座可降低至约160%）"
+    },
+    "sub2": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio — she needs both)",
+      "zh": "暴击率 / 暴击伤害（1:2比例——两者均需）"
+    },
+    "sub3": {
+      "en": "HP% (more damage — Yelan scales entirely off HP)",
+      "zh": "生命值百分比（提升伤害——夜兰伤害完全基于生命值）"
+    },
+    "sub4": {
+      "en": "Flat HP (minor boost — less efficient than HP%)",
+      "zh": "固定生命值（小幅提升——效率低于生命值百分比）"
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "m4": {
+      "en": "❌ Using her as solo Hydro in energy-hungry teams. Yelan needs either C1, Sac Bow, or Fav Bow to battery herself solo. Otherwise pair with Xingqiu.",
+      "zh": "❌ 在充能需求高的队伍中作为单水元素角色使用。夜兰需要第一命座、祭礼弓或西风猎弓才能独自完成充能，否则需与行秋搭配。"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.",
+      "zh": "《原神》4.8版本夜兰完整培养指南。武器排名（若水、西风猎弓），最佳圣遗物（绝缘之旗印），队伍搭配（双水队、超绽放队）及输出手法指南。"
+    }
+  },
+  "zhongli": {
+    "intro": {
+      "en": "Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v4.8.",
+      "zh": "钟离是最安逸的选择：游戏中最强的护盾（持续20秒，冷却12秒），20%全属性减抗，以及大范围石化元素爆发。他能融入任何队伍。本指南涵盖在4.8版本中优化培养他的所有要点。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Best all-around. HP to ATK conversion + massive CRIT DMG.",
+      "zh": "最佳通用选择。生命值转化为攻击力 + 高暴击伤害。"
+    },
+    "w2_notes": {
+      "en": "Best F2P shield. Massive HP% for shields. 3★ — very common.",
+      "zh": "最佳免费护盾选择。高生命值百分比提升护盾强度。3★ — 非常常见。"
+    },
+    "w3_notes": {
+      "en": "Team battery. Generates energy for team. Good for burst uptime.",
+      "zh": "队伍充能。为队伍产生能量。有助于元素爆发循环。"
+    },
+    "w4_notes": {
+      "en": "BP weapon. High CRIT Rate for burst DPS builds.",
+      "zh": "纪行武器。高暴击率，适合元素爆发输出玩法。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Tenacity of the Millelith",
+      "zh": "🎯 最佳：千岩牢固四件套"
+    },
+    "arti_why": {
+      "en": "4-Piece Tenacity of the Millelith is the optimal set for Zhongli.",
+      "zh": "千岩牢固四件套是钟离的最优圣遗物套装。"
+    },
+    "sands_note": {
+      "en": "Always HP% for shield build. More HP = bigger shield.",
+      "zh": "护盾玩法始终选择生命值百分比。更多生命值 = 更强护盾。"
+    },
+    "goblet_note": {
+      "en": "HP% for pure shield. Geo DMG for burst DPS hybrid.",
+      "zh": "纯护盾玩法选生命值百分比。混合输出玩法选岩元素伤害加成。"
+    },
+    "circlet_note": {
+      "en": "HP% for pure shield. CRIT for burst DPS builds (60/120 target).",
+      "zh": "纯护盾玩法选生命值百分比。元素爆发输出玩法选暴击（目标60/120）。"
+    },
+    "team1_name": {
+      "en": "Team 1: Universal Shield Flex",
+      "zh": "队伍1：通用护盾位"
+    },
+    "team1_desc": {
+      "en": "Zhongli + any 3 characters. His shield fits every team — hyperbloom, vape, freeze, Itto, Xiao. 20% universal RES shred benefits everyone.",
+      "zh": "钟离 + 任意三名角色。他的护盾适配所有队伍——超绽放、蒸发、冻结、一斗、魈。20%全属性减益对全队都有收益。"
+    },
+    "team2_name": {
+      "en": "Team 2: Mono Geo",
+      "zh": "队伍2：纯岩队"
+    },
+    "team2_desc": {
+      "en": "Itto + Zhongli + Gorou + Albedo. Geo resonance + Zhongli shield shred = massive Itto DMG. Gorou buffs all Geo. Classic mono element team.",
+      "zh": "荒泷一斗 + 钟离 + 五郎 + 阿贝多。岩元素共鸣 + 钟离护盾减抗 = 一斗高额伤害。五郎增益所有岩元素角色。经典纯元素队伍。"
+    },
+    "team3_name": {
+      "en": "Team 3: Hu Tao Double Hydro",
+      "zh": "队伍3：胡桃双水"
+    },
+    "team3_desc": {
+      "en": "Hu Tao + Yelan + Xingqiu + Zhongli. Zhongli protects Hu Tao at low HP while shredding Hydro and Pyro RES for the team.",
+      "zh": "胡桃 + 夜兰 + 行秋 + 钟离。钟离保护低血量胡桃，同时为队伍降低水元素和火元素抗性。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Zhongli hold E (shield up) → Supports set up buffs → DPS rotation → Refresh shield at 12s (E cooldown ends)",
+      "zh": "钟离长按E（生成护盾）→ 辅助角色施加增益 → 输出角色循环 → 12秒后刷新护盾（E技能冷却结束）"
+    },
+    "rotation_key": {
+      "en": "Key: Hold E for shield. Tap E only places pillar — no shield. Always hold.",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Not holding E. Tap E only places a pillar — no shield. You must HOLD E to get the shield.",
+      "zh": "❌ 未长按E。点按E只会放置岩脊——不生成护盾。必须长按E才能获得护盾。"
+    },
+    "m2": {
+      "en": "❌ Building ATK on a shield build. ATK does nothing for Zhongli's shield. HP% is all that matters for shield strength.",
+      "zh": "❌ 护盾玩法堆攻击力。攻击力对钟离的护盾无任何作用。护盾强度只取决于生命值百分比。"
+    },
+    "m3": {
+      "en": "❌ Not refreshing the shield. Shield lasts 20s but E cooldown is 12s. Always refresh on cooldown — a shield break mid-rotation is deadly.",
+      "zh": "❌ 未及时刷新护盾。护盾持续20秒，但E技能冷却为12秒。务必在冷却结束后立即刷新——护盾在循环中破裂是致命的。"
+    },
+    "m4": {
+      "en": "❌ Using burst DPS build without ER. Burst Zhongli needs ~140% ER minimum. Without it, his 40-cost burst still won't be up every rotation.",
+      "zh": "❌ 元素爆发输出玩法未堆元素充能效率。钟离的元素爆发至少需要约140%元素充能效率。否则，即使只有40点能量消耗，也无法每轮循环都释放元素爆发。"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Staff of Homa is BiS for damage. Black Tassel (3★) is shockingly effective for pure shield — and essentially free. Favonius Lance for team energy.",
+      "zh": "护摩之杖是输出向最佳武器。黑缨枪（3★）对纯护盾流效果惊人——且基本免费。西风长枪用于为队伍充能。"
+    },
+    "sub1": {
+      "en": "HP% (stack as much as possible — 40K+ HP target)",
+      "zh": "生命值%（尽可能堆叠——目标40K+生命值）"
+    },
+    "sub2": {
+      "en": "Energy Recharge (enough to burst when needed)",
+      "zh": "元素充能效率（足以在需要时释放元素爆发）"
+    },
+    "sub3": {
+      "en": "CRIT Rate / CRIT DMG (for burst DPS hybrid builds)",
+      "zh": "暴击率/暴击伤害（用于元素爆发输出混合流派）"
+    },
+    "sub4": {
+      "en": "ATK% (lowest priority — Zhongli scales on HP, not ATK)",
+      "zh": "攻击力%（最低优先级——钟离基于生命值而非攻击力）"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide.",
+      "zh": "原神4.8版本钟离完整培养指南。最佳武器排名（护摩之杖、黑缨枪），最优圣遗物（千岩牢固、悠古的磐岩），队伍搭配（纯岩队、通用护盾队）及输出手法指南。"
+    }
+  },
+  "albedo": {
+    "intro": {
+      "en": "Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with \"unwanted\" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v4.8.",
+      "zh": "阿贝多是一位优质的后台岩系副C：他的元素战技会生成一个领域，每2秒对敌人造成岩元素伤害。他的伤害完全基于防御力，因此很容易用“没人要”的圣遗物来培养。他完美适配纯岩队，以及任何需要稳定后台伤害和通过元素爆发提供元素精通加成的灵活位置。本指南涵盖在4.8版本中优化培养他所需的一切。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Event exclusive BiS. Massive DEF% + 80% E DMG bonus. Unmatched.",
+      "zh": "活动限定毕业武器。大量防御力% + 80%元素战技伤害加成。无可匹敌。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. Huge CRIT stats when HP > 90%. Albedo is off-field so easy to maintain.",
+      "zh": "最佳免费武器。生命值>90%时提供大量暴击属性。阿贝多处于后台，容易维持。"
+    },
+    "w3_notes": {
+      "en": "5★ stat stick. Massive CRIT Rate. No DEF but pure stats carry it.",
+      "zh": "5★属性武器。大量暴击率。无防御力但纯属性支撑。"
+    },
+    "w4_notes": {
+      "en": "Event sword. E DMG + CRIT boost. Good if Cinnabar was missed.",
+      "zh": "活动剑。元素战技伤害+暴击提升。如果错过辰砂之纺锤，这是不错的选择。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Husk of Opulent Dreams",
+      "zh": "🎯 最佳：4件套华馆梦醒形骸记"
+    },
+    "arti_why": {
+      "en": "4-Piece Husk of Opulent Dreams is the optimal set for Albedo.",
+      "zh": "4件套华馆梦醒形骸记是阿贝多的最优圣遗物套装。"
+    },
+    "sands_note": {
+      "en": "Always DEF%. Albedo's E damage scales with DEF, not ATK.",
+      "zh": "始终选择防御力%。阿贝多的元素战技伤害基于防御力，而非攻击力。"
+    },
+    "goblet_note": {
+      "en": "Always Geo DMG. DEF% goblet is a damage loss.",
+      "zh": "始终选择岩元素伤害加成。防御力%杯子会导致伤害损失。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 ratio. ~60% CR, ~120%+ CD.",
+      "zh": "目标1:2比例。约60%暴击率，120%+暴击伤害。"
+    },
+    "team1_name": {
+      "en": "Team 1: Mono Geo",
+      "zh": "队伍1：纯岩队"
+    },
+    "team1_desc": {
+      "en": "Itto + Albedo + Gorou + Zhongli. The premium Geo team. Gorou buffs all Geo, Albedo provides massive off-field DPS, Zhongli shreds RES. Itto is the hypercarry.",
+      "zh": "荒泷一斗 + 阿贝多 + 五郎 + 钟离。顶级岩队。五郎增益所有岩系角色，阿贝多提供大量后台输出，钟离降低抗性。荒泷一斗是主C。"
+    },
+    "team2_name": {
+      "en": "Team 2: Double Geo Flex",
+      "zh": "队伍2：双岩灵活队"
+    },
+    "team2_desc": {
+      "en": "Albedo + Zhongli + any DPS duo. Geo resonance + Zhongli shred + Albedo off-field DMG. Fits Xiao, Hu Tao, Yoimiya — any on-field DPS.",
+      "zh": "阿贝多 + 钟离 + 任意输出组合。岩元素共鸣 + 钟离减抗 + 阿贝多后台伤害。适配魈、胡桃、宵宫——任何站场输出。"
+    },
+    "team3_name": {
+      "en": "Team 3: Navia Double Geo",
+      "zh": "队伍3：娜维娅双岩队"
+    },
+    "team3_desc": {
+      "en": "Navia + Albedo + Bennett + Xiangling. Albedo generates crystallize shards for Navia. Bennett buffs both. Strong synergy with Navia's Geo infusion.",
+      "zh": "娜维娅 + 阿贝多 + 班尼特 + 香菱。阿贝多为娜维娅生成结晶碎片。班尼特增益两者。与娜维娅的岩元素附魔有强力协同。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Zhongli hold E → Gorou E Q → Albedo E (inside Gorou field) Q → Itto E → Itto Q → CA spam → Albedo refresh E",
+      "zh": "钟离长按元素战技 → 五郎元素战技 元素爆发 → 阿贝多元素战技（在五郎领域内）元素爆发 → 荒泷一斗元素战技 → 荒泷一斗元素爆发 → 重击连击 → 阿贝多刷新元素战技"
+    },
+    "rotation_key": {
+      "en": "Key: Always place Albedo E inside Gorou field. His E snapshots DEF — Gorou DEF buff will affect the entire duration.",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Building ATK instead of DEF. Albedo's E damage scales entirely with DEF. ATK% and flat ATK do almost nothing for him.",
+      "zh": "❌ 堆攻击力而非防御力。阿贝多的元素战技伤害完全基于防御力。攻击力%和固定攻击力对他几乎无用。"
+    },
+    "m2": {
+      "en": "❌ Not placing E inside buff fields. Albedo's E snapshots DEF on cast. Always cast it inside Gorou's buff field or before Bennett Q expires.",
+      "zh": "❌ 未在增益领域内放置元素战技。阿贝多的元素战技在施放时锁定防御力。务必在五郎的增益领域内或班尼特元素爆发结束前施放。"
+    },
+    "m3": {
+      "en": "❌ Leveling NA. Albedo is never on-field to use normal attacks. NA level has zero impact on his performance.",
+      "zh": "❌ 升级普通攻击。阿贝多从不站场使用普通攻击。普通攻击等级对他的表现毫无影响。"
+    },
+    "m4": {
+      "en": "❌ Using 4pc Husk without pre-stacking. Husk needs 4 Geo DMG hits for full stacks. Albedo should be first in rotation so he stacks passively. If placed last, his E snapshots 0 stacks.",
+      "zh": "❌ 使用4件套华馆梦醒形骸记却不提前叠层。华馆需要4次岩元素伤害命中才能叠满层数。阿贝多应在循环中先手出场以被动叠层。如果最后出场，他的元素战技会锁定0层。"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Cinnabar Spindle R5 (event exclusive) is BiS with massive DEF% and E DMG bonus. Harbinger of Dawn R5 (3★) is shockingly competitive for F2P — just keep HP above 90%.",
+      "zh": "辰砂之纺锤精炼5阶（活动限定）是毕业武器，提供大量防御力加成和元素战技伤害加成。黎明神剑精炼5阶（三星）对零氪玩家来说极具竞争力——只需保持生命值高于90%。"
+    },
+    "sub1": {
+      "en": "DEF% (as high as possible — 2500+ DEF target)",
+      "zh": "防御力%（尽可能高——目标2500+防御力）"
+    },
+    "sub2": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio — 60/120 is solid)",
+      "zh": "暴击率/暴击伤害（1:2比例——60/120为合格）"
+    },
+    "sub3": {
+      "en": "Energy Recharge (Q gives 125 EM to team — useful to burst)",
+      "zh": "元素充能效率（元素爆发为队伍提供125点元素精通——值得施放）"
+    },
+    "sub4": {
+      "en": "ATK% (lowest priority — Albedo scales on DEF, not ATK)",
+      "zh": "攻击力%（优先级最低——阿贝多基于防御力，而非攻击力）"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Albedo build guide for Genshin Impact v4.8. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide.",
+      "zh": "原神4.8版本阿贝多完整培养指南。最佳武器排名（辰砂之纺锤、黎明神剑），最优圣遗物（华馆梦醒形骸记、黄金剧团），队伍搭配（纯岩队、双岩队）及输出手法指南。"
+    }
+  },
+  "proDemo": {
+    "title": {
+      "en": "🔮 Pro DMG Simulator — Preview",
+      "zh": "🔮 Pro 伤害模拟器 — 预览"
+    },
+    "subtitle": {
+      "en": "Select character to see sample simulation. Pro unlocks full frame data, buff timing, and team DPS comparison.",
+      "zh": "选择角色查看模拟示例。Pro 解锁完整帧数据、增益时机和队伍DPS对比。"
+    },
+    "select_hint": {
+      "en": "— Select to preview —",
+      "zh": "— 选择预览 —"
+    },
+    "locked": {
+      "en": "Unlock Pro to see exact numbers",
+      "zh": "解锁Pro查看精确数值"
+    },
+    "slash": {
+      "en": "Burst Slash",
+      "zh": "爆发斩击"
+    },
+    "total_burst": {
+      "en": "Total Burst DMG",
+      "zh": "爆发总伤害"
+    },
+    "team_dps": {
+      "en": "Team DPS",
+      "zh": "队伍DPS"
+    },
+    "slash1": {
+      "en": "Burst Slash #1",
+      "zh": "爆发斩击 #1"
+    },
+    "slash2": {
+      "en": "Burst Slash #2",
+      "zh": "爆发斩击 #2"
+    },
+    "slash3": {
+      "en": "Burst Slash #3",
+      "zh": "爆发斩击 #3"
+    },
+    "team_dps_national": {
+      "en": "Team DPS (National)",
+      "zh": "队伍DPS（国家队）"
+    },
+    "charged_atk_vape": {
+      "en": "Charged ATK (Vape)",
+      "zh": "重击（蒸发）"
+    },
+    "burst_low_hp": {
+      "en": "Burst (low HP)",
+      "zh": "爆发（低血量）"
+    },
+    "rotation_total": {
+      "en": "Rotation Total",
+      "zh": "循环总伤害"
+    },
+    "team_dps_hydro": {
+      "en": "Team DPS (2x Hydro)",
+      "zh": "队伍DPS（双水）"
+    },
+    "skill_dmg": {
+      "en": "Skill DMG",
+      "zh": "战技伤害"
+    },
+    "burst_dice": {
+      "en": "Burst Dice (3 hits)",
+      "zh": "爆发骰子（3段）"
+    },
+    "tri_karma": {
+      "en": "Tri-Karma (spread)",
+      "zh": " tri-karma（蔓激化）"
+    },
+    "hyperbloom_seed": {
+      "en": "Hyperbloom Seed",
+      "zh": "超绽放种子"
+    },
+    "team_dps_hyperbloom": {
+      "en": "Team DPS (Hyperbloom)",
+      "zh": "队伍DPS（超绽放）"
+    }
+  },
+  "valueEx": {
+    "title": {
+      "en": "💡 What Pro Solves",
+      "zh": "💡 Pro 解决的问题"
+    },
+    "sc1_title": {
+      "en": "SCENARIO 1: \"Is this goblet actually better?\"",
+      "zh": "场景1：\"这个杯子真的更好吗？\""
+    },
+    "sc1_q": {
+      "en": "You got an ATK% goblet with great substats. Current Electro DMG goblet has mediocre rolls. Which to use?",
+      "zh": "你刚得到一个副词条极好的攻击杯。当前雷伤杯副词条一般。该用哪个？"
+    },
+    "sc1_a": {
+      "en": "Pro Simulator tells you: <span class=\"gold\">ATK% goblet = +4.2% personal DMG for Raiden with Engulfing Lightning R1</span>. No guessing. Exact math.",
+      "zh": "Pro 模拟器告诉你：<span class=\"gold\">攻击杯 = 雷神使用薙草R1时个人伤害 +4.2%</span>。不用猜，精确计算。"
+    },
+    "sc2_title": {
+      "en": "SCENARIO 2: \"Should I pull this weapon?\"",
+      "zh": "场景2：\"该抽这把武器吗？\""
+    },
+    "sc2_q": {
+      "en": "New weapon banner. You have The Catch R5. Is signature worth 70+ wishes?",
+      "zh": "新武器池子。你有渔获R5。专武值得花70+抽吗？"
+    },
+    "sc2_a": {
+      "en": "Pro Comparison shows: <span class=\"gold\">Engulfing Lightning = +12.8% over The Catch R5 in Raiden National</span>. Now decide if 12.8% is worth your primogems.",
+      "zh": "Pro 对比显示：<span class=\"gold\">雷神国家队中，薙草比渔获R5提升12.8%</span>。现在你可以判断12.8%是否值得花原石。"
+    },
+    "sc3_title": {
+      "en": "SCENARIO 3: \"Which team clears faster?\"",
+      "zh": "场景3：\"哪个配队更快通关？\""
+    },
+    "sc3_q": {
+      "en": "Your Raiden is built. National, Hypercarry, or Hyperbloom for this Abyss floor?",
+      "zh": "雷神已练好。这期深渊该用国家队、纯伤队还是超绽放？"
+    },
+    "sc3_a": {
+      "en": "Pro Analyzer compares all 3 teams against <span class=\"gold\">current Abyss enemy lineups</span>. See exact clear times. Optimization, not trial-and-error.",
+      "zh": "Pro 分析器针对<span class=\"gold\">当前深渊阵容</span>对比3个配队。看到精确通关时间。优化，不是试错。"
+    }
+  },
+  "bennett": {
+    "intro": {
+      "en": "Bennett is the single best support character in Genshin Impact. His Elemental Burst provides a massive ATK buff based on his base ATK (character + weapon only — artifacts do NOT count), while healing anyone below 70% HP. He fits into virtually every team as a healer, buffer, and Pyro enabler. At C1, his ATK buff has no HP restriction, making him the undisputed king of supports since version 1.0.",
+      "zh": "班尼特是《原神》中最强的辅助角色。他的元素爆发能基于自身基础攻击力（仅角色与武器——圣遗物不计算）提供巨额攻击力加成，同时为生命值低于70%的角色恢复生命。他几乎能融入所有队伍，充当治疗者、增伤者和火元素触发器。解锁1命后，其攻击力加成不再受生命值限制，使他自1.0版本起便稳坐辅助之王宝座。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Highest base ATK sword. The Physical DMG substat is wasted on Bennett but the 674 ATK makes it BiS for buffing. Only pull if you get it from standard banner.",
+      "zh": "基础攻击力最高的单手剑。物理伤害加成副词条对班尼特无用，但674攻击力使其成为增伤最佳选择。仅当从常驻祈愿获取时再抽取。"
+    },
+    "w2_notes": {
+      "en": "Same 674 base ATK as Aquila. CRIT DMG substat actually useful if you run DPS Bennett. Better than Aquila for overall value.",
+      "zh": "与风鹰剑相同的基础攻击力674。暴击伤害副词条对输出型班尼特有用。综合价值优于风鹰剑。"
+    },
+    "w3_notes": {
+      "en": "Best F2P option — free forgeable from Sumeru. 565 base ATK is the highest among 4-star swords. ER substat helps meet his energy needs. The leaf gives EM to the team.",
+      "zh": "最佳免费选项——须弥锻造武器。565基础攻击力是四星单手剑中最高。元素充能效率副词条有助于满足能量需求。叶子能为队伍提供元素精通。"
+    },
+    "w4_notes": {
+      "en": "Good balance of base ATK and ER. Makes building Bennett trivial. Standard banner weapon.",
+      "zh": "基础攻击力与元素充能效率的平衡良好。使班尼特的培养变得简单。常驻祈愿武器。"
+    },
+    "w5_notes": {
+      "en": "Low base ATK but massive ER + team battery. Use only if you cannot meet 200% ER otherwise. Sacrifices buff strength for consistency.",
+      "zh": "基础攻击力低但元素充能效率极高，且能为队伍充能。仅当无法达到200%元素充能效率时使用。牺牲增伤强度换取循环稳定性。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Noblesse Oblige",
+      "zh": "🎯 最佳：4件套昔日宗室之仪"
+    },
+    "arti_why": {
+      "en": "Noblesse Oblige gives +20% ATK to the entire team when Bennett uses his Burst — stacking perfectly with his own ATK buff. There is no better support set for him.",
+      "zh": "昔日宗室之仪在班尼特释放元素爆发后为全队提供+20%攻击力——与其自身攻击力加成完美叠加。没有比他更适合的辅助圣遗物套装。"
+    },
+    "sands_note": {
+      "en": "ER% until 200%+ ER. Switch to HP% once ER requirements are met.",
+      "zh": "元素充能效率优先，直至200%以上。满足充能需求后切换为生命值。"
+    },
+    "goblet_note": {
+      "en": "Always HP%. Bennett's personal damage is secondary to his buff and healing.",
+      "zh": "始终选择生命值。班尼特的个人伤害次于其增伤和治疗。"
+    },
+    "circlet_note": {
+      "en": "Healing Bonus for maximum healing (recommended). HP% if you don't have a Healing Bonus circlet.",
+      "zh": "治疗加成以实现最大治疗量（推荐）。若无治疗加成理之冠，则选生命值。"
+    },
+    "team1_name": {
+      "en": "Team 1: Raiden National",
+      "zh": "队伍1：雷国队"
+    },
+    "team1_desc": {
+      "en": "The timeless meta team. Bennett buffs Xiangling and Raiden simultaneously. Xiangling snapshots Bennett's ATK buff on her Pyronado. Raiden recharges the entire team. Consistent, high single-target and AoE damage.",
+      "zh": "经久不衰的版本答案队伍。班尼特同时为香菱和雷电将军增伤。香菱的旋火轮锁定班尼特的攻击力加成。雷电将军为全队充能。稳定的高额对单与范围伤害。"
+    },
+    "team2_name": {
+      "en": "Team 2: International",
+      "zh": "队伍2：国际队"
+    },
+    "team2_desc": {
+      "en": "Devastating AoE team. Bennett buffs Xiangling, Kazuha double-swirls Pyro and Hydro. Childe enables Xiangling to vape every hit. High skill ceiling, higher damage ceiling.",
+      "zh": "毁灭性范围伤害队伍。班尼特为香菱增伤，枫原万叶双扩散火元素与水元素。达达利亚使香菱每次攻击都能触发蒸发。高操作上限，更高伤害上限。"
+    },
+    "team3_name": {
+      "en": "Team 3: Ganyu Melt",
+      "zh": "队伍3：甘雨融化队"
+    },
+    "team3_desc": {
+      "en": "Bennett enables Pyro application for Ganyu's charged shot melts. Shield from Zhongli prevents interruption. Bennett's buff snapshots onto Xiangling's Pyronado for consistent Pyro uptime.",
+      "zh": "班尼特提供火元素附着，使甘雨的重击触发融化反应。钟离的护盾防止打断。班尼特的增伤被香菱的旋火轮锁定，确保稳定火元素覆盖。"
+    },
+    "rotation_title": {
+      "en": "Raiden National rotation:",
+      "zh": "雷国队循环："
+    },
+    "rotation_code": {
+      "en": "Raiden E → Xingqiu E Q E → Bennett Q E → Xiangling Q E → Raiden Q → N3C combos → Repeat",
+      "zh": "雷电将军E → 行秋Q E Q → 班尼特Q E → 香菱Q E → 雷电将军Q → 3次普攻接重击循环 → 重复"
+    },
+    "rotation_key": {
+      "en": "Key: Bennett Q BEFORE Xiangling Q — her Pyronado snapshots the ATK buff for its entire duration. Also, Bennett's E inside his Q generates Pyro particles that funnel to Xiangling. C1 Bennett removes the HP requirement for his ATK buff.",
+      "zh": "关键：班尼特Q必须在香菱Q之前释放——她的旋火轮会锁定攻击力加成持续整段持续时间。此外，班尼特在自身Q范围内释放E技能会产生火元素微粒，可充能给香菱。1命班尼特移除其攻击力加成的生命值限制。"
+    },
+    "m1": {
+      "en": "Building ATK% artifacts. Bennett's buff scales ONLY with base ATK (character level + weapon ATK). ATK% from artifacts does NOTHING for his buff. Only weapon base ATK matters.",
+      "zh": "堆叠攻击力百分比圣遗物。班尼特的增伤仅基于基础攻击力（角色等级+武器攻击力）。圣遗物的攻击力百分比对其增伤毫无作用。只有武器基础攻击力才重要。"
+    },
+    "m2": {
+      "en": "Too little ER. Bennett needs 200%+ ER in most teams. Below 180%, his burst won't be ready. Use ER sands if needed — a weaker buff that's always available beats a stronger buff that's never ready.",
+      "zh": "元素充能效率过低。班尼特在多数队伍中需要200%以上充能。低于180%时，元素爆发无法及时充能。必要时使用充能沙漏——一个始终可用的较弱增伤优于一个永远无法释放的强力增伤。"
+    },
+    "m3": {
+      "en": "Leveling Normal Attacks. Bennett almost never uses normal attacks. Save the talent books for his Burst and Skill.",
+      "zh": "升级普通攻击。班尼特几乎从不使用普通攻击。将天赋书留给元素爆发和元素战技。"
+    },
+    "m4": {
+      "en": "C6 without thinking. Bennett's C6 infuses melee characters with Pyro — this RUINS physical DPS (Eula, Razor) and overrides some elemental infusions (Keqing, Ayaka). Only activate C6 if you're sure your teams want it.",
+      "zh": "无脑解锁6命。班尼特的6命效果会使近战角色获得火元素附魔——这会破坏物理输出角色（优菈、雷泽）并覆盖部分元素附魔（刻晴、神里绫华）。仅当确认队伍需要时才激活6命。"
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "desc": {
+      "en": "Complete Bennett build guide for Genshin Impact v4.8. Best weapons ranked (Aquila Favonia, Sapwood Blade), optimal artifacts (Noblesse Oblige), best teams (National, International), and rotation guide.",
+      "zh": "《原神》4.8版本班尼特完整培养指南。最佳武器排名（风鹰剑、原木刀），最优圣遗物（昔日宗室之仪），最佳队伍（国家队、国际队）及循环手法指南。"
+    },
+    "sub1": {
+      "en": "1. Energy Recharge — until 200%+. Non-negotiable. Burst must be available every rotation.",
+      "zh": "1. 元素充能效率——直至200%以上。不可妥协。元素爆发必须在每次循环中可用。"
+    },
+    "sub2": {
+      "en": "2. HP% — more healing per tick. Bennett heals fast, but more HP = more comfortable.",
+      "zh": "2. 生命值——提高每次治疗量。班尼特治疗速度快，但更高生命值意味着更舒适。"
+    },
+    "sub3": {
+      "en": "3. Flat HP — minor boost to healing.",
+      "zh": "3. 固定生命值——对治疗量的小幅提升。"
+    },
+    "sub4": {
+      "en": "4. CRIT Rate/DMG — only for DPS Bennett builds (not recommended for support).",
+      "zh": "4. 暴击率/暴击伤害——仅用于输出型班尼特（不推荐辅助）。"
+    },
+    "team4_name": {
+      "en": "Team 4: Universal Flex Slot",
+      "zh": "队伍4：万能灵活位"
+    },
+    "team4_desc": {
+      "en": "Bennett fits into virtually every team. ATK-scaling DPS characters benefit most. Notable: Wanderer, Yoimiya, Navia, Lyney all love Bennett's buff.",
+      "zh": "班尼特几乎能融入所有队伍。攻击力倍率型输出角色受益最大。典型例子：流浪者、宵宫、娜维娅、林尼都依赖班尼特的增伤。"
+    },
+    "m5": {
+      "en": "Using Bennett with HP-scaling DPS. Characters like Neuvillette, Yelan, and Furina scale with HP, not ATK. Bennett's ATK buff is wasted on them. Use different supports.",
+      "zh": "将班尼特与生命值倍率型输出搭配。那维莱特、夜兰、芙宁娜等角色基于生命值而非攻击力。班尼特的攻击力加成对他们无效。应使用其他辅助。"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Emblem set · The Catch R5",
+      "zh": "副输出 · 绝缘之旗印 · 渔获 R5"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · Engulfing Lightning",
+      "zh": "副C·绝缘套·薙草之稻光"
+    },
+    "related_kazuha": {
+      "en": "Support · VV set · Freedom-Sworn",
+      "zh": "辅助 · 翠绿之影套装 · 苍古自由之誓"
+    },
+    "weapon_bottom_line": {
+      "en": "Highest base ATK sword you own. Aquila Favonia (674 ATK) is BiS. Sapwood Blade (565 ATK, forgeable) is the best free option. The ATK buff only scales with BASE ATK — weapon ATK matters, artifact ATK% does nothing.",
+      "zh": "你拥有的基础攻击力最高的单手剑。风鹰剑（674攻击力）是毕业武器。原木刀（565攻击力，可锻造）是最佳免费选择。攻击力加成仅基于基础攻击力——武器攻击力有效，圣遗物攻击力%无效。"
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    }
+  },
+  "kazuha": {
+    "intro": {
+      "en": "Kaedehara Kazuha is the premier Anemo support in Genshin Impact. He provides enemy grouping, 40% Elemental RES shred via 4pc Viridescent Venerer, and a team-wide Elemental DMG bonus that scales with his Elemental Mastery. Unlike Sucrose who shares EM, Kazuha directly buffs Elemental DMG — making him irreplaceable for mono-element and reaction teams alike. At C0 he's already top-tier; at C2 he becomes broken.",
+      "zh": "枫原万叶是《原神》中首屈一指的风元素辅助角色。他能聚怪、通过翠绿之影四件套提供40%元素抗性削减，并根据元素精通为全队提供元素伤害加成。与砂糖分享元素精通不同，万叶直接提升元素伤害——这使他在纯色队和反应队中无可替代。零命已是顶级，二命则堪称逆天。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. Highest EM substat + team-wide ATK and NA/CA/Plunge DMG buff. Perfect synergy with his kit.",
+      "zh": "专武。最高元素精通副属性 + 全队攻击力及普攻/重击/下落攻击伤害加成。与他的技能机制完美契合。"
+    },
+    "w2_notes": {
+      "en": "Excellent. Converts EM to ER for Kazuha and the team. At R5 with 1000 EM, gives ~30% ER to everyone. Solves energy problems.",
+      "zh": "优秀。将元素精通转化为万叶和队友的元素充能效率。精5且1000元素精通时，为全队提供约30%充能效率。解决充能问题。"
+    },
+    "w3_notes": {
+      "en": "Best F2P. Free forgeable. Same EM as Xiphos but no ER utility. Easy to craft and refine.",
+      "zh": "最佳免费武器。可免费锻造。与西福斯的月光相同元素精通，但无充能效用。易于制作和精炼。"
+    },
+    "w4_notes": {
+      "en": "Team battery option. Lower EM means weaker buff, but white particles fuel the entire team. Use if ER is a problem.",
+      "zh": "团队充能选项。较低元素精通意味着更弱的增益，但白色微粒可为全队充能。若充能成问题则使用。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Viridescent Venerer",
+      "zh": "🎯 最佳：翠绿之影四件套"
+    },
+    "arti_why": {
+      "en": "4pc VV shreds enemy Elemental RES by 40% when Kazuha swirls. This is the single most powerful support artifact effect in the game. Kazuha's EM also converts to Elemental DMG bonus for the swirled element via his A4 passive. Triple EM main stats maximize both effects.",
+      "zh": "翠绿之影四件套在万叶扩散时削减敌人40%元素抗性。这是游戏中单件辅助圣遗物效果最强的。万叶的元素精通还通过其固有天赋二转化为扩散元素的元素伤害加成。三元素精通主属性可最大化两种效果。"
+    },
+    "sands_note": {
+      "en": "Always EM. No exceptions for support Kazuha.",
+      "zh": "始终选择元素精通。辅助万叶无例外。"
+    },
+    "goblet_note": {
+      "en": "Always EM. Anemo DMG goblet is only for DPS Kazuha (not recommended).",
+      "zh": "始终选择元素精通。风元素伤害加成杯仅适用于输出万叶（不推荐）。"
+    },
+    "circlet_note": {
+      "en": "Always EM. CRIT circlet is only for Favonius Sword builds that need to proc the passive.",
+      "zh": "始终选择元素精通。暴击率头冠仅适用于需要触发被动效果的西风剑配装。"
+    },
+    "team1_name": {
+      "en": "Team 1: International",
+      "zh": "队伍1：国际队"
+    },
+    "team1_desc": {
+      "en": "The ceiling team. Kazuha double-swirls Hydro and Pyro, buffing both Childe and Xiangling. Bennett + Kazuha + Xiangling core is one of the strongest in the game. High skill ceiling but the damage is unmatched.",
+      "zh": "天花板队伍。万叶双扩散水和火，同时提升公子和香菱的伤害。班尼特+万叶+香菱核心是游戏中最强的组合之一。操作要求高，但伤害无与伦比。"
+    },
+    "team2_name": {
+      "en": "Team 2: Freeze Support",
+      "zh": "队伍2：冻结辅助队"
+    },
+    "team2_desc": {
+      "en": "Kazuha groups frozen enemies and buffs Cryo DMG for Ayaka. VV shred + A4 Cryo DMG bonus. His grouping is essential for keeping enemies inside Ayaka's burst.",
+      "zh": "万叶聚拢冻结敌人并为神里绫华提升冰元素伤害。翠绿之影减抗+固有天赋二冰元素伤害加成。他的聚怪对于将敌人保持在绫华的元素爆发范围内至关重要。"
+    },
+    "team3_name": {
+      "en": "Team 3: Aggravate",
+      "zh": "队伍3：激化队"
+    },
+    "team3_desc": {
+      "en": "Kazuha swirls Electro for VV shred + Electro DMG bonus. Nahida provides EM share for higher aggravate damage. Kazuha's grouping helps Yae's turrets hit clustered enemies.",
+      "zh": "万叶扩散雷元素以触发翠绿之影减抗+雷元素伤害加成。纳西妲提供元素精通分享以提升激化伤害。万叶的聚怪有助于八重神子的杀生樱击中聚集的敌人。"
+    },
+    "rotation_title": {
+      "en": "International rotation (Childe Vape):",
+      "zh": "国际队（公子蒸发）循环："
+    },
+    "rotation_code": {
+      "en": "Childe E (apply Hydro) → Bennett Q → Kazuha Q E (double swirl Hydro + Pyro) → Xiangling Q E → Childe E NA spam → Repeat",
+      "zh": "公子E（挂水）→ 班尼特Q → 万叶Q E（双扩散水+火）→ 香菱Q E → 公子E 平A连击 → 循环"
+    },
+    "rotation_key": {
+      "en": "Key: Double swirl is essential. Apply Hydro with Childe's stance change first, then Bennett Q (doesn't remove Hydro), then Kazuha's hold E and Q to swirl BOTH Hydro and Pyro simultaneously. This buffs both Childe and Xiangling. Tap E for faster swirls, hold E for stronger grouping.",
+      "zh": "关键：双扩散至关重要。先用公子的姿态切换挂水，然后班尼特Q（不消除水元素），接着万叶长按E和Q同时扩散水和火。这能同时提升公子和香菱的伤害。点按E可更快扩散，长按E则聚怪效果更强。"
+    },
+    "m1": {
+      "en": "Not using triple EM main stats. ATK% or Anemo DMG on a support Kazuha is a massive damage loss for your team. His buff scales with EM — maximize it.",
+      "zh": "未使用三元素精通主属性。辅助万叶使用攻击力%或风元素伤害加成会导致团队伤害大幅损失。他的增益随元素精通提升——请最大化它。"
+    },
+    "m2": {
+      "en": "Not swirling the right element. Kazuha's A4 buff applies to the element swirled. Make sure you swirl the element your DPS uses. Swirling the wrong element = zero buff.",
+      "zh": "未扩散正确元素。万叶的固有天赋二增益适用于被扩散的元素。确保扩散你的主C使用的元素。扩散错误元素=零增益。"
+    },
+    "m3": {
+      "en": "Leveling Normal Attacks. Kazuha's plunge damage (from E) scales with his Skill talent, not NA. NA levels are completely wasted.",
+      "zh": "升级普通攻击。万叶的下落攻击伤害（来自元素战技）取决于元素战技等级，而非普通攻击。普通攻击等级完全浪费。"
+    },
+    "m4": {
+      "en": "Using the wrong weapon. Sacrificial Sword seems tempting for double E, but the EM loss compared to Iron Sting or Xiphos is not worth it. Kazuha already has low cooldowns.",
+      "zh": "使用错误武器。祭礼剑看似诱人可双E，但相比铁蜂刺或西福斯的月光损失的元素精通不值得。万叶的技能冷却时间本就较短。"
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "desc": {
+      "en": "Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints.",
+      "zh": "《原神》4.8版本万叶完整培养指南。最佳武器排名（苍古自由之誓、铁蜂刺），最优圣遗物（翠绿之影），最佳队伍（国际队、冻结队、激化队），循环及元素精通阈值。"
+    },
+    "sub1": {
+      "en": "1. Elemental Mastery — every substat roll matters. Aim for 800-1000 total EM.",
+      "zh": "1. 元素精通——每个副属性词条都很重要。目标为800-1000总元素精通。"
+    },
+    "sub2": {
+      "en": "2. Energy Recharge — 160% minimum. Burst gives 8s of off-field swirls + A4 buff.",
+      "zh": "2. 元素充能效率——最低160%。元素爆发提供8秒后台扩散及固有天赋二增益。"
+    },
+    "sub3": {
+      "en": "3. ATK% — minor personal damage boost. Low priority.",
+      "zh": "3. 攻击力%——少量个人伤害提升。优先级低。"
+    },
+    "sub4": {
+      "en": "4. CRIT Rate — only for Favonius Sword builds to trigger the passive.",
+      "zh": "4. 暴击率——仅适用于西风剑配装以触发被动。"
+    },
+    "related_bennett": {
+      "en": "Support · Noblesse · Aquila Favonia",
+      "zh": "辅助 · 昔日宗室之仪 · 风鹰剑"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Emblem set · The Catch R5",
+      "zh": "副输出 · 绝缘之旗印 · 渔获 R5"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · Engulfing Lightning",
+      "zh": "副C·绝缘套·薙草之稻光"
+    },
+    "weapon_bottom_line": {
+      "en": "EM is king. Freedom-Sworn gives 198 EM + team buff. Iron Sting gives 165 EM and is free forgeable. Xiphos' Moonlight gives EM + converts to ER for the team. Favonius Sword is a comfort option if you desperately need ER.",
+      "zh": "元素精通为王。苍古自由之誓提供198点元素精通和全队增益。铁蜂刺提供165点元素精通且可免费锻造。西福斯的月光提供元素精通并转化为全队元素充能效率。西风剑是急需充能时的舒适选择。"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    }
+  },
+  "nahida": {
+    "intro": {
+      "en": "Nahida, the Dendro Archon, is the single most impactful Dendro character in Genshin Impact. Her Elemental Skill (All Schemes to Know) marks up to 8 enemies and deals coordinated Dendro DMG whenever any marked enemy takes reaction damage. Her Burst provides massive EM buffs to the active character. She enables Hyperbloom, Burgeon, Aggravate, Spread, and Nilou Bloom — essentially every Dendro team wants her. She scales primarily with EM, but unlike other EM users, she also benefits from CRIT and Dendro DMG due to her A4 passive.",
+      "zh": "纳西妲，草之神，是原神中最具影响力的草元素角色。她的元素战技（所闻遍计）可标记最多8名敌人，并在任何标记敌人受到反应伤害时造成协同草元素伤害。她的元素爆发为当前角色提供大量元素精通增益。她能触发超绽放、烈绽放、激化、蔓激化和妮露绽放——几乎所有草元素队伍都需要她。她主要依赖元素精通，但与其他元素精通角色不同，由于固有天赋4，她也能从暴击和草元素伤害中获益。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. Massive EM + team buff based on party elements. Perfect synergy with her A4 and A1 passives.",
+      "zh": "专武。大量元素精通+基于队伍元素的团队增益。与她的固有天赋4和固有天赋1完美协同。"
+    },
+    "w2_notes": {
+      "en": "Best F2P 4-star. High EM substat. Passive resets E cooldown for re-marking enemies — useful when new enemies spawn.",
+      "zh": "最佳免费四星武器。高元素精通副属性。被动重置E冷却时间以便重新标记敌人——在新敌人出现时很有用。"
+    },
+    "w3_notes": {
+      "en": "Strong for on-field Nahida. CRIT DMG substat + random buff (EM buff is massive, ATK/DMG are minor). Inconsistent but high ceiling.",
+      "zh": "适合站场纳西妲。暴击伤害副属性+随机增益（元素精通增益巨大，攻击力/伤害增益较小）。不稳定但上限高。"
+    },
+    "w4_notes": {
+      "en": "Budget champion. 187 EM for a 3-star weapon. +24% DMG vs Hydro/Electro-affected enemies (always active in Hyperbloom). Costs almost nothing to build.",
+      "zh": "性价比之王。三星武器提供187元素精通。对受水/雷元素影响的敌人+24%伤害（在超绽放中始终生效）。几乎零成本培养。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Deepwood Memories",
+      "zh": "🎯 最佳：深林的记忆四件套"
+    },
+    "arti_why": {
+      "en": "Deepwood Memories reduces enemy Dendro RES by 30%. This is essential — ALL Dendro damage benefits, including Hyperbloom and Burgeon (which deal Dendro DMG). In a team with two Dendro characters, the other can hold Deepwood and Nahida can use Gilded Dreams for more personal damage.",
+      "zh": "深林的记忆降低敌人30%草元素抗性。这是必需的——所有草元素伤害都受益，包括超绽放和烈绽放（造成草元素伤害）。在队伍中有两名草元素角色时，另一名可以携带深林的记忆，纳西妲则使用饰金之梦以获得更多个人伤害。"
+    },
+    "sands_note": {
+      "en": "EM sands in almost all cases. ATK% only for C6 on-field DPS build (niche).",
+      "zh": "几乎所有情况下选择元素精通沙漏。仅对六命站场输出玩法选择攻击力%（小众）。"
+    },
+    "goblet_note": {
+      "en": "EM goblet if below 1000 EM. Dendro DMG goblet if already at 1000 EM (A4 caps at 1000).",
+      "zh": "元素精通杯（如果元素精通低于1000）。草元素伤害杯（如果元素精通已达1000，固有天赋4上限为1000）。"
+    },
+    "circlet_note": {
+      "en": "EM circlet for maximum reaction damage. CRIT circlet for on-field Nahida with good substats.",
+      "zh": "元素精通头冠（最大化反应伤害）。暴击头冠（用于副属性良好的站场纳西妲）。"
+    },
+    "team1_name": {
+      "en": "Team 1: Hyperbloom",
+      "zh": "队伍1：超绽放"
+    },
+    "team1_desc": {
+      "en": "The quintessential Dendro team. Nahida marks enemies, Hydro creates cores, Electro triggers Hyperbloom. Kuki heals and triggers with full EM build. Extremely high floor damage with low investment.",
+      "zh": "典型的草元素队伍。纳西妲标记敌人，水元素创造种子，雷元素触发超绽放。久岐忍治疗并触发超绽放，全元素精通配置。低投入下伤害下限极高。"
+    },
+    "team2_name": {
+      "en": "Team 2: Aggravate/Spread",
+      "zh": "队伍2：激化/蔓激化"
+    },
+    "team2_desc": {
+      "en": "Quick-swap Quicken team. Nahida provides EM share for bigger aggravates. Kazuha shreds Electro RES. High single-target damage.",
+      "zh": "快速切换激化队伍。纳西妲提供元素精通共享以增强激化伤害。万叶降低雷元素抗性。高单体伤害。"
+    },
+    "team3_name": {
+      "en": "Team 3: Nilou Bloom",
+      "zh": "队伍3：妮露绽放"
+    },
+    "team3_desc": {
+      "en": "Only Dendro+Hydro allowed. Nilou creates Bountiful Cores that explode instantly. Nahida provides sustained Dendro application to generate cores. Massive AoE damage.",
+      "zh": "仅限草元素+水元素。妮露创造立即爆炸的丰穰之核。纳西妲提供持续草元素附着以生成种子。大量范围伤害。"
+    },
+    "rotation_title": {
+      "en": "Hyperbloom rotation:",
+      "zh": "超绽放循环："
+    },
+    "rotation_code": {
+      "en": "Nahida hold E (mark ALL enemies) > Q > Xingqiu E Q E > Kuki Shinobu E > On-field driver NA spam (to trigger Xingqiu rain swords) > Refresh",
+      "zh": "纳西妲长按E（标记所有敌人）> Q > 行秋E Q E > 久岐忍E > 站场驾驶员普攻（触发行秋雨剑）> 刷新"
+    },
+    "rotation_key": {
+      "en": "Key: Always hold E and mark every enemy on the field. Missing an enemy = no Tri-Karma Purification damage. Kuki must have 1000+ EM (Hyperbloom damage scales ONLY with the Electro trigger's EM and level). Nahida Q buff is based on the highest EM in the party — make sure Kuki or someone has 1000 EM.",
+      "zh": "关键：始终长按E并标记场上所有敌人。漏掉一个敌人=没有灭净三业伤害。久岐忍必须拥有1000+元素精通（超绽放伤害仅取决于雷元素触发者的元素精通和等级）。纳西妲Q增益基于队伍中最高元素精通——确保久岐忍或其他角色有1000元素精通。"
+    },
+    "m1": {
+      "en": "Building ATK instead of EM. Nahida's damage scales with EM. Her A4 passive converts EM to CRIT Rate and DMG bonus. ATK does very little for her.",
+      "zh": "堆攻击力而非元素精通。纳西妲的伤害依赖元素精通。她的固有天赋4将元素精通转化为暴击率和伤害加成。攻击力对她作用很小。"
+    },
+    "m2": {
+      "en": "Putting Deepwood on the wrong character. In a team with another Dendro (like Alhaitham), Nahida can use Gilded Dreams while the other holds Deepwood. But in solo Dendro teams, Nahida MUST hold Deepwood.",
+      "zh": "将深林的记忆放在错误角色身上。在队伍中有另一名草元素角色（如艾尔海森）时，纳西妲可以使用饰金之梦，而另一名角色携带深林的记忆。但在单草队伍中，纳西妲必须携带深林的记忆。"
+    },
+    "m3": {
+      "en": "Not marking enemies with E. Nahida's hold E has a large AoE — mark every enemy before starting your rotation. Unmarked enemies take zero coordinated damage.",
+      "zh": "未用E标记敌人。纳西妲的长按E有较大范围——在开始循环前标记所有敌人。未标记的敌人不会受到协同伤害。"
+    },
+    "m4": {
+      "en": "Using her with too little ER. While her burst cost is low (50), in teams without a second Dendro, 130%+ ER is still needed for consistent uptime.",
+      "zh": "元素充能效率过低。虽然她的元素爆发能量需求低（50），但在没有第二名草元素角色的队伍中，仍需130%+元素充能效率以保证稳定循环。"
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "desc": {
+      "en": "Complete Nahida build guide for Genshin Impact v4.8. Best weapons ranked (A Thousand Floating Dreams, Sacrificial Fragments), optimal artifacts (Deepwood Memories), best teams (Hyperbloom, Aggravate, Nilou Bloom), and EM breakpoints.",
+      "zh": "原神4.8版本纳西妲完整培养指南。最佳武器排名（千夜浮梦、祭礼残章），最优圣遗物（深林的记忆），最佳队伍（超绽放、激化、妮露绽放）及元素精通阈值。"
+    },
+    "sub1": {
+      "en": "1. Elemental Mastery — to 1000 (soft cap for A4 passive). Every point below 1000 matters.",
+      "zh": "1. 元素精通——达到1000（固有天赋4的软上限）。低于1000的每一点都很重要。"
+    },
+    "sub2": {
+      "en": "2. CRIT Rate / CRIT DMG — A4 converts EM to CRIT Rate (max 24%) and DMG bonus (max 80%). Past 1000 EM, CRIT becomes more valuable.",
+      "zh": "2. 暴击率/暴击伤害——固有天赋4将元素精通转化为暴击率（最高24%）和伤害加成（最高80%）。超过1000元素精通后，暴击变得更有价值。"
+    },
+    "sub3": {
+      "en": "3. Energy Recharge — 130% minimum. Burst is important but not as critical as E.",
+      "zh": "3. 元素充能效率——最低130%。元素爆发很重要，但不如元素战技关键。"
+    },
+    "sub4": {
+      "en": "4. ATK% — low value. Nahida's damage scales primarily with EM.",
+      "zh": "4. 攻击力%——价值低。纳西妲的伤害主要依赖元素精通。"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · Engulfing Lightning",
+      "zh": "副C·绝缘套·薙草之稻光"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_kazuha": {
+      "en": "Support · VV set · Freedom-Sworn",
+      "zh": "辅助 · 翠绿之影套装 · 苍古自由之誓"
+    },
+    "weapon_bottom_line": {
+      "en": "A Thousand Floating Dreams (EM + team buff) is BiS. Sacrificial Fragments (EM 221) is the best F2P. Magic Guide (3★, EM 187) is a shockingly good budget option. Prioritize EM on weapon — her entire kit scales with it.",
+      "zh": "千夜浮梦（元素精通+队伍增益）是毕业武器。祭礼残章（元素精通221）是最佳免费武器。魔导绪论（3★，元素精通187）是性价比极高的过渡选择。武器优先选择元素精通——她的所有技能均基于此属性。"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    }
+  },
+  "arlecchino": {
+    "version_badge": {
+      "en": "✅ Applicable to v4.8 · Updated 2026-06-18",
+      "zh": ""
+    },
+    "intro": {
+      "en": "Arlecchino is a top-tier on-field Pyro DPS who scales uniquely with her Bond of Life mechanic. She cannot be healed by allies — instead, her burst is her only source of recovery. This guide covers everything you need to master the Knave in v4.8.",
+      "zh": "阿蕾奇诺是一位顶级的站场火元素输出角色，其独特之处在于依赖「生命之契」机制。她无法被队友治疗——元素爆发是她唯一的恢复手段。本指南将涵盖在4.8版本中掌握「仆人」所需的一切。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. Grants BoL on hit. +DMG% when BoL above 30%. Tailor-made.",
+      "zh": "专武。命中时赋予生命之契。生命之契高于30%时提升伤害加成。量身定制。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. +48% NA DMG. Incredible for a 3-star. Free from Liyue chests.",
+      "zh": "最佳免费武器。+48%普通攻击伤害。作为三星武器极为出色。从璃月宝箱免费获取。"
+    },
+    "w3_notes": {
+      "en": "Universal stat stick. HP→ATK conversion. Strong alternative if you have it.",
+      "zh": "通用属性武器。生命值转化为攻击力。如果你拥有它，是不错的替代选择。"
+    },
+    "w4_notes": {
+      "en": "Stacking ATK% buff. High base ATK. Solid all-rounder from standard banner.",
+      "zh": "叠加攻击力加成。基础攻击力高。来自常驻祈愿的可靠全能武器。"
+    },
+    "w5_notes": {
+      "en": "Battle Pass weapon. High CRIT Rate makes building easy. Good stat stick.",
+      "zh": "纪行武器。高暴击率使配装轻松。不错的属性武器。"
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Fragment of Harmonic Whimsy",
+      "zh": "🎯 最佳：4件套「谐律异想断章」"
+    },
+    "arti_why": {
+      "en": "Tailor-made for Arlecchino. Grants 18% ATK (2pc). When Bond of Life fluctuates, gain up to 54% DMG bonus (4pc). This set was released alongside her and is mathematically her ceiling.",
+      "zh": "为阿蕾奇诺量身定制。2件套提供18%攻击力。当生命之契变动时，4件套最多提供54%伤害加成。该套装与她同期上线，数学上是她的上限选择。"
+    },
+    "arti_alt_title": {
+      "en": "Alternative: 4-Piece Gladiator's Finale",
+      "zh": ""
+    },
+    "arti_alt_why": {
+      "en": "Within 5-8% of Whimsy. +35% NA DMG. Easier to farm.",
+      "zh": ""
+    },
+    "arti_transition": {
+      "en": "Transition from Gladiator to Whimsy with good pieces.",
+      "zh": ""
+    },
+    "sands_note": {
+      "en": "Always ATK%. She does not need ER nearly as much as Raiden. HP% is wasted — she cannot be healed.",
+      "zh": "始终选择攻击力。她不像雷电将军那样需要大量元素充能效率。生命值无用——她无法被治疗。"
+    },
+    "goblet_note": {
+      "en": "Pyro DMG is optimal. ATK% goblet is a viable placeholder but aim for Pyro.",
+      "zh": "火元素伤害最优。攻击力杯是可行的过渡选择，但目标应为火伤杯。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 CRIT ratio. ~80% CR, ~180%+ CD. CRIT Rate is especially valuable since she has zero CRIT ascension.",
+      "zh": "追求1:2暴击比例。约80%暴击率，180%以上暴击伤害。暴击率尤其重要，因为她突破不加暴击。"
+    },
+    "sub_crit": {
+      "en": "1. CRIT Rate / CRIT DMG (1:2, aim 80/180+)",
+      "zh": ""
+    },
+    "sub_atk": {
+      "en": "2. ATK% — Primary damage stat",
+      "zh": ""
+    },
+    "sub_em": {
+      "en": "3. EM (Vape teams only)",
+      "zh": ""
+    },
+    "sub_er": {
+      "en": "4. ER (low priority — not burst-dependent)",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "team1_name": {
+      "en": "Team 1: Vape Arlecchino",
+      "zh": "队伍1：蒸发流阿蕾奇诺"
+    },
+    "team1_desc": {
+      "en": "👥 Her highest ceiling team. Yelan and/or Xingqiu provide off-field Hydro for consistent Vaporize. Kazuha groups enemies and shreds Pyro RES with VV. Bennett buffs ATK — yes, Bennett is fine even though he heals; his ATK buff far outweighs the anti-synergy. Arlecchino's self-sustain from burst is enough.",
+      "zh": "👥 她的最高上限队伍。夜兰和/或行秋提供后台水元素以触发稳定蒸发。枫原万叶聚怪并用翠绿之影降低火元素抗性。班尼特提升攻击力——是的，即使他会治疗也无妨；他的攻击力加成远超过反协同。阿蕾奇诺通过元素爆发的自给自足已足够。"
+    },
+    "team2_name": {
+      "en": "Team 2: Mono Pyro",
+      "zh": "队伍2：纯火队"
+    },
+    "team2_desc": {
+      "en": "👥 No reactions, just raw Pyro dominance. Xiangling provides off-field damage and Pyro resonance (+25% ATK). Kazuha shreds RES and groups. Bennett buffs both Arlecchino and Xiangling. Consistent, easy to play, less dependent on EM substats.",
+      "zh": "👥 无反应，纯粹的火元素统治。香菱提供后台伤害和双火共鸣（+25%攻击力）。枫原万叶减抗并聚怪。班尼特同时提升阿蕾奇诺和香菱的攻击力。稳定易玩，对元素精通副词条依赖较低。"
+    },
+    "team3_name": {
+      "en": "Team 3: Overload (Chevreuse)",
+      "zh": "队伍3：超载队（夏沃蕾）"
+    },
+    "team3_desc": {
+      "en": "👥 Overload comp enabled by Chevreuse. Fischl provides off-field Electro for Overload triggers. Chevreuse shreds Pyro/Electro RES and provides ATK buff. Bennett rounds out the team. High single-target damage, excellent against bosses. NO HEALERS APART FROM BENNETT. Chevreuse's healing is minimal and optional — her buffs come from her passive, not healing.",
+      "zh": "👥 由夏沃蕾驱动的超载阵容。菲谢尔提供后台雷元素触发超载。夏沃蕾降低火/雷元素抗性并提供攻击力加成。班尼特补全队伍。对单伤害高，面对首领时表现出色。除班尼特外无需治疗。夏沃蕾的治疗量极少且非必需——她的增益来自被动技能，而非治疗。"
+    },
+    "no_healer_title": {
+      "en": "⚠️ IMPORTANT: No Healers Allowed",
+      "zh": ""
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "talent_na": {
+      "en": "Normal Attack — Main damage. Crown it.",
+      "zh": ""
+    },
+    "talent_e": {
+      "en": "Skill — BoL generation. Level to 8-9.",
+      "zh": ""
+    },
+    "talent_q": {
+      "en": "Burst — Emergency heal. Level to 6-8.",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "rotation_title": {
+      "en": "Vape Arlecchino rotation:",
+      "zh": "蒸发流阿蕾奇诺循环："
+    },
+    "rotation_code": {
+      "en": "Arlecchino E → Kazuha E Q (VV shred, grouping) → Yelan E Q → Bennett Q E → Kazuha E (reapply VV) → Arlecchino CA (absorb BoL) → N3D × 4-5 → Q (if needed) → Repeat",
+      "zh": "阿蕾奇诺E → 枫原万叶E Q（翠绿之影减抗、聚怪） → 夜兰E Q → 班尼特Q E → 枫原万叶E（重新触发翠绿之影） → 阿蕾奇诺重击（吸收生命之契） → N3D × 4-5 → Q（如需） → 重复"
+    },
+    "rotation_key": {
+      "en": "Key: CA AFTER supports to absorb Dire marks for maximum BoL.",
+      "zh": ""
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ ❌ Bringing a healer other than Bennett. Arlecchino's A1 passive prevents all ally healing in combat. Kokomi, Baizhu, Xianyun, etc. are dead slots. Bennett is only used for his ATK buff.",
+      "zh": "❌ ❌ 携带班尼特以外的治疗角色。阿蕾奇诺的固有天赋一在战斗中阻止所有队友治疗。心海、白术、闲云等角色是无效位置。班尼特仅因其攻击力加成而使用。"
+    },
+    "m2": {
+      "en": "❌ ❌ Using Burst too early. Her Q clears all Bond of Life and heals. If you burst before consuming BoL with NAs, you lose your damage buff and waste uptime.",
+      "zh": "❌ ❌ 过早使用元素爆发。她的Q清除所有生命之契并治疗。如果在普通攻击消耗生命之契前爆发，会损失伤害加成并浪费输出时间。"
+    },
+    "m3": {
+      "en": "❌ ❌ Forgetting to absorb the mark. After using E, you must use a Charged Attack after ~5 seconds to absorb the Bond of Life. Without this, your NAs deal physical damage — almost zero.",
+      "zh": "❌ ❌ 忘记吸收标记。使用E后，约5秒后必须使用重击吸收生命之契。否则，普通攻击造成物理伤害——几乎为零。"
+    },
+    "m4": {
+      "en": "❌ ❌ Not building enough CRIT Rate. Arlecchino has no innate CRIT from ascension (she gets CRIT DMG). Without a CRIT Rate weapon or circlet, you will struggle to reach 70%+ CRIT Rate.",
+      "zh": "❌ ❌ 暴击率不足。阿蕾奇诺突破不加暴击（她加暴击伤害）。没有暴击率武器或头冠，很难达到70%以上暴击率。"
+    },
+    "m5": {
+      "en": "❌ ❌ Running a shielder instead of offensive support. Zhongli is comfortable but significantly lowers her damage ceiling. Kazuha or Sucrose provide far more team DPS. Learn to dodge.",
+      "zh": "❌ ❌ 使用护盾角色而非进攻辅助。钟离舒适但显著降低伤害上限。枫原万叶或砂糖提供更高的队伍输出。学会闪避。"
+    },
+    "pro_teaser_title": {
+      "en": "Pro Deep Dive — DMG Simulation Preview",
+      "zh": ""
+    },
+    "pro_teaser_desc": {
+      "en": "Simulate exact Vape damage, compare Whimsy vs Gladiator, optimize BoL uptime.",
+      "zh": ""
+    },
+    "pro_teaser_cta": {
+      "en": "See exact DMG numbers. Compare builds.",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "related_title": {
+      "en": "📚 Related Build Guides",
+      "zh": ""
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xl": {
+      "en": "Sub DPS · Emblem set · The Catch R5",
+      "zh": ""
+    },
+    "related_kazuha": {
+      "en": "Support · VV set · Freedom-Sworn",
+      "zh": "辅助 · 翠绿之影套装 · 苍古自由之誓"
+    },
+    "tldr_title": {
+      "en": "⚡ TL;DR — Quick Answer (30s read)",
+      "zh": ""
+    },
+    "th_rank": {
+      "en": "Rank",
+      "zh": "排名"
+    },
+    "th_weapon": {
+      "en": "Weapon",
+      "zh": "武器"
+    },
+    "th_rarity": {
+      "en": "Rarity",
+      "zh": "稀有度"
+    },
+    "th_atk": {
+      "en": "Base ATK",
+      "zh": "基础攻击"
+    },
+    "th_substat": {
+      "en": "Sub-stat",
+      "zh": "副属性"
+    },
+    "th_notes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sec_mainstats": {
+      "en": "Main Stats Priority",
+      "zh": ""
+    },
+    "th_slot": {
+      "en": "Slot",
+      "zh": "部位"
+    },
+    "th_mainstat": {
+      "en": "Main Stat",
+      "zh": "主词条"
+    },
+    "th_mnotes": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "sands_label": {
+      "en": "Sands",
+      "zh": "时之沙"
+    },
+    "goblet_label": {
+      "en": "Goblet",
+      "zh": "空之杯"
+    },
+    "circlet_label": {
+      "en": "Circlet",
+      "zh": "理之冠"
+    },
+    "sec_substats": {
+      "en": "Sub-stat Priority",
+      "zh": ""
+    },
+    "char_role": {
+      "en": "The Knave. BoL Pyro DPS.",
+      "zh": ""
+    },
+    "talent_note": {
+      "en": "Crown NA. E to 8-9. Q emergency only.",
+      "zh": ""
+    },
+    "sub1": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio, aim 80/180+)",
+      "zh": "暴击率 / 暴击伤害（1:2比例，目标80/180+）"
+    },
+    "sub2": {
+      "en": "ATK%",
+      "zh": "ATK%"
+    },
+    "sub3": {
+      "en": "Elemental Mastery (Vape teams only, aim 100-200)",
+      "zh": "元素精通（仅限蒸发队，目标100-200）"
+    },
+    "sub4": {
+      "en": "Energy Recharge (nice to have, ~120% is comfortable)",
+      "zh": "元素充能效率（锦上添花，约120%即可舒适）"
+    },
+    "talent1_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent2_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Emblem set · The Catch R5",
+      "zh": "副输出 · 绝缘之旗印 · 渔获 R5"
+    },
+    "desc": {
+      "en": "Complete Arlecchino build guide for Genshin Impact v4.8. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide.",
+      "zh": "阿蕾奇诺在《原神》4.8版本中的完整培养指南。最佳武器排名（赤月之形、白缨枪），最优圣遗物（谐律异想断章、角斗士的终幕礼），队伍搭配及输出手法指南。"
+    }
+  },
+  "neuvillette": {
+    "version_badge": {
+      "en": "✅ Applicable to v4.8 · Updated 2026-06-18",
+      "zh": ""
+    },
+    "intro": {
+      "en": "Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v4.8.",
+      "zh": "那维莱特是《原神》中最强站场水元素输出角色之一。他的蓄力攻击光束能造成持续范围伤害，且完全基于生命值——而非攻击力。搭配「逐影猎人」四件套提供的36%免费暴击率，你可以将暴击伤害堆到离谱的程度。本指南涵盖在4.8版本中优化培养他所需的一切。"
+    },
+    "sec_weapons": {
+      "en": "1. Best Weapons (Ranked)",
+      "zh": ""
+    },
+    "w1_notes": {
+      "en": "Signature. HP manipulation = extra CA DMG. Massive CD stat stick.",
+      "zh": "专武。生命值操控 = 额外蓄力攻击伤害。高额暴击伤害副词条。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. HP% substat + energy refund + team heal. Rivals 5-stars!",
+      "zh": "最佳免费武器。生命值百分比副词条 + 能量回复 + 全队治疗。媲美五星武器！"
+    },
+    "w3_notes": {
+      "en": "Battle Pass. Huge HP buff after 5s off-field. Requires rotation discipline.",
+      "zh": "纪行武器。离场5秒后获得巨额生命值加成。需要严格循环纪律。"
+    },
+    "sec_artifacts": {
+      "en": "2. Best Artifact Sets",
+      "zh": ""
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Marechaussee Hunter",
+      "zh": "🎯 最佳：逐影猎人四件套"
+    },
+    "arti_why": {
+      "en": "Neuvillette's charged attack constantly drains and heals his own HP, triggering Marechaussee's 36% CRIT Rate bonus effortlessly. This frees you to stack CRIT DMG to 250%+ while maintaining a 1:2 ratio. With his HP-scaling, this set is essentially custom-made for him.",
+      "zh": "那维莱特的蓄力攻击会持续消耗并恢复自身生命值，轻松触发逐影猎人的36%暴击率加成。这让你可以自由堆叠暴击伤害至250%以上，同时保持1:2比例。鉴于他的生命值倍率，这套圣遗物几乎是为他量身定做。"
+    },
+    "arti_alt_title": {
+      "en": "Alternative: 4-Piece Heart of Depth",
+      "zh": ""
+    },
+    "arti_alt_why": {
+      "en": "+30% NA/CA DMG after skill. About 8-12% behind MH.",
+      "zh": ""
+    },
+    "sands_note": {
+      "en": "Always HP%. His entire kit scales from HP — ATK is useless on him.",
+      "zh": "始终选择生命值百分比。他的整个技能组基于生命值——攻击力对他无用。"
+    },
+    "goblet_note": {
+      "en": "Hydro DMG is ~3-5% better. HP% goblet is extremely close with Furina + Kazuha buffs.",
+      "zh": "水元素伤害加成约好3-5%。在芙宁娜和万叶的加成下，生命值百分比杯子与它极其接近。"
+    },
+    "circlet_note": {
+      "en": "CRIT DMG usually best. With MH set, aim for 64% CR (100% effective). HP% circlet viable with high CD subs.",
+      "zh": "暴击伤害通常最佳。搭配逐影猎人套，目标64%暴击率（100%有效）。若暴击伤害副词条高，生命值百分比头也可行。"
+    },
+    "sub_critdmg": {
+      "en": "1. CRIT DMG — MH set covers CRIT Rate. Aim 200%+",
+      "zh": ""
+    },
+    "sub_hp": {
+      "en": "2. HP% — Primary damage scaling",
+      "zh": ""
+    },
+    "sub_er": {
+      "en": "3. ER — 120-140% for smooth rotations",
+      "zh": ""
+    },
+    "sub_critrate": {
+      "en": "4. CRIT Rate — Only if below 40% (without MH)",
+      "zh": ""
+    },
+    "sec_teams": {
+      "en": "3. Best Team Compositions",
+      "zh": ""
+    },
+    "team1_name": {
+      "en": "Team 1: Neuvillette Hypercarry",
+      "zh": "队伍1：那维莱特主C"
+    },
+    "team1_desc": {
+      "en": "Neuvillette · Furina · Kazuha · Baizhu. His premium team. Furina provides massive DMG% and enables his A1 passive. Kazuha VV shred + grouping. Baizhu provides shields and healing for Furina stacks. Highest ceiling.",
+      "zh": "那维莱特 · 芙宁娜 · 万叶 · 白术。他的顶级队伍。芙宁娜提供巨额伤害加成并激活他的固有天赋一。万叶提供翠绿之影减抗和聚怪。白术提供护盾和治疗以叠加芙宁娜层数。上限最高。"
+    },
+    "team2_name": {
+      "en": "Team 2: Budget Freeze/Hypercarry",
+      "zh": "队伍二：经济冻结/超强主C"
+    },
+    "team2_desc": {
+      "en": "Neuvillette · Fischl · Sucrose · Zhongli. Zhongli shield is essential at C0 for interruption resistance. Fischl provides consistent electro application and off-field damage. Sucrose provides VV shred and EM/grouping.",
+      "zh": "那维莱特 · 菲谢尔 · 砂糖 · 钟离。零命时钟离护盾对打断抗性至关重要。菲谢尔提供稳定雷元素附着和后台伤害。砂糖提供翠绿之影减抗和元素精通/聚怪。"
+    },
+    "team3_name": {
+      "en": "Team 3: Taser (Electro-Charged)",
+      "zh": "队伍三：感电队"
+    },
+    "team3_desc": {
+      "en": "Neuvillette · Fischl · Beidou · Kazuha/Sucrose. Double Electro for particle generation. Beidou's burst chains through Neuvillette's charged attack beam. High AoE damage and stagger resistance.",
+      "zh": "那维莱特 · 菲谢尔 · 北斗 · 万叶/砂糖。双雷共鸣提供微粒生成。北斗的元素爆发通过那维莱特的蓄力攻击光束连锁。高范围伤害和打断抗性。"
+    },
+    "team4_name": {
+      "en": "Team 4: Hyperbloom Driver",
+      "zh": "队伍四：超绽放驾驶员"
+    },
+    "team4_desc": {
+      "en": "Neuvillette · Nahida · Raiden (Full EM) · Flex (Zhongli/Baizhu). Neuvillette drives hyperblooms with sustained Hydro application. Raiden triggers from off-field. Extremely high floor damage with minimal investment.",
+      "zh": "那维莱特 · 纳西妲 · 雷电将军（全元素精通） · 灵活位（钟离/白术）。那维莱特通过持续水元素附着驱动超绽放。雷电将军从后台触发。低投入下基础伤害极高。"
+    },
+    "sec_talent": {
+      "en": "4. Talent Priority",
+      "zh": ""
+    },
+    "talent_na": {
+      "en": "Normal Attack (CA!) — Main damage. Crown it.",
+      "zh": ""
+    },
+    "talent_e": {
+      "en": "Skill — 3 droplets. Level to 8-9.",
+      "zh": ""
+    },
+    "talent_q": {
+      "en": "Burst — 6 droplets. Level to 8-9.",
+      "zh": ""
+    },
+    "sec_rotation": {
+      "en": "5. Rotation Guide",
+      "zh": ""
+    },
+    "rotation_title": {
+      "en": "Neuvillette Hypercarry rotation:",
+      "zh": "那维莱特超强主C循环："
+    },
+    "rotation_code": {
+      "en": "Neuvillette E → Furina E Q → Kazuha E (tap) Q → Baizhu E Q → Neuvillette CA (hold) → Q → E → CA (hold) × 2 → Repeat",
+      "zh": "那维莱特E → 芙宁娜E Q → 万叶E（点按）Q → 白术E Q → 那维莱特CA（长按）→ Q → E → CA（长按）× 2 → 重复"
+    },
+    "rotation_key": {
+      "en": "⚠️ Use Neuvillette's E first to generate Sourcewater Droplets. After supports, hold CA to absorb droplets for instant beam. At C1+, you can use 2 charged attacks without re-setup.",
+      "zh": "⚠️ 先使用那维莱特的E技能生成源水之滴。辅助技能释放后，长按蓄力攻击吸收水滴以立即发射光束。一命及以上时，无需重新布置即可使用两次蓄力攻击。"
+    },
+    "sec_mistakes": {
+      "en": "6. Common Mistakes",
+      "zh": ""
+    },
+    "m1": {
+      "en": "❌ Building ATK on Neuvillette. His entire kit scales with HP. ATK% sands, ATK% substats, and ATK-buffing weapons (except his signature which has CD) are dead stats on him.",
+      "zh": "❌ 给那维莱特堆攻击力。他的整个技能组基于生命值。攻击力百分比沙漏、攻击力百分比副词条和攻击力加成武器（除专武有暴击伤害外）对他都是无效属性。"
+    },
+    "m2": {
+      "en": "❌ Running C0 without a shielder. Neuvillette's charged attack beam can be interrupted by any hit. At C0, you must run a shielder or you will lose significant DPS from canceled beams.",
+      "zh": "❌ 零命不带护盾角色。那维莱特的蓄力攻击光束会被任何攻击打断。零命时必须带护盾角色，否则会因光束中断损失大量输出。"
+    },
+    "m3": {
+      "en": "❌ Not triggering all 3 Hydro-related reactions. Neuvillette's A1 passive gives up to 160% CA DMG bonus when 3 different Hydro reactions occur. Build teams that trigger at least 2-3 different reaction types.",
+      "zh": "❌ 未触发全部三种水元素相关反应。那维莱特的固有天赋一在触发三种不同水元素反应时提供高达160%的蓄力攻击伤害加成。组建能触发至少2-3种不同反应类型的队伍。"
+    },
+    "m4": {
+      "en": "❌ Underestimating HP% goblet. With Furina + Kazuha providing massive DMG% buffs, HP% goblet can outperform Hydro DMG goblet if it has better substats. Don't auto-trash HP% goblets with good CRIT rolls.",
+      "zh": "❌ 低估生命值百分比杯子。在芙宁娜和万叶提供巨额伤害加成时，若副词条更好，生命值百分比杯子可能优于水元素伤害加成杯子。不要自动丢弃有优质暴击词条的生命值百分比杯子。"
+    },
+    "pro_teaser_title": {
+      "en": "Pro Deep Dive — DMG Simulation Preview",
+      "zh": ""
+    },
+    "pro_teaser_desc": {
+      "en": "Calculate exact CA beam damage, compare HP% vs Hydro goblet, optimize droplets.",
+      "zh": ""
+    },
+    "pro_teaser_cta": {
+      "en": "See exact DMG numbers. Compare builds.",
+      "zh": ""
+    },
+    "pro_lock_btn": {
+      "en": "Unlock Pro — $5/month",
+      "zh": ""
+    },
+    "related_title": {
+      "en": "📚 Related Build Guides",
+      "zh": ""
+    },
+    "related_furina": {
+      "en": "Support/Sub DPS · Golden Troupe · Splendor",
+      "zh": "辅助/副C · 黄金剧团 · 静息闪耀"
+    },
+    "related_kazuha": {
+      "en": "Support · VV set · Freedom-Sworn",
+      "zh": "辅助 · 翠绿之影套装 · 苍古自由之誓"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · The Catch R5",
+      "zh": "副输出 · 绝缘之旗印 · 渔获 R5"
+    },
+    "sub_crit": {
+      "en": "1. CRIT DMG — MH set. Aim 200%+",
+      "zh": ""
+    },
+    "sub_em": {
+      "en": "2. HP% — Primary scaling",
+      "zh": ""
+    },
+    "talent_note": {
+      "en": "NA(CA) > Burst > Skill",
+      "zh": ""
+    },
+    "constellation_note": {
+      "en": "C1 no shielder needed.",
+      "zh": ""
+    },
+    "sub1": {
+      "en": "CRIT Rate / CRIT DMG (aim for 64% CR with MH set, rest into CD)",
+      "zh": "暴击率 / 暴击伤害（逐影猎人套下目标64%暴击率，其余堆暴击伤害）"
+    },
+    "sub2": {
+      "en": "HP%",
+      "zh": "HP%"
+    },
+    "sub3": {
+      "en": "Energy Recharge (120-140% comfortable, less with Prototype Amber or double Hydro)",
+      "zh": "元素充能效率（120-140%舒适，若用试作金珀或双水则更低）"
+    },
+    "sub4": {
+      "en": "Elemental Mastery (niche — Vaporize teams only)",
+      "zh": "元素精通（特定情况——仅限蒸发队）"
+    },
+    "sub5": {
+      "en": "2. HP% — Primary scaling",
+      "zh": ""
+    },
+    "sub6": {
+      "en": "4. CRIT Rate — Only if below 40% (without MH)",
+      "zh": ""
+    },
+    "weapon_bottom_line": {
+      "en": "Tome of the Eternal Flow is his signature and BiS. Prototype Amber R5 is shockingly close — and craftable for free. Only pull signature if you want to min-max.",
+      "zh": "「万世流涌大典」是他的专属武器和最佳选择。精5「试作金珀」的表现惊人地接近——而且可以免费锻造。只有当你想要追求极致输出时才抽取专属武器。"
+    },
+    "talent1_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "desc": {
+      "en": "Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.",
+      "zh": "原神4.8版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。"
+    }
+  },
+  "xiangling": {
+    "intro": {
+      "en": "Xiangling is the best 4-star unit in Genshin. Her burst (Pyronado) deals massive off-field Pyro damage that snapshots her stats. Essential in every meta team since launch.",
+      "zh": "香菱是原神中最强的四星角色。她的元素爆发（旋火轮）能造成大量脱手火元素伤害，并锁定施放时的面板属性。自上线以来，她一直是所有顶级配队中的核心。"
+    },
+    "weapon_bottom_line": {
+      "en": "The Catch R5 is free and excellent. Prioritize ER — XL needs to burst every rotation.",
+      "zh": "渔获精5免费且表现优异。优先堆叠元素充能效率——香菱每轮循环都需要释放元素爆发。"
+    },
+    "rotation_title": {
+      "en": "Recommended rotation:",
+      "zh": "推荐循环顺序："
+    },
+    "rotation_code": {
+      "en": "Bennett Q E → Xingqiu E Q E → Xiangling Q E → Raiden E → Raiden Q → N3C × 4",
+      "zh": "班尼特点按元素爆发→行秋点按元素战技→点按元素爆发→点按元素战技→香菱点按元素爆发→点按元素战技→雷电将军点按元素战技→雷电将军点按元素爆发→4次普攻重击循环"
+    },
+    "w1_notes": {
+      "en": "Free from fishing. +32% burst DMG. Best F2P.",
+      "zh": "通过钓鱼免费获取。元素爆发伤害提升32%。最佳零氪武器。"
+    },
+    "w2_notes": {
+      "en": "BiS. HP→ATK conversion. High investment.",
+      "zh": "毕业武器。生命值转化为攻击力。高投入选择。"
+    },
+    "w3_notes": {
+      "en": "Team battery. High ER substat. Provides particles for the whole team.",
+      "zh": "队伍充能辅助。高元素充能效率副词条。为全队提供元素微粒。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Emblem of Severed Fate",
+      "zh": "🎯 最佳：4件套绝缘之旗印"
+    },
+    "arti_why": {
+      "en": "4-Piece Emblem of Severed Fate is the optimal set for Xiangling.",
+      "zh": "4件套绝缘之旗印是香菱的毕业圣遗物套装。"
+    },
+    "sands_note": {
+      "en": "ER% until 180-200%. Then ATK%.",
+      "zh": "元素充能效率堆至180%-200%，随后堆攻击力%。"
+    },
+    "goblet_note": {
+      "en": "Pyro DMG almost always better.",
+      "zh": "火元素伤害加成几乎总是更优。"
+    },
+    "circlet_note": {
+      "en": "Aim for 60%+ CR. XL crits a lot.",
+      "zh": "暴击率目标60%以上。香菱需要频繁触发暴击。"
+    },
+    "sub1": {
+      "en": "⚡ Genshin Guide Home",
+      "zh": "⚡ 原神攻略主页"
+    },
+    "sub2": {
+      "en": "Guides",
+      "zh": "Guides"
+    },
+    "sub3": {
+      "en": "Calculator",
+      "zh": "Calculator"
+    },
+    "sub4": {
+      "en": "Pro $5/mo",
+      "zh": "Pro $5/mo"
+    },
+    "team1_name": {
+      "en": "Team 1: Raiden National",
+      "zh": "队伍1：雷国队"
+    },
+    "team1_desc": {
+      "en": "The golden standard. XL + XQ + Bennett + Raiden. XL's burst snaphots Bennett's ATK buff. Devastating.",
+      "zh": "黄金标准配队。香菱+行秋+班尼特+雷电将军。香菱的元素爆发能锁定班尼特的攻击力加成，伤害惊人。"
+    },
+    "team2_name": {
+      "en": "Team 2: Xiangling Overload",
+      "zh": "配队二：香菱超载队"
+    },
+    "team2_desc": {
+      "en": "XL + Chevreuse + Fischl + (flex). Overload meta with Pyro resonance. High ceiling.",
+      "zh": "香菱+夏沃蕾+菲谢尔+（灵活位）。超载反应体系配合双火共鸣，上限极高。"
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "m1": {
+      "en": "❌ Not enough ER. Xiangling needs 180%+ to burst every rotation. Below 160% = rotation fail.",
+      "zh": "❌ 元素充能效率不足。香菱需要180%以上才能每轮循环释放元素爆发。低于160%会导致循环失败。"
+    },
+    "m2": {
+      "en": "❌ Burst before Bennett Q. XL's burst snapshots ATK buff — always Bennett Q first.",
+      "zh": "❌ 在班尼特点按元素爆发前释放元素爆发。香菱的元素爆发会锁定攻击力加成——务必先放班尼特点按元素爆发。"
+    },
+    "related_raiden": {
+      "en": "Sub DPS · Emblem set · Engulfing Lightning",
+      "zh": "副C·绝缘套·薙草之稻光"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "desc": {
+      "en": "Complete Xiangling build guide for Genshin Impact v4.8. Best weapons (The Catch R5, Staff of Homa), optimal artifacts (Emblem of Severed Fate), team compositions (Raiden National), and rotation guide.",
+      "zh": "原神4.8版本香菱完整培养指南。最佳武器（渔获精5、护摩之杖）、毕业圣遗物（绝缘之旗印）、配队推荐（雷神国家队）及循环手法。"
+    }
+  },
+  "raiden": {
+    "intro": {
+      "en": "Raiden Shogun is one of Genshin's most versatile characters: team battery, sub-DPS, and enabler. This guide covers everything you need to build her optimally in v4.8.",
+      "zh": "雷电将军是原神中最全能的角色之一：队伍充电宝、副输出和辅助。本指南涵盖在4.8版本中优化培养她所需的一切。"
+    },
+    "weapon_bottom_line": {
+      "en": "Engulfing Lightning is BiS. The Catch R5 is 85% as good — and free. Only pull signature if you want to min-max.",
+      "zh": "薙草之稻光是最佳选择。渔获精5有85%的效果——而且免费。只有想追求极限才抽专武。"
+    },
+    "rotation_title": {
+      "en": "Raiden National rotation:",
+      "zh": "雷国队循环："
+    },
+    "rotation_code": {
+      "en": "Raiden E → Xingqiu E Q E → Bennett Q E → Xiangling Q E → Raiden Q → N3C × 4 → Repeat",
+      "zh": "雷电将军E → 行秋E Q E → 班尼特Q E → 香菱Q E → 雷电将军Q → 3次重击×4 → 重复"
+    },
+    "rotation_key": {
+      "en": "⚠️ Raiden's E first for coordinated attack. Bennett before Xiangling so she snapshots the ATK buff.",
+      "zh": "⚠️ 雷电将军先放E触发协同攻击。班尼特在香菱之前，以便香菱锁住攻击力加成。"
+    },
+    "w1_notes": {
+      "en": "Signature. ATK based on ER above 100%.",
+      "zh": "专武。基于充能效率超过100%的部分提升攻击力。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. +32% burst DMG, +12% CR. Free.",
+      "zh": "最佳免费武器。+32%元素爆发伤害，+12%暴击率。免费。"
+    },
+    "w3_notes": {
+      "en": "Strong stat stick. HP convert to ATK.",
+      "zh": "强力属性武器。生命值转化为攻击力。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4-Piece Emblem of Severed Fate",
+      "zh": "🎯 最佳：4件套绝缘之旗印"
+    },
+    "arti_why": {
+      "en": "Raiden's kit revolves around her burst and ER. Emblem converts ER investment into burst DMG. With 250% ER → 62.5% burst DMG bonus.",
+      "zh": "雷电将军的机制围绕元素爆发和元素充能效率。绝缘之旗印将充能效率投入转化为元素爆发伤害。250%元素充能效率→62.5%元素爆发伤害加成。"
+    },
+    "sands_note": {
+      "en": "ER% if below 250%. ATK% if Engulfing + high ER subs.",
+      "zh": "元素充能效率（低于250%时）。攻击力（使用薙草之稻光且充能副词条高时）。"
+    },
+    "goblet_note": {
+      "en": "Electro generally better. ATK% goblet viable with Engulfing.",
+      "zh": "雷伤杯通常更好。攻击杯在携带薙草之稻光时可用。"
+    },
+    "circlet_note": {
+      "en": "Aim for 1:2 CRIT. ~70% CR, ~140%+ CD.",
+      "zh": "目标1:2暴击比例。约70%暴击率，140%+暴击伤害。"
+    },
+    "sub1": {
+      "en": "Energy Recharge (until 250-270%)",
+      "zh": "元素充能效率（直到250-270%）"
+    },
+    "sub2": {
+      "en": "CRIT Rate / CRIT DMG (1:2 ratio)",
+      "zh": "暴击率/暴击伤害（1:2比例）"
+    },
+    "sub3": {
+      "en": "ATK%",
+      "zh": "ATK%"
+    },
+    "sub4": {
+      "en": "Elemental Mastery (Hyperbloom build only)",
+      "zh": "元素精通（仅限超绽放玩法）"
+    },
+    "team1_name": {
+      "en": "Team 1: Raiden National",
+      "zh": "队伍1：雷国队"
+    },
+    "team1_desc": {
+      "en": "The classic. High single-target + AoE. Consistent rotations. Easy to play. Perfect for Abyss.",
+      "zh": "经典阵容。高单体+范围伤害。循环稳定。易上手。深渊完美选择。"
+    },
+    "team2_name": {
+      "en": "Team 2: Raiden Hypercarry",
+      "zh": "队伍2：雷神主C队"
+    },
+    "team2_desc": {
+      "en": "Maximum personal damage. Kazuha VV shred + Sara/Bennett ATK buffs. Massive burst numbers. Needs C6 Sara.",
+      "zh": "最大化个人伤害。万叶翠绿之影减抗+九条/班尼特攻击力加成。巨额元素爆发数字。需要六命九条。"
+    },
+    "team3_name": {
+      "en": "Team 3: Raiden Hyperbloom",
+      "zh": "队伍3：雷神超绽放队"
+    },
+    "team3_desc": {
+      "en": "Full EM build (Triple EM, Dragon's Bane). Triggers hyperblooms from off-field. Highest floor-damage team in the game.",
+      "zh": "全元素精通配装（三精通主词条，匣里灭辰）。后台触发超绽放。游戏中基础伤害最高的队伍。"
+    },
+    "talent1_label": {
+      "en": "Elemental Burst",
+      "zh": "元素爆发"
+    },
+    "talent2_label": {
+      "en": "Elemental Skill",
+      "zh": "元素战技"
+    },
+    "talent3_label": {
+      "en": "Normal Attack",
+      "zh": "普通攻击"
+    },
+    "m1": {
+      "en": "❌ Too little ER. Raiden needs 250%+. Below 220%, burst won't be up on cooldown.",
+      "zh": "❌ 充能效率太低。雷电将军需要250%以上。低于220%，元素爆发无法冷却时释放。"
+    },
+    "m2": {
+      "en": "❌ ATK% sands without enough ER. ER sands is almost always better.",
+      "zh": "❌ 攻击沙漏但充能不足。充能沙漏几乎总是更好。"
+    },
+    "m3": {
+      "en": "❌ Not leveling skill. Her E buffs team burst DMG. Level it to at least 8.",
+      "zh": "❌ 不升级战技。她的E技能提升队伍元素爆发伤害。至少升到8级。"
+    },
+    "m4": {
+      "en": "❌ Wasting burst on low HP enemies. Initial slash does massive DMG — aim at biggest threat.",
+      "zh": "❌ 对低血量敌人浪费元素爆发。初始斩击造成巨额伤害——瞄准最大威胁。"
+    },
+    "related_hutao": {
+      "en": "Main DPS · Crimson Witch · Double Hydro",
+      "zh": "主C · 炽烈的炎之魔女 · 双水"
+    },
+    "related_yelan": {
+      "en": "Sub DPS · Emblem set · Aqua Simulacra",
+      "zh": "副C · 绝缘之旗印 · 若水"
+    },
+    "related_xiangling": {
+      "en": "Sub DPS · Noblesse set · The Catch R5",
+      "zh": "副C · 昔日宗室之仪 · 渔获精5"
+    },
+    "desc": {
+      "en": "Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.",
+      "zh": "原神4.8版本雷电将军完整培养指南。最佳武器排名（薙草之稻光、渔获），最优圣遗物（绝缘之旗印），队伍搭配和循环指南。"
+    }
+  }
+}

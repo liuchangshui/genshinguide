@@ -1,0 +1,135 @@
+{
+  "_character_id": "ayaka",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Kamisato Ayaka Build Guide — GenshinGuide",
+    "description": "Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Mistsplitter Reforged (F2P: Amenoma Kageuchi)",
+  "tldr_artifact": "4pc Blizzard Strayer (ATK%/Cryo DMG/CRIT DMG)",
+  "tldr_team": "Premium Freeze (Ayaka·Kokomi·Kazuha·Shenhe)",
+  "tldr_key_stats": "CRIT DMG 200%+ · ATK 2000+ · CRIT Rate 30-45% · Q > NA > E",
+  "intro": "Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v4.8.",
+  "weapon_bottom_line": "Mistsplitter Reforged is BiS — massive CRIT DMG + Elemental DMG bonus. Amenoma Kageuchi is craftable, solves ER, and is excellent F2P. Finale of the Deep is a strong craftable ATK option.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Mistsplitter Reforged",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "CRIT DMG 44.1%",
+      "notes": "Signature. High base ATK + CRIT DMG + Elemental DMG bonus. Made for Ayaka."
+    },
+    {
+      "rank": 2,
+      "name": "Amenoma Kageuchi R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "ATK% 55.1%",
+      "notes": "Best F2P. Craftable. Restores energy after burst — solves ER completely."
+    },
+    {
+      "rank": 3,
+      "name": "Finale of the Deep",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ATK% 27.6%",
+      "notes": "Craftable. High ATK bonus. Good F2P option if not needing Amenoma's energy."
+    },
+    {
+      "rank": 4,
+      "name": "Blackcliff Longsword",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "CRIT DMG 36.8%",
+      "notes": "Starglitter shop. CRIT DMG stat stick. ATK passive on kills."
+    }
+  ],
+  "best_artifact": "4-Piece Blizzard Strayer",
+  "artifact_alt": "None — 4pc Blizzard Strayer is mandatory for freeze Ayaka. The 40% free CRIT Rate is too valuable to give up.",
+  "main_stats": {
+    "sands": "ATK%",
+    "sands_note": "Always ATK%. Ayaka needs 2000+ ATK. ER from subs (130-140%).",
+    "goblet": "Cryo DMG",
+    "goblet_note": "Always Cryo DMG — her entire kit is Cryo.",
+    "circlet": "CRIT DMG",
+    "circlet_note": "CRIT DMG circlet. Blizzard gives 40% free CRIT — only need 30-45% from subs."
+  },
+  "sub_priority": [
+    "CRIT DMG (as high as possible — 200%+ is the target)",
+    "ATK% (Ayaka needs 2000+ ATK — don't neglect it)",
+    "Energy Recharge (130-140% — Amenoma lowers this to ~110%)",
+    "CRIT Rate (only to ~35% — Blizzard gives 40% vs frozen)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Premium Freeze",
+      "members": "Ayaka + Kokomi",
+      "desc": "Ayaka + Kokomi + Kazuha + Shenhe. The best Ayaka team. Kokomi provides AoE Hydro for permafreeze. Kazuha groups + buffs Cryo DMG. Shenhe provides massive Cryo flat DMG bonus."
+    },
+    {
+      "name": "Team 2: Budget Freeze",
+      "members": "Ayaka + Mona",
+      "desc": "Ayaka + Mona + Sucrose + Diona. F2P-friendly. Mona buffs DMG via Omen. Diona provides shield + Cryo resonance + battery. Sucrose for grouping and Thrilling Tales buff."
+    },
+    {
+      "name": "Team 3: Mono Cryo",
+      "members": "Ayaka + Shenhe",
+      "desc": "Ayaka + Shenhe + Kazuha + Layla. For unfreezable enemies (bosses). Full Cryo shred + buffing. Layla provides strong shield and Cryo resonance."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 1 (Crown)"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 3"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Shenhe E Q → Kazuha E Q → Kokomi E → Ayaka dash (cryo infusion) → NA1 (apply cryo) → E → Q → NA spam",
+  "mistakes": [
+    "❌ Too much CRIT Rate. Blizzard Strayer gives 40% free CRIT vs frozen enemies. Only build 30-45% CRIT Rate. Anything above 45% is wasted.",
+    "❌ Not using dash for cryo infusion. Ayaka's dash applies cryo to her attacks. Without it, she deals physical damage. Always dash before your rotation.",
+    "❌ Burst missing enemies. Unfrozen enemies can walk out of her burst. Always freeze first, then Q. Use Kazuha/Sucrose to group enemies before bursting.",
+    "❌ Building EM. Ayaka is a freeze DPS — she doesn't melt. EM does nothing for freeze. Stack ATK% and CRIT DMG instead."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Ayaka Burst DMG Simulation (C0, 90, 4pc Blizzard, 2200 ATK, 230% CD) Weapon: Mistsplitter Reforged R1 | Enemy: Frozen · RES 10% [Frame 005] Burst Tick #1: 18,234 DMG (CRIT, 85% CRIT Rate due to Blizzard) [Frame 012] Burst Tick #2: ███ CRIT ███ ← Pro only [Frame 019] Burst Tick #3: ████ CRIT ████ ← Pro only ... Total Burst DMG (20 ticks): ███,███ ← Unlock Optimizer: \"ATK% circlet vs CRIT DMG circlet: CD wins by +8.7% when ATK > 2000\" ► Full simulation: 20 burst ticks · Blizzard CRIT calc · freeze uptime → Pro",
+  "artifact_why": "4-Piece Blizzard Strayer is the optimal set for Ayaka."
+}

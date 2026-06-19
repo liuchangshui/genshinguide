@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GenshinGuide 一人公司作战手册</title>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --bg-card: #111827;
+    --bg-card-alt: #1a2332;
+    --border: #1e2d4a;
+    --border-light: #2a3f5f;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --text-dim: #64748b;
+    --accent: #38bdf8;
+    --accent-dim: #0ea5e9;
+    --accent-glow: rgba(56, 189, 248, 0.15);
+    --green: #4ade80;
+    --yellow: #fbbf24;
+    --red: #f87171;
+    --purple: #a78bfa;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  .container { max-width: 900px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  /* Header */
+  .doc-header {
+    text-align: center;
+    padding: 48px 0 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+  .doc-header .label {
+    color: var(--accent);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .doc-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  .doc-header .subtitle {
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+  .doc-header .meta {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .doc-header .meta span { display: flex; align-items: center; gap: 6px; }
+
+  /* Section */
+  .section { margin-bottom: 48px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-title .num {
+    background: var(--accent-glow);
+    color: var(--accent);
+    font-size: 13px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  .card-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  /* Verdict box */
+  .verdict-box {
+    background: linear-gradient(135deg, rgba(56,189,248,0.08), rgba(56,189,248,0.02));
+    border: 1px solid rgba(56,189,248,0.3);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 32px;
+  }
+  .verdict-box .tag {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--bg);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .verdict-box h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .verdict-box p { color: var(--text-muted); font-size: 14px; }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--bg-card-alt);
+    color: var(--text-muted);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+    letter-spacing: 0.3px;
+  }
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .badge-green { background: rgba(74,222,128,0.15); color: var(--green); }
+  .badge-yellow { background: rgba(251,191,36,0.15); color: var(--yellow); }
+  .badge-red { background: rgba(248,113,113,0.15); color: var(--red); }
+  .badge-blue { background: rgba(56,189,248,0.15); color: var(--accent); }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 28px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    bottom: 4px;
+    width: 2px;
+    background: var(--border-light);
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+  }
+  .timeline-item .time {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .timeline-item .content {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+  }
+  .timeline-item .content h4 {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .timeline-item .content p {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* Alert boxes */
+  .alert {
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+  .alert-warn {
+    background: rgba(251,191,36,0.08);
+    border: 1px solid rgba(251,191,36,0.25);
+    color: #fcd34d;
+  }
+  .alert-danger {
+    background: rgba(248,113,113,0.08);
+    border: 1px solid rgba(248,113,113,0.25);
+    color: #fca5a5;
+  }
+  .alert-info {
+    background: rgba(56,189,248,0.06);
+    border: 1px solid rgba(56,189,248,0.2);
+    color: var(--accent);
+  }
+
+  /* Grid */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 640px) {
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+
+  /* Action items */
+  .action-list { list-style: none; }
+  .action-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+  }
+  .action-list li:last-child { border-bottom: none; }
+  .action-list .icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .icon-do { background: rgba(74,222,128,0.15); color: var(--green); }
+  .icon-dont { background: rgba(248,113,113,0.15); color: var(--red); }
+
+  /* Dispute resolution */
+  .dispute {
+    background: var(--bg-card-alt);
+    border-left: 3px solid var(--purple);
+    border-radius: 0 8px 8px 0;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+  }
+  .dispute .question {
+    color: var(--purple);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .dispute .ruling {
+    font-size: 14px;
+  }
+  .dispute .ruling strong { color: var(--accent); }
+
+  /* Cost table highlight */
+  .cost-highlight {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .cost-card {
+    flex: 1;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .cost-card .amount {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .cost-card .label {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  /* Footer */
+  .doc-footer {
+    text-align: center;
+    padding: 32px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+  }
+  .doc-footer p {
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .doc-footer .signature {
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="doc-header">
+    <div class="label">CLASSIFIED · 参谋团作战手册</div>
+    <h1>GenshinGuide 一人公司作战手册</h1>
+    <p class="subtitle">原神 Build 攻略 + AI 数据工具站 — 从原型到变现全链路方案</p>
+    <div class="meta">
+      <span>汇编：何执策</span>
+      <span>情报：觅商机</span>
+      <span>技术：柯知匠</span>
+      <span>运营：钱进达</span>
+      <span>日期：2026-06-18</span>
+    </div>
+  </div>
+
+  <!-- 司令裁决 -->
+  <div class="verdict-box">
+    <span class="tag">司令裁决</span>
+    <h2>做，但换一种打法</h2>
+    <p>三路情报汇齐后，核心判断：赛道有肉，但 v3 方案的 $5/月纯订阅制是最大风险——全行业无人跑通，竞品全部免费。调整方向：<strong>Freemium 模式（免费引流 + Pro 增值）</strong>，核心护城河押注 <strong>AI Build Copilot</strong>（自然语言配队推荐），而非纯内容。时间预期从 12 个月拉长到 18-24 个月持久战。12 个月目标 $300-500/月，$900+ 推迟到 18-24 个月。</p>
+  </div>
+
+  <!-- 1. 战略概要 -->
+  <div class="section">
+    <div class="section-title"><span class="num">1</span>战略概要</div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">做什么</div>
+        <p style="font-size:13px; color:var(--text-muted);">基于现有静态 HTML 原型，搭建原神角色 Build 攻略站 + AI 驱动的伤害计算/配队工具站。中英双语，面向全球原神玩家社区。免费攻略引流，Pro 工具变现。</p>
+      </div>
+      <div class="card">
+        <div class="card-title">为什么做</div>
+        <p style="font-size:13px; color:var(--text-muted);">原神仍有 2100 万 MAU，10-15% 会主动搜索攻略（210-315 万人）。赛道是红海但有结构性空隙：攻略站没工具，工具站没攻略，没人做 AI 实时推荐，没人做好中英双语。一人公司用 AI 工具可以低成本切入。</p>
+      </div>
+    </div>
+    <div class="alert alert-warn">
+      <strong>现实预期：</strong>原神移动端收入 3 年跌 83%（$19亿→$3.2亿），竞品 genshin.gg 3 个月流量跌 46%。这是存量收缩市场，不是增量市场。窗口期在于"玩家更需要高效工具来优化有限投入"，而非"更多内容"。
+    </div>
+  </div>
+
+  <!-- 2. 司令裁决：关键分歧 -->
+  <div class="section">
+    <div class="section-title"><span class="num">2</span>关键分歧裁决</div>
+    <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">三份报告在三个核心问题上出现分歧，司令裁决如下：</p>
+
+    <div class="dispute">
+      <div class="question">分歧一：$5/月订阅制能否跑通？</div>
+      <div class="ruling">
+        <p><strong>猎手</strong>认为大概率跑不通（竞品全免费，用户预期免费）；<strong>工匠</strong>默认走订阅设计了支付系统；<strong>操盘手</strong>认为价格 OK 但需要明显超越 Genshin Optimizer。</p>
+        <p style="margin-top:8px;"><strong>裁决：采纳 Freemium 模式。</strong>免费版（攻略 + 基础计算器 + 每日 3 次模拟）引流，Pro 版（$5/月或 $40/年）提供无限模拟 + 圣遗物批量优化 + 配队对比 + AI Build Copilot + 无广告。<strong>订阅制的生死线在于 AI Build Copilot 是否真的不可替代</strong>——如果它只是"另一个计算器"，用户不会付费；如果它能做到"导入 box 截图 → AI 推荐最优配队"，这就是免费工具做不到的。</p>
+      </div>
+    </div>
+
+    <div class="dispute">
+      <div class="question">分歧二：12 个月能否达到 $900/月？</div>
+      <div class="ruling">
+        <p><strong>操盘手</strong>修正后判断 12 个月 $185-530，$900 概率 15-20%；<strong>猎手</strong>的保守估算更低。</p>
+        <p style="margin-top:8px;"><strong>裁决：采纳操盘手的修正预期。</strong>12 个月目标 $300-500/月，$900+ 推迟到 18-24 个月。原因：消费级游戏 SaaS 月 churn 8-15%，免费竞品压制付费意愿，SEO 新站 6-12 个月才见效。把目标定低不是认输，是让自己能撑到第 18 个月——82% 的 micro-SaaS 死于没撑住。</p>
+      </div>
+    </div>
+
+    <div class="dispute">
+      <div class="question">分歧三：内容生产节奏 15 天 30 篇？</div>
+      <div class="ruling">
+        <p><strong>操盘手</strong>判断不现实（2篇/天 = 人先崩了）；<strong>工匠</strong>设计的 Pipeline 支持批量生成。</p>
+        <p style="margin-top:8px;"><strong>裁决：Pipeline 批量生成 + 12 周节奏发布。</strong>用 DeepSeek V3.2 Pipeline 一次性生成 30 篇攻略（技术上 4 小时可完成），但<strong>不一次性发布</strong>——按搜索热度排序，12 周内逐步发布（前 2 周发 5 篇 P0 角色，之后每周 2-3 篇）。Pipeline 解决"生产"问题，发布节奏解决"SEO + 人效"问题。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 市场与竞争 -->
+  <div class="section">
+    <div class="section-title"><span class="num">3</span>机会分析</div>
+
+    <div class="card">
+      <div class="card-title">竞争格局速览</div>
+      <table>
+        <thead>
+          <tr><th>竞品</th><th>月访问(估)</th><th>变现</th><th>可攻击点</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>paimon.moe</td><td>207万</td><td>免费+捐赠</td><td>只做抽卡，无攻略无工具</td></tr>
+          <tr><td>genshin.gg</td><td>116万 <span class="badge badge-red">↓46%</span></td><td>免费+广告</td><td>内容浅、无工具、流量在跌</td></tr>
+          <tr><td>keqingmains.com</td><td>30-50万</td><td>免费+Patreon</td><td>纯英文，更新慢，UI老旧</td></tr>
+          <tr><td>genshin-optimizer</td><td>30-50万</td><td>完全免费(开源)</td><td>太硬核，UI复杂，无攻略</td></tr>
+          <tr><td>honeyhunterworld</td><td>50-100万</td><td>免费+广告</td><td>有数据无解读，UI极差</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="card-title">四个结构性空隙</div>
+      <table>
+        <thead><tr><th>空隙</th><th>说明</th><th>我们的打法</th></tr></thead>
+        <tbody>
+          <tr><td>中英双语一体化</td><td>KQM 纯英文，米游社纯中文，honeyhunter 双语但 UI 烂</td><td>原型已有 i18n 引擎，双语是天然优势</td></tr>
+          <tr><td>攻略+工具一体化</td><td>攻略站没计算器，工具站没攻略</td><td>"一站式"定位，攻略引流→工具留存</td></tr>
+          <tr><td>AI 驱动推荐</td><td>所有竞品都是传统 Wiki/工具模式</td><td>AI Build Copilot：自然语言问配队，AI 实时推荐</td></tr>
+          <tr><td>新角色时效性</td><td>KQM 新角色攻略滞后 2-4 周</td><td>Pipeline 当天生成，抢占"新角色+build"关键词</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="alert alert-danger">
+      <strong>最大风险：</strong>Google 对纯 AI 内容可能降权（EEAT 原则）。差异化<strong>必须靠工具</strong>——计算器、DMG 模拟器、AI Build Copilot 是纯内容站做不到的，这是核心护城河。纯攻略内容只是 SEO 引流手段，不是变现依靠。
+    </div>
+  </div>
+
+  <!-- 4. 产品方案 -->
+  <div class="section">
+    <div class="section-title"><span class="num">4</span>产品方案</div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">免费版 <span class="badge badge-blue">引流</span></div>
+        <ul style="font-size:13px; color:var(--text-muted); padding-left:18px; line-height:2;">
+          <li>全部角色 Build 攻略（30+）</li>
+          <li>基础 Build 计算器（武器/圣遗物/配队推荐）</li>
+          <li>每日 3 次 DMG 模拟</li>
+          <li>中英双语</li>
+          <li>新角色上线 24h 内攻略</li>
+        </ul>
+      </div>
+      <div class="card" style="border-color: rgba(56,189,248,0.3);">
+        <div class="card-title">Pro 版 $5/月 或 $40/年 <span class="badge badge-green">变现</span></div>
+        <ul style="font-size:13px; color:var(--text-muted); padding-left:18px; line-height:2;">
+          <li><strong>AI Build Copilot</strong>（核心卖点）</li>
+          <li>无限 DMG 模拟 + 配队对比</li>
+          <li>圣遗物批量优化</li>
+          <li>邮件周报（版本更新 Build 变化提醒）</li>
+          <li>无广告体验</li>
+          <li>保存无限配队方案</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">AI Build Copilot — 核心护城河</div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">这是决定项目成败的唯一功能。如果它只是"另一个计算器"，项目失败；如果它能做到以下体验，项目有戏：</p>
+      <table>
+        <thead><tr><th>步骤</th><th>用户操作</th><th>系统响应</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>导入游戏角色截图 / 手动选择 box</td><td>AI 识别角色 + 圣遗物</td></tr>
+          <tr><td>2</td><td>自然语言提问："我的雷电将军怎么配队伤害最高？"</td><td>AI 分析 box，排除不兼容角色</td></tr>
+          <tr><td>3</td><td>—</td><td>给出 Top 3 配队方案 + 伤害对比 + 理由</td></tr>
+          <tr><td>4</td><td>追问："如果我把圣遗物换成如雷套呢？"</td><td>实时重新模拟，给出差异</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px; color:var(--text-dim); margin-top:8px;">这是 Genshin Optimizer（太硬核、需手动输入）和 genshin.gg（太浅、无工具）之间的空白。一人公司用 AI 可以实际做出来。</p>
+    </div>
+  </div>
+
+  <!-- 5. 技术路径 -->
+  <div class="section">
+    <div class="section-title"><span class="num">5</span>技术路径</div>
+
+    <div class="alert alert-info">
+      <strong>核心决策：保留静态 HTML，不迁移 Next.js。</strong>现有原型（14 页面 + 988 行 CSS 设计系统 + i18n 引擎 + 计算器逻辑）质量扎实，迁移 = 推倒重来 2-3 周，对验证商业模式零帮助。等 Pro 功能需要 3+ 复杂交互组件、月收入稳定 $500+ 时再考虑迁移。
+    </div>
+
+    <div class="card">
+      <div class="card-title">技术选型</div>
+      <table>
+        <thead><tr><th>系统</th><th>选型</th><th>理由</th></tr></thead>
+        <tbody>
+          <tr><td>前端</td><td>现有静态 HTML + CSS + JS</td><td>SEO 满分，加载最快，零迁移成本</td></tr>
+          <tr><td>内容 Pipeline</td><td>Python + Jinja2 + DeepSeek V3.2</td><td>直接生成 HTML 文件，最简单</td></tr>
+          <tr><td>数据源</td><td>genshin.jmp.blue API</td><td>免费、开源、结构化 JSON</td></tr>
+          <tr><td>部署</td><td>Cloudflare Pages</td><td>免费额度最大，全球 CDN</td></tr>
+          <tr><td>支付</td><td>Lemon Squeezy</td><td>MoR 模式自动处理全球税务</td></tr>
+          <tr><td>邮件</td><td>Resend</td><td>3000 封/月免费，API 集成</td></tr>
+          <tr><td>数据库</td><td>暂不需要 → Supabase（Pro 功能）</td><td>渐进式，不到万不得已不上</td></tr>
+          <tr><td>AI 生成</td><td>DeepSeek V3.2</td><td>比 GPT-4o 便宜 10 倍，中文好</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="card-title">内容 Pipeline 流程</div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">数据源 → 变更检测 → DeepSeek 生成 → LLM 自检验证 → HTML 模板渲染 → 更新索引 → git push 自动部署</p>
+      <div class="cost-highlight">
+        <div class="cost-card">
+          <div class="amount">$0.004</div>
+          <div class="label">单篇攻略成本（生成+验证）</div>
+        </div>
+        <div class="cost-card">
+          <div class="amount">$0.12</div>
+          <div class="label">全量更新 30 角色</div>
+        </div>
+        <div class="cost-card">
+          <div class="amount">$1-2</div>
+          <div class="label">月度 Pipeline 成本</div>
+        </div>
+      </div>
+      <p style="font-size:12px; color:var(--text-dim);">Pipeline 部署在 GitHub Actions（海外网络，免费定时触发），避免国内访问 DeepSeek 需代理的问题。所有 API 数据本地缓存一份，API 挂了用缓存继续。</p>
+    </div>
+
+    <div class="alert alert-warn">
+      <strong>v3 方案修正：</strong>"DeepSeek V4 Flash" 目前不存在，当前可用的是 DeepSeek V3.2。Honey Impact 没有公开 API（是网站不是 API 服务），改用 genshin.jmp.blue。
+    </div>
+  </div>
+
+  <!-- 6. 运营路径 -->
+  <div class="section">
+    <div class="section-title"><span class="num">6</span>运营路径</div>
+
+    <div class="card">
+      <div class="card-title">渠道优先级</div>
+      <table>
+        <thead><tr><th>渠道</th><th>优先级</th><th>定位</th><th>关键动作</th></tr></thead>
+        <tbody>
+          <tr><td>Google SEO</td><td><span class="badge badge-blue">主渠道</span></td><td>长期流量基石</td><td>先打长尾词，头部词 12 个月不碰</td></tr>
+          <tr><td>Reddit</td><td><span class="badge badge-yellow">重要</span></td><td>英文社区精准用户</td><td>2 个月养号（karma 500+）再推广，90/10 规则</td></tr>
+          <tr><td>HoYoLAB</td><td><span class="badge badge-green">必做</span></td><td>官方社区，玩家密度极高</td><td>v3 方案遗漏，转化率可能高于 Reddit</td></tr>
+          <tr><td>Discord</td><td><span class="badge badge-green">必做</span></td><td>工具推广最佳渠道</td><td>加入 3-5 个大型原神 Discord</td></tr>
+          <tr><td>YouTube Shorts</td><td><span class="badge badge-yellow">辅助</span></td><td>1 分钟 Build 对比视频</td><td>每周 2-3 条，录屏+字幕</td></tr>
+          <tr><td>中文市场</td><td><span class="badge badge-red">放弃变现</span></td><td>仅 SEO 引流</td><td>被米游社/B站锁死，一人公司打不过</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="alert alert-danger">
+      <strong>Reddit 打法修正：</strong>v3 方案的"5 篇帖子启动"是找死——90/10 规则不遵守必被封号。正确打法：前 2 周潜伏 → 第 3-8 周每天回答 2-3 个 build 问题（0 推广，攒 karma 到 500+）→ 第 9 周起发原创数据帖（"我做了个伤害计算器对比，结果有点意外"），以免费工具切入，Pro 作为增值提及。
+    </div>
+
+    <div class="card">
+      <div class="card-title">内容发布节奏（12 周）</div>
+      <table>
+        <thead><tr><th>阶段</th><th>时间</th><th>产出</th><th>累计</th></tr></thead>
+        <tbody>
+          <tr><td>冷启动</td><td>W1-2</td><td>5 篇 P0 角色攻略（Furina/Arlecchino/Neuvillette/Raiden/Bennett）</td><td>5 篇</td></tr>
+          <tr><td>密集期</td><td>W3-6</td><td>3 篇/周 + 程序化 SEO 页面搭建</td><td>~17 篇 + 40 页面</td></tr>
+          <tr><td>增长期</td><td>W7-8</td><td>2 篇/周 + 40 个程序化页面 + Pro 上线</td><td>~21 篇 + 80 页面</td></tr>
+          <tr><td>变现验证</td><td>W9-12</td><td>2 篇/周 + Reddit 工具帖 + AdSense 申请</td><td>~30 篇 + 80 页面</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:12px; color:var(--text-dim); margin-top:8px;">程序化 SEO 页面用伤害模拟器产出真实对比数据（如"Raiden + Nahida 配队 DPS 模拟"），不做模板页面（Google 会判定 thin content）。</p>
+    </div>
+  </div>
+
+  <!-- 7. 时间线与投入 -->
+  <div class="section">
+    <div class="section-title"><span class="num">7</span>时间线与投入</div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="time">Week 1（Phase 1 启动）</div>
+        <div class="content">
+          <h4>上线 + Pipeline + 首批攻略</h4>
+          <p>部署 Cloudflare Pages + 域名 → sitemap.xml + Google Search Console → 搭建 DeepSeek Pipeline → 生成 5 篇 P0 角色攻略 → 接入 genshin.jmp.blue 数据同步 → Google Analytics</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Week 2-4</div>
+        <div class="content">
+          <h4>内容基建 + 社区渗透</h4>
+          <p>每周 3 篇攻略 → Reddit 养号（0 推广）→ HoYoLAB 首发 → YouTube Shorts 启动 → Discord 渗透</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Week 5-8（Phase 2）</div>
+        <div class="content">
+          <h4>支付 + Pro 功能上线</h4>
+          <p>Lemon Squeezy 支付接入 → JWT + LS 订阅状态 → Pro DMG 模拟器 → 邮箱订阅 → 程序化 SEO 页面 80 个 → Reddit 首条原创内容帖</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Week 9-12</div>
+        <div class="content">
+          <h4>变现验证</h4>
+          <p>Reddit "免费工具分享"帖（大规模引流）→ Pro 转化数据分析 → AdSense 申请 → 12 周全面复盘</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Month 3-6</div>
+        <div class="content">
+          <h4>SEO 初见效 + 口碑积累</h4>
+          <p>长尾词进 Top 20-50 → 10-15 个 Pro 用户 → AdSense 批准 → 持续内容 + 社区运营</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Month 6-12</div>
+        <div class="content">
+          <h4>增长爬坡</h4>
+          <p>SEO 长尾词进 Top 10 → 25-50 个 Pro 用户（考虑 churn 后净增）→ AI Build Copilot 上线验证</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="time">Month 12-18</div>
+        <div class="content">
+          <h4>验证成败的窗口</h4>
+          <p>如果 AI Build Copilot 验证成功 → 加速投入；如果 Pro 转化率 <1% → 转向"一次性付费 + 捐赠"模式或止损</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:24px;">
+      <div class="card-title">投入预估</div>
+      <table>
+        <thead><tr><th>项目</th><th>成本</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td>域名</td><td>~$10/年</td><td>.com 或 .gg</td></tr>
+          <tr><td>部署</td><td>$0</td><td>Cloudflare Pages 免费额度</td></tr>
+          <tr><td>DeepSeek API</td><td>~$2/月</td><td>可忽略</td></tr>
+          <tr><td>Lemon Squeezy</td><td>5% + $0.50/笔</td><td>有交易才扣</td></tr>
+          <tr><td>Resend 邮件</td><td>$0 → $20/月</td><td>3000 封/月免费</td></tr>
+          <tr><td>Supabase（Pro 功能后）</td><td>$0 → $25/月</td><td>免费额度够初期</td></tr>
+          <tr><td><strong>月固定成本</strong></td><td><strong>~$2-5</strong></td><td><strong>极低，一人公司友好</strong></td></tr>
+          <tr><td>时间投入</td><td>每天 4-6 小时</td><td>前 3 个月全职投入最佳</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="card-title">收入预期（修正版）</div>
+      <table>
+        <thead><tr><th>时间</th><th>Pro 用户</th><th>Pro 收入</th><th>AdSense</th><th>月总收入</th></tr></thead>
+        <tbody>
+          <tr><td>M3</td><td>0-5</td><td>$0-25</td><td>$0</td><td><span class="badge badge-yellow">$0-25</span></td></tr>
+          <tr><td>M6</td><td>5-15</td><td>$25-75</td><td>$9-40</td><td><span class="badge badge-yellow">$34-115</span></td></tr>
+          <tr><td>M9</td><td>15-35</td><td>$75-175</td><td>$24-120</td><td><span class="badge badge-yellow">$99-295</span></td></tr>
+          <tr><td>M12</td><td>25-50</td><td>$125-250</td><td>$60-280</td><td><span class="badge badge-green">$185-530</span></td></tr>
+          <tr><td>M18</td><td>40-70</td><td>$200-350</td><td>$150-400</td><td><span class="badge badge-green">$350-750</span></td></tr>
+          <tr><td>M24</td><td>50-100</td><td>$250-500</td><td>$300-600</td><td><span class="badge badge-green">$550-1100</span></td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:12px; color:var(--text-dim); margin-top:8px;">12 个月达到 $900/月的概率约 15-20%。18-24 个月达到 $900+ 的概率约 40-50%（前提：能坚持 + AI Build Copilot 验证成功）。</p>
+    </div>
+  </div>
+
+  <!-- 8. 下一步行动 -->
+  <div class="section">
+    <div class="section-title"><span class="num">8</span>下一步行动</div>
+
+    <div class="card">
+      <div class="card-title">掌门现在就能做的 3 件事</div>
+      <ul class="action-list">
+        <li>
+          <div class="icon icon-do">1</div>
+          <div><strong>部署上线</strong>（2h）：把现有原型推到 Cloudflare Pages，绑域名，提交 Google Search Console。先让站点可被访问、可被索引。</div>
+        </li>
+        <li>
+          <div class="icon icon-do">2</div>
+          <div><strong>搭建 Pipeline</strong>（8h）：写 generate.py，用 DeepSeek V3.2 生成 Furina/Arlecchino/Neuvillette/Raiden/Bennett 5 篇攻略。这是验证"AI 能否批量生成质量过关攻略"的关键。</div>
+        </li>
+        <li>
+          <div class="icon icon-do">3</div>
+          <div><strong>Reddit 养号启动</strong>（每天 30min）：注册 Reddit 账号，订阅 r/Genshin_Impact + r/GenshinImpactTips + 3 个角色主 Sub，开始浏览和回答 build 问题。2 个月后才推广，现在就种树。</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title">铁律：不要做的事</div>
+      <ul class="action-list">
+        <li><div class="icon icon-dont">✕</div><div>不要迁移 Next.js（现在）— 推倒重来对验证商业模式零帮助</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要建数据库（现在）— 纯静态文件够了，Pro 功能再说</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要做用户注册系统（现在）— 邮箱即身份，JWT 够用</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要等"完美"才上线 — 现在就上，用真实流量验证</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要一上来发 Reddit 推广帖 — 90/10 规则，先养号 2 个月</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要做纯内容站 — 工具是护城河，内容只是引流手段</div></li>
+        <li><div class="icon icon-dont">✕</div><div>不要碰中文市场变现 — 被米游社/B站锁死，仅做 SEO 引流</div></li>
+      </ul>
+    </div>
+
+    <div class="alert alert-info">
+      <strong>成败判定线：</strong>Month 12 是关键检查点。如果 AI Build Copilot 上线后 Pro 转化率 >2%，加速投入；如果 <1%，转向"一次性付费 $15 + 捐赠"模式或考虑止损扩展到 HSR/ZZZ 多游戏。<strong>82% 的 micro-SaaS 死于没撑住——能坚持到 18 个月的人，成功率翻倍。</strong>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="doc-footer">
+    <p class="signature">一人公司 · AI 参谋团</p>
+    <p>何执策 · 觅商机 · 柯知匠 · 钱进达 | 2026-06-18</p>
+    <p style="margin-top:8px;">本手册基于三份独立报告汇编：商业情报（觅商机）· 技术评估（柯知匠）· 运营策略（钱进达）</p>
+  </div>
+
+</div>
+</body>
+</html>

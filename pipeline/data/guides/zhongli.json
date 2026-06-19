@@ -1,0 +1,135 @@
+{
+  "_character_id": "zhongli",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Zhongli Build Guide — GenshinGuide",
+    "description": "Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Staff of Homa (F2P: Black Tassel)",
+  "tldr_artifact": "4pc Tenacity of the Millelith (HP/HP/HP)",
+  "tldr_team": "Universal Shield (Zhongli + any 3 — fits every team)",
+  "tldr_key_stats": "HP 40K+ · CRIT 60/120 · E > Q > NA",
+  "intro": "Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v4.8.",
+  "weapon_bottom_line": "Staff of Homa is BiS for damage. Black Tassel (3★) is shockingly effective for pure shield — and essentially free. Favonius Lance for team energy.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Best all-around. HP to ATK conversion + massive CRIT DMG."
+    },
+    {
+      "rank": 2,
+      "name": "Black Tassel",
+      "rarity": 3,
+      "atk": 354,
+      "substat": "HP 46.9%",
+      "notes": "Best F2P shield. Massive HP% for shields. 3★ — very common."
+    },
+    {
+      "rank": 3,
+      "name": "Favonius Lance",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ER 30.6%",
+      "notes": "Team battery. Generates energy for team. Good for burst uptime."
+    },
+    {
+      "rank": 4,
+      "name": "Deathmatch",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "CRIT Rate 36.8%",
+      "notes": "BP weapon. High CRIT Rate for burst DPS builds."
+    }
+  ],
+  "best_artifact": "4-Piece Tenacity of the Millelith",
+  "artifact_alt": "4pc Archaic Petra (buff support via crystallize shards) or 2pc Tenacity + 2pc Noblesse (burst DPS focus). 4pc Tenacity is the goal for shield support.",
+  "main_stats": {
+    "sands": "HP%",
+    "sands_note": "Always HP% for shield build. More HP = bigger shield.",
+    "goblet": "HP% / Geo DMG",
+    "goblet_note": "HP% for pure shield. Geo DMG for burst DPS hybrid.",
+    "circlet": "HP% / CRIT",
+    "circlet_note": "HP% for pure shield. CRIT for burst DPS builds (60/120 target)."
+  },
+  "sub_priority": [
+    "HP% (stack as much as possible — 40K+ HP target)",
+    "Energy Recharge (enough to burst when needed)",
+    "CRIT Rate / CRIT DMG (for burst DPS hybrid builds)",
+    "ATK% (lowest priority — Zhongli scales on HP, not ATK)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Universal Shield Flex",
+      "members": "Any 3 + Bennett/Zhongli",
+      "desc": "Zhongli + any 3 characters. His shield fits every team — hyperbloom, vape, freeze, Itto, Xiao. 20% universal RES shred benefits everyone."
+    },
+    {
+      "name": "Team 2: Mono Geo",
+      "members": "Itto + Zhongli",
+      "desc": "Itto + Zhongli + Gorou + Albedo. Geo resonance + Zhongli shield shred = massive Itto DMG. Gorou buffs all Geo. Classic mono element team."
+    },
+    {
+      "name": "Team 3: Hu Tao Double Hydro",
+      "members": "Tao + Yelan",
+      "desc": "Hu Tao + Yelan + Xingqiu + Zhongli. Zhongli protects Hu Tao at low HP while shredding Hydro and Pyro RES for the team."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 1 (Shield)"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 2 (Burst)"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3 (Skip)"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Zhongli hold E (shield up) → Supports set up buffs → DPS rotation → Refresh shield at 12s (E cooldown ends)",
+  "mistakes": [
+    "❌ Not holding E. Tap E only places a pillar — no shield. You must HOLD E to get the shield.",
+    "❌ Building ATK on a shield build. ATK does nothing for Zhongli's shield. HP% is all that matters for shield strength.",
+    "❌ Not refreshing the shield. Shield lasts 20s but E cooldown is 12s. Always refresh on cooldown — a shield break mid-rotation is deadly.",
+    "❌ Using burst DPS build without ER. Burst Zhongli needs ~140% ER minimum. Without it, his 40-cost burst still won't be up every rotation."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Zhongli Shield Calculator (C0, 90, 4pc Tenacity, 45K HP) Weapon: Black Tassel R5 | Talent E: Lv.10 Shield HP: 24,321 (base) + 150% DMG absorption = 60,803 effective HP Tenacity Buff: 20% ATK team-wide ███ ATK gain ███ ← Pro only RES Shred: 20% universal (passive) ████ DPS increase ████ ← Pro only ... Team DPS impact: ███,███ ← Unlock Optimizer: \"HP% → HP% → HP% is optimal. Geo DMG goblet = +12.4% burst DMG\" ► Full shield calc · RES shred impact · team DPS simulation → Pro",
+  "artifact_why": "4-Piece Tenacity of the Millelith is the optimal set for Zhongli."
+}

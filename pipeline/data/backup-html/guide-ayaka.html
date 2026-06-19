@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide.">
+<title>Kamisato Ayaka Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Kamisato Ayaka Build Guide — v4.8","description":"Optimal weapon, artifact, and team build for Kamisato Ayaka in Genshin Impact 4.8.","dateModified":"2026-06-17"}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header-legacy cryo">
+  <div class="version-badge" data-i18n="guide.version_badge">✅ Applicable to v4.8 · Updated 2026-06-17</div>
+  <h1>Kamisato Ayaka <span style="color:var(--accent);">Build Guide</span></h1>
+  <div class="meta">Main DPS · <span class="cryo">Cryo</span> · Sword · <span class="grade grade-s">S</span> <span data-i18n="guide.tier_label">Tier</span></div>
+</header>
+
+<article class="article-body">
+
+  <!-- TL;DR: first principles — answer first, explain later -->
+  <div class="tldr-box cryo">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">⚡ Best Weapon</div>
+        <div class="tldr-value">Mistsplitter Reforged <span class="tldr-muted">(F2P: Amenoma Kageuchi)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 Best Artifact</div>
+        <div class="tldr-value">4pc Blizzard Strayer <span class="tldr-muted">(ATK%/Cryo DMG/CRIT DMG)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 Best Team</div>
+        <div class="tldr-value">Premium Freeze <span class="tldr-muted">(Ayaka·Kokomi·Kazuha·Shenhe)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 Key Stats</div>
+        <div class="tldr-value">CRIT DMG 200%+ · ATK 2000+ · CRIT Rate 30-45% · Q > NA > E</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="ayaka.intro">Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v4.8.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="cryo" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box cryo">
+    <strong>Bottom line:</strong> Mistsplitter Reforged is BiS — massive CRIT DMG + Elemental DMG bonus. Amenoma Kageuchi is craftable, solves ER, and is excellent F2P. Finale of the Deep is a strong craftable ATK option.
+  </div>
+  <table class="weapon-table">
+    <thead><tr style="border-bottom-color:rgba(179,136,255,0.2);">
+      <th data-i18n="guide.th_rank">Rank</th>
+      <th data-i18n="guide.th_weapon">Weapon</th>
+      <th data-i18n="guide.th_rarity">Rarity</th>
+      <th data-i18n="guide.th_atk">Base ATK</th>
+      <th data-i18n="guide.th_substat">Sub-stat</th>
+      <th data-i18n="guide.th_notes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td><span class="rank rank-1">1</span></td><td>Mistsplitter Reforged</td><td>⭐⭐⭐⭐⭐</td><td>674</td><td>CRIT DMG 44.1%</td><td >Signature. High base ATK + CRIT DMG + Elemental DMG bonus. Made for Ayaka.</td></tr>
+      <tr><td><span class="rank rank-2">2</span></td><td>Amenoma Kageuchi R5</td><td>⭐⭐⭐⭐</td><td>454</td><td>ATK% 55.1%</td><td >Best F2P. Craftable. Restores energy after burst — solves ER completely.</td></tr>
+      <tr><td><span class="rank rank-3">3</span></td><td>Finale of the Deep</td><td>⭐⭐⭐⭐</td><td>565</td><td>ATK% 27.6%</td><td >Craftable. High ATK bonus. Good F2P option if not needing Amenoma's energy.</td></tr>
+      <tr><td><span class="rank rank-4">4</span></td><td>Blackcliff Longsword</td><td>⭐⭐⭐⭐</td><td>565</td><td>CRIT DMG 36.8%</td><td >Starglitter shop. CRIT DMG stat stick. ATK passive on kills.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- AD #2: Between weapons and artifacts — answer received, now context -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div class="ad-icon">🖱️</div>
+      <div class="ad-text">
+        <div class="ad-headline" data-i18n="ad.ad2_head">Gaming Gear Deals — Up to 40% Off</div>
+        <div class="ad-desc" data-i18n="ad.ad2_desc">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      </div>
+      <span class="ad-cta" data-i18n="ad.ad2_cta">View Deals →</span>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="cryo" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box cryo">
+    0🎯 Best: 4-Piece Blizzard Strayer</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" >Blizzard Strayer gives 20% CRIT Rate vs Cryo-affected enemies and another 20% vs Frozen (40% total). This means you only need 30-45% CRIT Rate from artifacts to hit 70-85% effective CRIT — letting you invest entirely in CRIT DMG and ATK.</p>
+  </div>
+  <p style="font-size:0.9rem;"><span >Alternative:</span> None — 4pc Blizzard Strayer is mandatory for freeze Ayaka. The 40% free CRIT Rate is too valuable to give up.</p>
+
+  <h3 class="electro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead><tr>
+      <th data-i18n="guide.th_slot">Slot</th>
+      <th data-i18n="guide.th_mainstat">Main Stat</th>
+      <th data-i18n="guide.th_mnotes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td data-i18n="guide.sands_label">Sands</td><td><b>ATK%</b></td><td >Always ATK%. Ayaka needs 2000+ ATK. ER from subs (130-140%).</td></tr>
+      <tr><td data-i18n="guide.goblet_label">Goblet</td><td><b>Cryo DMG</b></td><td >Always Cryo DMG — her entire kit is Cryo.</td></tr>
+      <tr><td data-i18n="guide.circlet_label">Circlet</td><td><b>CRIT DMG</b></td><td >CRIT DMG circlet. Blizzard gives 40% free CRIT — only need 30-45% from subs.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="electro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    <li >CRIT DMG (as high as possible — 200%+ is the target)</li>
+    <li >ATK% (Ayaka needs 2000+ ATK — don't neglect it)</li>
+    <li >Energy Recharge (130-140% — Amenoma lowers this to ~110%)</li>
+    <li >CRIT Rate (only to ~35% — Blizzard gives 40% vs frozen)</li>
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="cryo" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  <div class="emphasis-box cryo">
+    <strong >Team 1: Premium Freeze</strong><br>
+    <span >Ayaka + Kokomi + Kazuha + Shenhe. The best Ayaka team. Kokomi provides AoE Hydro for permafreeze. Kazuha groups + buffs Cryo DMG. Shenhe provides massive Cryo flat DMG bonus.</span>
+  </div>
+  <div class="emphasis-box cryo">
+    <strong >Team 2: Budget Freeze</strong><br>
+    <span >Ayaka + Mona + Sucrose + Diona. F2P-friendly. Mona buffs DMG via Omen. Diona provides shield + Cryo resonance + battery. Sucrose for grouping and Thrilling Tales buff.</span>
+  </div>
+  <div class="emphasis-box cryo">
+    <strong >Team 3: Mono Cryo</strong><br>
+    <span >Ayaka + Shenhe + Kazuha + Layla. For unfreezable enemies (bosses). Full Cryo shred + buffing. Layla provides strong shield and Cryo resonance.</span>
+  </div>
+
+  <!-- Section 4: Talents -->
+  <h2 class="cryo" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    <div class="talent-item" style="border-color:rgba(179,136,255,0.3);">
+      <div class="talent-icon" style="background:rgba(179,136,255,0.15);color:#c59dff;">Q</div>
+      <div class="talent-label">Elemental Burst</div>
+      <div class="talent-priority p1">Priority 1 (Crown)</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(102,102,138,0.1);color:var(--text-muted);">NA</div>
+      <div class="talent-label">Normal Attack</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">E</div>
+      <div class="talent-label">Elemental Skill</div>
+      <div class="talent-priority p3">Priority 3</div>
+    </div>
+  </div>
+  <p >Crown the burst — it's ~80% of Ayaka's total damage. NA to 9 for cryo-infused attacks during burst downtime. E to 8 — decent damage and energy but lowest priority.</p>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="cryo" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box cryo">
+    <div >Premium Freeze rotation:</div>
+    <code style="font-size:0.85rem;">Shenhe E Q → Kazuha E Q → Kokomi E → Ayaka dash (cryo infusion) → NA1 (apply cryo) → E → Q → NA spam</code>
+  </div>
+  <p style="font-size:0.85rem;color:var(--text-muted);" >⚠️ Dash before attacking for cryo infusion + 18% Cryo DMG bonus. NA1 before E for Mistsplitter stacks. Use Q when enemies are frozen so they don't escape the burst. Kokomi's jellyfish provides permafreeze.</p>
+
+  <!-- Section 6: Mistakes -->
+  <h2 class="cryo" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Too much CRIT Rate. Blizzard Strayer gives 40% free CRIT vs frozen enemies. Only build 30-45% CRIT Rate. Anything above 45% is wasted.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Not using dash for cryo infusion. Ayaka's dash applies cryo to her attacks. Without it, she deals physical damage. Always dash before your rotation.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Burst missing enemies. Unfrozen enemies can walk out of her burst. Always freeze first, then Q. Use Kazuha/Sucrose to group enemies before bursting.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Building EM. Ayaka is a freeze DPS — she doesn't melt. EM does nothing for freeze. Stack ATK% and CRIT DMG instead.</p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Pro Deep Dive Teaser -->
+  <div class="pro-teaser" style="background:linear-gradient(135deg, rgba(179,136,255,0.06), rgba(179,136,255,0.01));">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 >Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:14px;" >Here's what our DMG simulator outputs. Pro members get full frame data, buff timing, and team DPS comparison.</p>
+    <pre><code><span class="highlight-line">// Ayaka Burst DMG Simulation (C0, 90, 4pc Blizzard, 2200 ATK, 230% CD)</span>
+Weapon: Mistsplitter Reforged R1 | Enemy: Frozen · RES 10%
+
+<span class="highlight-line">[Frame 005] Burst Tick #1:  18,234 DMG  (CRIT, 85% CRIT Rate due to Blizzard)</span>
+[Frame 012] Burst Tick #2:  <span style="color:var(--gold);">███ CRIT ███</span>    ← Pro only
+[Frame 019] Burst Tick #3:  <span style="color:var(--gold);">████ CRIT ████</span>  ← Pro only
+...
+Total Burst DMG (20 ticks):  <span style="color:var(--accent);">███,███</span>  ← Unlock
+
+<span class="highlight-line">Optimizer: "ATK% circlet vs CRIT DMG circlet: CD wins by +8.7% when ATK > 2000"</span>
+<span style="color:var(--text-muted);">► Full simulation: 20 burst ticks · Blizzard CRIT calc · freeze uptime → Pro</span></code></pre>
+    <div class="teaser-cta">
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin:0;" >See your exact DMG numbers. Compare builds. Win more Abyss floors.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="ayaka.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      <a href="guide-hutao.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Hu Tao <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Main DPS · Crimson Witch · Double Hydro</p>
+        </div>
+      </a>
+      <a href="guide-yelan.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <div class="elem-icon hydro">💧</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Yelan <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Emblem set · Aqua Simulacra</p>
+        </div>
+      </a>
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Xiangling <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Noblesse set · The Catch R5</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

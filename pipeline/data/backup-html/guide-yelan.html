@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.">
+<title>Yelan Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Yelan Build Guide — v4.8","description":"Optimal weapon, artifact, and team build for Yelan in Genshin Impact 4.8.","dateModified":"2026-06-17"}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header-legacy hydro">
+  <div class="version-badge" data-i18n="guide.version_badge">✅ Applicable to v4.8 · Updated 2026-06-17</div>
+  <h1>Yelan <span style="color:var(--accent);">Build Guide</span></h1>
+  <div class="meta">Sub DPS / Support · <span class="hydro">Hydro</span> · Bow · <span class="grade grade-s">S</span> <span data-i18n="guide.tier_label">Tier</span></div>
+</header>
+
+<article class="article-body">
+
+  <!-- TL;DR: first principles — answer first, explain later -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">⚡ Best Weapon</div>
+        <div class="tldr-value">Aqua Simulacra <span class="tldr-muted">(F2P: Favonius Warbow)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 Best Artifact</div>
+        <div class="tldr-value">4pc Emblem of Severed Fate <span class="tldr-muted">(HP%/Hydro DMG/CRIT)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 Best Team</div>
+        <div class="tldr-value">Double Hydro / Hyperbloom <span class="tldr-muted">(HuTao·Yelan·XQ·Zhongli)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 Key Stats</div>
+        <div class="tldr-value">HP 30K+ · ER 180-200% · CRIT 70/140 · Q > E >>> NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="yelan.intro">Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v4.8.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box hydro">
+    <strong>Bottom line:</strong> Aqua Simulacra is BiS — massive CRIT DMG and HP% bonus. Favonius Warbow solves all energy problems. Use Favonius unless you have C1 or enough ER from artifacts.
+  </div>
+  <table class="weapon-table">
+    <thead><tr style="border-bottom-color:rgba(179,136,255,0.2);">
+      <th data-i18n="guide.th_rank">Rank</th>
+      <th data-i18n="guide.th_weapon">Weapon</th>
+      <th data-i18n="guide.th_rarity">Rarity</th>
+      <th data-i18n="guide.th_atk">Base ATK</th>
+      <th data-i18n="guide.th_substat">Sub-stat</th>
+      <th data-i18n="guide.th_notes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td><span class="rank rank-1">1</span></td><td>Aqua Simulacra</td><td>⭐⭐⭐⭐⭐</td><td>542</td><td>CRIT DMG 88.2%</td><td >Signature. Massive CRIT DMG + HP% + DMG bonus. Perfect synergy.</td></tr>
+      <tr><td><span class="rank rank-2">2</span></td><td>Favonius Warbow</td><td>⭐⭐⭐⭐</td><td>454</td><td>ER 61.3%</td><td >Best F2P. ER main stat + energy particles. Solves ER needs completely.</td></tr>
+      <tr><td><span class="rank rank-3">3</span></td><td>Sacrificial Bow</td><td>⭐⭐⭐⭐</td><td>565</td><td>ER 30.6%</td><td >Extra E charge = more particles + more DMG. Good for C0.</td></tr>
+      <tr><td><span class="rank rank-4">4</span></td><td>The Stringless</td><td>⭐⭐⭐⭐</td><td>510</td><td>EM 165</td><td >Skill + burst DMG bonus. Use in reaction teams (vape).</td></tr>
+    </tbody>
+  </table>
+
+  <!-- AD #2: Between weapons and artifacts — answer received, now context -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div class="ad-icon">🖱️</div>
+      <div class="ad-text">
+        <div class="ad-headline" data-i18n="ad.ad2_head">Gaming Gear Deals — Up to 40% Off</div>
+        <div class="ad-desc" data-i18n="ad.ad2_desc">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      </div>
+      <span class="ad-cta" data-i18n="ad.ad2_cta">View Deals →</span>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box hydro">
+    0🎯 Best: 4-Piece Emblem of Severed Fate</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" >Yelan's burst is her entire kit. Emblem converts ER (which she needs anyway) into burst DMG. With 180-200% ER → 45-50% burst DMG bonus. Matches Yelan perfectly.</p>
+  </div>
+  <p style="font-size:0.9rem;"><span >Alternative:</span> 2pc HP% + 2pc Hydro DMG (while farming Emblem). 4pc Emblem is the goal for most builds.</p>
+
+  <h3 class="electro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead><tr>
+      <th data-i18n="guide.th_slot">Slot</th>
+      <th data-i18n="guide.th_mainstat">Main Stat</th>
+      <th data-i18n="guide.th_mnotes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td data-i18n="guide.sands_label">Sands</td><td><b>HP%</b> / ER%</td><td >HP% best for damage. ER% if below 180% (solo Hydro needs 200%+).</td></tr>
+      <tr><td data-i18n="guide.goblet_label">Goblet</td><td><b>Hydro DMG</b></td><td >Always Hydro DMG. HP% goblet only with Aqua + very high HP subs.</td></tr>
+      <tr><td data-i18n="guide.circlet_label">Circlet</td><td><b>CRIT Rate</b> / CRIT DMG</td><td >Aim for 1:2 ratio. ~70% CR, ~140%+ CD.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="electro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    <li >Energy Recharge (to 180-200% — C1 lowers this to ~160%)</li>
+    <li >CRIT Rate / CRIT DMG (1:2 ratio — she needs both)</li>
+    <li >HP% (more damage — Yelan scales entirely off HP)</li>
+    <li >Flat HP (minor boost — less efficient than HP%)</li>
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  <div class="emphasis-box hydro">
+    <strong >Team 1: Double Hydro Hu Tao</strong><br>
+    <span >Hu Tao + Yelan + Xingqiu + Zhongli. Double Hydro resonance (+25% HP) benefits both Yelan and Hu Tao. Massive single-target DMG.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong >Team 2: Hyperbloom Driver</strong><br>
+    <span >Yelan + Nahida + Kuki/Raiden + Flex. Yelan provides Hydro for bloom seeds. Kuki triggers hyperblooms. High floor damage.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong >Team 3: Mono Hydro</strong><br>
+    <span >Kokomi + Yelan + Kazuha + Xingqiu. Triple Hydro feeds everyone's energy. Kazuha buffs Hydro DMG. Fun and surprisingly effective.</span>
+  </div>
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    <div class="talent-item" style="border-color:rgba(179,136,255,0.3);">
+      <div class="talent-icon" style="background:rgba(179,136,255,0.15);color:#c59dff;">Q</div>
+      <div class="talent-label">Elemental Burst</div>
+      <div class="talent-priority p1">Priority 1 (Crown)</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">E</div>
+      <div class="talent-label">Elemental Skill</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(102,102,138,0.1);color:var(--text-muted);">NA</div>
+      <div class="talent-label">Normal Attack</div>
+      <div class="talent-priority p3">Priority 3 (Skip)</div>
+    </div>
+  </div>
+  <p >Crown the burst — it's Yelan's entire identity. Skill to 8-9 for decent damage and particle gen. Normal attack stays at 1 — Yelan never uses her own NAs.</p>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box hydro">
+    <div >Double Hydro Hu Tao rotation:</div>
+    <code style="font-size:0.85rem;">Zhongli hold E → Yelan E Q → Xingqiu E Q E → Hu Tao E → CA spam (jump/dash cancel) → Q (when HP low)</code>
+  </div>
+  <p style="font-size:0.85rem;color:var(--text-muted);" >⚠️ Yelan E then Q to pre-funnel particles. Hu Tao's NA spam triggers Yelan's coordinated burst attacks. Yelan's A4 ramping DMG buff peaks during Hu Tao's field time.</p>
+
+  <!-- Section 6: Mistakes -->
+  <h2 class="hydro" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Building ATK instead of HP. Yelan scales ENTIRELY on HP. ATK does literally nothing for her.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Too little ER. Solo Hydro Yelan needs 200%+ ER. Below 180%, burst won't be up. Use Favonius Warbow or an ER sands.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Leveling NA. Yelan's burst triggers off anyone's NA — she never uses her own normal attacks as a sub-DPS.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" >❌ Using her as solo Hydro in energy-hungry teams. Yelan needs either C1, Sac Bow, or Fav Bow to battery herself solo. Otherwise pair with Xingqiu.</p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Pro Deep Dive Teaser -->
+  <div class="pro-teaser" style="background:linear-gradient(135deg, rgba(179,136,255,0.06), rgba(179,136,255,0.01));">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 >Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:14px;" >Here's what our DMG simulator outputs. Pro members get full frame data, buff timing, and team DPS comparison.</p>
+    <pre><code><span class="highlight-line">// Yelan Burst DMG Simulation (C0, 90, 4pc Emblem, 35K HP, 200% ER)</span>
+Weapon: Aqua Simulacra R1 | Enemy: Lv.103 · RES 10%
+
+<span class="highlight-line">[Frame 005] Exquisite Throw #1:  8,912 DMG  (CRIT)</span>
+[Frame 020] Exquisite Throw #2:  <span style="color:var(--gold);">███ CRIT ███</span>    ← Pro only
+[Frame 035] Exquisite Throw #3:  <span style="color:var(--gold);">████ CRIT ████</span>  ← Pro only
+...
+Total Burst DMG (15s):  <span style="color:var(--accent);">███,███</span>  ← Unlock
+
+<span class="highlight-line">Optimizer: "HP% sands → ER% sands = burst always on cooldown (+32% effective DPS)"</span>
+<span style="color:var(--text-muted);">► Full simulation: 15 coordinated hits · A4 ramping buff · energy calc → Pro</span></code></pre>
+    <div class="teaser-cta">
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin:0;" >See your exact DMG numbers. Compare builds. Win more Abyss floors.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="yelan.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      <a href="guide-hutao.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Hu Tao <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Main DPS · Crimson Witch · Double Hydro</p>
+        </div>
+      </a>
+      <a href="guide-yelan.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <div class="elem-icon hydro">💧</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Yelan <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Emblem set · Aqua Simulacra</p>
+        </div>
+      </a>
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Xiangling <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" >Sub DPS · Noblesse set · The Catch R5</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

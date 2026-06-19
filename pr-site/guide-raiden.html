@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.">
+<title>Raiden Shogun Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:title" content="Raiden Shogun Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-raiden.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Raiden Shogun Build Guide — v4.8","description":"Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.","dateModified":"2026-06-19","author":{"@type":"Organization","name":"GenshinGuide"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-raiden.html"}}</script>
+</head>
+<body data-page="raiden">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase electro">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder electro" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(<generator object sync_do_slice at 0x7fd31fab0270>,<generator object sync_do_slice at 0x7fd31fab0270>,<generator object sync_do_slice at 0x7fd31fab0270>,0.15));">
+      <span>Raiden</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v4.8 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-19</div>
+    <h1 class="char-name">Raiden Shogun <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag" data-i18n="guide.weapon_polearm">Polearm</span>
+      <span class="elem-tag" data-i18n="guide.element_electro">Electro</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role" data-i18n="guide.role_support">Support</span>
+    </div>
+    <p class="char-desc" data-i18n="raiden.desc">Her Excellency, the Almighty, Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box electro">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">⚡ <span data-i18n="guide.tldr_best_weapon">Best Weapon</span></div>
+        <div class="tldr-value">Engulfing Lightning (F2P: The Catch R5)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span data-i18n="guide.tldr_best_artifact">Best Artifact</span></div>
+        <div class="tldr-value">4pc Emblem of Severed Fate (ER/Electro DMG/CRIT)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span data-i18n="guide.tldr_best_team">Best Team</span></div>
+        <div class="tldr-value">Raiden National (Raiden·XL·XQ·Bennett)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span data-i18n="guide.tldr_key_stats_label">Key Stats</span></div>
+        <div class="tldr-value">ER 250-270% · CRIT 70/140 · Burst > Skill > NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="raiden.intro">Raiden Shogun is one of Genshin's most versatile characters: team battery, sub-DPS, and enabler. This guide covers everything you need to build her optimally in v4.8.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="electro" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box electro">
+    <strong data-i18n="guide.bottom_line_label">Bottom line:</strong> Engulfing Lightning is BiS. The Catch R5 is 85% as good — and free. Only pull signature if you want to min-max.
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(179,136,255,0.2);">
+        <th data-i18n="guide.th_rank">Rank</th>
+        <th data-i18n="guide.th_weapon">Weapon</th>
+        <th data-i18n="guide.th_rarity">Rarity</th>
+        <th data-i18n="guide.th_atk">Base ATK</th>
+        <th data-i18n="guide.th_substat">Sub-stat</th>
+        <th data-i18n="guide.th_notes">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Engulfing Lightning</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>ER 55.1%</td>
+        <td data-i18n="raiden.w1_notes">Signature. ATK based on ER above 100%.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>The Catch R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>ER 45.9%</td>
+        <td data-i18n="raiden.w2_notes">Best F2P. +32% burst DMG, +12% CR. Free.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Staff of Homa</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>CRIT DMG 66.2%</td>
+        <td data-i18n="raiden.w3_notes">Strong stat stick. HP convert to ATK.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div data-i18n="ad.ad2_head" style="font-weight:700;margin-bottom:4px;">🖱️ Gaming Gear Deals — Up to 40% Off</div>
+      <div data-i18n="ad.ad2_desc" style="color:var(--text-muted);margin-bottom:8px;">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      <a href="#" class="ad-cta" data-i18n="ad.ad2_cta" style="color:var(--accent);">View Deals →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="electro" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box electro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="raiden.arti_best">🎯 Best: 4-Piece Emblem of Severed Fate</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="raiden.arti_why">Raiden's kit revolves around her burst and ER. Emblem converts ER investment into burst DMG. With 250% ER → 62.5% burst DMG bonus.</p>
+  </div>
+
+  <h3 class="electro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th data-i18n="guide.th_slot">Slot</th><th data-i18n="guide.th_mainstat">Main Stat</th><th data-i18n="guide.th_mnotes">Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span data-i18n="guide.sands_label">Sands</span></td>
+        <td>ER% / ATK%</td>
+        <td data-i18n="raiden.sands_note">ER% if below 250%. ATK% if Engulfing + high ER subs.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span data-i18n="guide.goblet_label">Goblet</span></td>
+        <td>Electro DMG / ATK%</td>
+        <td data-i18n="raiden.goblet_note">Electro generally better. ATK% goblet viable with Engulfing.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span data-i18n="guide.circlet_label">Circlet</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td data-i18n="raiden.circlet_note">Aim for 1:2 CRIT. ~70% CR, ~140%+ CD.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="electro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li data-i18n="raiden.sub1">Energy Recharge (until 250-270%)</li>
+    
+    <li data-i18n="raiden.sub2">CRIT Rate / CRIT DMG (1:2 ratio)</li>
+    
+    <li data-i18n="raiden.sub3">ATK%</li>
+    
+    <li data-i18n="raiden.sub4">Elemental Mastery (Hyperbloom build only)</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="electro" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  
+  <div class="emphasis-box electro">
+    <strong data-i18n="raiden.team1_name">Team 1: Raiden National</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Raiden Shogun + Xiangling + Xingqiu + Bennett</span><br>
+    <span data-i18n="raiden.team1_desc" style="font-size:0.88rem;">The classic. High single-target + AoE. Consistent rotations. Easy to play. Perfect for Abyss.</span>
+  </div>
+  
+  <div class="emphasis-box electro">
+    <strong data-i18n="raiden.team2_name">Team 2: Raiden Hypercarry</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Raiden Shogun + Sara + Kazuha + Bennett</span><br>
+    <span data-i18n="raiden.team2_desc" style="font-size:0.88rem;">Maximum personal damage. Kazuha VV shred + Sara/Bennett ATK buffs. Massive burst numbers. Needs C6 Sara.</span>
+  </div>
+  
+  <div class="emphasis-box electro">
+    <strong data-i18n="raiden.team3_name">Team 3: Raiden Hyperbloom</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Raiden Shogun(EM) + Nahida + Xingqiu + Flex</span><br>
+    <span data-i18n="raiden.team3_desc" style="font-size:0.88rem;">Full EM build (Triple EM, Dragon's Bane). Triggers hyperblooms from off-field. Highest floor-damage team in the game.</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="electro" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#b388ff;background:rgba(179,136,255,0.08);">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label" data-i18n="guide.talent1_label">Elemental Burst</div>
+      <div class="talent-priority p1">Priority 1</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label" data-i18n="guide.talent2_label">Elemental Skill</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label" data-i18n="guide.talent3_label">Normal Attack</div>
+      <div class="talent-priority p3">Priority 3</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="electro" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box electro">
+    <div data-i18n="raiden.rotation_title">Raiden National rotation:</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Raiden E → Xingqiu E Q E → Bennett Q E → Xiangling Q E → Raiden Q → N3C × 4 → Repeat</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="electro" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="raiden.m1">❌ ❌ Too little ER. Raiden needs 250%+. Below 220%, burst won't be up on cooldown.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="raiden.m2">❌ ❌ ATK% sands without enough ER. ER sands is almost always better.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="raiden.m3">❌ ❌ Not leveling skill. Her E buffs team burst DMG. Level it to at least 8.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="raiden.m4">❌ ❌ Wasting burst on low HP enemies. Initial slash does massive DMG — aim at biggest threat.</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#b388ff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p data-i18n="guide.pro_teaser_desc">Get exact damage numbers, compare artifact loadouts, and optimize your Raiden Shogun build with the Pro DMG Simulator.</p>
+    <pre><code class="language-json">// Raiden Burst DMG Simulation (C0, 90, 4pc Emblem, 265% ER) Weapon: Engulfing Lightning R1 | Enemy: Lv.103 · RES 10% [Frame 032] Burst Slash #1: 28,432 DMG (CRIT) [Frame 058] Burst Slash #2: ███ CRIT ███ ← Pro only [Frame 084] Burst Slash #3: ████ CRIT ████ ← Pro only ... [Frame 380] Total Burst DMG: ███,███ ← Unlock Optimizer: "Swap ER% → Electro DMG goblet = +8.3% team DPS" ► Full simulation: 15 frames · buff snapshotting · energy calc → Pro</code></pre>
+    <div class="teaser-cta">
+      <p data-i18n="guide.pro_teaser_cta">Unlock full damage simulation and build optimization for Raiden Shogun and every other character.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      
+      <a href="guide-hutao.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Hu Tao <span class="grade grade-s">S</span></h4>
+          <p data-i18n="raiden.related_hutao">Main DPS · Crimson Witch · Double Hydro</p>
+        </div>
+      </a>
+      
+      <a href="guide-yelan.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Yelan <span class="grade grade-s">S</span></h4>
+          <p data-i18n="raiden.related_yelan">Sub DPS · Emblem set · Aqua Simulacra</p>
+        </div>
+      </a>
+      
+      <a href="guide-xiangling.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Xiangling <span class="grade grade-s">S</span></h4>
+          <p data-i18n="raiden.related_xiangling">Sub DPS · Noblesse set · The Catch R5</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+{
+  "_character_id": "raiden",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Raiden Shogun Build Guide — GenshinGuide",
+    "description": "Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide."
+  },
+  "_element": "electro",
+  "tldr_weapon": "Engulfing Lightning (F2P: The Catch R5)",
+  "tldr_artifact": "4pc Emblem of Severed Fate (ER/Electro DMG/CRIT)",
+  "tldr_team": "Raiden National (Raiden·XL·XQ·Bennett)",
+  "tldr_key_stats": "ER 250-270% · CRIT 70/140 · Burst > Skill > NA",
+  "_weapon_type": "polearm",
+  "intro": "Raiden Shogun is one of Genshin's most versatile characters: team battery, sub-DPS, and enabler. This guide covers everything you need to build her optimally in v4.8.",
+  "weapon_bottom_line": "Engulfing Lightning is BiS. The Catch R5 is 85% as good — and free. Only pull signature if you want to min-max.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Engulfing Lightning",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "ER 55.1%",
+      "notes": "Signature. ATK based on ER above 100%."
+    },
+    {
+      "rank": 2,
+      "name": "The Catch R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ER 45.9%",
+      "notes": "Best F2P. +32% burst DMG, +12% CR. Free."
+    },
+    {
+      "rank": 3,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Strong stat stick. HP convert to ATK."
+    }
+  ],
+  "best_artifact": "4-Piece Emblem of Severed Fate",
+  "artifact_why": "Raiden's kit revolves around her burst and ER. Emblem converts ER investment into burst DMG. With 250% ER → 62.5% burst DMG bonus.",
+  "artifact_alt": "2pc Emblem + 2pc Thundering Fury (while farming). 4pc Emblem is the goal.",
+  "main_stats": {
+    "sands": "ER% / ATK%",
+    "sands_note": "ER% if below 250%. ATK% if Engulfing + high ER subs.",
+    "goblet": "Electro DMG / ATK%",
+    "goblet_note": "Electro generally better. ATK% goblet viable with Engulfing.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 CRIT. ~70% CR, ~140%+ CD."
+  },
+  "sub_priority": [
+    "Energy Recharge (until 250-270%)",
+    "CRIT Rate / CRIT DMG (1:2 ratio)",
+    "ATK%",
+    "Elemental Mastery (Hyperbloom build only)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Raiden National",
+      "members": "Raiden Shogun + Xiangling + Xingqiu + Bennett",
+      "desc": "The classic. High single-target + AoE. Consistent rotations. Easy to play. Perfect for Abyss."
+    },
+    {
+      "name": "Team 2: Raiden Hypercarry",
+      "members": "Raiden Shogun + Sara + Kazuha + Bennett",
+      "desc": "Maximum personal damage. Kazuha VV shred + Sara/Bennett ATK buffs. Massive burst numbers. Needs C6 Sara."
+    },
+    {
+      "name": "Team 3: Raiden Hyperbloom",
+      "members": "Raiden Shogun(EM) + Nahida + Xingqiu + Flex",
+      "desc": "Full EM build (Triple EM, Dragon's Bane). Triggers hyperblooms from off-field. Highest floor-damage team in the game."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 1"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3"
+    }
+  ],
+  "rotation_title": "Raiden National rotation:",
+  "rotation_code": "Raiden E → Xingqiu E Q E → Bennett Q E → Xiangling Q E → Raiden Q → N3C × 4 → Repeat",
+  "rotation_key": "⚠️ Raiden's E first for coordinated attack. Bennett before Xiangling so she snapshots the ATK buff.",
+  "mistakes": [
+    "❌ Too little ER. Raiden needs 250%+. Below 220%, burst won't be up on cooldown.",
+    "❌ ATK% sands without enough ER. ER sands is almost always better.",
+    "❌ Not leveling skill. Her E buffs team burst DMG. Level it to at least 8.",
+    "❌ Wasting burst on low HP enemies. Initial slash does massive DMG — aim at biggest threat."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Raiden Burst DMG Simulation (C0, 90, 4pc Emblem, 265% ER) Weapon: Engulfing Lightning R1 | Enemy: Lv.103 · RES 10% [Frame 032] Burst Slash #1: 28,432 DMG (CRIT) [Frame 058] Burst Slash #2: ███ CRIT ███ ← Pro only [Frame 084] Burst Slash #3: ████ CRIT ████ ← Pro only ... [Frame 380] Total Burst DMG: ███,███ ← Unlock Optimizer: \"Swap ER% → Electro DMG goblet = +8.3% team DPS\" ► Full simulation: 15 frames · buff snapshotting · energy calc → Pro"
+}

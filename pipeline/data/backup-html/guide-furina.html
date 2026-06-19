@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Furina build guide for Genshin Impact. Best weapons ranked (Splendor of Tranquil Waters, Fleuve Cendre Ferryman), optimal artifacts (Golden Troupe), team compositions, and rotation guide.">
+<meta property="og:title" content="Furina Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Furina build guide: best weapons, artifacts, teams, rotation, and common mistakes. Updated build for the Hydro Archon.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="images/furina.webp">
+<title>Furina Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .rank-4 { background: rgba(100,100,100,0.2); color: #888; }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Furina Build Guide","description":"Optimal weapon, artifact, and team build for Furina in Genshin Impact. Hydro support, buffer, sub-DPS.","dateModified":"2026-06-18"}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">💧 Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <img src="images/furina.webp" alt="Furina" width="252" height="396">
+  </div>
+  <div class="char-info">
+    <div class="version-badge" data-i18n="furina.version_badge">✅ Applicable to Latest Patch · Updated 2026-06-18</div>
+    <h1 class="char-name">Furina <span>Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag hydro">💧 Hydro</span>
+      <span class="divider">·</span>
+      <span>🗡️ Sword</span>
+      <span class="divider">·</span>
+      <span class="grade grade-s">S</span>
+      <span>Tier</span>
+      <span class="divider">·</span>
+      <span>Sub DPS / Buffer / Healer</span>
+    </div>
+    <p class="char-role" data-i18n="furina.char_role">The Regina of All Waters. Provides massive team-wide DMG buffs through HP manipulation, summons three Salon Members for off-field DPS, and can switch to healing mode on demand.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR: first principles — answer first, explain later -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title" data-i18n="furina.tldr_title">💧 TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 Best Weapon</div>
+        <div class="tldr-value">Splendor of Tranquil Waters <span class="tldr-muted">(F2P: Fleuve Cendre Ferryman R5)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 Best Artifact</div>
+        <div class="tldr-value">4pc Golden Troupe <span class="tldr-muted">(HP%/HP% or Hydro/CRIT)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 Best Team</div>
+        <div class="tldr-value">Neuvillette Hypercarry <span class="tldr-muted">(Neuvi·Furina·Kazuha·Xilonen)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 Key Stats</div>
+        <div class="tldr-value">HP 35-40k · CRIT 70/140 · E &gt; Q &gt;&gt;&gt; NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="furina.intro">Furina is one of Genshin's most powerful and flexible supports: team-wide buffer, off-field sub-DPS, and emergency healer. Her kit revolves around <strong>HP manipulation</strong> — she drains the party's HP to fuel her summons, then converts every point of HP change into a team-wide DMG bonus. <strong>She scales entirely with HP, not ATK.</strong> This guide covers everything you need to build her optimally.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro" data-i18n="furina.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box hydro">
+    <strong>Bottom line:</strong> Splendor of Tranquil Waters is BiS. Fleuve Cendre Ferryman R5 is free and ~80% as effective. Festering Desire is a strong limited alternative. Only pull the signature if you want to min-max.
+  </div>
+  <table class="weapon-table">
+    <thead><tr style="border-bottom-color:rgba(107,163,255,0.2);">
+      <th data-i18n="furina.th_rank">Rank</th>
+      <th data-i18n="furina.th_weapon">Weapon</th>
+      <th data-i18n="furina.th_rarity">Rarity</th>
+      <th data-i18n="furina.th_atk">Base ATK</th>
+      <th data-i18n="furina.th_substat">Sub-stat</th>
+      <th data-i18n="furina.th_notes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td><span class="rank rank-1">1</span></td><td>Splendor of Tranquil Waters</td><td>⭐⭐⭐⭐⭐</td><td>542</td><td>CRIT DMG 88.2%</td><td data-i18n="furina.w1_notes">Signature. HP + skill DMG when HP changes. Best in slot.</td></tr>
+      <tr><td><span class="rank rank-2">2</span></td><td>Fleuve Cendre Ferryman R5</td><td>⭐⭐⭐⭐</td><td>510</td><td>ER 45.9%</td><td data-i18n="furina.w2_notes">Best F2P. ER substat + skill CRIT rate. Free from fishing.</td></tr>
+      <tr><td><span class="rank rank-3">3</span></td><td>Festering Desire</td><td>⭐⭐⭐⭐</td><td>510</td><td>ER 45.9%</td><td data-i18n="furina.w3_notes">Limited event weapon. Skill DMG + skill CRIT. Great if you have it.</td></tr>
+      <tr><td><span class="rank rank-4">4</span></td><td>Favonius Sword</td><td>⭐⭐⭐⭐</td><td>454</td><td>ER 61.3%</td><td data-i18n="furina.w4_notes">Team energy battery. High ER substat. Lowers Furina's personal DMG.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- AD #2: Between weapons and artifacts — answer received, now context -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div class="ad-icon">🖱️</div>
+      <div class="ad-text">
+        <div class="ad-headline" data-i18n="ad.ad2_head">Gaming Gear Deals — Up to 40% Off</div>
+        <div class="ad-desc" data-i18n="ad.ad2_desc">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      </div>
+      <span class="ad-cta" data-i18n="ad.ad2_cta">View Deals →</span>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro" data-i18n="furina.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="furina.arti_best">🎯 Best: 4-Piece Golden Troupe</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="furina.arti_why">Furina's damage comes entirely from her Elemental Skill (Salon Members). Golden Troupe grants +70% skill DMG while off-field — which is exactly where Furina spends her time. This is by far her strongest set.</p>
+  </div>
+  <p style="font-size:0.9rem;"><span data-i18n="furina.arti_alt">Alternative:</span> 4pc Tenacity of the Millelith (full support build — provides team ATK buff, lower personal damage). 2pc Golden Troupe + 2pc HP% (Tenacity/Vourukasha) while farming.</p>
+
+  <h3 class="hydro" data-i18n="furina.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead><tr>
+      <th data-i18n="furina.th_slot">Slot</th>
+      <th data-i18n="furina.th_mainstat">Main Stat</th>
+      <th data-i18n="furina.th_mnotes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td data-i18n="furina.sands_label">Sands</td><td><b>HP%</b></td><td data-i18n="furina.sands_note">Furina scales entirely with HP. ATK% is a dead stat. Aim for 35-40k HP.</td></tr>
+      <tr><td data-i18n="furina.goblet_label">Goblet</td><td><b>HP%</b> / Hydro DMG</td><td data-i18n="furina.goblet_note">HP% goblet is competitive with Hydro DMG due to Furina's self-buff. Use whichever has better substats.</td></tr>
+      <tr><td data-i18n="furina.circlet_label">Circlet</td><td><b>CRIT Rate</b> / CRIT DMG</td><td data-i18n="furina.circlet_note">Aim for 1:2 CRIT ratio. ~70% CR, ~140%+ CD. CRIT Rate circlet is usually best.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro" data-i18n="furina.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    <li data-i18n="furina.sub_er">Energy Recharge (160-180% solo Hydro / 130-150% double Hydro)</li>
+    <li data-i18n="furina.sub_crit">CRIT Rate / CRIT DMG (1:2 ratio)</li>
+    <li data-i18n="furina.sub_hp">HP%</li>
+    <li data-i18n="furina.sub_flat">Flat HP (low priority, but better than ATK)</li>
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro" data-i18n="furina.sec_teams">3. Best Team Compositions</h2>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="furina.team1_name">Team 1: Neuvillette Hypercarry</strong><br>
+    <span data-i18n="furina.team1_desc">Neuvillette · Furina · Kazuha · Xilonen. Furina's buff and Hydro Resonance skyrocket Neuvillette's damage. The premier Fontaine team. Consistent, high AoE damage with massive self-sustain.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="furina.team2_name">Team 2: Noelle Furina Core</strong><br>
+    <span data-i18n="furina.team2_desc">Noelle · Furina · Gorou/Yun Jin · Flex. Noelle's team-wide healing perfectly offsets Furina's HP drain while driving on-field. Surprisingly strong. Budget-friendly.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="furina.team3_name">Team 3: Hu Tao Double Hydro</strong><br>
+    <span data-i18n="furina.team3_desc">Hu Tao · Furina · Yelan · Jean/Healer. Furina keeps Hu Tao below 50% HP naturally while providing a massive DMG% buff. Hydro Resonance + Yelan for more HP scaling.</span>
+  </div>
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro" data-i18n="furina.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    <div class="talent-item" style="border-color:rgba(68,138,255,0.3);">
+      <div class="talent-icon" style="background:rgba(68,138,255,0.15);color:#6ba3ff;">E</div>
+      <div class="talent-label">Elemental Skill</div>
+      <div class="talent-priority p1">Priority 1</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">Q</div>
+      <div class="talent-label">Elemental Burst</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(102,102,138,0.1);color:var(--text-muted);">NA</div>
+      <div class="talent-label">Normal Attack</div>
+      <div class="talent-priority p3">Skip</div>
+    </div>
+  </div>
+  <p data-i18n="furina.talent_note">Crown the skill first — it's your main damage source. Burst to 9 for maximum DMG buff. Normal attack stays at 1 — you never auto-attack on Furina.</p>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro" data-i18n="furina.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box hydro">
+    <div data-i18n="furina.rotation_title">Standard Furina rotation (Ousia mode):</div>
+    <code style="font-size:0.85rem;">Furina E Q → Team Healer (E/Q) → Support Buffs → Main DPS → Refresh Furina E → Repeat</code>
+  </div>
+  <p style="font-size:0.85rem;color:var(--text-muted);" data-i18n="furina.rotation_key">⚠️ Always start in Ousia (dark/damage) mode. Use E first so Salon Members start draining HP and building Fanfare stacks immediately. Burst amplifies the DMG bonus from those stacks. <strong>Always bring a team-wide healer</strong> — Furina's HP drain will kill your team otherwise. Refresh E before it expires (30s duration).</p>
+
+  <!-- Section 6: Mistakes -->
+  <h2 class="hydro" data-i18n="furina.sec_mistakes">6. Common Mistakes</h2>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="furina.m1">❌ Building ATK on Furina. Her entire kit scales with HP. ATK% sands, ATK% weapons, and ATK% substats are wasted stats.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="furina.m2">❌ No team-wide healer. Furina drains the entire party's HP. A single-target healer won't keep up. Bring Jean, Baizhu, Xianyun, Charlotte, or a healer on-field DPS.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="furina.m3">❌ Leveling Normal Attack talent. Furina's NA has zero scaling relevance. Save your resources for E and Q.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="furina.m4">❌ Wrong Energy Recharge. You need 160-180% ER as solo Hydro, or 130-150% with double Hydro. Without enough ER, you can't burst every rotation and your team loses the massive DMG buff.</p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Pro Deep Dive Teaser -->
+  <div class="pro-teaser" style="border-color:rgba(68,138,255,0.5);background:linear-gradient(135deg, rgba(68,138,255,0.06), rgba(68,138,255,0.01));">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="furina.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:14px;" data-i18n="furina.pro_teaser_desc">Here's what our DMG simulator outputs. Pro members get full frame data, Fanfare stack tracking, and team DPS comparison.</p>
+    <pre><code><span class="highlight-line">// Furina Skill DMG Simulation (C0, 90, 4pc Golden Troupe, 38k HP)</span>
+Weapon: Splendor of Tranquil Waters R1 | Enemy: Lv.103 · RES 10%
+
+<span class="highlight-line">[Fanfare 150] Mademoiselle Crabaletta:  32,844 DMG  (Vape CRIT)</span>
+[Fanfare 200] Gentilhomme Usher:         <span style="color:var(--gold);">███ CRIT ███</span>    ← Pro only
+[Fanfare 250] Surintendante Chevalmarin: <span style="color:var(--gold);">████ CRIT ████</span>  ← Pro only
+...
+[Fanfare 300] Total Skill Rotation:      <span style="color:var(--accent);">███,███</span>  ← Unlock
+
+<span class="highlight-line">Optimizer: "HP% goblet out-performs Hydro DMG by +4.2% with C2+"</span>
+<span style="color:var(--text-muted);">► Full simulation: Fanfare curve · HP drain timing · team DPS → Pro</span></code></pre>
+    <div class="teaser-cta">
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin:0;" data-i18n="furina.pro_teaser_cta">See your exact DMG numbers. Compare builds. Win more Abyss floors.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="furina.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="furina.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      <a href="guide-neuvillette.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <img src="images/neuvillette-icon.webp" alt="Neuvillette" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Neuvillette <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="furina.related_neuvi">Main DPS · Marechaussee Hunter · HP/HP/Crit</p>
+        </div>
+      </a>
+      <a href="guide-hutao.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <img src="images/hutao-icon.webp" alt="Hutao" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Hu Tao <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="furina.related_hutao">Main DPS · Crimson Witch · Double Hydro</p>
+        </div>
+      </a>
+      <a href="guide-yelan.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <img src="images/yelan-icon.webp" alt="Yelan" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Yelan <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="furina.related_yelan">Sub DPS · Emblem set · Aqua Simulacra</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

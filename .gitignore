@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+pipeline/data/cache/
+pipeline/data/translate_cache.json

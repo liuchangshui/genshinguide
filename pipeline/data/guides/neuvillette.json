@@ -1,0 +1,134 @@
+{
+  "_character_id": "neuvillette",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Neuvillette Build Guide — GenshinGuide",
+    "description": "Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide."
+  },
+  "_element": "hydro",
+  "tldr_weapon": "Tome of the Eternal Flow (F2P: Prototype Amber R5)",
+  "tldr_artifact": "4pc Marechaussee Hunter (HP%/Hydro or HP%/CRIT DMG or HP%)",
+  "tldr_team": "Neuvillette Hypercarry (Neuv·Furina·Kazuha·Baizhu)",
+  "tldr_key_stats": "HP 35k-42k · CRIT 64/250+ · NA > E == Q",
+  "_weapon_type": "catalyst",
+  "intro": "Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v4.8.",
+  "weapon_bottom_line": "Tome of the Eternal Flow is his signature and BiS. Prototype Amber R5 is shockingly close — and craftable for free. Only pull signature if you want to min-max.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Tome of the Eternal Flow",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Signature. HP manipulation = extra CA DMG. Massive CD stat stick."
+    },
+    {
+      "rank": 2,
+      "name": "Prototype Amber R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "HP 41.3%",
+      "notes": "Best F2P. HP% substat + energy refund + team heal. Rivals 5-stars!"
+    },
+    {
+      "rank": 3,
+      "name": "Sacrificial Jade R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "CRIT Rate 36.8%",
+      "notes": "Battle Pass. Huge HP buff after 5s off-field. Requires rotation discipline."
+    }
+  ],
+  "best_artifact": "4-Piece Marechaussee Hunter",
+  "artifact_why": "Neuvillette's charged attack constantly drains and heals his own HP, triggering Marechaussee's 36% CRIT Rate bonus effortlessly. This frees you to stack CRIT DMG to 250%+ while maintaining a 1:2 ratio. With his HP-scaling, this set is essentially custom-made for him.",
+  "artifact_alt": "4pc Heart of Depth (if you haven't farmed Marechaussee yet). 2pc HP% + 2pc Hydro DMG (transitional build).",
+  "main_stats": {
+    "sands": "HP%",
+    "sands_note": "Always HP%. His entire kit scales from HP — ATK is useless on him.",
+    "goblet": "Hydro DMG / HP%",
+    "goblet_note": "Hydro DMG is ~3-5% better. HP% goblet is extremely close with Furina + Kazuha buffs.",
+    "circlet": "CRIT DMG / HP%",
+    "circlet_note": "CRIT DMG usually best. With MH set, aim for 64% CR (100% effective). HP% circlet viable with high CD subs."
+  },
+  "sub_priority": [
+    "CRIT Rate / CRIT DMG (aim for 64% CR with MH set, rest into CD)",
+    "HP%",
+    "Energy Recharge (120-140% comfortable, less with Prototype Amber or double Hydro)",
+    "Elemental Mastery (niche — Vaporize teams only)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Neuvillette Hypercarry",
+      "members": "Neuvillette + Furina + Kazuha + Baizhu",
+      "desc": "Neuvillette · Furina · Kazuha · Baizhu. His premium team. Furina provides massive DMG% and enables his A1 passive. Kazuha VV shred + grouping. Baizhu provides shields and healing for Furina stacks. Highest ceiling."
+    },
+    {
+      "name": "Team 2: Budget Freeze/Hypercarry",
+      "members": "Neuvillette + Fischl + Sucrose + Zhongli",
+      "desc": "Neuvillette · Fischl · Sucrose · Zhongli. Zhongli shield is essential at C0 for interruption resistance. Fischl provides consistent electro application and off-field damage. Sucrose provides VV shred and EM/grouping."
+    },
+    {
+      "name": "Team 3: Taser (Electro-Charged)",
+      "members": "Neuvillette + Fischl + Kazuha + Beidou",
+      "desc": "Neuvillette · Fischl · Beidou · Kazuha/Sucrose. Double Electro for particle generation. Beidou's burst chains through Neuvillette's charged attack beam. High AoE damage and stagger resistance."
+    },
+    {
+      "name": "Team 4: Hyperbloom Driver",
+      "members": "Neuvillette + Nahida + Raiden(EM) + Flex",
+      "desc": "Neuvillette · Nahida · Raiden (Full EM) · Flex (Zhongli/Baizhu). Neuvillette drives hyperblooms with sustained Hydro application. Raiden triggers from off-field. Extremely high floor damage with minimal investment."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 1"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 2"
+    }
+  ],
+  "rotation_title": "Neuvillette Hypercarry rotation:",
+  "rotation_code": "Neuvillette E → Furina E Q → Kazuha E (tap) Q → Baizhu E Q → Neuvillette CA (hold) → Q → E → CA (hold) × 2 → Repeat",
+  "rotation_key": "⚠️ Use Neuvillette's E first to generate Sourcewater Droplets. After supports, hold CA to absorb droplets for instant beam. At C1+, you can use 2 charged attacks without re-setup.",
+  "mistakes": [
+    "❌ Building ATK on Neuvillette. His entire kit scales with HP. ATK% sands, ATK% substats, and ATK-buffing weapons (except his signature which has CD) are dead stats on him.",
+    "❌ Running C0 without a shielder. Neuvillette's charged attack beam can be interrupted by any hit. At C0, you must run a shielder or you will lose significant DPS from canceled beams.",
+    "❌ Not triggering all 3 Hydro-related reactions. Neuvillette's A1 passive gives up to 160% CA DMG bonus when 3 different Hydro reactions occur. Build teams that trigger at least 2-3 different reaction types.",
+    "❌ Underestimating HP% goblet. With Furina + Kazuha providing massive DMG% buffs, HP% goblet can outperform Hydro DMG goblet if it has better substats. Don't auto-trash HP% goblets with good CRIT rolls."
+  ],
+  "related_guides": [
+    {
+      "id": "furina",
+      "name": "Furina",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Support/Sub DPS · Golden Troupe · Splendor"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kazuha",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Support · VV set · Freedom-Sworn"
+    },
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Neuvillette Charged ATK DMG Simulation (C0, 90, 4pc MH, 40k HP) Weapon: Tome of the Eternal Flow R1 | Enemy: Lv.103 · RES 10% [Frame 001] CA Beam Tick #1: 22,847 DMG (CRIT) @ 64/280 [Frame 032] CA Beam Tick #2: ███ CRIT ███ ← Pro only [Frame 064] CA Beam Tick #3: ████ CRIT ████ ← Pro only ... [Frame 480] Total CA DMG: ███,███ ← Unlock Optimizer: \"HP% goblet with 45 CV outperforms Hydro goblet with Furina — +4.2% DPS\" ► Full simulation: 16 ticks · A1 passive check · Furina fanfare calc → Pro"
+}

@@ -1,0 +1,78 @@
+{
+  "_character_id": "kazuha",
+  "_element": "anemo",
+  "_weapon_type": "sword",
+  "_game_version": "4.8",
+
+  "tldr_weapon": "Freedom-Sworn (F2P: Iron Sting R5)",
+  "tldr_artifact": "4pc Viridescent Venerer (EM/EM/EM)",
+  "tldr_team": "International (Childe·Xiangling·Kazuha·Bennett)",
+  "tldr_key_stats": "EM 800-1000 · ER 160%+ · Triple EM main stats · E > Q >>> NA",
+
+  "intro": "Kaedehara Kazuha is the premier Anemo support in Genshin Impact. He provides enemy grouping, 40% Elemental RES shred via 4pc Viridescent Venerer, and a team-wide Elemental DMG bonus that scales with his Elemental Mastery. Unlike Sucrose who shares EM, Kazuha directly buffs Elemental DMG — making him irreplaceable for mono-element and reaction teams alike. At C0 he's already top-tier; at C2 he becomes broken.",
+
+  "weapon_bottom_line": "EM is king. Freedom-Sworn gives 198 EM + team buff. Iron Sting gives 165 EM and is free forgeable. Xiphos' Moonlight gives EM + converts to ER for the team. Favonius Sword is a comfort option if you desperately need ER.",
+
+  "weapons": [
+    {"rank": 1, "name": "Freedom-Sworn", "rarity": 5, "atk": 608, "substat": "EM 198", "notes": "Signature. Highest EM substat + team-wide ATK and NA/CA/Plunge DMG buff. Perfect synergy with his kit."},
+    {"rank": 2, "name": "Xiphos' Moonlight", "rarity": 4, "atk": 510, "substat": "EM 165", "notes": "Excellent. Converts EM to ER for Kazuha and the team. At R5 with 1000 EM, gives ~30% ER to everyone. Solves energy problems."},
+    {"rank": 3, "name": "Iron Sting R5", "rarity": 4, "atk": 510, "substat": "EM 165", "notes": "Best F2P. Free forgeable. Same EM as Xiphos but no ER utility. Easy to craft and refine."},
+    {"rank": 4, "name": "Favonius Sword", "rarity": 4, "atk": 454, "substat": "ER 61.3%", "notes": "Team battery option. Lower EM means weaker buff, but white particles fuel the entire team. Use if ER is a problem."}
+  ],
+
+  "best_artifact": "4pc Viridescent Venerer",
+  "artifact_why": "4pc VV shreds enemy Elemental RES by 40% when Kazuha swirls. This is the single most powerful support artifact effect in the game. Kazuha's EM also converts to Elemental DMG bonus for the swirled element via his A4 passive. Triple EM main stats maximize both effects.",
+  "artifact_alt": "There is no real alternative. 4pc VV is mandatory on Kazuha. If you don't have it yet, farm the VV domain until you do. Even with bad substats, 4pc VV is better than any other set.",
+
+  "main_stats": {
+    "sands": "Elemental Mastery",
+    "sands_note": "Always EM. No exceptions for support Kazuha.",
+    "goblet": "Elemental Mastery",
+    "goblet_note": "Always EM. Anemo DMG goblet is only for DPS Kazuha (not recommended).",
+    "circlet": "Elemental Mastery",
+    "circlet_note": "Always EM. CRIT circlet is only for Favonius Sword builds that need to proc the passive."
+  },
+
+  "sub_priority": [
+    "1. Elemental Mastery — every substat roll matters. Aim for 800-1000 total EM.",
+    "2. Energy Recharge — 160% minimum. Burst gives 8s of off-field swirls + A4 buff.",
+    "3. ATK% — minor personal damage boost. Low priority.",
+    "4. CRIT Rate — only for Favonius Sword builds to trigger the passive."
+  ],
+
+  "teams": [
+    {"name": "Team 1: International", "members": "Childe + Xiangling + Kazuha + Bennett", "desc": "The ceiling team. Kazuha double-swirls Hydro and Pyro, buffing both Childe and Xiangling. Bennett + Kazuha + Xiangling core is one of the strongest in the game. High skill ceiling but the damage is unmatched."},
+    {"name": "Team 2: Freeze Support", "members": "Ayaka + Kokomi + Kazuha + Shenhe", "desc": "Kazuha groups frozen enemies and buffs Cryo DMG for Ayaka. VV shred + A4 Cryo DMG bonus. His grouping is essential for keeping enemies inside Ayaka's burst."},
+    {"name": "Team 3: Aggravate", "members": "Yae Miko + Fischl + Kazuha + Nahida/Baizhu", "desc": "Kazuha swirls Electro for VV shred + Electro DMG bonus. Nahida provides EM share for higher aggravate damage. Kazuha's grouping helps Yae's turrets hit clustered enemies."}
+  ],
+
+  "talent_priority": [
+    {"icon": "E", "label": "Elemental Skill", "priority": "Priority 1 — Level to 8-9"},
+    {"icon": "Q", "label": "Elemental Burst", "priority": "Priority 2 — Level to 8-9"},
+    {"icon": "NA", "label": "Normal Attack", "priority": "Priority 3 — Skip entirely"}
+  ],
+
+  "rotation_title": "International rotation (Childe Vape):",
+  "rotation_code": "Childe E (apply Hydro) → Bennett Q → Kazuha Q E (double swirl Hydro + Pyro) → Xiangling Q E → Childe E NA spam → Repeat",
+  "rotation_key": "Key: Double swirl is essential. Apply Hydro with Childe's stance change first, then Bennett Q (doesn't remove Hydro), then Kazuha's hold E and Q to swirl BOTH Hydro and Pyro simultaneously. This buffs both Childe and Xiangling. Tap E for faster swirls, hold E for stronger grouping.",
+
+  "mistakes": [
+    "Not using triple EM main stats. ATK% or Anemo DMG on a support Kazuha is a massive damage loss for your team. His buff scales with EM — maximize it.",
+    "Not swirling the right element. Kazuha's A4 buff applies to the element swirled. Make sure you swirl the element your DPS uses. Swirling the wrong element = zero buff.",
+    "Leveling Normal Attacks. Kazuha's plunge damage (from E) scales with his Skill talent, not NA. NA levels are completely wasted.",
+    "Using the wrong weapon. Sacrificial Sword seems tempting for double E, but the EM loss compared to Iron Sting or Xiphos is not worth it. Kazuha already has low cooldowns."
+  ],
+
+  "pro_teaser_code": "// Kazuha Buff Calculator\n// 1000 EM = 40% Elemental DMG bonus (A4 passive)\n// VV shred = -40% enemy RES\n// Total buff: 40% DMG bonus + 40% RES shred\n// Freedom-Sworn adds: 20% ATK + 16% NA/CA/Plunge DMG\n// Example: 1000 EM Kazuha with VV + FS →\n//   team gets 40% DMG + 20% ATK + 16% NA/CA + 40% RES shred\n// [Unlock Pro for full team rotation simulation]",
+
+  "related_guides": [
+    {"id": "bennett", "name": "Bennett", "element": "pyro", "emoji": "🔥", "tier": "S", "desc": "Support · Noblesse · Aquila Favonia"},
+    {"id": "xiangling", "name": "Xiangling", "element": "pyro", "emoji": "🔥", "tier": "S", "desc": "Sub DPS · Emblem set · The Catch R5"},
+    {"id": "raiden", "name": "Raiden Shogun", "element": "electro", "emoji": "⚡", "tier": "S", "desc": "Sub DPS · Emblem set · Engulfing Lightning"}
+  ],
+
+  "seo": {
+    "title": "Kazuha Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_character_id": "furina",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Furina Build Guide — GenshinGuide",
+    "description": "Complete Furina build guide for Genshin Impact. Best weapons ranked (Splendor of Tranquil Waters, Fleuve Cendre Ferryman), optimal artifacts (Golden Troupe), team compositions, and rotation guide."
+  },
+  "_element": "hydro",
+  "tldr_weapon": "Splendor of Tranquil Waters (F2P: Fleuve Cendre Ferryman R5)",
+  "tldr_artifact": "4pc Golden Troupe (HP%/HP% or Hydro/CRIT)",
+  "tldr_team": "Neuvillette Hypercarry (Neuvi·Furina·Kazuha·Xilonen)",
+  "tldr_key_stats": "HP 35-40k · CRIT 70/140 · E > Q >>> NA",
+  "_weapon_type": "sword",
+  "intro": "Furina is one of Genshin's most powerful and flexible supports: team-wide buffer, off-field sub-DPS, and emergency healer. Her kit revolves around HP manipulation — she drains the party's HP to fuel her summons, then converts every point of HP change into a team-wide DMG bonus. She scales entirely with HP, not ATK. This guide covers everything you need to build her optimally.",
+  "weapon_bottom_line": "Splendor of Tranquil Waters is BiS. Fleuve Cendre Ferryman R5 is free and ~80% as effective. Festering Desire is a strong limited alternative. Only pull the signature if you want to min-max.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Splendor of Tranquil Waters",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Signature. HP + skill DMG when HP changes. Best in slot."
+    },
+    {
+      "rank": 2,
+      "name": "Fleuve Cendre Ferryman R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ER 45.9%",
+      "notes": "Best F2P. ER substat + skill CRIT rate. Free from fishing."
+    },
+    {
+      "rank": 3,
+      "name": "Festering Desire",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ER 45.9%",
+      "notes": "Limited event weapon. Skill DMG + skill CRIT. Great if you have it."
+    },
+    {
+      "rank": 4,
+      "name": "Favonius Sword",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "ER 61.3%",
+      "notes": "Team energy battery. High ER substat. Lowers Furina's personal DMG."
+    }
+  ],
+  "best_artifact": "4-Piece Golden Troupe",
+  "artifact_why": "Furina's damage comes entirely from her Elemental Skill (Salon Members). Golden Troupe grants +70% skill DMG while off-field — which is exactly where Furina spends her time. This is by far her strongest set.",
+  "artifact_alt": "4pc Tenacity of the Millelith (full support build — provides team ATK buff, lower personal damage). 2pc Golden Troupe + 2pc HP% (Tenacity/Vourukasha) while farming.",
+  "main_stats": {
+    "sands": "HP%",
+    "sands_note": "Furina scales entirely with HP. ATK% is a dead stat. Aim for 35-40k HP.",
+    "goblet": "HP% / Hydro DMG",
+    "goblet_note": "HP% goblet is competitive with Hydro DMG due to Furina's self-buff. Use whichever has better substats.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 CRIT ratio. ~70% CR, ~140%+ CD. CRIT Rate circlet is usually best."
+  },
+  "sub_priority": [
+    "Energy Recharge (160-180% solo Hydro / 130-150% double Hydro)",
+    "CRIT Rate / CRIT DMG (1:2 ratio)",
+    "HP%",
+    "Flat HP (low priority, but better than ATK)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Neuvillette Hypercarry",
+      "members": "Neuvillette + Furina + Kazuha + Baizhu",
+      "desc": "Neuvillette · Furina · Kazuha · Xilonen. Furina's buff and Hydro Resonance skyrocket Neuvillette's damage. The premier Fontaine team. Consistent, high AoE damage with massive self-sustain."
+    },
+    {
+      "name": "Team 2: Noelle Furina Core",
+      "members": "Furina + Noelle(C6) + Gorou + Flex",
+      "desc": "Noelle · Furina · Gorou/Yun Jin · Flex. Noelle's team-wide healing perfectly offsets Furina's HP drain while driving on-field. Surprisingly strong. Budget-friendly."
+    },
+    {
+      "name": "Team 3: Hu Tao Double Hydro",
+      "members": "Resonance + Yelan",
+      "desc": "Hu Tao · Furina · Yelan · Jean/Healer. Furina keeps Hu Tao below 50% HP naturally while providing a massive DMG% buff. Hydro Resonance + Yelan for more HP scaling."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 1"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Skip"
+    }
+  ],
+  "rotation_title": "Standard Furina rotation (Ousia mode):",
+  "rotation_code": "Furina E Q → Team Healer (E/Q) → Support Buffs → Main DPS → Refresh Furina E → Repeat",
+  "rotation_key": "⚠️ Always start in Ousia (dark/damage) mode. Use E first so Salon Members start draining HP and building Fanfare stacks immediately. Burst amplifies the DMG bonus from those stacks. Always bring a team-wide healer — Furina's HP drain will kill your team otherwise. Refresh E before it expires (30s duration).",
+  "mistakes": [
+    "❌ Building ATK on Furina. Her entire kit scales with HP. ATK% sands, ATK% weapons, and ATK% substats are wasted stats.",
+    "❌ No team-wide healer. Furina drains the entire party's HP. A single-target healer won't keep up. Bring Jean, Baizhu, Xianyun, Charlotte, or a healer on-field DPS.",
+    "❌ Leveling Normal Attack talent. Furina's NA has zero scaling relevance. Save your resources for E and Q.",
+    "❌ Wrong Energy Recharge. You need 160-180% ER as solo Hydro, or 130-150% with double Hydro. Without enough ER, you can't burst every rotation and your team loses the massive DMG buff."
+  ],
+  "related_guides": [
+    {
+      "id": "neuvillette",
+      "name": "Neuvillette",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Marechaussee Hunter · HP/HP/Crit"
+    },
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    }
+  ],
+  "pro_teaser_code": "// Furina Skill DMG Simulation (C0, 90, 4pc Golden Troupe, 38k HP) Weapon: Splendor of Tranquil Waters R1 | Enemy: Lv.103 · RES 10% [Fanfare 150] Mademoiselle Crabaletta: 32,844 DMG (Vape CRIT) [Fanfare 200] Gentilhomme Usher: ███ CRIT ███ ← Pro only [Fanfare 250] Surintendante Chevalmarin: ████ CRIT ████ ← Pro only ... [Fanfare 300] Total Skill Rotation: ███,███ ← Unlock Optimizer: \"HP% goblet out-performs Hydro DMG by +4.2% with C2+\" ► Full simulation: Fanfare curve · HP drain timing · team DPS → Pro"
+}

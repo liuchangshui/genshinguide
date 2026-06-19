@@ -1,0 +1,151 @@
+{
+  "_character_id": "arlecchino",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Arlecchino Build Guide — GenshinGuide",
+    "description": "Complete Arlecchino build guide for Genshin Impact v4.8. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Crimson Moon's Semblance (F2P: White Tassel R5)",
+  "tldr_artifact": "4pc Fragment of Harmonic Whimsy (ATK%/Pyro DMG/CRIT)",
+  "tldr_team": "Vape Arle (Arlecchino·Yelan·Kazuha·Bennett)",
+  "tldr_key_stats": "ATK 2000+ · CRIT 80/180 · NA > E > Q",
+  "_weapon_type": "sword",
+  "intro": "Arlecchino is a top-tier on-field Pyro DPS who scales uniquely with her Bond of Life mechanic. She cannot be healed by allies — instead, her burst is her only source of recovery. This guide covers everything you need to master the Knave in v4.8.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Crimson Moon's Semblance",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "CRIT Rate 22.1%",
+      "notes": "Signature. Grants BoL on hit. +DMG% when BoL above 30%. Tailor-made."
+    },
+    {
+      "rank": 2,
+      "name": "White Tassel R5",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "CRIT Rate 23.4%",
+      "notes": "Best F2P. +48% NA DMG. Incredible for a 3-star. Free from Liyue chests."
+    },
+    {
+      "rank": 3,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Universal stat stick. HP→ATK conversion. Strong alternative if you have it."
+    },
+    {
+      "rank": 4,
+      "name": "Primordial Jade Winged-Spear",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "CRIT Rate 22.1%",
+      "notes": "Stacking ATK% buff. High base ATK. Solid all-rounder from standard banner."
+    },
+    {
+      "rank": 5,
+      "name": "Deathmatch R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "CRIT Rate 36.8%",
+      "notes": "Battle Pass weapon. High CRIT Rate makes building easy. Good stat stick."
+    }
+  ],
+  "best_artifact": "4-Piece Fragment of Harmonic Whimsy",
+  "artifact_why": "Tailor-made for Arlecchino. Grants 18% ATK (2pc). When Bond of Life fluctuates, gain up to 54% DMG bonus (4pc). This set was released alongside her and is mathematically her ceiling.",
+  "main_stats": {
+    "sands": "ATK%",
+    "sands_note": "Always ATK%. She does not need ER nearly as much as Raiden. HP% is wasted — she cannot be healed.",
+    "goblet": "Pyro DMG / ATK%",
+    "goblet_note": "Pyro DMG is optimal. ATK% goblet is a viable placeholder but aim for Pyro.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 CRIT ratio. ~80% CR, ~180%+ CD. CRIT Rate is especially valuable since she has zero CRIT ascension."
+  },
+  "sub_priority": [
+    "CRIT Rate / CRIT DMG (1:2 ratio, aim 80/180+)",
+    "ATK%",
+    "Elemental Mastery (Vape teams only, aim 100-200)",
+    "Energy Recharge (nice to have, ~120% is comfortable)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Vape Arlecchino",
+      "members": "Arlecchino + Yelan + Kazuha + Bennett",
+      "desc": "👥 Her highest ceiling team. Yelan and/or Xingqiu provide off-field Hydro for consistent Vaporize. Kazuha groups enemies and shreds Pyro RES with VV. Bennett buffs ATK — yes, Bennett is fine even though he heals; his ATK buff far outweighs the anti-synergy. Arlecchino's self-sustain from burst is enough."
+    },
+    {
+      "name": "Team 2: Mono Pyro",
+      "members": "Arlecchino + Xiangling + Kazuha + Bennett",
+      "desc": "👥 No reactions, just raw Pyro dominance. Xiangling provides off-field damage and Pyro resonance (+25% ATK). Kazuha shreds RES and groups. Bennett buffs both Arlecchino and Xiangling. Consistent, easy to play, less dependent on EM substats."
+    },
+    {
+      "name": "Team 3: Overload (Chevreuse)",
+      "members": "Arlecchino + Fischl + Chevreuse + Bennett",
+      "desc": "👥 Overload comp enabled by Chevreuse. Fischl provides off-field Electro for Overload triggers. Chevreuse shreds Pyro/Electro RES and provides ATK buff. Bennett rounds out the team. High single-target damage, excellent against bosses. NO HEALERS APART FROM BENNETT. Chevreuse's healing is minimal and optional — her buffs come from her passive, not healing."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": ""
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": ""
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3"
+    }
+  ],
+  "rotation_title": "Vape Arlecchino rotation:",
+  "rotation_code": "Arlecchino E → Kazuha E Q (VV shred, grouping) → Yelan E Q → Bennett Q E → Kazuha E (reapply VV) → Arlecchino CA (absorb BoL) → N3D × 4-5 → Q (if needed) → Repeat",
+  "mistakes": [
+    "❌ ❌ Bringing a healer other than Bennett. Arlecchino's A1 passive prevents all ally healing in combat. Kokomi, Baizhu, Xianyun, etc. are dead slots. Bennett is only used for his ATK buff.",
+    "❌ ❌ Using Burst too early. Her Q clears all Bond of Life and heals. If you burst before consuming BoL with NAs, you lose your damage buff and waste uptime.",
+    "❌ ❌ Forgetting to absorb the mark. After using E, you must use a Charged Attack after ~5 seconds to absorb the Bond of Life. Without this, your NAs deal physical damage — almost zero.",
+    "❌ ❌ Not building enough CRIT Rate. Arlecchino has no innate CRIT from ascension (she gets CRIT DMG). Without a CRIT Rate weapon or circlet, you will struggle to reach 70%+ CRIT Rate.",
+    "❌ ❌ Running a shielder instead of offensive support. Zhongli is comfortable but significantly lowers her damage ceiling. Kazuha or Sucrose provide far more team DPS. Learn to dodge."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · The Catch R5"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kazuha",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Support · VV set · Freedom-Sworn"
+    }
+  ],
+  "pro_teaser_code": "// Pro DMG simulation — unlock for full data"
+}

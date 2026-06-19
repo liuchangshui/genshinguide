@@ -1,0 +1,135 @@
+{
+  "_character_id": "yelan",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Yelan Build Guide — GenshinGuide",
+    "description": "Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Aqua Simulacra (F2P: Favonius Warbow)",
+  "tldr_artifact": "4pc Emblem of Severed Fate (HP%/Hydro DMG/CRIT)",
+  "tldr_team": "Double Hydro / Hyperbloom (HuTao·Yelan·XQ·Zhongli)",
+  "tldr_key_stats": "HP 30K+ · ER 180-200% · CRIT 70/140 · Q > E >>> NA",
+  "intro": "Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v4.8.",
+  "weapon_bottom_line": "Aqua Simulacra is BiS — massive CRIT DMG and HP% bonus. Favonius Warbow solves all energy problems. Use Favonius unless you have C1 or enough ER from artifacts.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Aqua Simulacra",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Signature. Massive CRIT DMG + HP% + DMG bonus. Perfect synergy."
+    },
+    {
+      "rank": 2,
+      "name": "Favonius Warbow",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "ER 61.3%",
+      "notes": "Best F2P. ER main stat + energy particles. Solves ER needs completely."
+    },
+    {
+      "rank": 3,
+      "name": "Sacrificial Bow",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ER 30.6%",
+      "notes": "Extra E charge = more particles + more DMG. Good for C0."
+    },
+    {
+      "rank": 4,
+      "name": "The Stringless",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "EM 165",
+      "notes": "Skill + burst DMG bonus. Use in reaction teams (vape)."
+    }
+  ],
+  "best_artifact": "4-Piece Emblem of Severed Fate",
+  "artifact_alt": "2pc HP% + 2pc Hydro DMG (while farming Emblem). 4pc Emblem is the goal for most builds.",
+  "main_stats": {
+    "sands": "HP% / ER%",
+    "sands_note": "HP% best for damage. ER% if below 180% (solo Hydro needs 200%+).",
+    "goblet": "Hydro DMG",
+    "goblet_note": "Always Hydro DMG. HP% goblet only with Aqua + very high HP subs.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 ratio. ~70% CR, ~140%+ CD."
+  },
+  "sub_priority": [
+    "Energy Recharge (to 180-200% — C1 lowers this to ~160%)",
+    "CRIT Rate / CRIT DMG (1:2 ratio — she needs both)",
+    "HP% (more damage — Yelan scales entirely off HP)",
+    "Flat HP (minor boost — less efficient than HP%)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Double Hydro Hu Tao",
+      "members": "Tao + Yelan",
+      "desc": "Hu Tao + Yelan + Xingqiu + Zhongli. Double Hydro resonance (+25% HP) benefits both Yelan and Hu Tao. Massive single-target DMG."
+    },
+    {
+      "name": "Team 2: Hyperbloom Driver",
+      "members": "Yelan + Nahida",
+      "desc": "Yelan + Nahida + Kuki/Raiden + Flex. Yelan provides Hydro for bloom seeds. Kuki triggers hyperblooms. High floor damage."
+    },
+    {
+      "name": "Team 3: Mono Hydro",
+      "members": "Kokomi + Yelan",
+      "desc": "Kokomi + Yelan + Kazuha + Xingqiu. Triple Hydro feeds everyone's energy. Kazuha buffs Hydro DMG. Fun and surprisingly effective."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 1 (Crown)"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3 (Skip)"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Zhongli hold E → Yelan E Q → Xingqiu E Q E → Hu Tao E → CA spam (jump/dash cancel) → Q (when HP low)",
+  "mistakes": [
+    "❌ Building ATK instead of HP. Yelan scales ENTIRELY on HP. ATK does literally nothing for her.",
+    "❌ Too little ER. Solo Hydro Yelan needs 200%+ ER. Below 180%, burst won't be up. Use Favonius Warbow or an ER sands.",
+    "❌ Leveling NA. Yelan's burst triggers off anyone's NA — she never uses her own normal attacks as a sub-DPS.",
+    "❌ Using her as solo Hydro in energy-hungry teams. Yelan needs either C1, Sac Bow, or Fav Bow to battery herself solo. Otherwise pair with Xingqiu."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Yelan Burst DMG Simulation (C0, 90, 4pc Emblem, 35K HP, 200% ER) Weapon: Aqua Simulacra R1 | Enemy: Lv.103 · RES 10% [Frame 005] Exquisite Throw #1: 8,912 DMG (CRIT) [Frame 020] Exquisite Throw #2: ███ CRIT ███ ← Pro only [Frame 035] Exquisite Throw #3: ████ CRIT ████ ← Pro only ... Total Burst DMG (15s): ███,███ ← Unlock Optimizer: \"HP% sands → ER% sands = burst always on cooldown (+32% effective DPS)\" ► Full simulation: 15 coordinated hits · A4 ramping buff · energy calc → Pro",
+  "artifact_why": "4-Piece Emblem of Severed Fate is the optimal set for Yelan."
+}

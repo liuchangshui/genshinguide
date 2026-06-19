@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.">
+<meta name="keywords" content="Neuvillette build, Neuvillette guide, Genshin Impact Neuvillette, Neuvillette artifacts, Neuvillette weapons, Neuvillette teams">
+<meta property="og:title" content="Neuvillette Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons, artifacts, and teams.">
+<meta property="og:type" content="article">
+<title>Neuvillette Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Neuvillette Build Guide — v4.8","description":"Optimal weapon, artifact, and team build for Neuvillette in Genshin Impact 4.8. HP-scaling Hydro Main DPS guide with Marechaussee Hunter set and Tome of the Eternal Flow.","dateModified":"2026-06-18","author":{"@type":"Organization","name":"GenshinGuide"}}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <img src="images/neuvillette.webp" alt="Neuvillette" width="252" height="396">
+  </div>
+  <div class="char-info">
+    <div class="version-badge" data-i18n="guide.version_badge">✅ Applicable to v4.8 · Updated 2026-06-18</div>
+    <h1 class="char-name">Neuvillette <span>Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag hydro">💧 Hydro</span>
+      <span class="divider">·</span>
+      <span>📖 Catalyst</span>
+      <span class="divider">·</span>
+      <span class="grade grade-s">S</span>
+      <span>Tier</span>
+      <span class="divider">·</span>
+      <span>Main DPS</span>
+    </div>
+    <p class="char-role" data-i18n="guide.char_role">The Ordainer of Inexorable Judgment. Devastates enemies with a continuous Hydro beam that scales with HP. Self-sustaining and monstrously powerful.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR: first principles — answer first, explain later -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title" data-i18n="guide.tldr_title">💧 TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 Best Weapon</div>
+        <div class="tldr-value">Tome of the Eternal Flow <span class="tldr-muted">(F2P: Prototype Amber R5)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 Best Artifact</div>
+        <div class="tldr-value">4pc Marechaussee Hunter <span class="tldr-muted">(HP%/Hydro or HP%/CRIT DMG or HP%)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 Best Team</div>
+        <div class="tldr-value">Neuvillette Hypercarry <span class="tldr-muted">(Neuv·Furina·Kazuha·Baizhu)</span></div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 Key Stats</div>
+        <div class="tldr-value">HP 35k-42k · CRIT 64/250+ · NA > E == Q</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="guide.intro">Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v4.8.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box hydro">
+    <strong>Bottom line:</strong> Tome of the Eternal Flow is his signature and BiS. Prototype Amber R5 is shockingly close — and craftable for free. Only pull signature if you want to min-max.
+  </div>
+  <table class="weapon-table">
+    <thead><tr style="border-bottom-color:rgba(128,200,255,0.2);">
+      <th data-i18n="guide.th_rank">Rank</th>
+      <th data-i18n="guide.th_weapon">Weapon</th>
+      <th data-i18n="guide.th_rarity">Rarity</th>
+      <th data-i18n="guide.th_atk">Base ATK</th>
+      <th data-i18n="guide.th_substat">Sub-stat</th>
+      <th data-i18n="guide.th_notes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td><span class="rank rank-1">1</span></td><td>Tome of the Eternal Flow</td><td>⭐⭐⭐⭐⭐</td><td>542</td><td>CRIT DMG 88.2%</td><td data-i18n="neuvillette.w1_notes">Signature. HP manipulation = extra CA DMG. Massive CD stat stick.</td></tr>
+      <tr><td><span class="rank rank-2">2</span></td><td>Prototype Amber R5</td><td>⭐⭐⭐⭐</td><td>510</td><td>HP 41.3%</td><td data-i18n="neuvillette.w2_notes">Best F2P. HP% substat + energy refund + team heal. Rivals 5-stars!</td></tr>
+      <tr><td><span class="rank rank-3">3</span></td><td>Sacrificial Jade R5</td><td>⭐⭐⭐⭐</td><td>454</td><td>CRIT Rate 36.8%</td><td data-i18n="neuvillette.w3_notes">Battle Pass. Huge HP buff after 5s off-field. Requires rotation discipline.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- AD #2: Between weapons and artifacts — answer received, now context -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div class="ad-icon">🖱️</div>
+      <div class="ad-text">
+        <div class="ad-headline" data-i18n="ad.ad2_head">Gaming Gear Deals — Up to 40% Off</div>
+        <div class="ad-desc" data-i18n="ad.ad2_desc">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      </div>
+      <span class="ad-cta" data-i18n="ad.ad2_cta">View Deals →</span>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="neuvillette.arti_best">🎯 Best: 4-Piece Marechaussee Hunter</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="neuvillette.arti_why">Neuvillette's charged attack constantly drains and heals his own HP, triggering Marechaussee's 36% CRIT Rate bonus effortlessly. This frees you to stack CRIT DMG to 250%+ while maintaining a 1:2 ratio. With his HP-scaling, this set is essentially custom-made for him.</p>
+  </div>
+  <p style="font-size:0.9rem;"><span data-i18n="guide.arti_alt">Alternative:</span> 4pc Heart of Depth (if you haven't farmed Marechaussee yet). 2pc HP% + 2pc Hydro DMG (transitional build).</p>
+
+  <h3 class="hydro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead><tr>
+      <th data-i18n="guide.th_slot">Slot</th>
+      <th data-i18n="guide.th_mainstat">Main Stat</th>
+      <th data-i18n="guide.th_mnotes">Notes</th>
+    </tr></thead>
+    <tbody>
+      <tr><td data-i18n="guide.sands_label">Sands</td><td><b>HP%</b></td><td data-i18n="neuvillette.sands_note">Always HP%. His entire kit scales from HP — ATK is useless on him.</td></tr>
+      <tr><td data-i18n="guide.goblet_label">Goblet</td><td><b>Hydro DMG</b> / HP%</td><td data-i18n="neuvillette.goblet_note">Hydro DMG is ~3-5% better. HP% goblet is extremely close with Furina + Kazuha buffs.</td></tr>
+      <tr><td data-i18n="guide.circlet_label">Circlet</td><td><b>CRIT DMG</b> / HP%</td><td data-i18n="neuvillette.circlet_note">CRIT DMG usually best. With MH set, aim for 64% CR (100% effective). HP% circlet viable with high CD subs.</td></tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    <li data-i18n="neuvillette.sub_crit">CRIT Rate / CRIT DMG (aim for 64% CR with MH set, rest into CD)</li>
+    <li data-i18n="neuvillette.sub_hp">HP%</li>
+    <li data-i18n="neuvillette.sub_er">Energy Recharge (120-140% comfortable, less with Prototype Amber or double Hydro)</li>
+    <li data-i18n="neuvillette.sub_em">Elemental Mastery (niche — Vaporize teams only)</li>
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="neuvillette.team1_name">Team 1: Neuvillette Hypercarry</strong><br>
+    <span data-i18n="neuvillette.team1_desc">Neuvillette · Furina · Kazuha · Baizhu. His premium team. Furina provides massive DMG% and enables his A1 passive. Kazuha VV shred + grouping. Baizhu provides shields and healing for Furina stacks. Highest ceiling.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="neuvillette.team2_name">Team 2: Budget Freeze/Hypercarry</strong><br>
+    <span data-i18n="neuvillette.team2_desc">Neuvillette · Fischl · Sucrose · Zhongli. Zhongli shield is essential at C0 for interruption resistance. Fischl provides consistent electro application and off-field damage. Sucrose provides VV shred and EM/grouping.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="neuvillette.team3_name">Team 3: Taser (Electro-Charged)</strong><br>
+    <span data-i18n="neuvillette.team3_desc">Neuvillette · Fischl · Beidou · Kazuha/Sucrose. Double Electro for particle generation. Beidou's burst chains through Neuvillette's charged attack beam. High AoE damage and stagger resistance.</span>
+  </div>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="neuvillette.team4_name">Team 4: Hyperbloom Driver</strong><br>
+    <span data-i18n="neuvillette.team4_desc">Neuvillette · Nahida · Raiden (Full EM) · Flex (Zhongli/Baizhu). Neuvillette drives hyperblooms with sustained Hydro application. Raiden triggers from off-field. Extremely high floor damage with minimal investment.</span>
+  </div>
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    <div class="talent-item" style="border-color:rgba(128,200,255,0.3);">
+      <div class="talent-icon" style="background:rgba(128,200,255,0.15);color:#80c8ff;">NA</div>
+      <div class="talent-label">Normal Attack</div>
+      <div class="talent-priority p1">Priority 1</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">E</div>
+      <div class="talent-label">Elemental Skill</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    <div class="talent-item">
+      <div class="talent-icon" style="background:rgba(0,230,118,0.1);color:var(--accent);">Q</div>
+      <div class="talent-label">Elemental Burst</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+  </div>
+  <p data-i18n="neuvillette.talent_note">Normal Attack talent governs his charged attack beam damage — crown it first. Skill and Burst are roughly equal priority after NA. Level both to 9 before crowning either.</p>
+
+  <!-- C0/C1 Note: Important distinction -->
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="neuvillette.constellation_note">⚠️ <strong>C0 vs C1:</strong> At C0, Neuvillette's charged attack can be interrupted — you need a shielder (Zhongli, Baizhu, Layla). C1 provides full interruption resistance, freeing a team slot. If you main Neuvillette, C1 is one of the highest-value early constellations in the game.</p>
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box hydro">
+    <div data-i18n="neuvillette.rotation_title">Neuvillette Hypercarry rotation:</div>
+    <code style="font-size:0.85rem;">Neuvillette E → Furina E Q → Kazuha E (tap) Q → Baizhu E Q → Neuvillette CA (hold) → Q → E → CA (hold) × 2 → Repeat</code>
+  </div>
+  <p style="font-size:0.85rem;color:var(--text-muted);" data-i18n="neuvillette.rotation_key">⚠️ Use Neuvillette's E first to generate Sourcewater Droplets. After supports, hold CA to absorb droplets for instant beam. At C1+, you can use 2 charged attacks without re-setup.</p>
+
+  <!-- Section 6: Mistakes -->
+  <h2 class="hydro" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="neuvillette.m1">❌ Building ATK on Neuvillette. His entire kit scales with HP. ATK% sands, ATK% substats, and ATK-buffing weapons (except his signature which has CD) are dead stats on him.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="neuvillette.m2">❌ Running C0 without a shielder. Neuvillette's charged attack beam can be interrupted by any hit. At C0, you must run a shielder or you will lose significant DPS from canceled beams.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="neuvillette.m3">❌ Not triggering all 3 Hydro-related reactions. Neuvillette's A1 passive gives up to 160% CA DMG bonus when 3 different Hydro reactions occur. Build teams that trigger at least 2-3 different reaction types.</p>
+  </div>
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="neuvillette.m4">❌ Underestimating HP% goblet. With Furina + Kazuha providing massive DMG% buffs, HP% goblet can outperform Hydro DMG goblet if it has better substats. Don't auto-trash HP% goblets with good CRIT rolls.</p>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Pro Deep Dive Teaser -->
+  <div class="pro-teaser" style="border-color:rgba(128,200,255,0.5);background:linear-gradient(135deg, rgba(128,200,255,0.06), rgba(128,200,255,0.01));">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:14px;" data-i18n="guide.pro_teaser_desc">Here's what our DMG simulator outputs. Pro members get full frame data, buff timing, and team DPS comparison.</p>
+    <pre><code><span class="highlight-line">// Neuvillette Charged ATK DMG Simulation (C0, 90, 4pc MH, 40k HP)</span>
+Weapon: Tome of the Eternal Flow R1 | Enemy: Lv.103 · RES 10%
+
+<span class="highlight-line">[Frame 001] CA Beam Tick #1:  22,847 DMG (CRIT) @ 64/280</span>
+[Frame 032] CA Beam Tick #2:  <span style="color:var(--gold);">███ CRIT ███</span>    ← Pro only
+[Frame 064] CA Beam Tick #3:  <span style="color:var(--gold);">████ CRIT ████</span>  ← Pro only
+...
+[Frame 480] Total CA DMG:    <span style="color:var(--accent);">███,███</span>  ← Unlock
+
+<span class="highlight-line">Optimizer: "HP% goblet with 45 CV outperforms Hydro goblet with Furina — +4.2% DPS"</span>
+<span style="color:var(--text-muted);">► Full simulation: 16 ticks · A1 passive check · Furina fanfare calc → Pro</span></code></pre>
+    <div class="teaser-cta">
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin:0;" data-i18n="guide.pro_teaser_cta">See your exact DMG numbers. Compare builds. Win more Abyss floors.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      <a href="guide-furina.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <img src="images/furina-icon.webp" alt="Furina" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Furina <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="neuvillette.related_furina">Support/Sub DPS · Golden Troupe · Splendor</p>
+        </div>
+      </a>
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="images/kazuha-icon.webp" alt="Kazuha" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Kazuha <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="neuvillette.related_kazuha">Support · VV set · Freedom-Sworn</p>
+        </div>
+      </a>
+      <a href="guide-raiden.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <img src="images/raiden-icon.webp" alt="Raiden" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="guide-card-body">
+          <h4 style="margin:0 0 4px;font-size:0.95rem;">Raiden Shogun <span class="grade grade-s">S</span></h4>
+          <p style="margin:0;font-size:0.8rem;color:var(--text-muted);" data-i18n="guide.related_raiden">Sub DPS · Emblem set · The Catch R5</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data and assets © Cognosphere Pte. Ltd. All rights reserved by their respective owners.</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

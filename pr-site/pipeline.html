@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Pipeline — How New Guides Get Published | Genshin Guide</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.pipeline-viz { display:flex; align-items:stretch; gap:12px; margin:24px 0; overflow-x:auto; padding-bottom:12px; }
+.pipeline-node { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; min-width:180px; flex:1; text-align:center; }
+.pipeline-node .step-num { width:32px;height:32px;border-radius:50%;background:var(--accent);color:#0a0a1a;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:0.85rem;margin-bottom:10px; }
+.pipeline-node .step-icon { font-size:1.8rem; margin-bottom:8px; }
+.pipeline-node h4 { font-size:0.9rem; margin-bottom:4px; }
+.pipeline-node p { font-size:0.8rem; color:var(--text-secondary); }
+.pipeline-connector { display:flex; align-items:center; font-size:1.5rem; color:var(--accent); flex-shrink:0; }
+.code-block { background:#1e293b; color:#e2e8f0; padding:16px; border-radius:8px; font-size:0.8rem; line-height:1.8; overflow-x:auto; font-family:var(--font-mono); margin:16px 0; }
+.code-block .comment { color:#64748b; }
+.code-block .cmd { color:#7dd3fc; }
+.code-block .str { color:#86efac; }
+.code-block .key { color:#fde68a; }
+.code-block .val { color:#c4b5fd; }
+</style>
+</head>
+<body data-page="pipeline">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero container hero-compact">
+    <div class="hero-badge">🔄 CONTENT PIPELINE</div>
+    <h1>From <span class="highlight">Data</span> to <span class="highlight">Published</span></h1>
+    <p class="hero-sub">How new content flows from game data → DeepSeek → your website. Fully automated, always up-to-date.</p>
+  </section>
+
+  <section class="container" style="padding-bottom:60px;">
+    <!-- Pipeline Visual -->
+    <h2 class="section-title" style="text-align:center;margin-bottom:24px;">📦 The 8-Step Content Pipeline</h2>
+    <div class="pipeline-viz">
+      <div class="pipeline-node">
+        <div class="step-num">1</div>
+        <div class="step-icon">🔄</div>
+        <h4>Daily Data Sync</h4>
+        <p>Cron job fetches Wiki API every midnight. Detects changed values.</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node">
+        <div class="step-num">2</div>
+        <div class="step-icon">📋</div>
+        <h4>Flag Affected Guides</h4>
+        <p>Auto-marks guides with changed data as "Needs Update"</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node" style="border-color:var(--accent);">
+        <div class="step-num" style="background:var(--accent);">3</div>
+        <div class="step-icon">🤖</div>
+        <h4>DeepSeek Generates</h4>
+        <p>V4 Flash generates guide from structured data + template prompt</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node">
+        <div class="step-num">4</div>
+        <div class="step-icon">✅</div>
+        <h4>Self-Verify</h4>
+        <p>2nd LLM call checks numbers vs source data. Flags errors.</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node">
+        <div class="step-num">5</div>
+        <div class="step-icon">🏷️</div>
+        <h4>Auto-Tag</h4>
+        <p>Adds version tag, SEO metadata, schema.org, categories</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node">
+        <div class="step-num">6</div>
+        <div class="step-icon">📄</div>
+        <h4>Write HTML/MDX</h4>
+        <p>Saves as .html file in pr-site/guides/ directory</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node">
+        <div class="step-num">7</div>
+        <div class="step-icon">📋</div>
+        <h4>Update Index</h4>
+        <p>Adds card to guides.html listing. Rebuilds sitemap.</p>
+      </div>
+      <div class="pipeline-connector">→</div>
+      <div class="pipeline-node" style="border-color:var(--gold);background:rgba(255,215,0,0.05);">
+        <div class="step-num" style="background:var(--gold);">8</div>
+        <div class="step-icon">🚀</div>
+        <h4>Deploy Live</h4>
+        <p>Vercel auto-deploys on git push. Site updated in &lt;60s.</p>
+      </div>
+    </div>
+
+    <!-- How It Actually Works -->
+    <h2 class="section-title" style="margin-top:48px;margin-bottom:16px;">⚙️ How a New Guide Appears on the Site</h2>
+    <div class="card" style="margin-bottom:16px;">
+      <h3 style="color:var(--accent);margin-bottom:8px;">Scenario: Game releases new character "Arlecchino"</h3>
+      <div class="code-block">
+<span class="comment"># Step 1: Daily sync detects new character in Wiki API</span><br>
+<span class="cmd">$ python sync_wiki.py</span><br>
+<span class="str">[2026-06-17 00:00] New character detected: arlecchino</span><br>
+<span class="str">[2026-06-17 00:00] Fetching data… skills, ascension, weapons…</span><br>
+<br>
+<span class="comment"># Step 2: Pipeline generates the guide via DeepSeek</span><br>
+<span class="cmd">$ python generate.py --character arlecchino</span><br>
+<span class="str">[INFO] Building prompt with character data…</span><br>
+<span class="str">[INFO] Calling DeepSeek V4 Flash… (cost: ~$0.001)</span><br>
+<span class="str">[INFO] Generated 2,847 words</span><br>
+<br>
+<span class="comment"># Step 3: Self-verify numerical accuracy</span><br>
+<span class="str">[INFO] Verifying… 42/42 data points match ✓</span><br>
+<span class="str">[INFO] SEO metadata generated: title, desc, schema</span><br>
+<br>
+<span class="comment"># Step 4: Write file + update listings</span><br>
+<span class="cmd">$ python publish.py --character arlecchino</span><br>
+<span class="str">[INFO] Written: pr-site/guides/arlecchino.html</span><br>
+<span class="str">[INFO] Added card to pr-site/guides.html</span><br>
+<span class="str">[INFO] Sitemap updated. Committing to git…</span><br>
+<br>
+<span class="comment"># Step 5: Vercel auto-deploys on git push</span><br>
+<span class="str">[Vercel] Building… ✓</span><br>
+<span class="str">[Vercel] Deployed to genshinguide.pro ✓</span><br>
+<span class="str">[Vercel] New guide live at /guides/arlecchino.html</span>
+      </div>
+      <p style="font-size:0.85rem;color:var(--text-muted);">Total time: <strong style="color:var(--accent);">~2 minutes</strong>. Cost: <strong style="color:var(--accent);">~$0.001</strong>. Zero human intervention.</p>
+    </div>
+
+    <!-- Pipeline comparison -->
+    <h2 class="section-title" style="margin-top:48px;margin-bottom:16px;">📊 Manual vs Automated</h2>
+    <table class="weapon-table">
+      <thead><tr><th>Task</th><th>Manual (per guide)</th><th>Automated (per guide)</th><th>Saving</th></tr></thead>
+      <tbody>
+        <tr><td>Research game data</td><td>30 min (Wiki browsing)</td><td>0 min (API fetch)</td><td style="color:var(--accent);">100%</td></tr>
+        <tr><td>Write content</td><td>45-90 min</td><td>~10 sec (DeepSeek)</td><td style="color:var(--accent);">99.8%</td></tr>
+        <tr><td>Verify accuracy</td><td>15 min (manual)</td><td>~5 sec (LLM self-check)</td><td style="color:var(--accent);">99.4%</td></tr>
+        <tr><td>Add SEO metadata</td><td>10 min</td><td>Included in generation</td><td style="color:var(--accent);">100%</td></tr>
+        <tr><td>Publish + list</td><td>5 min</td><td>0 min (auto)</td><td style="color:var(--accent);">100%</td></tr>
+        <tr style="background:var(--bg-card-hover);"><td><strong>Total</strong></td><td><strong>105-150 min</strong></td><td><strong>~2 min</strong></td><td style="color:var(--accent);"><strong>98.7%</strong></td></tr>
+      </tbody>
+    </table>
+
+    <!-- Triggers -->
+    <h2 class="section-title" style="margin-top:48px;margin-bottom:16px;">🔔 What Triggers Content Generation?</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
+      <div class="card"><div style="font-size:1.5rem;margin-bottom:6px;">🆕</div><h4>New Character Release</h4><p style="font-size:0.85rem;color:var(--text-secondary);">Wiki API detects new character → auto-generates build guide + comparison pages + tier list update.</p></div>
+      <div class="card"><div style="font-size:1.5rem;margin-bottom:6px;">📦</div><h4>Game Patch Drop</h4><p style="font-size:0.85rem;color:var(--text-secondary);">Daily sync detects version bump → flags all guides → regenerates affected guides in batch.</p></div>
+      <div class="card"><div style="font-size:1.5rem;margin-bottom:6px;">🔢</div><h4>Data Value Change</h4><p style="font-size:0.85rem;color:var(--text-secondary);">Skill multiplier changed? → auto-flags that character's guide → regenerates within 24h.</p></div>
+      <div class="card"><div style="font-size:1.5rem;margin-bottom:6px;">📅</div><h4>Weekly Refresh</h4><p style="font-size:0.85rem;color:var(--text-secondary);">Tier lists regenerated every Monday. Meta newsletter auto-compiled from patch notes.</p></div>
+    </div>
+
+    <!-- Current prototype vs production -->
+    <h2 class="section-title" style="margin-top:48px;margin-bottom:16px;">🔧 Prototype vs Production</h2>
+    <table class="weapon-table">
+      <thead><tr><th>Component</th><th>Prototype (current)</th><th>Production (target)</th></tr></thead>
+      <tbody>
+        <tr><td>Content source</td><td>Hand-written HTML</td><td>DeepSeek V4 Flash API</td></tr>
+        <tr><td>Data sync</td><td>Not implemented</td><td>Cron job → Honey Impact API</td></tr>
+        <tr><td>New guide creation</td><td>Manual: write HTML + add to listing</td><td>Auto: Python script generates + publishes</td></tr>
+        <tr><td>Version tracking</td><td>Manually tagged in HTML</td><td>Auto-detected from API, injected into frontmatter</td></tr>
+        <tr><td>Deploy</td><td>Local files only</td><td>Git push → Vercel auto-deploy</td></tr>
+        <tr><td>Listing updates</td><td>Manually edit guides.html</td><td>Script auto-appends card to listing</td></tr>
+      </tbody>
+    </table>
+
+    <div style="background:linear-gradient(135deg,rgba(0,230,118,0.08),rgba(68,138,255,0.08));border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px;margin-top:32px;text-align:center;">
+      <h3 style="margin-bottom:12px;">🚀 Production Stack (Next Step)</h3>
+      <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+        <div style="background:var(--bg-card);padding:16px 24px;border-radius:var(--radius);">
+          <div style="font-weight:700;color:var(--accent);">1</div>
+          <div style="font-size:0.9rem;">DeepSeek API<br>Content Pipeline</div>
+        </div>
+        <div style="background:var(--bg-card);padding:16px 24px;border-radius:var(--radius);">
+          <div style="font-weight:700;color:var(--accent);">2</div>
+          <div style="font-size:0.9rem;">Wiki Data Sync<br>Cron Job</div>
+        </div>
+        <div style="background:var(--bg-card);padding:16px 24px;border-radius:var(--radius);">
+          <div style="font-weight:700;color:var(--accent);">3</div>
+          <div style="font-size:0.9rem;">Next.js + Vercel<br>Auto Deploy</div>
+        </div>
+        <div style="background:var(--bg-card);padding:16px 24px;border-radius:var(--radius);">
+          <div style="font-weight:700;color:var(--gold);">4</div>
+          <div style="font-size:0.9rem;">Lemon Squeezy<br>Pro Payments</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>⚡ GenshinGuide · <a href="index.html" data-i18n="footer.home">Home</a> · <a href="guides.html" data-i18n="footer.guides">Guides</a> · <a href="calculator.html" data-i18n="footer.calc">Calculator</a> · <a href="pricing.html" data-i18n="footer.pro">Pro</a></p>
+  <p style="margin-top:8px;">© 2026 GenshinGuide.pro</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>

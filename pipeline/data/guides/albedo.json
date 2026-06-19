@@ -1,0 +1,135 @@
+{
+  "_character_id": "albedo",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Albedo Build Guide — GenshinGuide",
+    "description": "Complete Albedo build guide for Genshin Impact v4.8. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "Cinnabar Spindle (F2P: Harbinger of Dawn)",
+  "tldr_artifact": "4pc Husk of Opulent Dreams (DEF%/Geo DMG/CRIT)",
+  "tldr_team": "Mono Geo (Itto·Albedo·Gorou·Zhongli)",
+  "tldr_key_stats": "DEF 2500+ · CRIT 60/120 · E > Q >>> NA",
+  "intro": "Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with \"unwanted\" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v4.8.",
+  "weapon_bottom_line": "Cinnabar Spindle R5 (event exclusive) is BiS with massive DEF% and E DMG bonus. Harbinger of Dawn R5 (3★) is shockingly competitive for F2P — just keep HP above 90%.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Cinnabar Spindle R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "DEF 69.0%",
+      "notes": "Event exclusive BiS. Massive DEF% + 80% E DMG bonus. Unmatched."
+    },
+    {
+      "rank": 2,
+      "name": "Harbinger of Dawn R5",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "CRIT DMG 46.9%",
+      "notes": "Best F2P. Huge CRIT stats when HP > 90%. Albedo is off-field so easy to maintain."
+    },
+    {
+      "rank": 3,
+      "name": "Primordial Jade Cutter",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT Rate 44.1%",
+      "notes": "5★ stat stick. Massive CRIT Rate. No DEF but pure stats carry it."
+    },
+    {
+      "rank": 4,
+      "name": "Festering Desire",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ER 45.9%",
+      "notes": "Event sword. E DMG + CRIT boost. Good if Cinnabar was missed."
+    }
+  ],
+  "best_artifact": "4-Piece Husk of Opulent Dreams",
+  "artifact_alt": "4pc Golden Troupe (similar performance to Husk, slightly better in some teams). 4pc Husk is the goal for most builds.",
+  "main_stats": {
+    "sands": "DEF%",
+    "sands_note": "Always DEF%. Albedo's E damage scales with DEF, not ATK.",
+    "goblet": "Geo DMG",
+    "goblet_note": "Always Geo DMG. DEF% goblet is a damage loss.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 1:2 ratio. ~60% CR, ~120%+ CD."
+  },
+  "sub_priority": [
+    "DEF% (as high as possible — 2500+ DEF target)",
+    "CRIT Rate / CRIT DMG (1:2 ratio — 60/120 is solid)",
+    "Energy Recharge (Q gives 125 EM to team — useful to burst)",
+    "ATK% (lowest priority — Albedo scales on DEF, not ATK)"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Mono Geo",
+      "members": "Itto + Albedo",
+      "desc": "Itto + Albedo + Gorou + Zhongli. The premium Geo team. Gorou buffs all Geo, Albedo provides massive off-field DPS, Zhongli shreds RES. Itto is the hypercarry."
+    },
+    {
+      "name": "Team 2: Double Geo Flex",
+      "members": "Albedo + Zhongli",
+      "desc": "Albedo + Zhongli + any DPS duo. Geo resonance + Zhongli shred + Albedo off-field DMG. Fits Xiao, Hu Tao, Yoimiya — any on-field DPS."
+    },
+    {
+      "name": "Team 3: Navia Double Geo",
+      "members": "Navia + Albedo",
+      "desc": "Navia + Albedo + Bennett + Xiangling. Albedo generates crystallize shards for Navia. Bennett buffs both. Strong synergy with Navia's Geo infusion."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 1 (Crown)"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3 (Skip)"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Zhongli hold E → Gorou E Q → Albedo E (inside Gorou field) Q → Itto E → Itto Q → CA spam → Albedo refresh E",
+  "mistakes": [
+    "❌ Building ATK instead of DEF. Albedo's E damage scales entirely with DEF. ATK% and flat ATK do almost nothing for him.",
+    "❌ Not placing E inside buff fields. Albedo's E snapshots DEF on cast. Always cast it inside Gorou's buff field or before Bennett Q expires.",
+    "❌ Leveling NA. Albedo is never on-field to use normal attacks. NA level has zero impact on his performance.",
+    "❌ Using 4pc Husk without pre-stacking. Husk needs 4 Geo DMG hits for full stacks. Albedo should be first in rotation so he stacks passively. If placed last, his E snapshots 0 stacks."
+  ],
+  "related_guides": [
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Noblesse set · The Catch R5"
+    }
+  ],
+  "pro_teaser_code": "// Albedo E DMG Simulation (C0, 90, 4pc Husk, 2600 DEF) Weapon: Cinnabar Spindle R5 | Enemy: Lv.103 · RES 10% [Frame 002] Solar Isotoma Proc #1: 24,532 DMG (CRIT) [Frame 004] Solar Isotoma Proc #2: ███ CRIT ███ ← Pro only [Frame 006] Solar Isotoma Proc #3: ████ CRIT ████ ← Pro only ... Total E DMG (30s): ███,███ ← Unlock Optimizer: \"Harbinger of Dawn R5 (90% HP) = 97.3% of Cinnabar Spindle DMG\" ► Full simulation: 15 procs · DEF snapshotting · Gorou buff sync → Pro",
+  "artifact_why": "4-Piece Husk of Opulent Dreams is the optimal set for Albedo."
+}

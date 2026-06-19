@@ -1,0 +1,119 @@
+{
+  "_character_id": "xiangling",
+  "_game_version": "4.8",
+  "seo": {
+    "title": "Xiangling Build Guide (Coming Soon) — GenshinGuide",
+    "description": "Complete Xiangling build guide for Genshin Impact v4.8. Best weapons (The Catch R5, Staff of Homa), optimal artifacts (Emblem of Severed Fate), team compositions (Raiden National), and rotation guide."
+  },
+  "_element": "pyro",
+  "tldr_weapon": "The Catch R5 (Bis: Staff of Homa)",
+  "tldr_artifact": "4pc Emblem of Severed Fate (ER/Pyro DMG/CRIT)",
+  "tldr_team": "Raiden National (XL·XQ·Bennett·Raiden)",
+  "tldr_key_stats": "ER 180-200% · CRIT 60/120 · Burst > Skill",
+  "intro": "Xiangling is the best 4-star unit in Genshin. Her burst (Pyronado) deals massive off-field Pyro damage that snapshots her stats. Essential in every meta team since launch.",
+  "weapon_bottom_line": "The Catch R5 is free and excellent. Prioritize ER — XL needs to burst every rotation.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "The Catch R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ER 45.9%",
+      "notes": "Free from fishing. +32% burst DMG. Best F2P."
+    },
+    {
+      "rank": 2,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "BiS. HP→ATK conversion. High investment."
+    },
+    {
+      "rank": 3,
+      "name": "Favonius Lance",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ER 30.6%",
+      "notes": "Team battery. High ER substat. Provides particles for the whole team."
+    }
+  ],
+  "best_artifact": "4-Piece Emblem of Severed Fate",
+  "main_stats": {
+    "sands": "ER% / ATK%",
+    "sands_note": "ER% until 180-200%. Then ATK%.",
+    "goblet": "Pyro DMG / ATK%",
+    "goblet_note": "Pyro DMG almost always better.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Aim for 60%+ CR. XL crits a lot."
+  },
+  "sub_priority": [
+    "⚡ Genshin Guide Home",
+    "Guides",
+    "Calculator",
+    "Pro $5/mo"
+  ],
+  "teams": [
+    {
+      "name": "Team 1: Raiden National",
+      "members": "Bennett + Raiden",
+      "desc": "The golden standard. XL + XQ + Bennett + Raiden. XL's burst snaphots Bennett's ATK buff. Devastating."
+    },
+    {
+      "name": "Team 2: Xiangling Overload",
+      "members": "Chevreuse + Fischl",
+      "desc": "XL + Chevreuse + Fischl + (flex). Overload meta with Pyro resonance. High ceiling."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 1"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Skip"
+    }
+  ],
+  "rotation_title": "Recommended rotation:",
+  "rotation_code": "Bennett Q E → Xingqiu E Q E → Xiangling Q E → Raiden E → Raiden Q → N3C × 4",
+  "mistakes": [
+    "❌ Not enough ER. Xiangling needs 180%+ to burst every rotation. Below 160% = rotation fail.",
+    "❌ Burst before Bennett Q. XL's burst snapshots ATK buff — always Bennett Q first."
+  ],
+  "related_guides": [
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Engulfing Lightning"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+    },
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "S",
+      "desc": "Main DPS · Crimson Witch · Double Hydro"
+    }
+  ],
+  "pro_teaser_code": "// Pro DMG simulation — unlock for full data",
+  "artifact_why": "4-Piece Emblem of Severed Fate is the optimal set for Xiangling."
+}
