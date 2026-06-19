@@ -62,10 +62,14 @@ def localize_html(html, i18n, lang):
     - Updates <html lang="...">
     """
     if lang == "en":
-        # For English: just strip data-i18n attributes, keep content as-is
+        # For English: strip data-i18n, keep content, set EN button active
         html = re.sub(r'\s*data-i18n="[^"]*"', '', html)
         html = re.sub(r'\s*data-i18n-placeholder="[^"]*"', '', html)
         html = html.replace('<html lang="en">', '<html lang="en">')
+        html = html.replace(
+            '<button class="lang-toggle" data-lang="en">EN</button>',
+            '<button class="lang-toggle active" data-lang="en">EN</button>'
+        )
         return html
 
     # For Chinese: replace content with zh translations
@@ -101,6 +105,12 @@ def localize_html(html, i18n, lang):
             new_tag = re.sub(r'\s*data-i18n-placeholder="[^"]*"', '', old_tag)
             new_tag = new_tag.replace('placeholder="', f'placeholder="{zh_text}"')
             html = html.replace(old_tag, new_tag)
+
+    # Swap lang-toggle active state
+    html = html.replace('class="lang-toggle" data-lang="en">EN</button>',
+                        'class="lang-toggle" data-lang="en">EN</button>')
+    html = html.replace('class="lang-toggle" data-lang="zh">中</button>',
+                        'class="lang-toggle active" data-lang="zh">中</button>')
 
     # Update lang attribute
     html = html.replace('<html lang="en">', '<html lang="zh-CN">')
@@ -144,7 +154,13 @@ def render_guides():
         if result.returncode == 0:
             print(f"  ✅ guide-{cid}.html")
         else:
-            print(f"  ❌ guide-{cid}.html: {result.stderr.strip()[:100]}")
+            err = result.stderr.strip()[:150]
+            print(f"  ❌ guide-{cid}.html: {err}")
+            # Clean up stale file so it doesn't pollute localization
+            stale = os.path.join(OUTPUT_DIR, f"guide-{cid}.html")
+            if os.path.exists(stale):
+                os.remove(stale)
+                print(f"     Removed stale {stale}")
 
 
 # ---------------------------------------------------------------------------
@@ -183,25 +199,28 @@ def build():
 
     # Render guides
     print(f"[3/5] Rendering guides...")
+    # Clean all stale guide files first (prevents old CSS paths and wrong active states)
+    for f in Path(OUTPUT_DIR).glob("guide-*.html"):
+        f.unlink()
     render_guides()
     process_static_pages(i18n)
 
-    # Localize all pages
+    # Localize all pages - read source content FIRST before overwriting
     print(f"[4/5] Localizing pages...")
-    all_html = list(Path(OUTPUT_DIR).glob("*.html"))
+    all_source_html = list(Path(OUTPUT_DIR).glob("*.html"))
+
+    # Save source content in memory (we'll overwrite index.html later)
+    source_cache = {}
+    for html_path in all_source_html:
+        with open(html_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        if "data-i18n" in content:
+            source_cache[html_path.name] = content
 
     en_count = 0
     zh_count = 0
 
-    for html_path in all_html:
-        filename = html_path.name
-        with open(html_path, "r", encoding="utf-8") as f:
-            html = f.read()
-
-        # Skip if no data-i18n (already localized or non-i18n page)
-        if "data-i18n" not in html:
-            continue
-
+    for filename, html in source_cache.items():
         # EN version: strip data-i18n, keep English
         en_html = localize_html(html, i18n, "en")
         en_out = os.path.join(EN_DIR, filename)
@@ -218,7 +237,7 @@ def build():
 
     print(f"  ✅ {en_count} en pages, {zh_count} zh pages")
 
-    # Generate root index.html (language redirect)
+    # Generate root index.html (language redirect) — AFTER localization
     print(f"[5/5] Generating root redirect and language switcher...")
     root_index = os.path.join(OUTPUT_DIR, "index.html")
     with open(root_index, "w", encoding="utf-8") as f:

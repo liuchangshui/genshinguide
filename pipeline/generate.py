@@ -242,13 +242,17 @@ def main():
     args = parser.parse_args()
 
     cid = args.character
+    # Map character ID to API name (some use hyphens)
+    api_cid = cid
+    if cid == "hutao":
+        api_cid = "hu-tao"
 
     # Ensure data is cached
-    char_data = sync_wiki.load_cache("characters", cid)
+    char_data = sync_wiki.load_cache("characters", api_cid)
     if char_data is None:
-        print(f"[INFO] Syncing {cid} data first...")
-        sync_wiki.sync_characters(cid)
-        char_data = sync_wiki.load_cache("characters", cid)
+        print(f"[INFO] Syncing {api_cid} data first...")
+        sync_wiki.sync_characters(api_cid)
+        char_data = sync_wiki.load_cache("characters", api_cid)
     if char_data is None:
         print(f"[ERROR] Cannot load data for {cid}")
         sys.exit(1)
