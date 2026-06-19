@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Stop guessing your Genshin Impact builds. Data-driven character guides, interactive build calculator, and DMG simulator — updated automatically every patch.">
+<title>GenshinGuide — Data-Driven Build Guides</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="GenshinGuide — Data-Driven Build Guides">
+<meta property="og:description" content="AI-powered, data-driven Genshin Impact build guides. Updated every patch.">
+<meta property="og:image" content="../images/og-default.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"GenshinGuide","url":"https://bricklayer.tech","description":"AI-powered, data-driven Genshin Impact build guides. Updated every patch."}</script>
+<style>
+  /* Homepage-specific: centered featured grid */
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  @media (min-width: 900px) {
+    .featured-grid {
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+    }
+  }
+  @media (max-width: 899px) and (min-width: 600px) {
+    .featured-grid {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+    }
+  }
+  .hero-badge-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .hero-badge-pill {
+    background: rgba(56,189,248,0.1);
+    border: 1px solid rgba(56,189,248,0.2);
+    color: var(--accent);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body data-page="home">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero container">
+  <div class="hero-badge-row">
+    <span class="hero-badge-pill">✓ <span>Updated within 24h of v4.8</span></span>
+    <span class="hero-badge-pill">✓ <span>Data-verified · Not opinion</span></span>
+    <span class="hero-badge-pill">✓ <span>No signup to read</span></span>
+  </div>
+
+  <h1 class="hero-title">
+    <span>Stop Guessing Your </span><span class="highlight">Builds</span><br>
+    <span style="font-size:1.4rem;font-weight:400;color:var(--text-secondary);">Get data-verified Genshin build answers in seconds</span>
+  </h1>
+
+  <p class="hero-sub" style="margin-top:14px;">Every patch breaks old guides. Ours regenerate within 24 hours. Weapon, artifact, and team recommendations — backed by game data, verified by AI.</p>
+
+  <div class="hero-actions">
+    <a href="calculator.html" class="btn btn-primary">⚡ Try Calculator</a>
+    <a href="guides.html" class="btn btn-secondary">📚 Browse Guides</a>
+    <a href="pricing.html" class="btn btn-gold">⭐ Pro $5/mo</a>
+  </div>
+</section>
+
+<!-- Stats Bar -->
+<div class="stats-bar container">
+  <div class="stat-item"><div class="stat-number">30+</div><div class="stat-label">Character Guides</div></div>
+  <div class="stat-item"><div class="stat-number">v4.8</div><div class="stat-label">Updated within 24h</div></div>
+  <div class="stat-item"><div class="stat-number">6</div><div class="stat-label">Interactive Tools</div></div>
+  <div class="stat-item"><div class="stat-number">$0</div><div class="stat-label">Free Core Features</div></div>
+</div>
+
+<!-- QUICK ANSWER -->
+<div class="container" style="margin-bottom:48px;">
+  <div class="quick-answer-box">
+    <div style="font-size:0.85rem;color:var(--accent);font-weight:600;margin-bottom:12px;">⚡ Instant Build Answers</div>
+    <div class="quick-answer-input">
+      <span style="font-size:1.3rem;">🔍</span>
+      <input type="text" placeholder="Quick answer: e.g. 'best Raiden weapon' or 'Hu Tao artifact'…"
+             style="flex:1;min-width:200px;background:var(--bg-deep);border:1px solid var(--border);border-radius:8px;padding:11px 16px;color:var(--text-primary);font-size:0.95rem;outline:none;"
+             onfocus="this.style.borderColor='var(--accent)';" onblur="this.style.borderColor='var(--border)';">
+      <button class="btn btn-primary" style="padding:10px 20px;font-size:0.9rem;">Get Answer</button>
+    </div>
+    <p style="font-size:0.75rem;color:var(--text-muted);margin-top:10px;margin-bottom:0;">Try: "Raiden best weapon" · "Hu Tao artifact" · "Yelan team comp"</p>
+  </div>
+</div>
+
+<!-- FEATURED GUIDES — 6 cards, 3×2 grid, centered -->
+<section class="container" style="margin-bottom:40px;">
+  <div class="section-header" style="text-align:center;">
+    <h2>🔥 Featured Character Builds</h2>
+    <p>Data-driven guides — auto-updated every patch</p>
+  </div>
+  <div class="featured-grid">
+    <!-- Raiden Shogun -->
+    <a href="guide-raiden.html" class="guide-card electro">
+      <div class="guide-card-img electro">
+        <img src="../images/raiden-card.webp" alt="Raiden Shogun" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Raiden Shogun</h3><span class="grade grade-s">S</span></div>
+        <p>Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-electro">Electro</span><span class="tag tag-weapon">Polearm</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+    <!-- Furina -->
+    <a href="guide-furina.html" class="guide-card hydro">
+      <div class="guide-card-img hydro">
+        <img src="../images/furina-card.webp" alt="Furina" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Furina</h3><span class="grade grade-s">S</span></div>
+        <p>Sub DPS / Buffer — Golden Troupe, Splendor, team-wide DMG buff</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-hydro">Hydro</span><span class="tag tag-weapon">Sword</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+    <!-- Arlecchino -->
+    <a href="guide-arlecchino.html" class="guide-card pyro">
+      <div class="guide-card-img pyro">
+        <img src="../images/arlecchino-card.webp" alt="Arlecchino" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Arlecchino</h3><span class="grade grade-s">S</span></div>
+        <p>Main DPS — Harmonic Whimsy, Crimson Moon, Bond of Life carry</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-pyro">Pyro</span><span class="tag tag-weapon">Polearm</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+    <!-- Neuvillette -->
+    <a href="guide-neuvillette.html" class="guide-card hydro">
+      <div class="guide-card-img hydro">
+        <img src="../images/neuvillette-card.webp" alt="Neuvillette" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Neuvillette</h3><span class="grade grade-s">S</span></div>
+        <p>Main DPS — Marechaussee Hunter, Tome of Eternal Flow, HP-scaling CA</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-hydro">Hydro</span><span class="tag tag-weapon">Catalyst</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+    <!-- Hu Tao -->
+    <a href="guide-hutao.html" class="guide-card pyro">
+      <div class="guide-card-img pyro">
+        <img src="../images/hutao-card.webp" alt="Hu Tao" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Hu Tao</h3><span class="grade grade-s">S</span></div>
+        <p>Main DPS — Crimson Witch, Staff of Homa, Double Hydro</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-pyro">Pyro</span><span class="tag tag-weapon">Polearm</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+    <!-- Yelan -->
+    <a href="guide-yelan.html" class="guide-card hydro">
+      <div class="guide-card-img hydro">
+        <img src="../images/yelan-card.webp" alt="Yelan" style="width:100%;height:180px;object-fit:cover;">
+      </div>
+      <div class="guide-card-body">
+        <div class="guide-card-name"><h3 style="margin:0;">Yelan</h3><span class="grade grade-s">S</span></div>
+        <p>Sub DPS / Support — Emblem set, Aqua Simulacra, off-field Hydro</p>
+        <div class="guide-card-tags"><span class="tag tag-elem-hydro">Hydro</span><span class="tag tag-weapon">Bow</span><span class="tag tag-version">v4.8</span></div>
+      </div>
+    </a>
+  </div>
+  <div style="text-align:center;margin-top:28px;">
+    <a href="guides.html" class="btn btn-secondary">View All 30+ Guides →</a>
+  </div>
+</section>
+
+<!-- AD #1 -->
+<div class="ad-native">
+  <div class="ad-label">Sponsored</div>
+  <div class="ad-unit">
+    <div class="ad-icon">🎮</div>
+    <div class="ad-text">
+      <div class="ad-headline">Genshin Top-Up Cards — Save 20%</div>
+      <div class="ad-desc">Get Genesis Crystals at discount. Trusted by 100,000+ players.</div>
+    </div>
+    <span class="ad-cta">Shop Now →</span>
+  </div>
+</div>
+
+<!-- CALCULATOR PREVIEW -->
+<section class="section container">
+  <div class="section-header">
+    <h2>🧮 Build Calculator</h2>
+    <p>Pick a character & weapon — get optimal artifacts and teams instantly. Free.</p>
+  </div>
+  <div class="calc-section" style="max-width:800px;margin:0 auto;">
+    <div class="calc-grid">
+      <div class="calc-inputs">
+        <h4>⚙️ Configure Build</h4>
+        <div class="calc-group">
+          <label>Character</label>
+          <select id="home-char-select"><option>— Select Character —</option></select>
+        </div>
+        <div class="calc-group">
+          <label>Weapon</label>
+          <select id="home-weapon-select"><option>— Select Weapon First —</option></select>
+        </div>
+      </div>
+      <div class="calc-result" id="home-calc-result">
+        <p class="calc-hint">👈 Select a character to see build recommendations</p>
+      </div>
+    </div>
+    <div class="pro-hint">
+      🔒 Advanced optimizer (DMG simulation, artifact scoring) — <a href="pricing.html" style="color:var(--gold);">Pro feature</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY TRUST US -->
+<section class="section container" style="padding-top:20px;">
+  <div class="section-header">
+    <h2>⚡ Why Trust Our Builds?</h2>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:900px;margin:0 auto;">
+    <div class="card">
+      <div style="font-size:1.8rem;margin-bottom:10px;">🤖</div>
+      <h3>AI-Generated, Data-Verified</h3>
+      <p>DeepSeek generates from game data. Auto-verified. Better than old Reddit posts.</p>
+    </div>
+    <div class="card">
+      <div style="font-size:1.8rem;margin-bottom:10px;">🔄</div>
+      <h3>Auto-Updated Every Patch</h3>
+      <p>Daily Wiki sync. Guides flagged and regenerated within 24h of every update.</p>
+    </div>
+    <div class="card">
+      <div style="font-size:1.8rem;margin-bottom:10px;">🛠️</div>
+      <h3>Tools, Not Just Text</h3>
+      <p>Build calculator, DMG simulator, artifact optimizer. Interactive tools content sites can't match.</p>
+    </div>
+    <div class="card">
+      <div style="font-size:1.8rem;margin-bottom:10px;">💎</div>
+      <h3>Free Core · Pro Tools</h3>
+      <p>Guides free. Pro tools $5/month. 100 members = $500/mo. That's the goal.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING TEASER -->
+<section class="section container" style="padding-top:20px;padding-bottom:20px;">
+  <div class="section-header">
+    <h2>💎 Simple Pricing</h2>
+    <p>All guides free. Pro unlocks advanced tools.</p>
+  </div>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="pricing-name">Free</div>
+      <div class="pricing-price"><span class="free">$0</span></div>
+      <div style="color:var(--text-muted);margin-bottom:20px;font-size:0.85rem;">Forever free</div>
+      <ul class="pricing-features" style="margin-bottom:20px;">
+        <li>All 30+ character guides</li>
+        <li>Basic build calculator</li>
+        <li>Tier lists & rankings</li>
+        <li>Team recommendations</li>
+        <li class="no">Advanced DMG simulation</li>
+        <li class="no">Ad-free experience</li>
+      </ul>
+      <a href="guides.html" class="btn btn-secondary" style="width:100%;text-align:center;justify-content:center;">Start Free</a>
+    </div>
+    <div class="pricing-card pro">
+      <div class="pricing-badge">MOST POPULAR</div>
+      <div class="pricing-name">Pro</div>
+      <div class="pricing-price"><span class="pro-price">$5</span><small> / month</small></div>
+      <div style="color:var(--text-muted);margin-bottom:20px;font-size:0.85rem;">Cancel anytime</div>
+      <ul class="pricing-features" style="margin-bottom:20px;">
+        <li>Everything in Free</li>
+        <li>Advanced DMG simulation</li>
+        <li>Artifact substat optimizer</li>
+        <li>Ad-free experience</li>
+        <li>Weekly meta newsletter</li>
+        <li>Priority guide updates</li>
+      </ul>
+      <a href="pricing.html" class="btn btn-gold" style="width:100%;text-align:center;justify-content:center;">Go Pro — $5/month</a>
+    </div>
+  </div>
+</section>
+
+<!-- EMAIL SUBSCRIBE -->
+<section class="container">
+  <div class="subscribe">
+    <h3>📬 Get Weekly Genshin Meta Updates</h3>
+    <p>New builds, tier changes, patch analysis. One email per week. No spam.</p>
+    <div class="subscribe-form">
+      <input type="email" placeholder="your@email.com">
+      <button class="btn btn-primary" onclick="this.textContent=t('home.subscribe_done')">Subscribe Free</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="guides.html">Guides</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="pricing.html">Pro</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="pipeline.html" style="color:var(--text-muted);">Pipeline</a>
+  </div>
+  <p>Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+<script src="../js/calculator.js"></script>
+<script>
+(function(){
+  const charS = document.getElementById('home-char-select');
+  const wpnS   = document.getElementById('home-weapon-select');
+  const result = document.getElementById('home-calc-result');
+
+  function populateHomeCalc(){
+    Object.keys(CHARACTERS).forEach(k => {
+      const o = document.createElement('option');
+      o.value = k; o.textContent = CHARACTERS[k].name;
+      charS.appendChild(o);
+    });
+    charS.addEventListener('change', ()=>{
+      wpnS.innerHTML = '<option>'+t('home.calc_wpn_placeholder')+'</option>';
+      const cid = charS.value;
+      if(CHARACTER_WEAPONS[cid]){
+        CHARACTER_WEAPONS[cid].forEach(w => {
+          const o = document.createElement('option');
+          o.value = w; o.textContent = WEAPONS[w].name;
+          wpnS.appendChild(o);
+        });
+      }
+      if(!cid){ result.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px 0;">'+t('home.calc_hint')+'</p>'; return; }
+    });
+    wpnS.addEventListener('change', ()=>{
+      const cid = charS.value, wid = wpnS.value;
+      if(!cid||!wid) return;
+      const c = CHARACTERS[cid];
+      const wpn = WEAPONS[wid];
+      const totalATK = c.baseATK + wpn.atk;
+      const arti = ARTIFACT_SETS[cid];
+      const main = MAIN_STATS[cid];
+      const subs = SUB_STATS[cid];
+      const teams = TEAMS[cid];
+      let grade='b'; if(wpn.rarity>=5) grade='s'; else if(wpn.rarity>=4) grade='a';
+      result.innerHTML = '<h4>'+t('calcJS.build_summary')+' — '+c.name+'</h4>'+
+        '<div class="calc-stat"><div class="label">Overall Grade</div><div class="value"><span class="grade grade-'+grade+'">'+grade.toUpperCase()+'</span> '+(grade=='s'?t('calcJS.optimal_meta'):grade=='a'?t('calcJS.strong_viable'):t('calcJS.functional_budget'))+'</div></div>'+
+        '<div class="calc-stat"><div class="label">'+t('calcJS.best_arti')+'</div><div class="value" style="color:var(--accent);">🎯 '+arti.best+'</div></div>'+
+        '<div class="calc-stat"><div class="label">'+t('calcJS.total_atk')+'</div><div class="value">'+totalATK+' <span style="font-size:0.8rem;color:var(--text-muted);">('+c.baseATK+' '+t('calcJS.char_atk')+' + '+wpn.atk+' '+t('calcJS.weapon_atk')+')</span></div></div>'+
+        '<div class="calc-stat"><div class="label">'+t('calcJS.main_priority')+'</div><div class="value" style="font-size:0.9rem;">Sands: <b style="color:var(--gold);">'+main.sands+'</b> | Goblet: <b style="color:var(--gold);">'+main.goblet+'</b> | Circlet: <b style="color:var(--gold);">'+main.circlet+'</b></div></div>'+
+        '<div class="calc-stat"><div class="label">'+t('calcJS.sub_priority')+'</div><div class="value" style="font-size:0.85rem;">'+subs.map((s,i)=>'<span style="color:#e0e0e0;">'+(i+1)+'. '+s+'</span>').join(' > ')+'</div></div>'+
+        '<div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);"><div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:10px;">'+t('calcJS.best_teams')+'</div>'+
+        teams.map(tm=>'<div style="margin-bottom:8px;font-size:0.9rem;"><b style="color:var(--accent);">'+tm.name+'</b> <span style="color:var(--text-secondary);">· '+tm.members+'</span><br><span style="font-size:0.78rem;color:var(--text-muted);">'+tm.desc+'</span></div>').join('')+'</div>';
+    });
+  }
+
+  if(charS) populateHomeCalc();
+})();
+</script>
+</body>
+</html>

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Interactive Genshin Impact build calculator. Pick a character and weapon — get optimal artifacts, main stats, and team recommendations instantly.">
 <title>Build Calculator — GenshinGuide</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body data-page="calc">
 
@@ -128,20 +128,20 @@
     <!-- Pro feature grid -->
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px;">
       <div class="pro-feature-card" style="border-left-color:#b388ff;">
-        <div class="feature-title">🎯 DMG Simulator</div>
-        <div class="feature-desc">Input enemy stats, buffs, rotation — get exact damage per hit. Frame-perfect.</div>
+        <div class="feature-title" data-i18n="calc.pro_f1_title">🎯 DMG Simulator</div>
+        <div class="feature-desc" data-i18n="calc.pro_f1_desc">Input enemy stats, buffs, rotation — get exact damage per hit. Frame-perfect.</div>
       </div>
       <div style="background:var(--bg-card);padding:16px;border-radius:var(--radius);border:1px solid var(--border);border-left:3px solid #ffd700;">
-        <div style="font-weight:700;color:var(--gold);margin-bottom:6px;">⚖️ Artifact Optimizer</div>
-        <div style="font-size:0.85rem;color:var(--text-secondary);">Upload artifacts — we score every combination and tell you the highest DPS setup.</div>
+        <div style="font-weight:700;color:var(--gold);margin-bottom:6px;" data-i18n="calc.pro_f2_title">⚖️ Artifact Optimizer</div>
+        <div style="font-size:0.85rem;color:var(--text-secondary);" data-i18n="calc.pro_f2_desc">Upload artifacts — we score every combination and tell you the highest DPS setup.</div>
       </div>
       <div class="pro-feature-card" style="border-left-color:#69f0ae;">
-        <div class="feature-title">🔄 Rotation Analyzer</div>
-        <div class="feature-desc">Simulate full team rotations. Energy, buff uptime, frame timing — all calculated.</div>
+        <div class="feature-title" data-i18n="calc.pro_f3_title">🔄 Rotation Analyzer</div>
+        <div class="feature-desc" data-i18n="calc.pro_f3_desc">Simulate full team rotations. Energy, buff uptime, frame timing — all calculated.</div>
       </div>
       <div class="pro-feature-card" style="border-left-color:#448aff;">
-        <div class="feature-title">📊 Build Comparison</div>
-        <div class="feature-desc">Compare up to 3 builds side by side. See exactly which does more damage.</div>
+        <div class="feature-title" data-i18n="calc.pro_f4_title">📊 Build Comparison</div>
+        <div class="feature-desc" data-i18n="calc.pro_f4_desc">Compare up to 3 builds side by side. See exactly which does more damage.</div>
       </div>
     </div>
 
@@ -165,8 +165,8 @@
   <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.</p>
 </footer>
 
-<script src="js/i18n.js"></script>
-<script src="js/calculator.js"></script>
+<script src="../js/lang-switcher.js"></script>
+<script src="../js/calculator.js"></script>
 <script>
 // Init selects, then delegate to calculator.js updateCalc()
 (function(){

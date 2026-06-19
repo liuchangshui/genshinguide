@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints.">
+<title>Kazuha Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Kazuha Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-kazuha.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Kaedehara Kazuha Build Guide — v4.8","description":"Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints.","dateModified":"2026-06-19","author":{"@type":"Organization","name":"GenshinGuide"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-kazuha.html"}}</script>
+</head>
+<body data-page="kazuha">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase anemo">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder anemo" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(77,182,172,0.15));">
+      <span>Kazuha</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v4.8 · <span>更新于</span> 2026-06-19</div>
+    <h1 class="char-name">Kaedehara Kazuha <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">单手剑</span>
+      <span class="elem-tag">风</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">辅助 / 聚怪</span>
+    </div>
+    <p class="char-desc">《原神》4.8版本万叶完整培养指南。最佳武器排名（苍古自由之誓、铁蜂刺），最优圣遗物（翠绿之影），最佳队伍（国际队、冻结队、激化队），循环及元素精通阈值。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box anemo">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">🍃 <span>最佳武器</span></div>
+        <div class="tldr-value">Freedom-Sworn (F2P: Iron Sting R5)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">4pc Viridescent Venerer (EM/EM/EM)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">International (Childe·Xiangling·Kazuha·Bennett)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">EM 800-1000 · ER 160%+ · Triple EM main stats · E > Q >>> NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p>枫原万叶是《原神》中首屈一指的风元素辅助角色。他能聚怪、通过翠绿之影四件套提供40%元素抗性削减，并根据元素精通为全队提供元素伤害加成。与砂糖分享元素精通不同，万叶直接提升元素伤害——这使他在纯色队和反应队中无可替代。零命已是顶级，二命则堪称逆天。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="anemo">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box anemo">
+    <strong>结论：</strong> <span>元素精通为王。苍古自由之誓提供198点元素精通和全队增益。铁蜂刺提供165点元素精通且可免费锻造。西福斯的月光提供元素精通并转化为全队元素充能效率。西风剑是急需充能时的舒适选择。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(77,182,172,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Freedom-Sworn</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>EM 198</td>
+        <td>专武。最高元素精通副属性 + 全队攻击力及普攻/重击/下落攻击伤害加成。与他的技能机制完美契合。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>Xiphos' Moonlight</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>EM 165</td>
+        <td>优秀。将元素精通转化为万叶和队友的元素充能效率。精5且1000元素精通时，为全队提供约30%充能效率。解决充能问题。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Iron Sting R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>EM 165</td>
+        <td>最佳免费武器。可免费锻造。与西福斯的月光相同元素精通，但无充能效用。易于制作和精炼。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>Favonius Sword</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>ER 61.3%</td>
+        <td>团队充能选项。较低元素精通意味着更弱的增益，但白色微粒可为全队充能。若充能成问题则使用。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label">赞助内容</div>
+    <div class="ad-unit">
+      <div style="font-weight:700;margin-bottom:4px;">🖱️ 游戏装备特惠 — 低至6折</div>
+      <div style="color:var(--text-muted);margin-bottom:8px;">机械键盘、鼠标、耳机。满$50免运费。</div>
+      <a href="#" class="ad-cta" style="color:var(--accent);">查看优惠 →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="anemo">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box anemo">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：翠绿之影四件套</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">翠绿之影四件套在万叶扩散时削减敌人40%元素抗性。这是游戏中单件辅助圣遗物效果最强的。万叶的元素精通还通过其固有天赋二转化为扩散元素的元素伤害加成。三元素精通主属性可最大化两种效果。</p>
+  </div>
+
+  <h3 class="anemo">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>Elemental Mastery</td>
+        <td>始终选择元素精通。辅助万叶无例外。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Elemental Mastery</td>
+        <td>始终选择元素精通。风元素伤害加成杯仅适用于输出万叶（不推荐）。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>Elemental Mastery</td>
+        <td>始终选择元素精通。暴击率头冠仅适用于需要触发被动效果的西风剑配装。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="anemo">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>1. 元素精通——每个副属性词条都很重要。目标为800-1000总元素精通。</li>
+    
+    <li>2. 元素充能效率——最低160%。元素爆发提供8秒后台扩散及固有天赋二增益。</li>
+    
+    <li>3. 攻击力%——少量个人伤害提升。优先级低。</li>
+    
+    <li>4. 暴击率——仅适用于西风剑配装以触发被动。</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="anemo">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box anemo">
+    <strong>队伍1：国际队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Childe + Xiangling + Kazuha + Bennett</span><br>
+    <span style="font-size:0.88rem;">天花板队伍。万叶双扩散水和火，同时提升公子和香菱的伤害。班尼特+万叶+香菱核心是游戏中最强的组合之一。操作要求高，但伤害无与伦比。</span>
+  </div>
+  
+  <div class="emphasis-box anemo">
+    <strong>队伍2：冻结辅助队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Ayaka + Kokomi + Kazuha + Shenhe</span><br>
+    <span style="font-size:0.88rem;">万叶聚拢冻结敌人并为神里绫华提升冰元素伤害。翠绿之影减抗+固有天赋二冰元素伤害加成。他的聚怪对于将敌人保持在绫华的元素爆发范围内至关重要。</span>
+  </div>
+  
+  <div class="emphasis-box anemo">
+    <strong>队伍3：激化队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Yae Miko + Fischl + Kazuha + Nahida/Baizhu</span><br>
+    <span style="font-size:0.88rem;">万叶扩散雷元素以触发翠绿之影减抗+雷元素伤害加成。纳西妲提供元素精通分享以提升激化伤害。万叶的聚怪有助于八重神子的杀生樱击中聚集的敌人。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="anemo">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#4db6ac;background:rgba(77,182,172,0.08);">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Priority 1 — Level to 8-9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Priority 2 — Level to 8-9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Priority 3 — Skip entirely</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="anemo">5. 输出循环指南</h2>
+  <div class="emphasis-box anemo">
+    <div>国际队（公子蒸发）循环：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Childe E (apply Hydro) → Bennett Q → Kazuha Q E (double swirl Hydro + Pyro) → Xiangling Q E → Childe E NA spam → Repeat</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="anemo">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">未使用三元素精通主属性。辅助万叶使用攻击力%或风元素伤害加成会导致团队伤害大幅损失。他的增益随元素精通提升——请最大化它。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">未扩散正确元素。万叶的固有天赋二增益适用于被扩散的元素。确保扩散你的主C使用的元素。扩散错误元素=零增益。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">升级普通攻击。万叶的下落攻击伤害（来自元素战技）取决于元素战技等级，而非普通攻击。普通攻击等级完全浪费。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">使用错误武器。祭礼剑看似诱人可双E，但相比铁蜂刺或西福斯的月光损失的元素精通不值得。万叶的技能冷却时间本就较短。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#4db6ac;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <pre><code class="language-json">// Kazuha Buff Calculator
+// 1000 EM = 40% Elemental DMG bonus (A4 passive)
+// VV shred = -40% enemy RES
+// Total buff: 40% DMG bonus + 40% RES shred
+// Freedom-Sworn adds: 20% ATK + 16% NA/CA/Plunge DMG
+// Example: 1000 EM Kazuha with VV + FS →
+//   team gets 40% DMG + 20% ATK + 16% NA/CA + 40% RES shred
+// [Unlock Pro for full team rotation simulation]</code></pre>
+    <div class="teaser-cta">
+      <p>查看你的精确伤害数值。对比不同Build。通关更多深渊层数。</p>
+      <a href="pricing.html" class="btn btn-gold">解锁Pro — $5/月</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-bennett.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Bennett <span class="grade grade-s">S</span></h4>
+          <p>辅助 · 昔日宗室之仪 · 风鹰剑</p>
+        </div>
+      </a>
+      
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <div class="elem-icon pyro">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Xiangling <span class="grade grade-s">S</span></h4>
+          <p>副输出 · 绝缘之旗印 · 渔获 R5</p>
+        </div>
+      </a>
+      
+      <a href="guide-raiden.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Raiden Shogun <span class="grade grade-s">S</span></h4>
+          <p>副C·绝缘套·薙草之稻光</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

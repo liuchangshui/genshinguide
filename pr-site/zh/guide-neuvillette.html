@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.">
+<title>Neuvillette Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Neuvillette Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-neuvillette.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Neuvillette Build Guide — v4.8","description":"Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.","dateModified":"2026-06-19","author":{"@type":"Organization","name":"GenshinGuide"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-neuvillette.html"}}</script>
+</head>
+<body data-page="neuvillette">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder hydro" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));">
+      <span>Neuvillette</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v4.8 · <span>更新于</span> 2026-06-19</div>
+    <h1 class="char-name">Neuvillette <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">法器</span>
+      <span class="elem-tag">水</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">主C</span>
+    </div>
+    <p class="char-desc">原神4.8版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 <span>最佳武器</span></div>
+        <div class="tldr-value">Tome of the Eternal Flow (F2P: Prototype Amber R5)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">4pc Marechaussee Hunter (HP%/Hydro or HP%/CRIT DMG or HP%)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">Neuvillette Hypercarry (Neuv·Furina·Kazuha·Baizhu)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">HP 35k-42k · CRIT 64/250+ · NA > E == Q</div>
+      </div>
+    </div>
+  </div>
+
+  <p>那维莱特是《原神》中最强站场水元素输出角色之一。他的蓄力攻击光束能造成持续范围伤害，且完全基于生命值——而非攻击力。搭配「逐影猎人」四件套提供的36%免费暴击率，你可以将暴击伤害堆到离谱的程度。本指南涵盖在4.8版本中优化培养他所需的一切。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box hydro">
+    <strong>结论：</strong> <span>「万世流涌大典」是他的专属武器和最佳选择。精5「试作金珀」的表现惊人地接近——而且可以免费锻造。只有当你想要追求极致输出时才抽取专属武器。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(68,138,255,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Tome of the Eternal Flow</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT DMG 88.2%</td>
+        <td>专武。生命值操控 = 额外蓄力攻击伤害。高额暴击伤害副词条。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>Prototype Amber R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>HP 41.3%</td>
+        <td>最佳免费武器。生命值百分比副词条 + 能量回复 + 全队治疗。媲美五星武器！</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Sacrificial Jade R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>CRIT Rate 36.8%</td>
+        <td>纪行武器。离场5秒后获得巨额生命值加成。需要严格循环纪律。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label">赞助内容</div>
+    <div class="ad-unit">
+      <div style="font-weight:700;margin-bottom:4px;">🖱️ 游戏装备特惠 — 低至6折</div>
+      <div style="color:var(--text-muted);margin-bottom:8px;">机械键盘、鼠标、耳机。满$50免运费。</div>
+      <a href="#" class="ad-cta" style="color:var(--accent);">查看优惠 →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：逐影猎人四件套</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">那维莱特的蓄力攻击会持续消耗并恢复自身生命值，轻松触发逐影猎人的36%暴击率加成。这让你可以自由堆叠暴击伤害至250%以上，同时保持1:2比例。鉴于他的生命值倍率，这套圣遗物几乎是为他量身定做。</p>
+  </div>
+
+  <h3 class="hydro">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>HP%</td>
+        <td>始终选择生命值百分比。他的整个技能组基于生命值——攻击力对他无用。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Hydro DMG / HP%</td>
+        <td>水元素伤害加成约好3-5%。在芙宁娜和万叶的加成下，生命值百分比杯子与它极其接近。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>CRIT DMG / HP%</td>
+        <td>暴击伤害通常最佳。搭配逐影猎人套，目标64%暴击率（100%有效）。若暴击伤害副词条高，生命值百分比头也可行。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>暴击率 / 暴击伤害（逐影猎人套下目标64%暴击率，其余堆暴击伤害）</li>
+    
+    <li>HP%</li>
+    
+    <li>元素充能效率（120-140%舒适，若用试作金珀或双水则更低）</li>
+    
+    <li>元素精通（特定情况——仅限蒸发队）</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍1：那维莱特主C</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Neuvillette + Furina + Kazuha + Baizhu</span><br>
+    <span style="font-size:0.88rem;">那维莱特 · 芙宁娜 · 万叶 · 白术。他的顶级队伍。芙宁娜提供巨额伤害加成并激活他的固有天赋一。万叶提供翠绿之影减抗和聚怪。白术提供护盾和治疗以叠加芙宁娜层数。上限最高。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍二：经济冻结/超强主C</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Neuvillette + Fischl + Sucrose + Zhongli</span><br>
+    <span style="font-size:0.88rem;">那维莱特 · 菲谢尔 · 砂糖 · 钟离。零命时钟离护盾对打断抗性至关重要。菲谢尔提供稳定雷元素附着和后台伤害。砂糖提供翠绿之影减抗和元素精通/聚怪。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍三：感电队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Neuvillette + Fischl + Kazuha + Beidou</span><br>
+    <span style="font-size:0.88rem;">那维莱特 · 菲谢尔 · 北斗 · 万叶/砂糖。双雷共鸣提供微粒生成。北斗的元素爆发通过那维莱特的蓄力攻击光束连锁。高范围伤害和打断抗性。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍四：超绽放驾驶员</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Neuvillette + Nahida + Raiden(EM) + Flex</span><br>
+    <span style="font-size:0.88rem;">那维莱特 · 纳西妲 · 雷电将军（全元素精通） · 灵活位（钟离/白术）。那维莱特通过持续水元素附着驱动超绽放。雷电将军从后台触发。低投入下基础伤害极高。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#448aff;background:rgba(68,138,255,0.08);">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Priority 1</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Priority 2</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro">5. 输出循环指南</h2>
+  <div class="emphasis-box hydro">
+    <div>那维莱特超强主C循环：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Neuvillette E → Furina E Q → Kazuha E (tap) Q → Baizhu E Q → Neuvillette CA (hold) → Q → E → CA (hold) × 2 → Repeat</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="hydro">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 给那维莱特堆攻击力。他的整个技能组基于生命值。攻击力百分比沙漏、攻击力百分比副词条和攻击力加成武器（除专武有暴击伤害外）对他都是无效属性。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 零命不带护盾角色。那维莱特的蓄力攻击光束会被任何攻击打断。零命时必须带护盾角色，否则会因光束中断损失大量输出。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 未触发全部三种水元素相关反应。那维莱特的固有天赋一在触发三种不同水元素反应时提供高达160%的蓄力攻击伤害加成。组建能触发至少2-3种不同反应类型的队伍。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 低估生命值百分比杯子。在芙宁娜和万叶提供巨额伤害加成时，若副词条更好，生命值百分比杯子可能优于水元素伤害加成杯子。不要自动丢弃有优质暴击词条的生命值百分比杯子。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#448aff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <pre><code class="language-json">// Neuvillette Charged ATK DMG Simulation (C0, 90, 4pc MH, 40k HP) Weapon: Tome of the Eternal Flow R1 | Enemy: Lv.103 · RES 10% [Frame 001] CA Beam Tick #1: 22,847 DMG (CRIT) @ 64/280 [Frame 032] CA Beam Tick #2: ███ CRIT ███ ← Pro only [Frame 064] CA Beam Tick #3: ████ CRIT ████ ← Pro only ... [Frame 480] Total CA DMG: ███,███ ← Unlock Optimizer: "HP% goblet with 45 CV outperforms Hydro goblet with Furina — +4.2% DPS" ► Full simulation: 16 ticks · A1 passive check · Furina fanfare calc → Pro</code></pre>
+    <div class="teaser-cta">
+      <p>查看你的精确伤害数值。对比不同Build。通关更多深渊层数。</p>
+      <a href="pricing.html" class="btn btn-gold">解锁Pro — $5/月</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-furina.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Furina <span class="grade grade-s">S</span></h4>
+          <p>辅助/副C · 黄金剧团 · 静息闪耀</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Kazuha <span class="grade grade-s">S</span></h4>
+          <p>辅助 · 翠绿之影套装 · 苍古自由之誓</p>
+        </div>
+      </a>
+      
+      <a href="guide-raiden.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Raiden Shogun <span class="grade grade-s">S</span></h4>
+          <p>副输出 · 绝缘之旗印 · 渔获 R5</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

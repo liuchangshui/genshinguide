@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.">
+<title>Yelan Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Yelan Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-yelan.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Yelan Build Guide — v4.8","description":"Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.","dateModified":"2026-06-19","author":{"@type":"Organization","name":"GenshinGuide"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-yelan.html"}}</script>
+</head>
+<body data-page="yelan">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder hydro" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));">
+      <span>Yelan</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v4.8 · <span>更新于</span> 2026-06-19</div>
+    <h1 class="char-name">Yelan <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">弓</span>
+      <span class="elem-tag">水</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">副C / 辅助</span>
+    </div>
+    <p class="char-desc">《原神》4.8版本夜兰完整培养指南。武器排名（若水、西风猎弓），最佳圣遗物（绝缘之旗印），队伍搭配（双水队、超绽放队）及输出手法指南。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 <span>最佳武器</span></div>
+        <div class="tldr-value">Aqua Simulacra (F2P: Favonius Warbow)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">4pc Emblem of Severed Fate (HP%/Hydro DMG/CRIT)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">Double Hydro / Hyperbloom (HuTao·Yelan·XQ·Zhongli)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">HP 30K+ · ER 180-200% · CRIT 70/140 · Q > E >>> NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p>夜兰是顶级水系副C：基于普通攻击触发的后台协同水元素攻击，生命值加成的高额个人伤害，以及为当前场上角色提供的递增伤害加成。她基本相当于伤害更高、挂水能力稍弱的五星行秋。本指南涵盖在4.8版本中优化培养她的所有内容。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box hydro">
+    <strong>结论：</strong> <span>若水是毕业武器——提供大量暴击伤害和生命值百分比加成。西风猎弓可解决所有充能问题。除非拥有第一命座或从圣遗物获得足够元素充能效率，否则建议使用西风猎弓。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(68,138,255,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Aqua Simulacra</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT DMG 88.2%</td>
+        <td>专武。高额暴击伤害+生命值百分比+伤害加成。完美契合。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>Favonius Warbow</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>ER 61.3%</td>
+        <td>最佳四星。元素充能效率主词条+能量微粒。完全解决充能需求。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Sacrificial Bow</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>565</td>
+        <td>ER 30.6%</td>
+        <td>额外E技能充能=更多微粒+更多伤害。适合0命。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>The Stringless</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>EM 165</td>
+        <td>元素战技+元素爆发伤害加成。在反应队（蒸发）中使用。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label">赞助内容</div>
+    <div class="ad-unit">
+      <div style="font-weight:700;margin-bottom:4px;">🖱️ 游戏装备特惠 — 低至6折</div>
+      <div style="color:var(--text-muted);margin-bottom:8px;">机械键盘、鼠标、耳机。满$50免运费。</div>
+      <a href="#" class="ad-cta" style="color:var(--accent);">查看优惠 →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：4件套绝缘之旗印</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">四件套绝缘之旗印是夜兰的毕业圣遗物。</p>
+  </div>
+
+  <h3 class="hydro">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>HP% / ER%</td>
+        <td>生命值百分比最佳。元素充能效率低于180%时选充能（单水队需200%以上）。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Hydro DMG</td>
+        <td>始终用水元素伤害加成。生命值百分比杯子仅在搭配若水且副词条生命值极高时使用。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td>目标1:2比例。约70%暴击率，140%以上暴击伤害。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>元素充能效率（堆至180%-200%——第一命座可降低至约160%）</li>
+    
+    <li>暴击率 / 暴击伤害（1:2比例——两者均需）</li>
+    
+    <li>生命值百分比（提升伤害——夜兰伤害完全基于生命值）</li>
+    
+    <li>固定生命值（小幅提升——效率低于生命值百分比）</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍1：双水胡桃</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tao + Yelan</span><br>
+    <span style="font-size:0.88rem;">胡桃+夜兰+行秋+钟离。双水共鸣（+25%生命值）对夜兰和胡桃都有益。高额单体伤害。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍2：超绽放驾驶员</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Yelan + Nahida</span><br>
+    <span style="font-size:0.88rem;">夜兰+纳西妲+久岐忍/雷电将军+灵活位。夜兰提供水元素生成种子。久岐忍触发超绽放。基础伤害高。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>队伍3：纯水队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Kokomi + Yelan</span><br>
+    <span style="font-size:0.88rem;">心海+夜兰+万叶+行秋。三水互相充能。万叶增伤水元素伤害。有趣且意外有效。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#448aff;background:rgba(68,138,255,0.08);">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Priority 1 (Crown)</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Priority 3 (Skip)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro">5. 输出循环指南</h2>
+  <div class="emphasis-box hydro">
+    <div>推荐循环顺序：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Zhongli hold E → Yelan E Q → Xingqiu E Q E → Hu Tao E → CA spam (jump/dash cancel) → Q (when HP low)</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="hydro">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 堆攻击力而非生命值。夜兰完全基于生命值加成。攻击力对她毫无作用。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 元素充能效率过低。单水夜兰需200%以上充能。低于180%时元素爆发无法循环。使用西风猎弓或充能沙漏。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 升级普通攻击。夜兰的元素爆发基于任意角色的普通攻击触发——她作为副C从不使用自己的普通攻击。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 在充能需求高的队伍中作为单水元素角色使用。夜兰需要第一命座、祭礼弓或西风猎弓才能独自完成充能，否则需与行秋搭配。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#448aff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <pre><code class="language-json">// Yelan Burst DMG Simulation (C0, 90, 4pc Emblem, 35K HP, 200% ER) Weapon: Aqua Simulacra R1 | Enemy: Lv.103 · RES 10% [Frame 005] Exquisite Throw #1: 8,912 DMG (CRIT) [Frame 020] Exquisite Throw #2: ███ CRIT ███ ← Pro only [Frame 035] Exquisite Throw #3: ████ CRIT ████ ← Pro only ... Total Burst DMG (15s): ███,███ ← Unlock Optimizer: "HP% sands → ER% sands = burst always on cooldown (+32% effective DPS)" ► Full simulation: 15 coordinated hits · A4 ramping buff · energy calc → Pro</code></pre>
+    <div class="teaser-cta">
+      <p>查看你的精确伤害数值。对比不同Build。通关更多深渊层数。</p>
+      <a href="pricing.html" class="btn btn-gold">解锁Pro — $5/月</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-hutao.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Hu Tao <span class="grade grade-s">S</span></h4>
+          <p>主C · 炽烈的炎之魔女 · 双水</p>
+        </div>
+      </a>
+      
+      <a href="guide-yelan.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Yelan <span class="grade grade-s">S</span></h4>
+          <p>副C · 绝缘之旗印 · 若水</p>
+        </div>
+      </a>
+      
+      <a href="guide-xiangling.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Xiangling <span class="grade grade-s">S</span></h4>
+          <p>副C · 昔日宗室之仪 · 渔获精5</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

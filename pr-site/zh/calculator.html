@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Interactive Genshin Impact build calculator. Pick a character and weapon — get optimal artifacts, main stats, and team recommendations instantly.">
+<title>Build Calculator — GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="calc">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html">攻略</a></li>
+        <li><a href="calculator.html" class="active">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero container" style="padding-bottom:40px;">
+  <div class="hero-badge">🧮 交互工具</div>
+  <h1><span class="highlight">Build</span> 计算器</span></h1>
+  <p class="hero-sub">选角色、选武器 — 我们会给出最优圣遗物、主词条、副词条优先级和最佳配队。免费使用。</p>
+</section>
+
+<!-- Free Calculator -->
+<section class="container" style="margin-bottom:40px;">
+  <div class="calc-section" style="max-width:800px;margin:0 auto;">
+    <div class="calc-grid">
+      <div class="calc-inputs">
+        <h4>⚙️ 免费计算器</h4>
+        <div class="calc-group">
+          <label>角色</label>
+          <select id="char-select"><option>— 选择角色 —</option></select>
+        </div>
+        <div class="calc-group">
+          <label>武器</label>
+          <select id="weapon-select"><option>— 请先选择武器 —</option></select>
+        </div>
+      </div>
+      <div class="calc-result" id="calc-result">
+        <p class="calc-hint">👈 选择角色查看Build推荐</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AD #3: Between free calc and Pro demo -->
+<div class="ad-native">
+  <div class="ad-label">赞助内容</div>
+  <div class="ad-unit">
+    <div class="ad-icon">📱</div>
+    <div class="ad-text">
+      <div class="ad-headline">📱 云原神 — 无需下载</div>
+      <div class="ad-desc">任意设备畅玩原神。首月免费。</div>
+    </div>
+    <span class="ad-cta">免费试用 →</span>
+  </div>
+</div>
+
+<!-- Pro DMG Simulator Demo — the conversion engine -->
+<section class="container" style="margin-bottom:40px;">
+  <div class="pro-demo-section">
+    <div class="pro-demo-header">
+      <span style="font-size:1.6rem;">🔮</span>
+      <div>
+        <h3>🔮 Pro 伤害模拟器 — 预览</h3>
+        <p class="text-muted-sm">选择角色查看模拟示例。Pro 解锁完整帧数据、增益时机和队伍DPS对比。</p>
+      </div>
+    </div>
+
+    <!-- Character tabs for demo -->
+    <div class="demo-tabs" id="demo-tabs">
+      <button class="demo-tab electro active" data-char="raiden">⚡ Raiden</button>
+      <button class="demo-tab pyro" data-char="hutao">🔥 Hu Tao</button>
+      <button class="demo-tab hydro" data-char="yelan">💧 Yelan</button>
+      <button class="demo-tab dendro" data-char="nahida">🌿 Nahida</button>
+    </div>
+
+    <!-- DMG simulation cards -->
+    <div class="pro-demo-grid" id="demo-cards">
+      <!-- Raiden demo (default) -->
+      <div class="pro-demo-card demo-card active" data-char="raiden">
+        <div class="char-name" style="color:#c59dff;">⚡ Raiden Shogun · C0, Lv90, R1 Engulfing</div>
+        <div class="dmg-line"><span class="label"><span>爆发斩击 #1</span></span><span class="value">28,432</span></div>
+        <div class="dmg-line"><span class="label"><span>爆发斩击 #2</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>爆发斩击 #3</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>爆发总伤害</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>队伍DPS（国家队）</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span>解锁Pro查看精确数值</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="hutao" style="display:none;">
+        <div class="char-name" style="color:#ff6b6b;">🔥 Hu Tao · C0, Lv90, R1 Homa</div>
+        <div class="dmg-line"><span class="label"><span>重击（蒸发）</span></span><span class="value">62,841</span></div>
+        <div class="dmg-line"><span class="label"><span>爆发（低血量）</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>循环总伤害</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>队伍DPS（双水）</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span>解锁Pro查看精确数值</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="yelan" style="display:none;">
+        <div class="char-name" style="color:#6ba3ff;">💧 Yelan · C0, Lv90, R1 Aqua</div>
+        <div class="dmg-line"><span class="label"><span>战技伤害</span></span><span class="value">31,204</span></div>
+        <div class="dmg-line"><span class="label">Burst Dice (×3 hits)</span><span class="value locked">███</span></div>
+        <div class="dmg-line"><span class="label"><span>循环总伤害</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>队伍DPS（国家队）</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span>解锁Pro查看精确数值</span></div>
+      </div>
+      <div class="pro-demo-card demo-card" data-char="nahida" style="display:none;">
+        <div class="char-name" style="color:#6be085;">🌿 Nahida · C0, Lv90, R1 Floating Dreams</div>
+        <div class="dmg-line"><span class="label"><span> tri-karma（蔓激化）</span></span><span class="value">38,712</span></div>
+        <div class="dmg-line"><span class="label"><span>超绽放种子</span></span><span class="value locked">███</span></div>
+        <div class="dmg-line"><span class="label"><span>循环总伤害</span></span><span class="value locked">███,███</span></div>
+        <div class="dmg-line"><span class="label"><span>队伍DPS（超绽放）</span></span><span class="value locked">███</span></div>
+        <div style="margin-top:10px;font-size:0.75rem;color:var(--gold);">🔒 <span>解锁Pro查看精确数值</span></div>
+      </div>
+    </div>
+
+    <!-- Pro feature grid -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px;">
+      <div class="pro-feature-card" style="border-left-color:#b388ff;">
+        <div class="feature-title">🎯 伤害模拟器</div>
+        <div class="feature-desc">输入敌人属性、增益和循环 — 获取每次攻击的精确伤害数值。</div>
+      </div>
+      <div style="background:var(--bg-card);padding:16px;border-radius:var(--radius);border:1px solid var(--border);border-left:3px solid #ffd700;">
+        <div style="font-weight:700;color:var(--gold);margin-bottom:6px;">⚖️ 圣遗物优化器</div>
+        <div style="font-size:0.85rem;color:var(--text-secondary);">输入你的圣遗物 — 自动计算哪套组合DPS最高。</div>
+      </div>
+      <div class="pro-feature-card" style="border-left-color:#69f0ae;">
+        <div class="feature-title">🔄 循环分析器</div>
+        <div class="feature-desc">模拟完整配队循环，逐帧计算时间和能量恢复。</div>
+      </div>
+      <div class="pro-feature-card" style="border-left-color:#448aff;">
+        <div class="feature-title">📊 Build 对比</div>
+        <div class="feature-desc">并排对比最多3套Build。精确看到哪套伤害更高。</div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="pro-demo-cta" style="margin-top:28px;">
+      <p>查看你角色的精确伤害。停止猜测，开始优化。</strong> damage. Stop guessing. Start optimizing.</p>
+      <a href="pricing.html" class="btn btn-gold">🔓 解锁Pro — $5/月</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+<script src="../js/calculator.js"></script>
+<script>
+// Init selects, then delegate to calculator.js updateCalc()
+(function(){
+  const charS = document.getElementById('char-select');
+  const wpnS   = document.getElementById('weapon-select');
+  if(!charS || !wpnS) return;
+
+  // Populate character select
+  Object.keys(CHARACTERS).forEach(k => {
+    const o = document.createElement('option');
+    o.value = k; o.textContent = CHARACTERS[k].name;
+    charS.appendChild(o);
+  });
+
+  // Character change → populate weapons, then updateCalc
+  charS.addEventListener('change', ()=>{
+    wpnS.innerHTML = '<option value="">'+t('home.calc_wpn_placeholder')+'</option>';
+    const cid = charS.value;
+    if(!cid){
+      document.getElementById('calc-result').innerHTML =
+        '<p style="color:var(--text-muted);text-align:center;padding:40px 0;">'+t('home.calc_hint')+'</p>';
+      return;
+    }
+    (CHARACTER_WEAPONS[cid]||[]).forEach(w => {
+      const o = document.createElement('option');
+      o.value = w; o.textContent = (WEAPONS[w]||{name:w}).name;
+      wpnS.appendChild(o);
+    });
+    if(typeof updateCalc === 'function') updateCalc();
+  });
+
+  // Weapon change → updateCalc
+  wpnS.addEventListener('change', ()=>{
+    if(typeof updateCalc === 'function') updateCalc();
+  });
+
+  // Pro demo tab switching
+  document.querySelectorAll('.demo-tab').forEach(btn => {
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.demo-tab').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const ch = this.dataset.char;
+      document.querySelectorAll('.demo-card').forEach(card => {
+        card.style.display = card.dataset.char === ch ? 'block' : 'none';
+      });
+    });
+  });
+
+  // Init: select Raiden (removed ||true debug leftover)
+  charS.value = 'raiden';
+  charS.dispatchEvent(new Event('change'));
+})();
+</script>
+</html>

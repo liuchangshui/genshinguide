@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.">
+<title>Hu Tao Build Guide — GenshinGuide</title>
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:title" content="Hu Tao Build Guide — GenshinGuide">
+<meta property="og:description" content="Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-hutao.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Hu Tao Build Guide — v4.8","description":"Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.","dateModified":"2026-06-19","author":{"@type":"Organization","name":"GenshinGuide"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-hutao.html"}}</script>
+</head>
+<body data-page="hutao">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle active" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase pyro">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder pyro" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(255,82,82,0.15));">
+      <span>Hutao</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v4.8 · <span>更新于</span> 2026-06-19</div>
+    <h1 class="char-name">Hu Tao <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">长柄武器</span>
+      <span class="elem-tag">火</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">主C</span>
+    </div>
+    <p class="char-desc">原神4.8版本胡桃完整培养指南。最佳武器排名（护摩之杖、匣里灭辰），圣遗物选择（炽烈的炎之魔女、追忆之注连），队伍搭配（双水、蒸发），以及输出手法指南。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box pyro">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">🔥 <span>最佳武器</span></div>
+        <div class="tldr-value">Staff of Homa (F2P: Dragon's Bane)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">4pc Crimson Witch / 4pc Shimenawa (HP%/Pyro DMG/CRIT)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">Double Hydro Vape (HuTao·Yelan·XQ·Zhongli)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">HP 30K · EM 100-200 · CRIT 70/200 · NA > E > Q</div>
+      </div>
+    </div>
+  </div>
+
+  <p>胡桃是顶级火系长柄武器站场输出角色。元素战技消耗生命值使攻击附魔火元素，并根据生命值上限大幅提升攻击力。生命值低于50%时，重击伤害极为可观。需要利用取消后摇技巧才能发挥上限——第一命之座消除体力消耗问题。本指南涵盖4.8版本中培养她的全部要点。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="pyro">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box pyro">
+    <strong>结论：</strong> <span>护摩之杖是胡桃的专属武器，几乎量身定制。匣里灭辰（精5）在蒸发队中表现惊人——通常优于五星白值武器。仅当追求极致强度时才抽取护摩。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(255,82,82,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Staff of Homa</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>CRIT DMG 66.2%</td>
+        <td>专武。生命值转攻击力+高额暴击伤害。为胡桃量身定制。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>Dragon's Bane R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>EM 221</td>
+        <td>最佳四星武器。元素精通+对水/火元素伤害加成。完美适配蒸发反应。精炼五阶可媲美五星武器。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Deathmatch</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>CRIT Rate 36.8%</td>
+        <td>纪行武器。高暴击率降低配装难度。优秀的面板武器。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>White Tassel</td>
+        <td>⭐⭐⭐</td>
+        <td>401</td>
+        <td>CRIT Rate 23.4%</td>
+        <td>三星过渡武器。暴击率+普通攻击伤害加成。重击连发时表现意外出色。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label">赞助内容</div>
+    <div class="ad-unit">
+      <div style="font-weight:700;margin-bottom:4px;">🖱️ 游戏装备特惠 — 低至6折</div>
+      <div style="color:var(--text-muted);margin-bottom:8px;">机械键盘、鼠标、耳机。满$50免运费。</div>
+      <a href="#" class="ad-cta" style="color:var(--accent);">查看优惠 →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="pyro">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box pyro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：4件套炽烈的炎之魔女</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">4件套炽烈的炎之魔女是胡桃的毕业圣遗物套装。</p>
+  </div>
+
+  <h3 class="pyro">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>HP% / EM</td>
+        <td>生命值加成最佳，兼顾伤害与生存。若使用匣里灭辰且元素精通副词条不足，可选元素精通沙漏。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Pyro DMG</td>
+        <td>始终选择火元素伤害加成。生命值加成杯会显著降低伤害。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td>目标暴击率与暴击伤害比例1:2。搭配护摩之杖时，约70%暴击率、200%以上暴击伤害。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="pyro">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>暴击率 / 暴击伤害（1:2比例——两者均需）</li>
+    
+    <li>元素精通（100-200——蒸发伤害必备）</li>
+    
+    <li>生命值%（提升伤害与生存能力）</li>
+    
+    <li>攻击力%（低优先级——胡桃通过元素战技已获得大量攻击力）</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="pyro">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box pyro">
+    <strong>队伍1：双水</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tao + Yelan</span><br>
+    <span style="font-size:0.88rem;">胡桃+夜兰+行秋+钟离。胡桃最佳配队。双水共鸣（+25%生命值）提升胡桃收益。蒸发覆盖率极高。钟离防止低血量暴毙。</span>
+  </div>
+  
+  <div class="emphasis-box pyro">
+    <strong>队伍2：翠绿之影蒸发队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tao + Xingqiu</span><br>
+    <span style="font-size:0.88rem;">胡桃+行秋+枫原万叶+班尼特。枫原万叶扩散火元素触发翠绿之影减抗+增伤。班尼特的治疗与胡桃机制冲突（胡桃需要</span>
+  </div>
+  
+  <div class="emphasis-box pyro">
+    <strong>队伍3：胡夜行香队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tao + Yelan</span><br>
+    <span style="font-size:0.88rem;">胡桃+夜兰+行秋+香菱。全力输出，毫无保留。三火/水元素进攻体系。无护盾——高风险高回报。需要精准闪避。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="pyro">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#ff5252;background:rgba(255,82,82,0.08);">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Priority 1</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Priority 2</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Priority 3</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="pyro">5. 输出循环指南</h2>
+  <div class="emphasis-box pyro">
+    <div>推荐循环顺序：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Zhongli hold E → Xingqiu E Q E → Yelan E Q → Hu Tao E → CA spam (C1: dash cancel, C0: jump cancel) → Q (when low HP or iframe)</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="pyro">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 过度堆叠攻击力。胡桃通过元素战技将生命值转化为攻击力。攻击力百分比副词条近乎无效——应优先堆叠生命值百分比和元素精通。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 元素精通过低。缺乏元素精通时，蒸发伤害显著降低。通过副词条或武器堆叠100-200元素精通。匣里灭辰可自动解决此问题。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 零命之座时不使用跳跃/冲刺取消后摇。不取消后摇时，胡桃的重击会向前突进并浪费输出时间。每次重击后需跳跃取消（零命）或冲刺取消（一命）。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 将胡桃治疗至50%以上生命值。固有天赋「血之灶火」在生命值低于50%时提供33%火元素伤害加成。避免使用治疗角色——改用护盾（如钟离）。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#ff5252;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <pre><code class="language-json">// Hu Tao Charged Attack Vape Simulation (C1, 90, 4pc Crimson Witch, 32K HP, 200 EM) Weapon: Staff of Homa R1 | Enemy: Lv.103 · RES 10% [Frame 015] CA Vape #1: 62,341 DMG (CRIT, below 50% HP) [Frame 032] CA Vape #2: ███ VAPE ███ ← Pro only [Frame 049] CA Vape #3: ████ VAPE ████ ← Pro only ... Total E DMG (9s): ███,███ ← Unlock Optimizer: "HP% sands → EM sands (with Homa) = +11.2% vape DMG at current EM" ► Full simulation: 9 CA -> dash cancels · HP thresholds · team buff sync → Pro</code></pre>
+    <div class="teaser-cta">
+      <p>查看你的精确伤害数值。对比不同Build。通关更多深渊层数。</p>
+      <a href="pricing.html" class="btn btn-gold">解锁Pro — $5/月</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-zhongli.html" class="guide-card geo">
+        <div class="guide-card-img geo">
+          <div class="elem-icon geo">🪨</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Zhongli <span class="grade grade-a">A</span></h4>
+          <p>Shield / Support · Tenacity set · HP build</p>
+        </div>
+      </a>
+      
+      <a href="guide-yelan.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Yelan <span class="grade grade-s">S</span></h4>
+          <p>副C · 绝缘之旗印 · 若水</p>
+        </div>
+      </a>
+      
+      <a href="guide-xiangling.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <div class="elem-icon electro">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Xiangling <span class="grade grade-s">S</span></h4>
+          <p>副C · 昔日宗室之仪 · 渔获精5</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>
