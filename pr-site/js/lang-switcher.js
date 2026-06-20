@@ -47,6 +47,11 @@
   };
   window.t = function(key){
     var entry = DICT[key];
-    return entry ? entry[zh ? 1 : 0] : key;
+    if (entry) return entry[zh ? 1 : 0];
+    if (typeof CALC_I18N !== 'undefined') {
+      entry = CALC_I18N[key];
+      if (entry) return entry[zh ? 1 : 0];
+    }
+    return key;
   };
 })();

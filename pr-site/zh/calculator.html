@@ -160,6 +160,7 @@
 </footer>
 
 <script src="../js/lang-switcher.js"></script>
+<script src="../js/calc-i18n.js"></script>
 <script src="../js/calculator.js"></script>
 <script>
 // Init selects, then delegate to calculator.js updateCalc()
@@ -171,7 +172,7 @@
   // Populate character select
   Object.keys(CHARACTERS).forEach(k => {
     const o = document.createElement('option');
-    o.value = k; o.textContent = CHARACTERS[k].name;
+    o.value = k; o.textContent = t(CHARACTERS[k].name);
     charS.appendChild(o);
   });
 
@@ -186,7 +187,7 @@
     }
     (CHARACTER_WEAPONS[cid]||[]).forEach(w => {
       const o = document.createElement('option');
-      o.value = w; o.textContent = (WEAPONS[w]||{name:w}).name;
+      o.value = w; o.textContent = t((WEAPONS[w]||{name:w}).name);
       wpnS.appendChild(o);
     });
     if(typeof updateCalc === 'function') updateCalc();

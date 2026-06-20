@@ -269,7 +269,7 @@ function updateCalc(){
   const w = WEAPONS_DATA[wpn] || null;
 
   const wpnSel = document.getElementById('weapon-select');
-  wpnSel.innerHTML = c.weapons.map(k=>`<option value="${k}">${WEAPONS_DATA[k].n} (${WEAPONS_DATA[k].r}★)</option>`).join('');
+  wpnSel.innerHTML = c.weapons.map(k=>`<option value="${k}">${t(WEAPONS_DATA[k].n)} (${WEAPONS_DATA[k].r}★)</option>`).join('');
   if(wpn && c.weapons.includes(wpn)) wpnSel.value = wpn;
 
   const selWpn = WEAPONS_DATA[wpnSel.value] || WEAPONS_DATA[c.weapons[0]];
@@ -281,12 +281,12 @@ function updateCalc(){
   const labelCirclet = t('calcJS.circlet_label');
 
   document.getElementById('calc-result').innerHTML = `
-    <h4>${t('calcJS.build_summary')} — ${c.name}</h4>
+    <h4>${t('calcJS.build_summary')} — ${t(c.name)}</h4>
     <div class="calc-stat"><div class="label">${t('calcJS.build_grade')}</div>
       <div class="value"><span class="grade grade-${grade}">${grade.toUpperCase()}</span> ${grade=='s'?t('calcJS.optimal_meta'):grade=='a'?t('calcJS.strong_viable'):t('calcJS.functional_budget')}</div>
     </div>
     <div class="calc-stat"><div class="label">${t('calcJS.best_arti')}</div>
-      <div class="value" style="color:var(--accent);">🎯 ${c.arti}</div>
+      <div class="value" style="color:var(--accent);">🎯 ${t(c.arti)}</div>
     </div>
     <div class="calc-stat"><div class="label">${t('calcJS.total_atk')}</div>
       <div class="value">${totalATK} <span style="font-size:0.8rem;color:var(--text-muted);">(${c.atk} ${t('calcJS.char_atk')} + ${selWpn.a} ${t('calcJS.weapon_atk')})</span></div>
@@ -302,11 +302,11 @@ function updateCalc(){
     </div>
     <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
       <div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:10px;">${t('calcJS.best_teams')}</div>
-      ${c.teams.map(t=>`
+      ${c.teams.map(tm=>`
         <div style="margin-bottom:10px;padding:10px;background:var(--bg-card);border-radius:6px;">
-          <div style="font-weight:700;color:var(--accent);font-size:0.9rem;">${t.n}</div>
-          <div style="font-size:0.8rem;color:var(--text-secondary);">${t.m}</div>
-          <div style="font-size:0.78rem;color:var(--text-muted);margin-top:4px;">${t.d}</div>
+          <div style="font-weight:700;color:var(--accent);font-size:0.9rem;">${t(tm.n)}</div>
+          <div style="font-size:0.8rem;color:var(--text-secondary);">${t(tm.m)}</div>
+          <div style="font-size:0.78rem;color:var(--text-muted);margin-top:4px;">${t(tm.d)}</div>
         </div>
       `).join('')}
     </div>
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   const charSel = document.getElementById('char-select');
   if(!charSel) return;
   charSel.innerHTML = '<option value="">' + t('home.calc_placeholder') + '</option>' +
-    Object.entries(DATA).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join('');
+    Object.entries(DATA).map(([k,v])=>`<option value="${k}">${t(v.name)}</option>`).join('');
   charSel.addEventListener('change', ()=>updateCalc());
   document.getElementById('weapon-select').addEventListener('change', ()=>updateCalc());
   if(window.location.hash==='#raiden'){
