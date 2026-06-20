@@ -26,7 +26,7 @@ SITEMAP_FILE = "../pr-site/sitemap.xml"
 GUIDES_INDEX = "../pr-site/guides.html"
 
 # ---- Game Version ----
-CURRENT_VERSION = "4.8"
+CURRENT_VERSION = "5.6"
 
 # ---- Character Priority (P0 = search-volume order) ----
 P0_CHARACTERS = ["furina", "arlecchino", "neuvillette", "raiden", "bennett"]

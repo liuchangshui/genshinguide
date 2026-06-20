@@ -73,8 +73,116 @@ const DATA = {
       {n:'Universal Shield',m:'Hu Tao/Yoimiya + Xingqiu + Yelan',d:'Fits any team, 100% uptime shield'},
       {n:'Burst Support',m:'Ningguang + Bennett + Xiangling',d:'Quick swap, high burst DMG Zhongli'}
     ]
+  },
+furina: {
+    name:'Furina',element:'hydro',role:'Sub DPS / Buffer',atk:244,ascStat:'CRIT Rate',ascVal:19.2,
+    weapons:['splendor','fleuve','festering','favsword'],
+    arti:'Golden Troupe',artiAlt:'Tenacity of the Millelith (support)',
+    main:{sands:'HP%',goblet:'HP% / Hydro DMG',circlet:'CRIT Rate / CRIT DMG'},
+    subs:['Energy Recharge (160-180%)','CRIT Rate / CRIT DMG','HP%','Flat HP'],
+    teams:[
+      {n:'Neuvillette Hypercarry',m:'Furina + Neuvillette + Kazuha + Baizhu',d:'HP drain synergy, massive DMG amp'},
+      {n:'Hu Tao Double Hydro',m:'Furina + Yelan + Hu Tao + Jean',d:'HP-drain keeps Hu Tao <50%, team-wide heal'},
+      {n:'Xiao FFXX',m:'Furina + Xiao + Faruzan + Xianyun',d:'Fanfare stacks + Anemo plunge buff'}
+    ]
+  },
+  arlecchino: {
+    name:'Arlecchino',element:'pyro',role:'Main DPS',atk:342,ascStat:'CRIT DMG',ascVal:38.4,
+    weapons:['crimson','homa','pjws','whitetassel'],
+    arti:'Fragment of Harmonic Whimsy',artiAlt:'Gladiator\'s Finale',
+    main:{sands:'ATK%',goblet:'Pyro DMG',circlet:'CRIT Rate / CRIT DMG'},
+    subs:['CRIT Rate / CRIT DMG','ATK%','Elemental Mastery','Energy Recharge'],
+    teams:[
+      {n:'Vape Arlecchino',m:'Arle + Yelan + Kazuha + Bennett',d:'Highest ceiling, consistent Vaporize'},
+      {n:'Mono Pyro',m:'Arle + Xiangling + Kazuha + Bennett',d:'Raw Pyro DMG, no reaction reliance'},
+      {n:'Overload (Chevreuse)',m:'Arle + Fischl + Chevreuse + Bennett',d:'Overload comp, high AoE clear'}
+    ]
+  },
+  neuvillette: {
+    name:'Neuvillette',element:'hydro',role:'Main DPS',atk:204,ascStat:'CRIT DMG',ascVal:38.4,
+    weapons:['tome','protoamber','sacjade'],
+    arti:'Marechaussee Hunter',artiAlt:'Heart of Depth (budget)',
+    main:{sands:'HP%',goblet:'Hydro DMG / HP%',circlet:'CRIT DMG / HP%'},
+    subs:['CRIT Rate / CRIT DMG (64:250+)','HP%','Energy Recharge (120-140%)','Flat HP'],
+    teams:[
+      {n:'Hypercarry',m:'Neu + Furina + Kazuha + Baizhu',d:'Premium team, Furina Hydro resonance'},
+      {n:'Taser',m:'Neu + Fischl + Kazuha + Zhongli',d:'Electro-charged, shield essential at C0'},
+      {n:'Hyperbloom Driver',m:'Neu + Nahida + Raiden + Flex',d:'HP-scaling hyperbloom driver'}
+    ]
+  },
+  bennett: {
+    name:'Bennett',element:'pyro',role:'Support / Healer',atk:191,ascStat:'Energy Recharge',ascVal:26.7,
+    weapons:['aquila','mistsplitter','sapwood','skyward'],
+    arti:'Noblesse Oblige',artiAlt:'Instructor (budget EM buff)',
+    main:{sands:'ER% / HP%',goblet:'HP%',circlet:'Healing Bonus / HP%'},
+    subs:['Energy Recharge (200%+)','HP%','Flat HP','CRIT (for Favonius)'],
+    teams:[
+      {n:'National',m:'XL + XQ + Raiden/Childe + Bennett',d:'Core of almost every meta team'},
+      {n:'Melt Ganyu',m:'Ganyu + Xiangling + Zhongli + Bennett',d:'ATK buff + Pyro application'},
+      {n:'Hypercarry Support',m:'Any ATK DPS + Bennett + Kazuha + Flex',d:'Universal ATK buffer, fits everywhere'}
+    ]
+  },
+  xiangling: {
+    name:'Xiangling',element:'pyro',role:'Sub DPS',atk:225,ascStat:'Elemental Mastery',ascVal:96,
+    weapons:['catch','homa','dragonsbane','favlance'],
+    arti:'Emblem of Severed Fate',artiAlt:'Crimson Witch (Vape focus)',
+    main:{sands:'ER% / ATK% / EM',goblet:'Pyro DMG',circlet:'CRIT Rate / CRIT DMG'},
+    subs:['Energy Recharge (180-220%)','CRIT Rate / CRIT DMG','ATK% / EM','Flat ATK'],
+    teams:[
+      {n:'National',m:'XL + Bennett + XQ + Raiden/Childe',d:'Snapshot Bennett buff, top-tier off-field'},
+      {n:'Melt Ganyu',m:'Ganyu + XL + Bennett + Zhongli',d:'Pyro enabler for Ganyu charged shots'},
+      {n:'Overload',m:'XL + Chevreuse + Fischl + Bennett',d:'Overload meta, Chevreuse shred'}
+    ]
+  },
+  ayaka: {
+    name:'Kamisato Ayaka',element:'cryo',role:'Main DPS',atk:342,ascStat:'CRIT DMG',ascVal:38.4,
+    weapons:['mistsplitter','amenoma','finale','blackcliffsword'],
+    arti:'Blizzard Strayer',artiAlt:'None — 4pc BS is mandatory',
+    main:{sands:'ATK%',goblet:'Cryo DMG',circlet:'CRIT DMG'},
+    subs:['CRIT DMG (240%+ target)','ATK% (2000+ target)','Energy Recharge (130-140%)','CRIT Rate (30-45% max)'],
+    teams:[
+      {n:'Premium Freeze',m:'Ayaka + Kokomi + Kazuha + Shenhe',d:'Best Ayaka team, full Cryo shred'},
+      {n:'Budget Freeze',m:'Ayaka + Mona + Sucrose + Diona',d:'F2P-friendly, Mona Omen buff'},
+      {n:'Mono Cryo',m:'Ayaka + Shenhe + Kazuha + Layla',d:'For unfreezable boss enemies'}
+    ]
+  },
+  albedo: {
+    name:'Albedo',element:'geo',role:'Sub DPS',atk:251,ascStat:'Geo DMG',ascVal:28.8,
+    weapons:['cinnabar','harbinger','jadecutter','festering'],
+    arti:'Husk of Opulent Dreams',artiAlt:'Golden Troupe',
+    main:{sands:'DEF%',goblet:'Geo DMG',circlet:'CRIT Rate / CRIT DMG'},
+    subs:['DEF%','CRIT Rate / CRIT DMG','Energy Recharge','ATK%'],
+    teams:[
+      {n:'Mono Geo',m:'Itto + Albedo + Gorou + Zhongli',d:'Geo resonance, full DEF scaling'},
+      {n:'Double Geo Flex',m:'Albedo + Zhongli + any DPS duo',d:'Geo resonance + shield shred'},
+      {n:'Navia Support',m:'Navia + Albedo + Bennett + XL',d:'Crystallize shard generator'}
+    ]
+  },
+  ganyu: {
+    name:'Ganyu',element:'cryo',role:'Main DPS',atk:335,ascStat:'CRIT DMG',ascVal:38.4,
+    weapons:['amos','aqua','hunters','protcres'],
+    arti:'Wanderer\'s Troupe',artiAlt:'Blizzard Strayer (Freeze)',
+    main:{sands:'ATK% / EM',goblet:'Cryo DMG',circlet:'CRIT DMG / CRIT Rate'},
+    subs:['CRIT DMG / CRIT Rate','ATK%','Elemental Mastery (Melt)','Energy Recharge'],
+    teams:[
+      {n:'Melt Ganyu',m:'Ganyu + XL + Bennett + Zhongli',d:'Shielded charge shots, 1.5x Melt'},
+      {n:'Morgana Freeze',m:'Ganyu + Kazuha + Mona + Diona',d:'AoE freeze, quadratic scaling burst'},
+      {n:'Burn-Melt',m:'Ganyu + Nahida + Bennett + Zhongli',d:'Consistent burning Pyro aura'}
+    ]
+  },
+  xiao: {
+    name:'Xiao',element:'anemo',role:'Main DPS',atk:349,ascStat:'CRIT Rate',ascVal:19.2,
+    weapons:['pjws','homa','blackcliff','deathmatch'],
+    arti:'Vermillion Hereafter',artiAlt:'Marechaussee Hunter (with Furina)',
+    main:{sands:'ATK%',goblet:'Anemo DMG',circlet:'CRIT Rate / CRIT DMG'},
+    subs:['CRIT Rate / CRIT DMG (75:180+)','ATK%','Energy Recharge (120-130%)','Flat ATK'],
+    teams:[
+      {n:'FFXX Premium',m:'Xiao + Faruzan + Furina + Xianyun',d:'Best team — Fanfare + Anemo buff'},
+      {n:'Classic Hypercarry',m:'Xiao + Faruzan + Bennett + Zhongli',d:'Shield + ATK buff, reliable'},
+      {n:'Double Geo',m:'Xiao + Albedo + Zhongli + Jean/Bennett',d:'Geo resonance alternative'}
+    ]
   }
-};
+};;
 
 const WEAPONS_DATA = {
   engulfing:{n:'Engulfing Lightning',r:5,a:608,st:'Energy Recharge',sv:55.1},
@@ -91,6 +199,27 @@ const WEAPONS_DATA = {
   sacfrag:{n:'Sacrificial Fragments',r:4,a:454,st:'Elemental Mastery',sv:221},
   favsword:{n:'Favonius Sword',r:4,a:454,st:'Energy Recharge',sv:61.3},
   dragonsbane:{n:"Dragon's Bane",r:4,a:454,st:'Elemental Mastery',sv:221}
+splendor:{n:'Splendor of Tranquil Waters',r:5,a:542,st:'CRIT DMG',sv:88.2},
+  fleuve:{n:'Fleuve Cendre Ferryman',r:4,a:510,st:'Energy Recharge',sv:45.9},
+  festering:{n:'Festering Desire',r:4,a:510,st:'Energy Recharge',sv:45.9},
+  crimson:{n:"Crimson Moon's Semblance",r:5,a:674,st:'CRIT Rate',sv:22.1},
+  pjws:{n:'Primordial Jade Winged-Spear',r:5,a:674,st:'CRIT Rate',sv:22.1},
+  whitetassel:{n:'White Tassel',r:3,a:401,st:'CRIT Rate',sv:23.4},
+  tome:{n:'Tome of the Eternal Flow',r:5,a:542,st:'CRIT DMG',sv:88.2},
+  protoamber:{n:'Prototype Amber',r:4,a:510,st:'HP',sv:41.3},
+  sacjade:{n:'Sacrificial Jade',r:4,a:510,st:'Elemental Mastery',sv:221},
+  aquila:{n:'Aquila Favonia',r:5,a:674,st:'Physical DMG',sv:41.3},
+  sapwood:{n:'Sapwood Blade',r:4,a:565,st:'Energy Recharge',sv:30.6},
+  skyward:{n:'Skyward Blade',r:5,a:608,st:'Energy Recharge',sv:55.1},
+  amenoma:{n:'Amenoma Kageuchi',r:4,a:454,st:'ATK',sv:55.1},
+  finale:{n:'Finale of the Deep',r:4,a:565,st:'ATK',sv:27.6},
+  blackcliffsword:{n:'Blackcliff Longsword',r:4,a:565,st:'CRIT DMG',sv:36.8},
+  cinnabar:{n:'Cinnabar Spindle',r:4,a:454,st:'DEF',sv:69.0},
+  harbinger:{n:'Harbinger of Dawn',r:3,a:401,st:'CRIT DMG',sv:46.9},
+  jadecutter:{n:'Primordial Jade Cutter',r:5,a:542,st:'CRIT Rate',sv:44.1},
+  amos:{n:"Amos' Bow",r:5,a:608,st:'ATK',sv:49.6},
+  hunters:{n:"Hunter's Path",r:5,a:542,st:'CRIT Rate',sv:44.1},
+  protcres:{n:'Prototype Crescent',r:4,a:510,st:'ATK',sv:41.3},
 };
 
 // ===== Compatibility layer for inline scripts =====

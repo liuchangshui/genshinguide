@@ -19,8 +19,8 @@
   },
   "home": {
     "badge": {
-      "en": "📦 v4.8 Compatible — Updated June 2026",
-      "zh": "📦 适配 v4.8 — 2026年6月更新"
+      "en": "📦 v5.6 Compatible — Updated June 2026",
+      "zh": "📦 适配 v5.6 — 2026年6月更新"
     },
     "title1": {
       "en": "Genshin Impact <span class=\"highlight\">Build Guides</span>",
@@ -39,24 +39,24 @@
       "zh": "⚡ 试试Build计算器"
     },
     "btn_guides": {
-      "en": "📚 Browse 30+ Guides",
-      "zh": "📚 浏览30+攻略"
+      "en": "📚 Browse 15 Guides",
+      "zh": "📚 浏览15篇攻略"
     },
     "btn_pro": {
       "en": "⭐ Go Pro $5/mo",
       "zh": "⭐ 开通会员 $5/月"
     },
     "stat1_num": {
-      "en": "30+",
-      "zh": "30+"
+      "en": "15",
+      "zh": "15"
     },
     "stat1_label": {
       "en": "Character Guides",
       "zh": "角色攻略"
     },
     "stat2_num": {
-      "en": "v4.8",
-      "zh": "v4.8"
+      "en": "v5.6",
+      "zh": "v5.6"
     },
     "stat2_label": {
       "en": "Updated within 24h",
@@ -79,8 +79,8 @@
       "zh": "免费核心功能"
     },
     "trust1": {
-      "en": "Updated within 24h of v4.8",
-      "zh": "v4.8发布后24小时内更新"
+      "en": "Updated within 24h of v5.6",
+      "zh": "v5.6版本24小时内更新"
     },
     "trust2": {
       "en": "Data-verified · Not opinion",
@@ -99,16 +99,16 @@
       "zh": "<b style=\"color:var(--text-secondary);\">50,000+</b> 玩家信赖 · 攻略平均准确率 <b style=\"color:var(--accent);\">98.7%</b>"
     },
     "quick_placeholder": {
-      "en": "Quick answer: e.g. \"best Raiden weapon\" or \"Hu Tao artifact set\"…",
-      "zh": "快速提问：如\"雷电将军最佳武器\"或\"胡桃圣遗物套装\"…"
+      "en": "Type a character name: Raiden, Hu Tao, Ganyu, Xiao…",
+      "zh": "输入角色名：雷电将军、胡桃、甘雨、魈…"
     },
     "quick_title": {
-      "en": "⚡ Instant Build Answers",
-      "zh": "⚡ 即时Build答案"
+      "en": "⚡ Quick Jump to Guide",
+      "zh": "⚡ 快速跳转攻略"
     },
     "quick_btn": {
-      "en": "Get Answer",
-      "zh": "获取答案"
+      "en": "Go",
+      "zh": "前往"
     },
     "quick_hint": {
       "en": "Try: \"Raiden best weapon\" · \"Hu Tao artifact\" · \"Yelan team comp\"",
@@ -215,8 +215,8 @@
       "zh": "永久免费"
     },
     "free_f1": {
-      "en": "All 30+ character guides",
-      "zh": "全部30+角色攻略"
+      "en": "All 15 character guides",
+      "zh": "全部15篇角色攻略"
     },
     "free_f2": {
       "en": "Basic build calculator",
@@ -327,8 +327,8 @@
       "zh": "✅ 感谢订阅！请查收邮件。"
     },
     "view_all": {
-      "en": "View All 30+ Guides →",
-      "zh": "查看全部30+攻略 →"
+      "en": "View All 15 Guides →",
+      "zh": "查看全部15篇攻略 →"
     }
   },
   "guide": {
@@ -991,16 +991,16 @@
   },
   "guides": {
     "badge": {
-      "en": "📦 v4.8 Compatible",
-      "zh": "📦 适配 v4.8"
+      "en": "📦 v5.6 Compatible",
+      "zh": "📦 适配 v5.6"
     },
     "title": {
       "en": "All <span class=\"highlight\">Character Builds</span>",
       "zh": "全部<span class=\"highlight\">角色攻略</span>"
     },
     "subtitle": {
-      "en": "30+ data-driven guides. Click any character for full build details.",
-      "zh": "30+ 数据驱动攻略。点击任意角色查看完整Build详情。"
+      "en": "15 data-driven guides. Click any character for full build details — weapons, artifacts, teams, rotations.",
+      "zh": "15篇数据驱动攻略。点击任意角色查看完整Build详情——武器、圣遗物、配队、输出循环。"
     },
     "raiden_desc": {
       "en": "Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National",
@@ -1139,8 +1139,8 @@
   },
   "ad": {
     "label": {
-      "en": "Sponsored",
-      "zh": "赞助内容"
+      "en": "Ad Space",
+      "zh": "广告位"
     },
     "ad1_head": {
       "en": "🎮 Genshin Top-Up Cards — Save 20%",
@@ -1177,6 +1177,10 @@
     "ad3_cta": {
       "en": "Try Free →",
       "zh": "免费试用 →"
+    },
+    "placeholder": {
+      "en": "Ad placement — coming soon",
+      "zh": "广告位 — 即将开放"
     }
   },
   "calcJS": {
