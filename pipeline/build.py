@@ -205,7 +205,7 @@ def render_guides():
 
 STATIC_PAGES = [
     "index.html", "guides.html", "calculator.html", "pricing.html",
-    "about.html", "privacy.html", "pipeline.html",
+    "about.html", "privacy.html", "pipeline.html", "tier-list.html",
 ]
 
 

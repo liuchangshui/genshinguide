@@ -115,9 +115,9 @@ console.log("[5/5] Page counts...");
 var enPages = fs.readdirSync(path.join(ROOT, "pr-site/en")).filter(function(f) { return f.endsWith(".html"); }).length;
 var zhPages = fs.readdirSync(path.join(ROOT, "pr-site/zh")).filter(function(f) { return f.endsWith(".html"); }).length;
 var guides = fs.readdirSync(path.join(ROOT, "pipeline/data/guides")).filter(function(f) { return f.endsWith(".json"); }).length;
-var expected = guides + 7;
+var expected = guides + 8;
 if (enPages === expected && zhPages === expected) {
-    console.log("  ✅ en/" + enPages + " zh/" + zhPages + " (" + guides + " guides + 7 static)");
+    console.log("  ✅ en/" + enPages + " zh/" + zhPages + " (" + guides + " guides + 8 static)");
 } else {
     ERRORS.push("Page count mismatch: en/" + enPages + " zh/" + zhPages + " (expected " + expected + ")");
 }

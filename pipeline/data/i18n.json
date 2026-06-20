@@ -15,6 +15,10 @@
     "pro": {
       "en": "Pro $5/mo",
       "zh": "会员 $5/月"
+    },
+    "tierlist": {
+      "en": "Tier List",
+      "zh": "强度榜"
     }
   },
   "home": {
@@ -541,15 +545,15 @@
       "zh": "雷电将军是原神中最全能且最强大的角色之一。她既是顶级队伍充能拐，又能通过爆发造成高额后台伤害，还能激活游戏中最强配队之一。本攻略涵盖4.8版本最优Build的全部要点。"
     },
     "pro_teaser_title": {
-      "en": "Pro Deep Dive — DMG Simulation Preview",
-      "zh": "Pro 深度分析 — 伤害模拟预览"
+      "en": "Pro DMG Simulator — Coming Soon",
+      "zh": "Pro 伤害模拟器 — 即将上线"
     },
     "pro_teaser_desc": {
-      "en": "Here's what our DMG simulator outputs for Raiden. Pro members get full frame-data, buff timing, and team DPS comparison.",
-      "zh": "这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。"
+      "en": "Get exact damage numbers for every character. Compare artifact loadouts. Rank team DPS. Pro features in development — stay tuned.",
+      "zh": "获取每个角色的精确伤害数值。对比圣遗物配置。排名队伍DPS。Pro功能开发中——敬请期待。"
     },
     "pro_teaser_cta": {
-      "en": "Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking. Coming soon.",
+      "en": "Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking.",
       "zh": "Pro伤害模拟器——精确伤害数值、圣遗物对比、队伍DPS排名。即将上线。"
     },
     "related_title": {
@@ -1171,6 +1175,10 @@
     "pipeline": {
       "en": "Pipeline",
       "zh": "流水线"
+    },
+    "tierlist": {
+      "en": "Tier List",
+      "zh": "强度榜"
     }
   },
   "ad": {
@@ -6487,6 +6495,132 @@
     "related_hutao": {
       "en": "Vaporize team DPS",
       "zh": "蒸发队主C"
+    }
+  },
+  "tier": {
+    "badge": {
+      "en": "📊 v5.6 Tier List",
+      "zh": "📊 v5.6 角色强度榜"
+    },
+    "title": {
+      "en": "Character <span class=\"highlight\">Tier List</span>",
+      "zh": "角色<span class=\"highlight\">强度榜</span>"
+    },
+    "subtitle": {
+      "en": "S-Tier: Meta-defining. A-Tier: Strong and reliable. Rankings based on abyss usage, team flexibility, and damage ceiling.",
+      "zh": "S级：版本定义者。A级：强力可靠。排名基于深渊使用率、队伍灵活性和伤害上限。"
+    },
+    "s_tier": {
+      "en": "🏆 S-Tier — Meta Defining",
+      "zh": "🏆 S级 — 版本答案"
+    },
+    "s_desc": {
+      "en": "These characters define the current meta. Top-tier damage, universal support, or irreplaceable utility.",
+      "zh": "这些角色定义了当前版本。顶级伤害、万能辅助、或无可替代的功能性。"
+    },
+    "a_tier": {
+      "en": "⭐ A-Tier — Strong & Reliable",
+      "zh": "⭐ A级 — 强力可靠"
+    },
+    "a_desc": {
+      "en": "Excellent characters that perform well in most content. May need specific teams or investment.",
+      "zh": "在大多数内容中表现出色的优秀角色。可能需要特定配队或练度。"
+    },
+    "furina": {
+      "en": "Universal DMG buffer. Fits almost every team.",
+      "zh": "万能增伤辅助。适配几乎所有队伍。"
+    },
+    "neuvillette": {
+      "en": "Highest solo DPS. HP-scaling. Self-sustaining.",
+      "zh": "最高单人输出。生命倍率。自给自足。"
+    },
+    "nahida": {
+      "en": "Best Dendro support. EM buff. Hyperbloom enabler.",
+      "zh": "最佳草辅。精通增益。超绽放启动器。"
+    },
+    "kazuha": {
+      "en": "Universal Anemo support. DMG buff + VV shred.",
+      "zh": "万能风辅。增伤+风套减抗。"
+    },
+    "zhongli": {
+      "en": "Best shielder. 100% uptime. Universal RES shred.",
+      "zh": "最强护盾。100%覆盖。全属性减抗。"
+    },
+    "raiden": {
+      "en": "Team battery + sub-DPS. Rational team core.",
+      "zh": "全队充电宝+副C。雷国核心。"
+    },
+    "arlecchino": {
+      "en": "Top Pyro DPS. BoL mechanic. Flexible teams.",
+      "zh": "顶级火C。生命之契机制。配队灵活。"
+    },
+    "xingqiu": {
+      "en": "Best off-field Hydro. National core. Damage reduction.",
+      "zh": "最佳后台水。国家队核心。减伤+治疗。"
+    },
+    "bennett": {
+      "en": "Best ATK buffer. Healer. Universal support.",
+      "zh": "最强攻击拐。治疗。万能辅助。"
+    },
+    "yelan": {
+      "en": "Off-field Hydro DPS. Double Hydro core.",
+      "zh": "后台水C。双水核心。"
+    },
+    "alhaitham": {
+      "en": "Top Dendro DPS. Mirror mechanics. Spread carry.",
+      "zh": "顶级草C。棱镜机制。蔓激化主C。"
+    },
+    "hutao": {
+      "en": "High-risk Pyro DPS. Double Hydro Vape.",
+      "zh": "高风险火C。双水蒸发。"
+    },
+    "xiangling": {
+      "en": "Best off-field Pyro. No ICD Pyronado.",
+      "zh": "最佳后台火。无CD旋火轮。"
+    },
+    "kuki": {
+      "en": "Best Hyperbloom trigger. Full EM. Healer.",
+      "zh": "最佳超绽放触发器。全精通。治疗。"
+    },
+    "tartaglia": {
+      "en": "International team core. AoE Hydro DPS.",
+      "zh": "万达国际核心。范围水C。"
+    },
+    "fischl": {
+      "en": "Best Electro battery. Oz snapshot. A4 enabler.",
+      "zh": "最佳雷充。奥兹锁面板。A4启动器。"
+    },
+    "ganyu": {
+      "en": "Consistent Cryo DPS. Melt/Freeze flexibility.",
+      "zh": "稳定冰C。融化/永冻双修。"
+    },
+    "ayaka": {
+      "en": "Best Freeze DPS. Burst nuke.",
+      "zh": "最佳永冻C。核爆大招。"
+    },
+    "xiao": {
+      "en": "AoE plunge DPS. FFXX team. High mobility.",
+      "zh": "范围下落C。FFXX队。高机动。"
+    },
+    "beidou": {
+      "en": "AoE Electro sub-DPS. Taser core. Counter.",
+      "zh": "范围雷副C。感电核心。弹反。"
+    },
+    "sucrose": {
+      "en": "EM share + VV shred. Taser driver.",
+      "zh": "精通共享+风套。感电驾驶员。"
+    },
+    "kokomi": {
+      "en": "Best AoE healer + Hydro app. Freeze/Bloom.",
+      "zh": "最佳范围治疗+挂水。永冻/绽放。"
+    },
+    "yae": {
+      "en": "Off-field Electro DPS. Aggravate core.",
+      "zh": "后台雷C。激化核心。"
+    },
+    "albedo": {
+      "en": "Off-field Geo DPS. Double Geo core.",
+      "zh": "后台岩C。双岩核心。"
     }
   }
 }
