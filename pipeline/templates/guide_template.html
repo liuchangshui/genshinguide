@@ -222,7 +222,7 @@
           <div class="elem-icon {{ related.element }}" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">{{ related.emoji }}</div>
         </div>
         <div class="guide-card-body">
-          <h4>{{ related.name }} <span class="grade grade-{{ related.tier | lower }}">{{ related.tier }}</span></h4>
+          <h4><span data-i18n="{{ related.id }}.name">{{ related.name }}</span> <span class="grade grade-{{ related.tier | lower }}">{{ related.tier }}</span></h4>
           <p data-i18n="{{ prefix }}.related_{{ related.id }}">{{ related.desc }}</p>
         </div>
       </a>

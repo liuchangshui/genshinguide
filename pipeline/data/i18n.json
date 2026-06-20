@@ -1093,6 +1093,10 @@
     "xiao_desc": {
       "en": "Hypercarry DPS — Vermillion Hereafter, PJWS, FFXX team",
       "zh": "主C — 辰砂套，和璞鸢，FFXX下落队"
+    },
+    "xiangling_desc": {
+      "en": "Sub DPS — Emblem set, The Catch, National team core",
+      "zh": "副C — 绝缘套，「渔获」，国家队核心"
     }
   },
   "footer": {
