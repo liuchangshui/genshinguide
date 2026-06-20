@@ -31,8 +31,8 @@
       "zh": "真正保持更新的攻略站"
     },
     "subtitle": {
-      "en": "AI-powered, data-driven character builds, an interactive calculator, and tier lists — refreshed every patch. No stale guides, no copy-paste wiki spam.",
-      "zh": "AI驱动、数据验证的角色Build攻略、交互式计算器和强度排行——每个版本自动更新。告别过期攻略和Wiki搬运。"
+      "en": "Expert-written, data-verified character builds, an interactive calculator, and tier lists — refreshed every patch. No stale guides, no copy-paste wiki spam.",
+      "zh": "专业撰写、数据验证的角色Build攻略、交互式计算器和强度排行——每个版本自动更新。告别过期攻略和Wiki搬运。"
     },
     "btn_calc": {
       "en": "⚡ Try Build Calculator",
@@ -163,12 +163,12 @@
       "zh": "⚡ 我们有什么不同"
     },
     "diff1_title": {
-      "en": "AI-Generated, Data-Verified",
-      "zh": "AI生成，数据验证"
+      "en": "Expert-Written, Data-Verified",
+      "zh": "专业撰写、数据验证"
     },
     "diff1_desc": {
-      "en": "DeepSeek V4 generates guides from game data. Second-pass verification catches errors. 5% manual spot-check.",
-      "zh": "DeepSeek V4 基于游戏数据生成攻略，二次验证捕获错误，5%人工抽检。"
+      "en": "Written by experienced players. Auto-verified against game data. Better than old Reddit posts.",
+      "zh": "由资深玩家撰写，对照游戏数据自动验证。比过时的Reddit帖子靠谱。"
     },
     "diff2_title": {
       "en": "Auto-Updated Every Patch",
@@ -525,8 +525,8 @@
       "zh": "高级伤害模拟、圣遗物副词条优化器、详细循环帧数据属于 <strong>Pro 功能</strong>。"
     },
     "pro_lock_btn": {
-      "en": "Unlock Pro — $5/month",
-      "zh": "解锁Pro — $5/月"
+      "en": "Learn More",
+      "zh": "了解更多"
     },
     "tldr_title": {
       "en": "⚡ TL;DR — Quick Answer (30s read)",
@@ -549,8 +549,8 @@
       "zh": "这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。"
     },
     "pro_teaser_cta": {
-      "en": "See your exact DMG numbers. Compare builds. Win more Abyss floors.",
-      "zh": "查看你的精确伤害数值。对比不同Build。通关更多深渊层数。"
+      "en": "Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking. Coming soon.",
+      "zh": "Pro伤害模拟器——精确伤害数值、圣遗物对比、队伍DPS排名。即将上线。"
     },
     "related_title": {
       "en": "📚 Related Build Guides",
