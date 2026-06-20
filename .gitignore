@@ -7,3 +7,26 @@ __pycache__/
 .env
 pipeline/data/cache/
 pipeline/data/translate_cache.json
+
+# 内部文档 — 不对外公开
+battle-manual.html
+game-guide-analysis-v3.html
+corrections-memo.md
+dev-handoff.md
+tech-evaluation-report.md
+overview.md
+SESSION_SUMMARY.md
+LESSONS_LEARNED.md
+PROJECT_RECORD.md
+workflow-script.js
+
+# Claude 本地配置
+.claude/
+
+# 内部运维文档
+pr-site/DEPLOY_INSTRUCTIONS.md
+pr-site/SEO_CHECKLIST.md
+pr-site/test-lang.html
+
+# 旧 i18n 运行时方案（已被构建时方案替代）
+pr-site/js/i18n.js
