@@ -108,26 +108,26 @@
     {
       "id": "hutao",
       "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "desc": "Shield keeps Hu Tao at low HP"
     },
     {
-      "id": "yelan",
-      "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "id": "albedo",
+      "name": "Albedo",
+      "emoji": "🟡",
+      "element": "geo",
+      "tier": "A",
+      "desc": "Geo resonance + off-field DPS"
     },
     {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "arlecchino",
+      "name": "Arlecchino",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Sub DPS · Noblesse set · The Catch R5"
+      "desc": "Shield for glass-cannon DPS"
     }
   ],
   "pro_teaser_code": "// Zhongli Shield Calculator (C0, 90, 4pc Tenacity, 45K HP) Weapon: Black Tassel R5 | Talent E: Lv.10 Shield HP: 24,321 (base) + 150% DMG absorption = 60,803 effective HP Tenacity Buff: 20% ATK team-wide ███ ATK gain ███ ← Pro only RES Shred: 20% universal (passive) ████ DPS increase ████ ← Pro only ... Team DPS impact: ███,███ ← Unlock Optimizer: \"HP% → HP% → HP% is optimal. Geo DMG goblet = +12.4% burst DMG\" ► Full shield calc · RES shred impact · team DPS simulation → Pro",

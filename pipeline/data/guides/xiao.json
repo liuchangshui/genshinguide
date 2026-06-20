@@ -1,0 +1,137 @@
+{
+  "_character_id": "xiao",
+  "_element": "anemo",
+  "_weapon_type": "polearm",
+  "_game_version": "4.8",
+  "tldr_weapon": "Jade Winged-Spear (BiS) / Blackcliff Pole R5 (F2P)",
+  "tldr_artifact": "4pc Vermillion Hereafter / 4pc Marechaussee Hunter (with Furina)",
+  "tldr_team": "Xiao + Faruzan + Furina + Xianyun (FFXX)",
+  "tldr_key_stats": "ATK 2000+ · CR 75%+ · CD 180%+ · ER 120-130%",
+  "intro": "Xiao is a 5-star Anemo Polearm Hypercarry DPS who deals massive AoE damage through plunging attacks during his Elemental Burst (Bane of All Evil). As one of the original Liyue Big Three, Xiao remains a top-tier DPS with his unique high-mobility playstyle and high damage ceiling. While his HP-drain mechanic and ER requirements demand careful team building, his raw plunge damage and wide AoE make him one of the strongest AoE carries in the game, especially when paired with his dedicated supports Faruzan, Furina, and Xianyun.",
+  "weapon_bottom_line": "Primordial Jade Winged-Spear is his signature and BiS, stacking ATK during combat. Staff of Homa is a close second. For F2P, Blackcliff Pole R5 is the best accessible option.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Primordial Jade Winged-Spear",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "CRIT Rate 22.1%",
+      "notes": "Signature BiS. Stacks ATK on hit (max 7 stacks -> 22.4% ATK + 12% DMG). High base ATK + CR substat is ideal for Xiao."
+    },
+    {
+      "rank": 2,
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Excellent alternative. CD substat + ATK bonus based on HP. Below-50%-HP passive is easy to maintain with Xiao's HP drain."
+    },
+    {
+      "rank": 3,
+      "name": "Blackcliff Pole R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "CRIT DMG 55.1%",
+      "notes": "Best F2P option. Passive grants ATK% on kill, stacking 3 times. Perfect for Xiao's multi-wave clearing style."
+    },
+    {
+      "rank": 4,
+      "name": "Deathmatch R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "CRIT Rate 36.8%",
+      "notes": "Battle Pass option. High CR substat makes building easier."
+    }
+  ],
+  "best_artifact": "4pc Vermillion Hereafter",
+  "artifact_why": "Xiao's signature artifact set. After using Burst, gains 8% ATK per HP loss (max 4 stacks = 32% ATK). Perfect synergy with Xiao's HP drain mechanic. However, the domain is resin-inefficient.",
+  "artifact_alt": "4pc Marechaussee Hunter (with Furina) — Furina's HP drain triggers the 4pc effect instantly, giving 36% CR. Often better than Vermillion with Furina. 2pc/2pc ATK% combos also viable.",
+  "main_stats": {
+    "sands": "ATK%",
+    "sands_note": "Always ATK%. Xiao has no EM or HP scaling.",
+    "goblet": "Anemo DMG%",
+    "goblet_note": "Anemo DMG is always better than ATK%. Xiao's burst converts all damage to Anemo.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "CR or CD depending on weapon and substats. Target 75:180+ ratio."
+  },
+  "sub_priority": [
+    "1. CRIT Rate / CRIT DMG — aim for 75:180+ ratio",
+    "2. ATK% — 2000+ ATK target",
+    "3. Energy Recharge — 120-130% (C0 with Faruzan C6 needs less)",
+    "4. Flat ATK — minor boost, don't prioritize"
+  ],
+  "teams": [
+    {
+      "name": "Premium Plunge (FFXX)",
+      "members": "Xiao + Faruzan C6 + Furina + Xianyun",
+      "desc": "Xiao's best team. Faruzan C6 provides massive Anemo RES shred and DMG bonus. Furina amplifies all damage via Fanfare. Xianyun enables higher plunge damage and team-wide healing."
+    },
+    {
+      "name": "Classic Hypercarry",
+      "members": "Xiao + Faruzan + Bennett + Zhongli",
+      "desc": "Reliable core. Faruzan buffs Anemo DMG, Bennett provides massive ATK buff, Zhongli's shield prevents interruption during plunges and shreds enemy RES."
+    },
+    {
+      "name": "Double Geo",
+      "members": "Xiao + Albedo + Zhongli + Jean/Bennett",
+      "desc": "Alternative without Faruzan C6. Geo resonance provides 15% DMG bonus. Albedo provides off-field damage. Jean C4 shreds Anemo RES."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Crown"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Crown"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8"
+    }
+  ],
+  "rotation_title": "Xiao FFXX rotation:",
+  "rotation_code": "Faruzan Q (Anemo buff) -> Furina E+Q (Fanfare + Hydro) -> Xianyun E+Q (heal + plunge buff) -> Xiao EE (skill x2 for energy) -> Q (burst) -> Plunge spam (10-12 high plunges) -> Repeat",
+  "rotation_key": "Pre-funnel Xiao's skills before burst. Use collision plunges for maximum single-target. Cancel plunge lag with immediate jump on landing.",
+  "mistakes": [
+    "Not pre-funneling energy — use E x2 then immediately Q to catch particles during burst animation.",
+    "Using ATK% goblet instead of Anemo DMG% — Xiao's burst converts all damage to Anemo. Anemo goblet is always better.",
+    "Ignoring collision plunges — hitting enemy with Xiao's model during plunge adds significant extra damage.",
+    "Not managing HP drain — without a healer, Xiao's burst can drain him to critical HP levels."
+  ],
+  "pro_teaser_code": "// DMG Simulation: Xiao High Plunge\n// ATK 2200 | CR 80% | CD 200% | Vermillion 4pc | PJWS R1\n// Faruzan C6 + Furina + Xianyun buffs:\n// High Plunge: ~90,000 | Collision: ~45,000 | Total: ~135,000/plunge",
+  "related_guides": [
+    {
+      "id": "furina",
+      "name": "Furina",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "S",
+      "desc": "Best Xiao buffer via Fanfare stacks"
+    },
+    {
+      "id": "zhongli",
+      "name": "Zhongli",
+      "element": "geo",
+      "emoji": "🟡",
+      "tier": "S",
+      "desc": "Shield for interruption-free plunges"
+    },
+    {
+      "id": "albedo",
+      "name": "Albedo",
+      "element": "geo",
+      "emoji": "🟡",
+      "tier": "A",
+      "desc": "Off-field DPS in Double Geo teams"
+    }
+  ],
+  "seo": {
+    "title": "Xiao Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Xiao build guide for Genshin Impact v4.8. Best weapons ranked (Primordial Jade Winged-Spear, Blackcliff Pole), optimal artifacts (Vermillion Hereafter, Marechaussee Hunter), team compositions (FFXX, Hypercarry), rotation guide, and common mistakes."
+  }
+}

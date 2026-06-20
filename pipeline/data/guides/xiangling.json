@@ -92,26 +92,26 @@
     {
       "id": "raiden",
       "name": "Raiden Shogun",
+      "emoji": "🟣",
       "element": "electro",
-      "emoji": "⚡",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Engulfing Lightning"
+      "desc": "Battery + overload enabler"
     },
     {
-      "id": "yelan",
-      "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "bennett",
+      "name": "Bennett",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "desc": "Snapshot ATK buff"
     },
     {
       "id": "hutao",
       "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "desc": "Alternative Pyro DPS comparison"
     }
   ],
   "pro_teaser_code": "// Pro DMG simulation — unlock for full data",

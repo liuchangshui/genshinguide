@@ -3,28 +3,57 @@
   "_element": "pyro",
   "_weapon_type": "sword",
   "_game_version": "4.8",
-
   "tldr_weapon": "Aquila Favonia (F2P: Sapwood Blade R5)",
   "tldr_artifact": "4pc Noblesse Oblige (HP%/HP%/Healing Bonus or HP%)",
   "tldr_team": "Raiden National (Raiden·Xiangling·Xingqiu·Bennett)",
   "tldr_key_stats": "Base ATK from weapon only · ER 200%+ · HP for healing · Q > E >>> NA",
-
   "intro": "Bennett is the single best support character in Genshin Impact. His Elemental Burst provides a massive ATK buff based on his base ATK (character + weapon only — artifacts do NOT count), while healing anyone below 70% HP. He fits into virtually every team as a healer, buffer, and Pyro enabler. At C1, his ATK buff has no HP restriction, making him the undisputed king of supports since version 1.0.",
-
   "weapon_bottom_line": "Highest base ATK sword you own. Aquila Favonia (674 ATK) is BiS. Sapwood Blade (565 ATK, forgeable) is the best free option. The ATK buff only scales with BASE ATK — weapon ATK matters, artifact ATK% does nothing.",
-
   "weapons": [
-    {"rank": 1, "name": "Aquila Favonia", "rarity": 5, "atk": 674, "substat": "Physical DMG 41.3%", "notes": "Highest base ATK sword. The Physical DMG substat is wasted on Bennett but the 674 ATK makes it BiS for buffing. Only pull if you get it from standard banner."},
-    {"rank": 2, "name": "Mistsplitter Reforged", "rarity": 5, "atk": 674, "substat": "CRIT DMG 44.1%", "notes": "Same 674 base ATK as Aquila. CRIT DMG substat actually useful if you run DPS Bennett. Better than Aquila for overall value."},
-    {"rank": 3, "name": "Sapwood Blade R5", "rarity": 4, "atk": 565, "substat": "ER 30.6%", "notes": "Best F2P option — free forgeable from Sumeru. 565 base ATK is the highest among 4-star swords. ER substat helps meet his energy needs. The leaf gives EM to the team."},
-    {"rank": 4, "name": "Skyward Blade", "rarity": 5, "atk": 608, "substat": "ER 55.1%", "notes": "Good balance of base ATK and ER. Makes building Bennett trivial. Standard banner weapon."},
-    {"rank": 5, "name": "Favonius Sword", "rarity": 4, "atk": 454, "substat": "ER 61.3%", "notes": "Low base ATK but massive ER + team battery. Use only if you cannot meet 200% ER otherwise. Sacrifices buff strength for consistency."}
+    {
+      "rank": 1,
+      "name": "Aquila Favonia",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "Physical DMG 41.3%",
+      "notes": "Highest base ATK sword. The Physical DMG substat is wasted on Bennett but the 674 ATK makes it BiS for buffing. Only pull if you get it from standard banner."
+    },
+    {
+      "rank": 2,
+      "name": "Mistsplitter Reforged",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "CRIT DMG 44.1%",
+      "notes": "Same 674 base ATK as Aquila. CRIT DMG substat actually useful if you run DPS Bennett. Better than Aquila for overall value."
+    },
+    {
+      "rank": 3,
+      "name": "Sapwood Blade R5",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ER 30.6%",
+      "notes": "Best F2P option — free forgeable from Sumeru. 565 base ATK is the highest among 4-star swords. ER substat helps meet his energy needs. The leaf gives EM to the team."
+    },
+    {
+      "rank": 4,
+      "name": "Skyward Blade",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "ER 55.1%",
+      "notes": "Good balance of base ATK and ER. Makes building Bennett trivial. Standard banner weapon."
+    },
+    {
+      "rank": 5,
+      "name": "Favonius Sword",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "ER 61.3%",
+      "notes": "Low base ATK but massive ER + team battery. Use only if you cannot meet 200% ER otherwise. Sacrifices buff strength for consistency."
+    }
   ],
-
   "best_artifact": "4pc Noblesse Oblige",
   "artifact_why": "Noblesse Oblige gives +20% ATK to the entire team when Bennett uses his Burst — stacking perfectly with his own ATK buff. There is no better support set for him.",
   "artifact_alt": "4pc Instructor (budget/beginner option — +120 EM for reaction teams). 2pc Emblem + 2pc Tenacity (if desperate for ER and HP).",
-
   "main_stats": {
     "sands": "ER% / HP%",
     "sands_note": "ER% until 200%+ ER. Switch to HP% once ER requirements are met.",
@@ -33,31 +62,54 @@
     "circlet": "Healing Bonus / HP%",
     "circlet_note": "Healing Bonus for maximum healing (recommended). HP% if you don't have a Healing Bonus circlet."
   },
-
   "sub_priority": [
     "1. Energy Recharge — until 200%+. Non-negotiable. Burst must be available every rotation.",
     "2. HP% — more healing per tick. Bennett heals fast, but more HP = more comfortable.",
     "3. Flat HP — minor boost to healing.",
     "4. CRIT Rate/DMG — only for DPS Bennett builds (not recommended for support)."
   ],
-
   "teams": [
-    {"name": "Team 1: Raiden National", "members": "Raiden Shogun + Xiangling + Xingqiu + Bennett", "desc": "The timeless meta team. Bennett buffs Xiangling and Raiden simultaneously. Xiangling snapshots Bennett's ATK buff on her Pyronado. Raiden recharges the entire team. Consistent, high single-target and AoE damage."},
-    {"name": "Team 2: International", "members": "Childe + Xiangling + Kazuha + Bennett", "desc": "Devastating AoE team. Bennett buffs Xiangling, Kazuha double-swirls Pyro and Hydro. Childe enables Xiangling to vape every hit. High skill ceiling, higher damage ceiling."},
-    {"name": "Team 3: Ganyu Melt", "members": "Ganyu + Xiangling + Zhongli + Bennett", "desc": "Bennett enables Pyro application for Ganyu's charged shot melts. Shield from Zhongli prevents interruption. Bennett's buff snapshots onto Xiangling's Pyronado for consistent Pyro uptime."},
-    {"name": "Team 4: Universal Flex Slot", "members": "Any Main DPS + Any Sub DPS + Any Support + Bennett", "desc": "Bennett fits into virtually every team. ATK-scaling DPS characters benefit most. Notable: Wanderer, Yoimiya, Navia, Lyney all love Bennett's buff."}
+    {
+      "name": "Team 1: Raiden National",
+      "members": "Raiden Shogun + Xiangling + Xingqiu + Bennett",
+      "desc": "The timeless meta team. Bennett buffs Xiangling and Raiden simultaneously. Xiangling snapshots Bennett's ATK buff on her Pyronado. Raiden recharges the entire team. Consistent, high single-target and AoE damage."
+    },
+    {
+      "name": "Team 2: International",
+      "members": "Childe + Xiangling + Kazuha + Bennett",
+      "desc": "Devastating AoE team. Bennett buffs Xiangling, Kazuha double-swirls Pyro and Hydro. Childe enables Xiangling to vape every hit. High skill ceiling, higher damage ceiling."
+    },
+    {
+      "name": "Team 3: Ganyu Melt",
+      "members": "Ganyu + Xiangling + Zhongli + Bennett",
+      "desc": "Bennett enables Pyro application for Ganyu's charged shot melts. Shield from Zhongli prevents interruption. Bennett's buff snapshots onto Xiangling's Pyronado for consistent Pyro uptime."
+    },
+    {
+      "name": "Team 4: Universal Flex Slot",
+      "members": "Any Main DPS + Any Sub DPS + Any Support + Bennett",
+      "desc": "Bennett fits into virtually every team. ATK-scaling DPS characters benefit most. Notable: Wanderer, Yoimiya, Navia, Lyney all love Bennett's buff."
+    }
   ],
-
   "talent_priority": [
-    {"icon": "Q", "label": "Elemental Burst", "priority": "Priority 1 — Crown it"},
-    {"icon": "E", "label": "Elemental Skill", "priority": "Priority 2 — Level to 6-8"},
-    {"icon": "NA", "label": "Normal Attack", "priority": "Priority 3 — Skip entirely"}
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 1 — Crown it"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 2 — Level to 6-8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3 — Skip entirely"
+    }
   ],
-
   "rotation_title": "Raiden National rotation:",
   "rotation_code": "Raiden E → Xingqiu E Q E → Bennett Q E → Xiangling Q E → Raiden Q → N3C combos → Repeat",
   "rotation_key": "Key: Bennett Q BEFORE Xiangling Q — her Pyronado snapshots the ATK buff for its entire duration. Also, Bennett's E inside his Q generates Pyro particles that funnel to Xiangling. C1 Bennett removes the HP requirement for his ATK buff.",
-
   "mistakes": [
     "Building ATK% artifacts. Bennett's buff scales ONLY with base ATK (character level + weapon ATK). ATK% from artifacts does NOTHING for his buff. Only weapon base ATK matters.",
     "Too little ER. Bennett needs 200%+ ER in most teams. Below 180%, his burst won't be ready. Use ER sands if needed — a weaker buff that's always available beats a stronger buff that's never ready.",
@@ -65,15 +117,33 @@
     "C6 without thinking. Bennett's C6 infuses melee characters with Pyro — this RUINS physical DPS (Eula, Razor) and overrides some elemental infusions (Keqing, Ayaka). Only activate C6 if you're sure your teams want it.",
     "Using Bennett with HP-scaling DPS. Characters like Neuvillette, Yelan, and Furina scale with HP, not ATK. Bennett's ATK buff is wasted on them. Use different supports."
   ],
-
   "pro_teaser_code": "// Bennett Buff Calculator\n// Base ATK: 191 (lv90) + {weapon ATK}\n// Burst Lv10: 100.8% of Base ATK as buff\n// + Noblesse: 20% ATK\n// + C1: removes HP restriction\n// Example: Aquila (674) → (191+674)*1.008 = 872 ATK buff\n// [Unlock Pro for full team rotation simulation]",
-
   "related_guides": [
-    {"id": "xiangling", "name": "Xiangling", "element": "pyro", "emoji": "🔥", "tier": "S", "desc": "Sub DPS · Emblem set · The Catch R5"},
-    {"id": "raiden", "name": "Raiden Shogun", "element": "electro", "emoji": "⚡", "tier": "S", "desc": "Sub DPS · Emblem set · Engulfing Lightning"},
-    {"id": "kazuha", "name": "Kazuha", "element": "anemo", "emoji": "🍃", "tier": "S", "desc": "Support · VV set · Freedom-Sworn"}
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "emoji": "🔥",
+      "element": "pyro",
+      "tier": "S",
+      "desc": "National core — snapshot her burst"
+    },
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "emoji": "🟣",
+      "element": "electro",
+      "tier": "S",
+      "desc": "Rational team — overload + battery"
+    },
+    {
+      "id": "arlecchino",
+      "name": "Arlecchino",
+      "emoji": "🔥",
+      "element": "pyro",
+      "tier": "S",
+      "desc": "ATK buff + Pyro resonance"
+    }
   ],
-
   "seo": {
     "title": "Bennett Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
     "description": "Complete Bennett build guide for Genshin Impact v4.8. Best weapons ranked (Aquila Favonia, Sapwood Blade), optimal artifacts (Noblesse Oblige), best teams (National, International), and rotation guide."

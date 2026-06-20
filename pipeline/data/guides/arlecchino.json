@@ -115,36 +115,28 @@
   ],
   "related_guides": [
     {
-      "id": "hutao",
-      "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "kazuha",
+      "name": "Kazuha",
+      "emoji": "🍃",
+      "element": "anemo",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "desc": "Pyro swirl + DMG buff"
+    },
+    {
+      "id": "bennett",
+      "name": "Bennett",
+      "emoji": "🔥",
+      "element": "pyro",
+      "tier": "S",
+      "desc": "ATK buff + Pyro resonance"
     },
     {
       "id": "yelan",
       "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
-    },
-    {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Sub DPS · Emblem set · The Catch R5"
-    },
-    {
-      "id": "kazuha",
-      "name": "Kazuha",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Support · VV set · Freedom-Sworn"
+      "desc": "Off-field Hydro for Vaporize"
     }
   ],
   "pro_teaser_code": "// Pro DMG simulation — unlock for full data"

@@ -106,28 +106,28 @@
   ],
   "related_guides": [
     {
-      "id": "hutao",
-      "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "kazuha",
+      "name": "Kazuha",
+      "emoji": "🍃",
+      "element": "anemo",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "desc": "Cryo swirl + freeze support"
     },
     {
-      "id": "yelan",
-      "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "furina",
+      "name": "Furina",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "desc": "Hydro application + DMG buff"
     },
     {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "bennett",
+      "name": "Bennett",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Sub DPS · Noblesse set · The Catch R5"
+      "desc": "ATK buff for melt teams"
     }
   ],
   "pro_teaser_code": "// Ayaka Burst DMG Simulation (C0, 90, 4pc Blizzard, 2200 ATK, 230% CD) Weapon: Mistsplitter Reforged R1 | Enemy: Frozen · RES 10% [Frame 005] Burst Tick #1: 18,234 DMG (CRIT, 85% CRIT Rate due to Blizzard) [Frame 012] Burst Tick #2: ███ CRIT ███ ← Pro only [Frame 019] Burst Tick #3: ████ CRIT ████ ← Pro only ... Total Burst DMG (20 ticks): ███,███ ← Unlock Optimizer: \"ATK% circlet vs CRIT DMG circlet: CD wins by +8.7% when ATK > 2000\" ► Full simulation: 20 burst ticks · Blizzard CRIT calc · freeze uptime → Pro",

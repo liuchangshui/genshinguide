@@ -108,26 +108,26 @@
     {
       "id": "zhongli",
       "name": "Zhongli",
+      "emoji": "🟡",
       "element": "geo",
-      "emoji": "🪨",
-      "tier": "A",
-      "desc": "Shield / Support · Tenacity set · HP build"
+      "tier": "S",
+      "desc": "Shield keeps Hu Tao at low HP safely"
     },
     {
       "id": "yelan",
       "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "desc": "Double Hydro Vaporize core"
     },
     {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "furina",
+      "name": "Furina",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Sub DPS · Noblesse set · The Catch R5"
+      "desc": "HP-drain adds Fanfare stacks"
     }
   ],
   "pro_teaser_code": "// Hu Tao Charged Attack Vape Simulation (C1, 90, 4pc Crimson Witch, 32K HP, 200 EM) Weapon: Staff of Homa R1 | Enemy: Lv.103 · RES 10% [Frame 015] CA Vape #1: 62,341 DMG (CRIT, below 50% HP) [Frame 032] CA Vape #2: ███ VAPE ███ ← Pro only [Frame 049] CA Vape #3: ████ VAPE ████ ← Pro only ... Total E DMG (9s): ███,███ ← Unlock Optimizer: \"HP% sands → EM sands (with Homa) = +11.2% vape DMG at current EM\" ► Full simulation: 9 CA -> dash cancels · HP thresholds · team buff sync → Pro",

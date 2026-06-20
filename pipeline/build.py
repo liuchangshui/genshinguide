@@ -54,6 +54,34 @@ def resolve_key(i18n, key, lang):
     return str(obj) if obj else None
 
 
+def _find_matching_close(html, tag_start_pos, tag_name):
+    """Find end position (exclusive) of matching </tag_name> for <tag_name> at tag_start_pos.
+    Handles nested same-name tags (e.g. div inside div). Returns -1 if not found."""
+    open_marker = f'<{tag_name}'
+    close_marker = f'</{tag_name}>'
+
+    depth = 1
+    pos = html.find('>', tag_start_pos) + 1  # skip past the opening '>'
+    while depth > 0 and pos < len(html):
+        next_open = html.find(open_marker, pos)
+        next_close = html.find(close_marker, pos)
+
+        if next_close == -1:
+            return -1
+
+        # Check if <tag_name appears before </tag_name> (nested same tag)
+        if next_open != -1 and next_open < next_close:
+            depth += 1
+            pos = next_open + len(open_marker)
+        else:
+            depth -= 1
+            if depth == 0:
+                return next_close + len(close_marker)
+            pos = next_close + len(close_marker)
+
+    return -1
+
+
 def localize_html(html, i18n, lang):
     """
     Convert HTML with data-i18n attributes to fully localized HTML.
@@ -73,23 +101,31 @@ def localize_html(html, i18n, lang):
         return html
 
     # For Chinese: replace content with zh translations
-    # Track replacements to handle nested data-i18n carefully
     replacements = []
 
-    # Find all elements with data-i18n and their key
-    for m in re.finditer(r'(<[^>]*data-i18n="([^"]*)"[^>]*>)(.*?)(</[^>]+>)', html, re.DOTALL):
-        full_tag_start = m.group(1)
-        key = m.group(2)
-        inner = m.group(3)
-        close_tag = m.group(4)
+    # Find all elements with data-i18n attribute.  Match only the opening tag
+    # first, then use depth-tracking to find the real matching close tag.
+    for m in re.finditer(r'<(\w+)([^>]*\sdata-i18n="([^"]*)"[^>]*)>', html):
+        tag_name = m.group(1)
+        key = m.group(3)
+        full_tag_start = m.group(0)
 
         zh_text = resolve_key(i18n, key, "zh")
         if zh_text is None:
             continue
 
-        # Build replacement: tag start (without data-i18n) + zh text + close tag
+        # Find matching closing tag (handles nested tags like <span> inside <div>)
+        close_end = _find_matching_close(html, m.start(), tag_name)
+        if close_end == -1:
+            continue
+
+        full_element = html[m.start():close_end]
+
+        # Build replacement: clean start tag + zh text + close tag
         clean_start = re.sub(r'\s*data-i18n="[^"]*"', '', full_tag_start)
-        replacements.append((m.group(0), clean_start + zh_text + close_tag))
+        new_element = clean_start + zh_text + f'</{tag_name}>'
+
+        replacements.append((full_element, new_element))
 
     # Apply replacements (longest first to avoid partial matches)
     replacements.sort(key=lambda x: -len(x[0]))

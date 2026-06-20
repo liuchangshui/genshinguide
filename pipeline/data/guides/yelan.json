@@ -108,26 +108,26 @@
     {
       "id": "hutao",
       "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
+      "desc": "Double Hydro Vaporize"
     },
     {
-      "id": "yelan",
-      "name": "Yelan",
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "emoji": "🟣",
       "element": "electro",
-      "emoji": "⚡",
       "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "desc": "Rational — Electro-charged"
     },
     {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "furina",
+      "name": "Furina",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Sub DPS · Noblesse set · The Catch R5"
+      "desc": "Double Hydro — flexible slot"
     }
   ],
   "pro_teaser_code": "// Yelan Burst DMG Simulation (C0, 90, 4pc Emblem, 35K HP, 200% ER) Weapon: Aqua Simulacra R1 | Enemy: Lv.103 · RES 10% [Frame 005] Exquisite Throw #1: 8,912 DMG (CRIT) [Frame 020] Exquisite Throw #2: ███ CRIT ███ ← Pro only [Frame 035] Exquisite Throw #3: ████ CRIT ████ ← Pro only ... Total Burst DMG (15s): ███,███ ← Unlock Optimizer: \"HP% sands → ER% sands = burst always on cooldown (+32% effective DPS)\" ► Full simulation: 15 coordinated hits · A4 ramping buff · energy calc → Pro",

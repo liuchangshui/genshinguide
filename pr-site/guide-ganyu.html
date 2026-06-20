@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Ganyu build guide for Genshin Impact v4.8. Best weapons ranked (Amos' Bow, Prototype Crescent), optimal artifacts (Wanderer's Troupe, Blizzard Strayer), Melt and Freeze team compositions, rotation guide, and common mistakes.">
+<title>Ganyu Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Ganyu Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Ganyu build guide for Genshin Impact v4.8. Best weapons ranked (Amos' Bow, Prototype Crescent), optimal artifacts (Wanderer's Troupe, Blizzard Strayer), Melt and Freeze team compositions, rotation guide, and common mistakes.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-ganyu.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Ganyu Build Guide — v4.8","description":"Complete Ganyu build guide for Genshin Impact v4.8. Best weapons ranked (Amos' Bow, Prototype Crescent), optimal artifacts (Wanderer's Troupe, Blizzard Strayer), Melt and Freeze team compositions, rotation guide, and common mistakes.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-ganyu.html"}}</script>
+</head>
+<body data-page="ganyu">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase cryo">
+  <div class="char-portrait">
+    <div class="char-portrait-placeholder cryo" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(24,255,255,0.15));">
+      <span>Ganyu</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v4.8 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-20 · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
+    <h1 class="char-name">Ganyu <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag" data-i18n="guide.weapon_bow">Bow</span>
+      <span class="elem-tag" data-i18n="guide.element_cryo">Cryo</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role" data-i18n="guide.role_support">Support</span>
+    </div>
+    <p class="char-desc" data-i18n="ganyu.desc">The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box cryo">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">❄️ <span data-i18n="guide.tldr_best_weapon">Best Weapon</span></div>
+        <div class="tldr-value">Amos' Bow (BiS) / Prototype Crescent R5 (F2P)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span data-i18n="guide.tldr_best_artifact">Best Artifact</span></div>
+        <div class="tldr-value">4pc Wanderer's Troupe (Melt) / 4pc Blizzard Strayer (Freeze)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span data-i18n="guide.tldr_best_team">Best Team</span></div>
+        <div class="tldr-value">Melt: Ganyu + Xiangling + Bennett + Zhongli</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span data-i18n="guide.tldr_key_stats_label">Key Stats</span></div>
+        <div class="tldr-value">ATK 2000+ · CR 60% (Melt) / 30% (Freeze) · CD 180%+ · EM 200+ (Melt)</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="ganyu.intro">Ganyu is a 5-star Cryo Bow DPS and one of the most consistent damage dealers in Genshin Impact. Her Charged Attack Level 2 (Frostflake Arrow) deals massive AoE Cryo damage with zero cooldown, making her top-tier in both Melt and Freeze teams. She excels at ranged combat, overworld sniping, and AoE-heavy Abyss floors. While newer DPS units compete on raw numbers, Ganyu's flexible team options and comfortable playstyle keep her as a top-tier pick for all content.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="cryo" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box cryo">
+    <strong data-i18n="guide.bottom_line_label">Bottom line:</strong> <span data-i18n="ganyu.weapon_bottom_line">Amos' Bow is her signature BiS with up to 52% Charged ATK DMG bonus. Aqua Simulacra and Hunter's Path are close alternatives. For F2P, Prototype Crescent R5 rivals 5-star options if you can hit weak points consistently.</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(24,255,255,0.2);">
+        <th data-i18n="guide.th_rank">Rank</th>
+        <th data-i18n="guide.th_weapon">Weapon</th>
+        <th data-i18n="guide.th_rarity">Rarity</th>
+        <th data-i18n="guide.th_atk">Base ATK</th>
+        <th data-i18n="guide.th_substat">Sub-stat</th>
+        <th data-i18n="guide.th_notes">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>Amos' Bow</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>ATK 49.6%</td>
+        <td data-i18n="ganyu.w1_notes">Signature BiS. Passive grants up to 52% Charged ATK DMG bonus at long range. The frostflake bloom also benefits from the passive.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>Aqua Simulacra</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT DMG 88.2%</td>
+        <td data-i18n="ganyu.w2_notes">Massive CD substat. Low base ATK means Bennett buff is almost mandatory. Passive gives universal 20% DMG bonus.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>Hunter's Path</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT Rate 44.1%</td>
+        <td data-i18n="ganyu.w3_notes">Tighnari's signature but excellent on Melt Ganyu. Charged ATK DMG scales with EM — ideal for Melt builds stacking EM.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>Prototype Crescent R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>ATK 41.3%</td>
+        <td data-i18n="ganyu.w4_notes">Best F2P option. R5 + weak point hit = 72% ATK buff for 10s. Rivals 5-star options. Requires weak point aiming skill.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-5">5</span></td>
+        <td>Hamayumi R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>ATK 55.1%</td>
+        <td data-i18n="ganyu.w5_notes">Inazuma craftable. R5 gives 48% Charged ATK DMG at full energy. Good if you can't hit weak points for Prototype Crescent.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native">
+    <div class="ad-label" data-i18n="ad.label">Sponsored</div>
+    <div class="ad-unit">
+      <div data-i18n="ad.ad2_head" style="font-weight:700;margin-bottom:4px;">🖱️ Gaming Gear Deals — Up to 40% Off</div>
+      <div data-i18n="ad.ad2_desc" style="color:var(--text-muted);margin-bottom:8px;">Mechanical keyboards, mice, headsets. Free shipping on $50+.</div>
+      <a href="#" class="ad-cta" data-i18n="ad.ad2_cta" style="color:var(--accent);">View Deals →</a>
+    </div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="cryo" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box cryo">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="ganyu.arti_best">🎯 Best: 4pc Wanderer's Troupe</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="ganyu.arti_why">Best for Melt Ganyu. 80 EM bonus + 35% Charged ATK DMG. Ganyu's charged shots are her primary damage source, and the EM buff amplifies Melt reactions significantly.</p>
+  </div>
+
+  <h3 class="cryo" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th data-i18n="guide.th_slot">Slot</th><th data-i18n="guide.th_mainstat">Main Stat</th><th data-i18n="guide.th_mnotes">Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span data-i18n="guide.sands_label">Sands</span></td>
+        <td>ATK% / EM</td>
+        <td data-i18n="ganyu.sands_note">ATK% is generally better. EM sands can edge ahead in Melt teams with high ATK buffs (Bennett + Pyro Resonance).</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span data-i18n="guide.goblet_label">Goblet</span></td>
+        <td>Cryo DMG%</td>
+        <td data-i18n="ganyu.goblet_note">Always Cryo DMG. No exception — Ganyu's damage is almost entirely Cryo.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span data-i18n="guide.circlet_label">Circlet</span></td>
+        <td>CRIT DMG / CRIT Rate</td>
+        <td data-i18n="ganyu.circlet_note">CD circlet for Freeze (Blizzard Strayer covers CR). CR or CD for Melt depending on substats — aim for 60:180+ ratio.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="cryo" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li data-i18n="ganyu.sub1">1. CRIT DMG / CRIT Rate — until 60:180+ (Melt) or 30:220+ (Freeze)</li>
+    
+    <li data-i18n="ganyu.sub2">2. ATK% — 2000+ ATK target</li>
+    
+    <li data-i18n="ganyu.sub3">3. Elemental Mastery — 200+ for Melt builds only</li>
+    
+    <li data-i18n="ganyu.sub4">4. Energy Recharge — 120-130% for comfortable burst uptime</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="cryo" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  
+  <div class="emphasis-box cryo">
+    <strong data-i18n="ganyu.team1_name">Melt Ganyu (Premium)</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Ganyu + Xiangling + Bennett + Zhongli</span><br>
+    <span data-i18n="ganyu.team1_desc" style="font-size:0.88rem;">The classic Melt team. Zhongli's shield lets Ganyu charge shot safely. Bennett buffs ATK, Xiangling applies Pyro. Ganyu's charged shots Melt for 1.5× damage. Best single-target DPS team for Ganyu.</span>
+  </div>
+  
+  <div class="emphasis-box cryo">
+    <strong data-i18n="ganyu.team2_name">Morgana (Freeze)</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Ganyu + Kazuha/Venti + Mona/Kokomi + Diona</span><br>
+    <span data-i18n="ganyu.team2_desc" style="font-size:0.88rem;">AoE Freeze comp. Group enemies with Anemo CC, apply Hydro, freeze everything, then Ganyu's burst deals continuous Cryo damage. Devastating against groupable enemies, struggles against bosses.</span>
+  </div>
+  
+  <div class="emphasis-box cryo">
+    <strong data-i18n="ganyu.team3_name">Burn-Melt</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Ganyu + Nahida + Bennett + Zhongli</span><br>
+    <span data-i18n="ganyu.team3_desc" style="font-size:0.88rem;">Nahida applies consistent Burning (Dendro + Pyro), which maintains Pyro aura for Ganyu to Melt every charged shot. More consistent Pyro application than Xiangling but lower team DPS ceiling.</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="cryo" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#18ffff;background:rgba(24,255,255,0.08);">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label" data-i18n="guide.talent1_label">Normal Attack</div>
+      <div class="talent-priority p1">Crown</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label" data-i18n="guide.talent2_label">Elemental Burst</div>
+      <div class="talent-priority p2">Level 9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label" data-i18n="guide.talent3_label">Elemental Skill</div>
+      <div class="talent-priority p3">Level 8</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="cryo" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box cryo">
+    <div data-i18n="ganyu.rotation_title">Melt Ganyu rotation:</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Zhongli hold E (shield) → Bennett Q (ATK buff) → Xiangling E + Q (Pyro application) → Ganyu E (taunt + dodge) → Charged Shot spam (6-7 shots during Pyronado)</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="cryo" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="ganyu.m1">❌ Using ATK% goblet instead of Cryo DMG% — Ganyu's damage is almost entirely Cryo. Cryo DMG goblet is always better.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="ganyu.m2">❌ Over-investing in ER — Ganyu's burst is not her primary damage source in Melt teams. 120% ER is sufficient.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="ganyu.m3">❌ Skipping shield in Melt teams — Ganyu gets interrupted easily during charged shots. Zhongli or Layla shield is essential.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="ganyu.m4">❌ Using Blizzard Strayer in Melt teams — 4pc BS gives no benefit when enemies have Pyro aura. Use Wanderer's Troupe or Shimenawa for Melt.</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#18ffff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p data-i18n="guide.pro_teaser_desc">Get exact damage numbers, compare artifact loadouts, and optimize your Ganyu build with the Pro DMG Simulator.</p>
+    <pre><code class="language-json">// DMG Simulation: Melt Frostflake Arrow
+// ATK 2200 | CR 65% | CD 200% | EM 250 | Amos' Bow R1
+// Frostflake Bloom Melt: ~45,000 + ~78,000 = ~123,000 per charged shot
+// With Kazuha + Bennett + Xiangling buffs active</code></pre>
+    <div class="teaser-cta">
+      <p data-i18n="guide.pro_teaser_cta">Unlock full damage simulation and build optimization for Ganyu and every other character.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Unlock Pro — $5/month</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      
+      <a href="guide-zhongli.html" class="guide-card geo">
+        <div class="guide-card-img geo">
+          <div class="elem-icon geo">🟡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Zhongli <span class="grade grade-s">S</span></h4>
+          <p data-i18n="ganyu.related_zhongli">Essential shield for Melt Ganyu</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <div class="elem-icon anemo">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Kazuha <span class="grade grade-s">S</span></h4>
+          <p data-i18n="ganyu.related_kazuha">Cryo DMG buff + Freeze support</p>
+        </div>
+      </a>
+      
+      <a href="guide-nahida.html" class="guide-card dendro">
+        <div class="guide-card-img dendro">
+          <div class="elem-icon dendro">🌿</div>
+        </div>
+        <div class="guide-card-body">
+          <h4>Nahida <span class="grade grade-s">S</span></h4>
+          <p data-i18n="ganyu.related_nahida">Burn-Melt enabler</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

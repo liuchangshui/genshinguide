@@ -106,28 +106,12 @@
   ],
   "related_guides": [
     {
-      "id": "hutao",
-      "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "id": "zhongli",
+      "name": "Zhongli",
+      "emoji": "🟡",
+      "element": "geo",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
-    },
-    {
-      "id": "yelan",
-      "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
-    },
-    {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Sub DPS · Noblesse set · The Catch R5"
+      "desc": "Geo resonance + universal shield"
     }
   ],
   "pro_teaser_code": "// Albedo E DMG Simulation (C0, 90, 4pc Husk, 2600 DEF) Weapon: Cinnabar Spindle R5 | Enemy: Lv.103 · RES 10% [Frame 002] Solar Isotoma Proc #1: 24,532 DMG (CRIT) [Frame 004] Solar Isotoma Proc #2: ███ CRIT ███ ← Pro only [Frame 006] Solar Isotoma Proc #3: ████ CRIT ████ ← Pro only ... Total E DMG (30s): ███,███ ← Unlock Optimizer: \"Harbinger of Dawn R5 (90% HP) = 97.3% of Cinnabar Spindle DMG\" ► Full simulation: 15 procs · DEF snapshotting · Gorou buff sync → Pro",

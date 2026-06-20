@@ -3,27 +3,49 @@
   "_element": "dendro",
   "_weapon_type": "catalyst",
   "_game_version": "4.8",
-
   "tldr_weapon": "A Thousand Floating Dreams (F2P: Sacrificial Fragments)",
   "tldr_artifact": "4pc Deepwood Memories (EM/EM or Dendro DMG/EM or CRIT)",
   "tldr_team": "Hyperbloom (Nahida·Xingqiu·Kuki Shinobu·Flex)",
   "tldr_key_stats": "EM 800-1000 · CRIT 40/120 · ER 130%+ · E > Q >>> NA",
-
   "intro": "Nahida, the Dendro Archon, is the single most impactful Dendro character in Genshin Impact. Her Elemental Skill (All Schemes to Know) marks up to 8 enemies and deals coordinated Dendro DMG whenever any marked enemy takes reaction damage. Her Burst provides massive EM buffs to the active character. She enables Hyperbloom, Burgeon, Aggravate, Spread, and Nilou Bloom — essentially every Dendro team wants her. She scales primarily with EM, but unlike other EM users, she also benefits from CRIT and Dendro DMG due to her A4 passive.",
-
   "weapon_bottom_line": "A Thousand Floating Dreams (EM + team buff) is BiS. Sacrificial Fragments (EM 221) is the best F2P. Magic Guide (3★, EM 187) is a shockingly good budget option. Prioritize EM on weapon — her entire kit scales with it.",
-
   "weapons": [
-    {"rank": 1, "name": "A Thousand Floating Dreams", "rarity": 5, "atk": 542, "substat": "EM 265", "notes": "Signature. Massive EM + team buff based on party elements. Perfect synergy with her A4 and A1 passives."},
-    {"rank": 2, "name": "Sacrificial Fragments", "rarity": 4, "atk": 454, "substat": "EM 221", "notes": "Best F2P 4-star. High EM substat. Passive resets E cooldown for re-marking enemies — useful when new enemies spawn."},
-    {"rank": 3, "name": "The Widsith", "rarity": 4, "atk": 510, "substat": "CRIT DMG 55.1%", "notes": "Strong for on-field Nahida. CRIT DMG substat + random buff (EM buff is massive, ATK/DMG are minor). Inconsistent but high ceiling."},
-    {"rank": 4, "name": "Magic Guide R5", "rarity": 3, "atk": 354, "substat": "EM 187", "notes": "Budget champion. 187 EM for a 3-star weapon. +24% DMG vs Hydro/Electro-affected enemies (always active in Hyperbloom). Costs almost nothing to build."}
+    {
+      "rank": 1,
+      "name": "A Thousand Floating Dreams",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "EM 265",
+      "notes": "Signature. Massive EM + team buff based on party elements. Perfect synergy with her A4 and A1 passives."
+    },
+    {
+      "rank": 2,
+      "name": "Sacrificial Fragments",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "EM 221",
+      "notes": "Best F2P 4-star. High EM substat. Passive resets E cooldown for re-marking enemies — useful when new enemies spawn."
+    },
+    {
+      "rank": 3,
+      "name": "The Widsith",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "CRIT DMG 55.1%",
+      "notes": "Strong for on-field Nahida. CRIT DMG substat + random buff (EM buff is massive, ATK/DMG are minor). Inconsistent but high ceiling."
+    },
+    {
+      "rank": 4,
+      "name": "Magic Guide R5",
+      "rarity": 3,
+      "atk": 354,
+      "substat": "EM 187",
+      "notes": "Budget champion. 187 EM for a 3-star weapon. +24% DMG vs Hydro/Electro-affected enemies (always active in Hyperbloom). Costs almost nothing to build."
+    }
   ],
-
   "best_artifact": "4pc Deepwood Memories",
   "artifact_why": "Deepwood Memories reduces enemy Dendro RES by 30%. This is essential — ALL Dendro damage benefits, including Hyperbloom and Burgeon (which deal Dendro DMG). In a team with two Dendro characters, the other can hold Deepwood and Nahida can use Gilded Dreams for more personal damage.",
   "artifact_alt": "4pc Gilded Dreams (more personal damage — only if another teammate has 4pc Deepwood). 2pc Deepwood + 2pc EM set (transitional build while farming).",
-
   "main_stats": {
     "sands": "Elemental Mastery",
     "sands_note": "EM sands in almost all cases. ATK% only for C6 on-field DPS build (niche).",
@@ -32,45 +54,82 @@
     "circlet": "EM / CRIT Rate / CRIT DMG",
     "circlet_note": "EM circlet for maximum reaction damage. CRIT circlet for on-field Nahida with good substats."
   },
-
   "sub_priority": [
     "1. Elemental Mastery — to 1000 (soft cap for A4 passive). Every point below 1000 matters.",
     "2. CRIT Rate / CRIT DMG — A4 converts EM to CRIT Rate (max 24%) and DMG bonus (max 80%). Past 1000 EM, CRIT becomes more valuable.",
     "3. Energy Recharge — 130% minimum. Burst is important but not as critical as E.",
     "4. ATK% — low value. Nahida's damage scales primarily with EM."
   ],
-
   "teams": [
-    {"name": "Team 1: Hyperbloom", "members": "Nahida + Xingqiu/Yelan + Kuki Shinobu/Raiden + Flex", "desc": "The quintessential Dendro team. Nahida marks enemies, Hydro creates cores, Electro triggers Hyperbloom. Kuki heals and triggers with full EM build. Extremely high floor damage with low investment."},
-    {"name": "Team 2: Aggravate/Spread", "members": "Yae Miko/Fischl + Nahida + Kazuha + Zhongli/Baizhu", "desc": "Quick-swap Quicken team. Nahida provides EM share for bigger aggravates. Kazuha shreds Electro RES. High single-target damage."},
-    {"name": "Team 3: Nilou Bloom", "members": "Nilou + Nahida + Kokomi + Flex Dendro/Hydro", "desc": "Only Dendro+Hydro allowed. Nilou creates Bountiful Cores that explode instantly. Nahida provides sustained Dendro application to generate cores. Massive AoE damage."}
+    {
+      "name": "Team 1: Hyperbloom",
+      "members": "Nahida + Xingqiu/Yelan + Kuki Shinobu/Raiden + Flex",
+      "desc": "The quintessential Dendro team. Nahida marks enemies, Hydro creates cores, Electro triggers Hyperbloom. Kuki heals and triggers with full EM build. Extremely high floor damage with low investment."
+    },
+    {
+      "name": "Team 2: Aggravate/Spread",
+      "members": "Yae Miko/Fischl + Nahida + Kazuha + Zhongli/Baizhu",
+      "desc": "Quick-swap Quicken team. Nahida provides EM share for bigger aggravates. Kazuha shreds Electro RES. High single-target damage."
+    },
+    {
+      "name": "Team 3: Nilou Bloom",
+      "members": "Nilou + Nahida + Kokomi + Flex Dendro/Hydro",
+      "desc": "Only Dendro+Hydro allowed. Nilou creates Bountiful Cores that explode instantly. Nahida provides sustained Dendro application to generate cores. Massive AoE damage."
+    }
   ],
-
   "talent_priority": [
-    {"icon": "E", "label": "Elemental Skill", "priority": "Priority 1 — Crown (massive reaction trigger)"},
-    {"icon": "Q", "label": "Elemental Burst", "priority": "Priority 2 — Level to 8-9 (EM share scales)"},
-    {"icon": "NA", "label": "Normal Attack", "priority": "Priority 3 — Skip (only for on-field driver)"}
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Priority 1 — Crown (massive reaction trigger)"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Priority 2 — Level to 8-9 (EM share scales)"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Priority 3 — Skip (only for on-field driver)"
+    }
   ],
-
   "rotation_title": "Hyperbloom rotation:",
   "rotation_code": "Nahida hold E (mark ALL enemies) > Q > Xingqiu E Q E > Kuki Shinobu E > On-field driver NA spam (to trigger Xingqiu rain swords) > Refresh",
   "rotation_key": "Key: Always hold E and mark every enemy on the field. Missing an enemy = no Tri-Karma Purification damage. Kuki must have 1000+ EM (Hyperbloom damage scales ONLY with the Electro trigger's EM and level). Nahida Q buff is based on the highest EM in the party — make sure Kuki or someone has 1000 EM.",
-
   "mistakes": [
     "Building ATK instead of EM. Nahida's damage scales with EM. Her A4 passive converts EM to CRIT Rate and DMG bonus. ATK does very little for her.",
     "Putting Deepwood on the wrong character. In a team with another Dendro (like Alhaitham), Nahida can use Gilded Dreams while the other holds Deepwood. But in solo Dendro teams, Nahida MUST hold Deepwood.",
     "Not marking enemies with E. Nahida's hold E has a large AoE — mark every enemy before starting your rotation. Unmarked enemies take zero coordinated damage.",
     "Using her with too little ER. While her burst cost is low (50), in teams without a second Dendro, 130%+ ER is still needed for consistent uptime."
   ],
-
   "pro_teaser_code": "// Nahida Tri-Karma Calculator\n// Skill Lv10: 185.8% ATK + 371.5% EM\n// A4: EM above 200 → CRIT Rate bonus (max 24%)\n// A4: EM above 200 → DMG bonus (max 80%)\n// Soft cap: 1000 EM\n// Example: 1000 EM Nahida (Deepwood, Sac Frags)\n//   E proc damage: ~25-35K per Tri-Karma (crit)\n// [Unlock Pro for full team reaction simulation]",
-
   "related_guides": [
-    {"id": "raiden", "name": "Raiden Shogun", "element": "electro", "emoji": "⚡", "tier": "S", "desc": "Sub DPS · Emblem set · Engulfing Lightning"},
-    {"id": "yelan", "name": "Yelan", "element": "hydro", "emoji": "💧", "tier": "S", "desc": "Sub DPS · Emblem set · Aqua Simulacra"},
-    {"id": "kazuha", "name": "Kazuha", "element": "anemo", "emoji": "🍃", "tier": "S", "desc": "Support · VV set · Freedom-Sworn"}
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "emoji": "🟣",
+      "element": "electro",
+      "tier": "S",
+      "desc": "Hyperbloom trigger"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "emoji": "💧",
+      "element": "hydro",
+      "tier": "S",
+      "desc": "Off-field Hydro for Hyperbloom"
+    },
+    {
+      "id": "neuvillette",
+      "name": "Neuvillette",
+      "emoji": "💧",
+      "element": "hydro",
+      "tier": "S",
+      "desc": "Hyperbloom driver option"
+    }
   ],
-
   "seo": {
     "title": "Nahida Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
     "description": "Complete Nahida build guide for Genshin Impact v4.8. Best weapons ranked (A Thousand Floating Dreams, Sacrificial Fragments), optimal artifacts (Deepwood Memories), best teams (Hyperbloom, Aggravate, Nilou Bloom), and EM breakpoints."

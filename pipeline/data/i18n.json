@@ -716,6 +716,10 @@
       "en": "Updated",
       "zh": "更新于"
     },
+    "reviewed_by": {
+      "en": "Human-reviewed",
+      "zh": "人工审核"
+    },
     "weapon_sword": {
       "en": "Sword",
       "zh": "单手剑"
@@ -1081,6 +1085,14 @@
     "filter_cryo": {
       "en": "❄️ Cryo",
       "zh": "❄️ 冰"
+    },
+    "ganyu_desc": {
+      "en": "Main DPS — Wanderer's Troupe, Amos' Bow, Melt/Freeze teams",
+      "zh": "主C — 流浪乐团套，阿莫斯之弓，融化/永冻队"
+    },
+    "xiao_desc": {
+      "en": "Hypercarry DPS — Vermillion Hereafter, PJWS, FFXX team",
+      "zh": "主C — 辰砂套，和璞鸢，FFXX下落队"
     }
   },
   "footer": {
@@ -4301,6 +4313,254 @@
     "disclaimer_text": {
       "en": "GenshinGuide is a fan-made project. We are not affiliated with, endorsed by, or connected to HoYoverse or COGNOSPHERE. All game assets, character names, and data are property of their respective owners.",
       "zh": "GenshinGuide 是粉丝制作的项目。我们与 HoYoverse 或 COGNOSPHERE 无关，也未获得其认可。所有游戏资产、角色名称和数据均属于其各自所有者。"
+    }
+  },
+  "ganyu": {
+    "desc": {
+      "en": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+      "zh": "璃月七星秘书，体内流淌着仙兽麒麟的血脉。"
+    },
+    "intro": {
+      "en": "Ganyu is a 5-star Cryo Bow DPS and one of the most consistent damage dealers in Genshin Impact.",
+      "zh": "甘雨是五星冰元素弓C，原神中最稳定的输出角色之一。她的二段重击（霜华矢）无冷却即可造成高额冰元素范围伤害，使她在融化和永冻队伍中都是顶级选择。擅长远程作战、大世界狙击和群体深渊环境。虽然新角色在数值上竞争激烈，但甘雨灵活的配队选择和舒适的操作手感让她依然是全内容的顶级选择。"
+    },
+    "weapon_bottom_line": {
+      "en": "Amos' Bow is her signature BiS.",
+      "zh": "阿莫斯之弓是她的专武，最高提供52%重击伤害加成。若水与猎人之径是不错的替代品。零氪玩家推荐试作澹月R5，命中弱点时可以媲美五星武器。"
+    },
+    "w1_notes": {
+      "en": "Signature BiS.",
+      "zh": "专属毕业武器。被动效果在远距离提供最高52%重击伤害加成。霜华绽放也享受此加成。"
+    },
+    "w2_notes": {
+      "en": "Massive CD substat.",
+      "zh": "极高的爆伤副词条。基础攻击较低，班尼特增益几乎为必选项。被动提供全队20%伤害加成。"
+    },
+    "w3_notes": {
+      "en": "Tighnari's signature but excellent on Melt Ganyu.",
+      "zh": "提纳里专武但融甘使用极佳。重击伤害随精通提升——非常适合堆精通的融化流。"
+    },
+    "w4_notes": {
+      "en": "Best F2P option.",
+      "zh": "零氪最优选。R5命中要害获得72%攻击力加成持续10秒。可媲美五星武器，需要一定的瞄准技巧。"
+    },
+    "w5_notes": {
+      "en": "Inazuma craftable.",
+      "zh": "稻妻锻造武器。R5满能量时提供48%重击伤害加成。不适合试作澹月的瞄准需求时是很好的替代。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Wanderer's Troupe",
+      "zh": "🎯 最佳：流浪大地的乐团4件套"
+    },
+    "arti_why": {
+      "en": "Best for Melt Ganyu.",
+      "zh": "融甘最佳选择。80精通 + 35%重击伤害。甘雨的重击是主要输出手段，精通增益可显著放大融化反应伤害。"
+    },
+    "sands_note": {
+      "en": "ATK% is generally better.",
+      "zh": "攻击沙一般是更好选择。精通沙在高攻击增益（班尼特+双火共鸣）的融化队中可能略优。"
+    },
+    "goblet_note": {
+      "en": "Always Cryo DMG.",
+      "zh": "一律选择冰伤杯。甘雨的伤害几乎全部是冰元素。"
+    },
+    "circlet_note": {
+      "en": "CD circlet for Freeze.",
+      "zh": "永冻选爆伤头（冰套提供暴击率）。融化根据副词条选暴击或爆伤——目标60:180+双爆比。"
+    },
+    "sub1": {
+      "en": "1. CRIT DMG / CRIT Rate",
+      "zh": "1. 暴击伤害 / 暴击率 — 融化目标60:180+，永冻目标30:220+"
+    },
+    "sub2": {
+      "en": "2. ATK%",
+      "zh": "2. 攻击力% — 目标2000+"
+    },
+    "sub3": {
+      "en": "3. Elemental Mastery",
+      "zh": "3. 元素精通 — 仅融化流，目标200+"
+    },
+    "sub4": {
+      "en": "4. Energy Recharge",
+      "zh": "4. 元素充能效率 — 120-130%确保大招循环"
+    },
+    "team1_name": {
+      "en": "Melt Ganyu (Premium)",
+      "zh": "融甘（完全体）"
+    },
+    "team1_desc": {
+      "en": "The classic Melt team.",
+      "zh": "经典融化队。钟离护盾保护甘雨安全蓄力。班尼特提升攻击力，香菱提供火元素附着。甘雨重击触发融化1.5倍伤害。甘雨最强单体输出配队。"
+    },
+    "team2_name": {
+      "en": "Morgana (Freeze)",
+      "zh": "莫甘娜（永冻）"
+    },
+    "team2_desc": {
+      "en": "AoE Freeze comp.",
+      "zh": "群体永冻队。风系聚怪后挂水冰冻，甘雨大招持续输出冰元素伤害。对可聚怪敌人效果拔群，对Boss类敌人效果较差。"
+    },
+    "team3_name": {
+      "en": "Burn-Melt",
+      "zh": "燃融队"
+    },
+    "team3_desc": {
+      "en": "Nahida applies consistent Burning.",
+      "zh": "纳西妲提供稳定燃烧（草+火），维持火元素附着使甘雨每箭都能触发融化。火附着比香菱更稳定，但队伍DPS上限略低。"
+    },
+    "rotation_title": {
+      "en": "Melt Ganyu rotation:",
+      "zh": "融甘输出手法："
+    },
+    "m1": {
+      "en": "Using ATK% goblet instead of Cryo DMG%",
+      "zh": "❌ 使用攻击杯而非冰伤杯 — 甘雨伤害几乎全部是冰元素。冰伤杯永远更好。"
+    },
+    "m2": {
+      "en": "Over-investing in ER",
+      "zh": "❌ 过度堆充能 — 融甘的大招不是主要伤害来源。120%充能就足够了。"
+    },
+    "m3": {
+      "en": "Skipping shield in Melt teams",
+      "zh": "❌ 融化队不带盾 — 甘雨蓄力时极易被打断。钟离或莱依拉盾是必需品。"
+    },
+    "m4": {
+      "en": "Using Blizzard Strayer in Melt teams",
+      "zh": "❌ 融化队带冰套 — 敌人有火附着时冰套4件套不生效。融化流用乐团套或追忆套。"
+    },
+    "related_zhongli": {
+      "en": "Essential shield for Melt Ganyu",
+      "zh": "融甘必备护盾"
+    },
+    "related_kazuha": {
+      "en": "Cryo DMG buff + Freeze support",
+      "zh": "冰伤增伤 + 永冻辅助"
+    },
+    "related_nahida": {
+      "en": "Burn-Melt enabler",
+      "zh": "燃融队核心"
+    }
+  },
+  "xiao": {
+    "desc": {
+      "en": "A yaksha adeptus who defends Liyue.",
+      "zh": "守护璃月的夜叉仙人。祸津御建鸣神命。"
+    },
+    "intro": {
+      "en": "Xiao is a 5-star Anemo Polearm Hypercarry DPS.",
+      "zh": "魈是五星风元素长柄武器主C，通过元素爆发（靖妖傩舞）期间的下落攻击造成大量范围伤害。作为璃月三C之一，魈凭借独特的高机动性玩法和极高的伤害上限保持顶级输出地位。虽然他的扣血机制和充能需求需要精心搭配队伍，但他强大的下落攻击伤害和广泛的范围使他成为游戏中最强的对群输出之一，尤其是配上专属辅助珐露珊、芙宁娜和闲云后。"
+    },
+    "weapon_bottom_line": {
+      "en": "Primordial Jade Winged-Spear is his signature.",
+      "zh": "和璞鸢是他的专属毕业武器，战斗中叠加攻击力。护摩之杖是优秀的替代选择。零氪推荐黑岩刺枪R5——其杀敌叠攻被动完美契合魈的多波次清怪风格。"
+    },
+    "w1_notes": {
+      "en": "Signature BiS.",
+      "zh": "专属毕业武器。命中叠加攻击力（最多7层→22.4%攻击+12%伤害）。高白值+暴击副词条是魈的理想搭配。"
+    },
+    "w2_notes": {
+      "en": "Excellent alternative.",
+      "zh": "优秀替代品。爆伤副词条+基于生命值的攻击加成。魈的扣血机制使半血以下被动容易触发。"
+    },
+    "w3_notes": {
+      "en": "Best F2P option.",
+      "zh": "零氪最优选。击杀叠攻被动最多3层。完美契合魈的多波次清怪风格。"
+    },
+    "w4_notes": {
+      "en": "Battle Pass option.",
+      "zh": "纪行武器。高暴击副词条降低毕业难度。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Vermillion Hereafter",
+      "zh": "🎯 最佳：辰砂往生录4件套"
+    },
+    "arti_why": {
+      "en": "Xiao's signature artifact set.",
+      "zh": "魈的专属圣遗物。开启大招后每次扣血叠加8%攻击力（最多4层=32%攻击）。完美配合魈的扣血机制。但副本性价比低。"
+    },
+    "sands_note": {
+      "en": "Always ATK%.",
+      "zh": "一律选择攻击沙。魈无精通或生命值加成。"
+    },
+    "goblet_note": {
+      "en": "Anemo DMG is always better.",
+      "zh": "风伤杯永远优于攻击杯。魈的大招将所有伤害转为风元素。"
+    },
+    "circlet_note": {
+      "en": "CR or CD depending on weapon.",
+      "zh": "暴击或爆伤头取决于武器和副词条。目标75:180+双爆比。"
+    },
+    "sub1": {
+      "en": "1. CRIT Rate / CRIT DMG",
+      "zh": "1. 暴击率/暴击伤害 — 目标75:180+"
+    },
+    "sub2": {
+      "en": "2. ATK%",
+      "zh": "2. 攻击力% — 目标2000+"
+    },
+    "sub3": {
+      "en": "3. Energy Recharge",
+      "zh": "3. 元素充能效率 — 120-130%（配满命珐露珊可降低）"
+    },
+    "sub4": {
+      "en": "4. Flat ATK",
+      "zh": "4. 固定攻击力 — 微幅提升，非优先项"
+    },
+    "team1_name": {
+      "en": "Premium Plunge (FFXX)",
+      "zh": "顶配下落队（FFXX）"
+    },
+    "team1_desc": {
+      "en": "Xiao's best team.",
+      "zh": "魈的最强配队。珐露珊C6提供巨量风抗削减和风伤加成。芙宁娜通过气氛值放大所有伤害。闲云提升下落伤害并提供全队治疗。"
+    },
+    "team2_name": {
+      "en": "Classic Hypercarry",
+      "zh": "经典三保一"
+    },
+    "team2_desc": {
+      "en": "Reliable core.",
+      "zh": "稳定核心。珐露珊提供风伤增益，班尼特提供巨量攻击加成，钟离护盾防止下落被打断并减抗。"
+    },
+    "team3_name": {
+      "en": "Double Geo",
+      "zh": "双岩队"
+    },
+    "team3_desc": {
+      "en": "Alternative without Faruzan C6.",
+      "zh": "无满命珐露珊的替代方案。双岩共鸣提供护盾下15%伤害加成。阿贝多提供后台伤害。琴C4削减风抗。"
+    },
+    "rotation_title": {
+      "en": "Xiao FFXX rotation:",
+      "zh": "魈FFXX队输出手法："
+    },
+    "m1": {
+      "en": "Not pre-funneling energy",
+      "zh": "❌ 不提前充能——开大前使用E×2，立即开大以在大招动画中吃到元素微粒。"
+    },
+    "m2": {
+      "en": "Using ATK% goblet instead of Anemo DMG%",
+      "zh": "❌ 使用攻击杯而非风伤杯——魈的大招将所有伤害转为风元素。风伤杯永远更好。"
+    },
+    "m3": {
+      "en": "Ignoring collision plunges",
+      "zh": "❌ 忽略碰撞伤害——下落过程中用模型撞击敌人可额外造成显著伤害。"
+    },
+    "m4": {
+      "en": "Not managing HP drain",
+      "zh": "❌ 不管理扣血——不带治疗时，魈的大招会持续扣血至危险水平。"
+    },
+    "related_furina": {
+      "en": "Best Xiao buffer via Fanfare",
+      "zh": "通过气氛值提供最强增益"
+    },
+    "related_zhongli": {
+      "en": "Shield for interruption-free plunges",
+      "zh": "护盾保护下落不被打断"
+    },
+    "related_albedo": {
+      "en": "Off-field DPS in Double Geo",
+      "zh": "双岩队后台输出"
     }
   }
 }

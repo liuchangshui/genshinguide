@@ -111,26 +111,26 @@
     {
       "id": "neuvillette",
       "name": "Neuvillette",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "💧",
+      "element": "hydro",
       "tier": "S",
-      "desc": "Main DPS · Marechaussee Hunter · HP/HP/Crit"
+      "desc": "HP-drain synergy + Hydro resonance"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kazuha",
+      "emoji": "🍃",
+      "element": "anemo",
+      "tier": "S",
+      "desc": "Universal DMG buff"
     },
     {
       "id": "hutao",
       "name": "Hu Tao",
-      "element": "electro",
-      "emoji": "⚡",
+      "emoji": "🔥",
+      "element": "pyro",
       "tier": "S",
-      "desc": "Main DPS · Crimson Witch · Double Hydro"
-    },
-    {
-      "id": "yelan",
-      "name": "Yelan",
-      "element": "electro",
-      "emoji": "⚡",
-      "tier": "S",
-      "desc": "Sub DPS · Emblem set · Aqua Simulacra"
+      "desc": "HP-drain synergy for Vaporize"
     }
   ],
   "pro_teaser_code": "// Furina Skill DMG Simulation (C0, 90, 4pc Golden Troupe, 38k HP) Weapon: Splendor of Tranquil Waters R1 | Enemy: Lv.103 · RES 10% [Fanfare 150] Mademoiselle Crabaletta: 32,844 DMG (Vape CRIT) [Fanfare 200] Gentilhomme Usher: ███ CRIT ███ ← Pro only [Fanfare 250] Surintendante Chevalmarin: ████ CRIT ████ ← Pro only ... [Fanfare 300] Total Skill Rotation: ███,███ ← Unlock Optimizer: \"HP% goblet out-performs Hydro DMG by +4.2% with C2+\" ► Full simulation: Fanfare curve · HP drain timing · team DPS → Pro"
