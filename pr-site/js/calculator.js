@@ -292,13 +292,13 @@ function updateCalc(){
       <div class="value">${totalATK} <span style="font-size:0.8rem;color:var(--text-muted);">(${c.atk} ${t('calcJS.char_atk')} + ${selWpn.a} ${t('calcJS.weapon_atk')})</span></div>
     </div>
     <div class="calc-stat"><div class="label">${t('calcJS.wpn_substat')}</div>
-      <div class="value">${selWpn.st} +${selWpn.sv}%</div>
+      <div class="value">${t(selWpn.st)} +${selWpn.sv}%</div>
     </div>
     <div class="calc-stat"><div class="label">${t('calcJS.main_priority')}</div>
-      <div class="value" style="font-size:0.9rem;">${labelSands}: <b style="color:var(--gold);">${c.main.sands}</b> | ${labelGoblet}: <b style="color:var(--gold);">${c.main.goblet}</b> | ${labelCirclet}: <b style="color:var(--gold);">${c.main.circlet}</b></div>
+      <div class="value" style="font-size:0.9rem;">${labelSands}: <b style="color:var(--gold);">${t(c.main.sands)}</b> | ${labelGoblet}: <b style="color:var(--gold);">${t(c.main.goblet)}</b> | ${labelCirclet}: <b style="color:var(--gold);">${t(c.main.circlet)}</b></div>
     </div>
     <div class="calc-stat"><div class="label">${t('calcJS.sub_priority')}</div>
-      <div class="value" style="font-size:0.85rem;">${c.subs.map((s,i)=>`<span style="color:#e0e0e0;">${i+1}. ${s}</span>`).join(' > ')}</div>
+      <div class="value" style="font-size:0.85rem;">${c.subs.map((s,i)=>`<span style="color:#e0e0e0;">${i+1}. ${t(s)}</span>`).join(' > ')}</div>
     </div>
     <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
       <div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:10px;">${t('calcJS.best_teams')}</div>

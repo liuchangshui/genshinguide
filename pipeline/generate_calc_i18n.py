@@ -295,6 +295,33 @@ def generate(i18n):
         if en not in calc:
             add(en, zh)
 
+    # ── 10. Stat/substat translations ──────────────────────────────────
+    for en, zh in {
+        "Energy Recharge": "元素充能效率", "CRIT Rate": "暴击率", "CRIT DMG": "暴击伤害",
+        "ATK": "攻击力", "ATK%": "攻击力%", "HP": "生命值", "HP%": "生命值%",
+        "DEF": "防御力", "DEF%": "防御力%", "Elemental Mastery": "元素精通",
+        "Physical DMG": "物理伤害加成", "Electro DMG": "雷元素伤害加成",
+        "Pyro DMG": "火元素伤害加成", "Hydro DMG": "水元素伤害加成",
+        "Cryo DMG": "冰元素伤害加成", "Anemo DMG": "风元素伤害加成",
+        "Geo DMG": "岩元素伤害加成", "Dendro DMG": "草元素伤害加成",
+        "Healing Bonus": "治疗加成", "Flat HP": "固定生命值", "Flat ATK": "固定攻击力",
+        "ATK% / EM": "攻击力% / 元素精通", "ATK% / ER%": "攻击力% / 充能效率%",
+        "HP% / ER%": "生命值% / 充能效率%", "HP% / Hydro DMG": "生命值% / 水伤%",
+        "Hydro DMG / HP%": "水伤% / 生命值%", "HP% / Geo DMG": "生命值% / 岩伤%",
+        "HP% / CRIT Rate": "生命值% / 暴击率%", "ER% / ATK%": "充能效率% / 攻击力%",
+        "ER% / ATK% / EM": "充能效率% / 攻击力% / 元素精通",
+        "ER% / HP%": "充能效率% / 生命值%", "EM / ATK%": "元素精通 / 攻击力%",
+        "EM / Dendro DMG": "元素精通 / 草伤%", "EM / CRIT Rate": "元素精通 / 暴击率%",
+        "EM": "元素精通", "Electro DMG / ATK%": "雷伤% / 攻击力%",
+        "Pyro DMG / ATK%": "火伤% / 攻击力%", "Cryo DMG%": "冰伤%",
+        "Anemo DMG%": "风伤%", "CRIT Rate / CRIT DMG": "暴击率 / 暴击伤害",
+        "CRIT DMG / CRIT Rate": "暴击伤害 / 暴击率",
+        "CRIT DMG / HP%": "暴击伤害 / 生命值%",
+        "Healing Bonus / HP%": "治疗加成 / 生命值%",
+    }.items():
+        if en not in calc:
+            add(en, zh)
+
     # ── Write JS file ──────────────────────────────────────────────────
     entries = []
     for en, pair in sorted(calc.items()):
