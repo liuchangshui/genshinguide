@@ -19,7 +19,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "ER 45.9%",
-      "notes": "Free from fishing. +32% burst DMG. Best F2P."
+      "notes": "Free from fishing. +32% burst DMG. Best F2P.",
+      "wpn_key": "wpn_the_catch"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "BiS. HP→ATK conversion. High investment."
+      "notes": "BiS. HP→ATK conversion. High investment.",
+      "wpn_key": "wpn_staff_of_homa"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "ER 30.6%",
-      "notes": "Team battery. High ER substat. Provides particles for the whole team."
+      "notes": "Team battery. High ER substat. Provides particles for the whole team.",
+      "wpn_key": "wpn_favonius_lance"
     }
   ],
   "best_artifact": "4-Piece Emblem of Severed Fate",

@@ -16,7 +16,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "CRIT Rate 22.1%",
-      "notes": "Signature BiS. Stacks ATK on hit (max 7 stacks -> 22.4% ATK + 12% DMG). High base ATK + CR substat is ideal for Xiao."
+      "notes": "Signature BiS. Stacks ATK on hit (max 7 stacks -> 22.4% ATK + 12% DMG). High base ATK + CR substat is ideal for Xiao.",
+      "wpn_key": "wpn_primordial_jade_winged_spear"
     },
     {
       "rank": 2,
@@ -24,7 +25,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "Excellent alternative. CD substat + ATK bonus based on HP. Below-50%-HP passive is easy to maintain with Xiao's HP drain."
+      "notes": "Excellent alternative. CD substat + ATK bonus based on HP. Below-50%-HP passive is easy to maintain with Xiao's HP drain.",
+      "wpn_key": "wpn_staff_of_homa"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "CRIT DMG 55.1%",
-      "notes": "Best F2P option. Passive grants ATK% on kill, stacking 3 times. Perfect for Xiao's multi-wave clearing style."
+      "notes": "Best F2P option. Passive grants ATK% on kill, stacking 3 times. Perfect for Xiao's multi-wave clearing style.",
+      "wpn_key": "wpn_blackcliff_pole"
     },
     {
       "rank": 4,
@@ -40,7 +43,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "CRIT Rate 36.8%",
-      "notes": "Battle Pass option. High CR substat makes building easier."
+      "notes": "Battle Pass option. High CR substat makes building easier.",
+      "wpn_key": "wpn_deathmatch_r5"
     }
   ],
   "best_artifact": "4pc Vermillion Hereafter",

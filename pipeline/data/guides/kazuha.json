@@ -16,7 +16,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "EM 198",
-      "notes": "Signature. Highest EM substat + team-wide ATK and NA/CA/Plunge DMG buff. Perfect synergy with his kit."
+      "notes": "Signature. Highest EM substat + team-wide ATK and NA/CA/Plunge DMG buff. Perfect synergy with his kit.",
+      "wpn_key": "wpn_freedom_sworn"
     },
     {
       "rank": 2,
@@ -24,7 +25,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "EM 165",
-      "notes": "Excellent. Converts EM to ER for Kazuha and the team. At R5 with 1000 EM, gives ~30% ER to everyone. Solves energy problems."
+      "notes": "Excellent. Converts EM to ER for Kazuha and the team. At R5 with 1000 EM, gives ~30% ER to everyone. Solves energy problems.",
+      "wpn_key": "wpn_xiphos_moonlight"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "EM 165",
-      "notes": "Best F2P. Free forgeable. Same EM as Xiphos but no ER utility. Easy to craft and refine."
+      "notes": "Best F2P. Free forgeable. Same EM as Xiphos but no ER utility. Easy to craft and refine.",
+      "wpn_key": "wpn_iron_sting"
     },
     {
       "rank": 4,
@@ -40,7 +43,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "ER 61.3%",
-      "notes": "Team battery option. Lower EM means weaker buff, but white particles fuel the entire team. Use if ER is a problem."
+      "notes": "Team battery option. Lower EM means weaker buff, but white particles fuel the entire team. Use if ER is a problem.",
+      "wpn_key": "wpn_favonius_sword"
     }
   ],
   "best_artifact": "4pc Viridescent Venerer",

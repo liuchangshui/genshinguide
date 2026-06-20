@@ -20,7 +20,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "ER 55.1%",
-      "notes": "Signature. ATK based on ER above 100%."
+      "notes": "Signature. ATK based on ER above 100%.",
+      "wpn_key": "wpn_engulfing_lightning"
     },
     {
       "rank": 2,
@@ -28,7 +29,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "ER 45.9%",
-      "notes": "Best F2P. +32% burst DMG, +12% CR. Free."
+      "notes": "Best F2P. +32% burst DMG, +12% CR. Free.",
+      "wpn_key": "wpn_the_catch"
     },
     {
       "rank": 3,
@@ -36,7 +38,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "Strong stat stick. HP convert to ATK."
+      "notes": "Strong stat stick. HP convert to ATK.",
+      "wpn_key": "wpn_staff_of_homa"
     }
   ],
   "best_artifact": "4-Piece Emblem of Severed Fate",

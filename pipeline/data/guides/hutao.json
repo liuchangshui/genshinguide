@@ -19,7 +19,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "Signature. HP to ATK conversion + massive CRIT DMG. Made for Hu Tao."
+      "notes": "Signature. HP to ATK conversion + massive CRIT DMG. Made for Hu Tao.",
+      "wpn_key": "wpn_staff_of_homa"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "EM 221",
-      "notes": "Best F2P. EM + DMG% vs Hydro/Pyro. Perfect for vape. R5 rivals 5-stars."
+      "notes": "Best F2P. EM + DMG% vs Hydro/Pyro. Perfect for vape. R5 rivals 5-stars.",
+      "wpn_key": "wpn_dragons_bane"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "CRIT Rate 36.8%",
-      "notes": "BP weapon. High CRIT Rate makes building easier. Solid stat stick."
+      "notes": "BP weapon. High CRIT Rate makes building easier. Solid stat stick.",
+      "wpn_key": "wpn_deathmatch"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 3,
       "atk": 401,
       "substat": "CRIT Rate 23.4%",
-      "notes": "Budget 3★. CRIT Rate + NA DMG bonus. Surprisingly good for CA spam."
+      "notes": "Budget 3★. CRIT Rate + NA DMG bonus. Surprisingly good for CA spam.",
+      "wpn_key": "wpn_white_tassel"
     }
   ],
   "best_artifact": "4-Piece Crimson Witch of Flames",

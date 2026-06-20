@@ -19,7 +19,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "DEF 69.0%",
-      "notes": "Event exclusive BiS. Massive DEF% + 80% E DMG bonus. Unmatched."
+      "notes": "Event exclusive BiS. Massive DEF% + 80% E DMG bonus. Unmatched.",
+      "wpn_key": "wpn_cinnabar_spindle"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 3,
       "atk": 401,
       "substat": "CRIT DMG 46.9%",
-      "notes": "Best F2P. Huge CRIT stats when HP > 90%. Albedo is off-field so easy to maintain."
+      "notes": "Best F2P. Huge CRIT stats when HP > 90%. Albedo is off-field so easy to maintain.",
+      "wpn_key": "wpn_harbinger_of_dawn"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 5,
       "atk": 542,
       "substat": "CRIT Rate 44.1%",
-      "notes": "5★ stat stick. Massive CRIT Rate. No DEF but pure stats carry it."
+      "notes": "5★ stat stick. Massive CRIT Rate. No DEF but pure stats carry it.",
+      "wpn_key": "wpn_primordial_jade_cutter"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "ER 45.9%",
-      "notes": "Event sword. E DMG + CRIT boost. Good if Cinnabar was missed."
+      "notes": "Event sword. E DMG + CRIT boost. Good if Cinnabar was missed.",
+      "wpn_key": "wpn_festering_desire"
     }
   ],
   "best_artifact": "4-Piece Husk of Opulent Dreams",

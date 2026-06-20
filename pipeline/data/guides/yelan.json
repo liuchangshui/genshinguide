@@ -19,7 +19,8 @@
       "rarity": 5,
       "atk": 542,
       "substat": "CRIT DMG 88.2%",
-      "notes": "Signature. Massive CRIT DMG + HP% + DMG bonus. Perfect synergy."
+      "notes": "Signature. Massive CRIT DMG + HP% + DMG bonus. Perfect synergy.",
+      "wpn_key": "wpn_aqua_simulacra"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "ER 61.3%",
-      "notes": "Best F2P. ER main stat + energy particles. Solves ER needs completely."
+      "notes": "Best F2P. ER main stat + energy particles. Solves ER needs completely.",
+      "wpn_key": "wpn_favonius_warbow"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "ER 30.6%",
-      "notes": "Extra E charge = more particles + more DMG. Good for C0."
+      "notes": "Extra E charge = more particles + more DMG. Good for C0.",
+      "wpn_key": "wpn_sacrificial_bow"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "EM 165",
-      "notes": "Skill + burst DMG bonus. Use in reaction teams (vape)."
+      "notes": "Skill + burst DMG bonus. Use in reaction teams (vape).",
+      "wpn_key": "wpn_the_stringless"
     }
   ],
   "best_artifact": "4-Piece Emblem of Severed Fate",

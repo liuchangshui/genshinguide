@@ -16,7 +16,8 @@
       "rarity": 5,
       "atk": 542,
       "substat": "EM 265",
-      "notes": "Signature. Massive EM + team buff based on party elements. Perfect synergy with her A4 and A1 passives."
+      "notes": "Signature. Massive EM + team buff based on party elements. Perfect synergy with her A4 and A1 passives.",
+      "wpn_key": "wpn_thousand_floating_dreams"
     },
     {
       "rank": 2,
@@ -24,7 +25,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "EM 221",
-      "notes": "Best F2P 4-star. High EM substat. Passive resets E cooldown for re-marking enemies — useful when new enemies spawn."
+      "notes": "Best F2P 4-star. High EM substat. Passive resets E cooldown for re-marking enemies — useful when new enemies spawn.",
+      "wpn_key": "wpn_sacrificial_fragments"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "CRIT DMG 55.1%",
-      "notes": "Strong for on-field Nahida. CRIT DMG substat + random buff (EM buff is massive, ATK/DMG are minor). Inconsistent but high ceiling."
+      "notes": "Strong for on-field Nahida. CRIT DMG substat + random buff (EM buff is massive, ATK/DMG are minor). Inconsistent but high ceiling.",
+      "wpn_key": "wpn_the_widsith"
     },
     {
       "rank": 4,
@@ -40,7 +43,8 @@
       "rarity": 3,
       "atk": 354,
       "substat": "EM 187",
-      "notes": "Budget champion. 187 EM for a 3-star weapon. +24% DMG vs Hydro/Electro-affected enemies (always active in Hyperbloom). Costs almost nothing to build."
+      "notes": "Budget champion. 187 EM for a 3-star weapon. +24% DMG vs Hydro/Electro-affected enemies (always active in Hyperbloom). Costs almost nothing to build.",
+      "wpn_key": "wpn_magic_guide"
     }
   ],
   "best_artifact": "4pc Deepwood Memories",

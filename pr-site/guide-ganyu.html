@@ -37,13 +37,14 @@
 
 <section class="character-showcase cryo">
   <div class="char-portrait">
-    <div class="char-portrait-placeholder cryo" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(24,255,255,0.15));">
+    <img src="../images/ganyu-card.webp" alt="Ganyu" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(24,255,255,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback cryo" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(24,255,255,0.15));">
       <span>Ganyu</span>
     </div>
   </div>
   <div class="char-info">
     <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v4.8 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-20 · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
-    <h1 class="char-name">Ganyu <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <h1 class="char-name"><span data-i18n="ganyu.name">Ganyu</span> <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
     <div class="char-meta">
       <span class="elem-tag" data-i18n="guide.weapon_bow">Bow</span>
       <span class="elem-tag" data-i18n="guide.element_cryo">Cryo</span>
@@ -101,7 +102,7 @@
       
       <tr>
         <td><span class="rank rank-1">1</span></td>
-        <td>Amos' Bow</td>
+        <td data-i18n="wpn.wpn_amos_bow">Amos' Bow</td>
         <td>⭐⭐⭐⭐⭐</td>
         <td>608</td>
         <td>ATK 49.6%</td>
@@ -110,7 +111,7 @@
       
       <tr>
         <td><span class="rank rank-2">2</span></td>
-        <td>Aqua Simulacra</td>
+        <td data-i18n="wpn.wpn_aqua_simulacra">Aqua Simulacra</td>
         <td>⭐⭐⭐⭐⭐</td>
         <td>542</td>
         <td>CRIT DMG 88.2%</td>
@@ -119,7 +120,7 @@
       
       <tr>
         <td><span class="rank rank-3">3</span></td>
-        <td>Hunter's Path</td>
+        <td data-i18n="wpn.wpn_hunters_path">Hunter's Path</td>
         <td>⭐⭐⭐⭐⭐</td>
         <td>542</td>
         <td>CRIT Rate 44.1%</td>
@@ -128,7 +129,7 @@
       
       <tr>
         <td><span class="rank rank-4">4</span></td>
-        <td>Prototype Crescent R5</td>
+        <td data-i18n="wpn.wpn_prototype_crescent">Prototype Crescent R5</td>
         <td>⭐⭐⭐⭐</td>
         <td>510</td>
         <td>ATK 41.3%</td>
@@ -137,7 +138,7 @@
       
       <tr>
         <td><span class="rank rank-5">5</span></td>
-        <td>Hamayumi R5</td>
+        <td data-i18n="wpn.wpn_hamayumi">Hamayumi R5</td>
         <td>⭐⭐⭐⭐</td>
         <td>454</td>
         <td>ATK 55.1%</td>

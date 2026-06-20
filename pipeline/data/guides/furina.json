@@ -20,7 +20,8 @@
       "rarity": 5,
       "atk": 542,
       "substat": "CRIT DMG 88.2%",
-      "notes": "Signature. HP + skill DMG when HP changes. Best in slot."
+      "notes": "Signature. HP + skill DMG when HP changes. Best in slot.",
+      "wpn_key": "wpn_splendor_of_tranquil_waters"
     },
     {
       "rank": 2,
@@ -28,7 +29,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "ER 45.9%",
-      "notes": "Best F2P. ER substat + skill CRIT rate. Free from fishing."
+      "notes": "Best F2P. ER substat + skill CRIT rate. Free from fishing.",
+      "wpn_key": "wpn_fleuve_cendre_ferryman"
     },
     {
       "rank": 3,
@@ -36,7 +38,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "ER 45.9%",
-      "notes": "Limited event weapon. Skill DMG + skill CRIT. Great if you have it."
+      "notes": "Limited event weapon. Skill DMG + skill CRIT. Great if you have it.",
+      "wpn_key": "wpn_festering_desire"
     },
     {
       "rank": 4,
@@ -44,7 +47,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "ER 61.3%",
-      "notes": "Team energy battery. High ER substat. Lowers Furina's personal DMG."
+      "notes": "Team energy battery. High ER substat. Lowers Furina's personal DMG.",
+      "wpn_key": "wpn_favonius_sword"
     }
   ],
   "best_artifact": "4-Piece Golden Troupe",

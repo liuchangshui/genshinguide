@@ -19,7 +19,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "Best all-around. HP to ATK conversion + massive CRIT DMG."
+      "notes": "Best all-around. HP to ATK conversion + massive CRIT DMG.",
+      "wpn_key": "wpn_staff_of_homa"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 3,
       "atk": 354,
       "substat": "HP 46.9%",
-      "notes": "Best F2P shield. Massive HP% for shields. 3★ — very common."
+      "notes": "Best F2P shield. Massive HP% for shields. 3★ — very common.",
+      "wpn_key": "wpn_black_tassel"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "ER 30.6%",
-      "notes": "Team battery. Generates energy for team. Good for burst uptime."
+      "notes": "Team battery. Generates energy for team. Good for burst uptime.",
+      "wpn_key": "wpn_favonius_lance"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "CRIT Rate 36.8%",
-      "notes": "BP weapon. High CRIT Rate for burst DPS builds."
+      "notes": "BP weapon. High CRIT Rate for burst DPS builds.",
+      "wpn_key": "wpn_deathmatch"
     }
   ],
   "best_artifact": "4-Piece Tenacity of the Millelith",

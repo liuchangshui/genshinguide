@@ -1549,6 +1549,10 @@
     "desc": {
       "en": "Complete Furina build guide for Genshin Impact. Best weapons ranked (Splendor of Tranquil Waters, Fleuve Cendre Ferryman), optimal artifacts (Golden Troupe), team compositions, and rotation guide.",
       "zh": "《原神》芙宁娜完整培养指南。最佳武器排名（静水流涌之辉、灰河渡手），最优圣遗物（黄金剧团），队伍搭配及输出手法指南。"
+    },
+    "name": {
+      "en": "Furina",
+      "zh": "芙宁娜"
     }
   },
   "hutao": {
@@ -1779,6 +1783,10 @@
     "desc": {
       "en": "Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.",
       "zh": "原神4.8版本胡桃完整培养指南。最佳武器排名（护摩之杖、匣里灭辰），圣遗物选择（炽烈的炎之魔女、追忆之注连），队伍搭配（双水、蒸发），以及输出手法指南。"
+    },
+    "name": {
+      "en": "Hu Tao",
+      "zh": "胡桃"
     }
   },
   "ayaka": {
@@ -2009,6 +2017,10 @@
     "desc": {
       "en": "Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide.",
       "zh": "神里绫华4.8版本完整培养指南。最佳武器排名（雾切之回光、天目影打刀），最优圣遗物（冰风迷途的勇士），队伍搭配（永冻队）及输出手法指南。"
+    },
+    "name": {
+      "en": "Kamisato Ayaka",
+      "zh": "神里绫华"
     }
   },
   "yelan": {
@@ -2239,6 +2251,10 @@
     "desc": {
       "en": "Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.",
       "zh": "《原神》4.8版本夜兰完整培养指南。武器排名（若水、西风猎弓），最佳圣遗物（绝缘之旗印），队伍搭配（双水队、超绽放队）及输出手法指南。"
+    },
+    "name": {
+      "en": "Yelan",
+      "zh": "夜兰"
     }
   },
   "zhongli": {
@@ -2469,6 +2485,10 @@
     "desc": {
       "en": "Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide.",
       "zh": "原神4.8版本钟离完整培养指南。最佳武器排名（护摩之杖、黑缨枪），最优圣遗物（千岩牢固、悠古的磐岩），队伍搭配（纯岩队、通用护盾队）及输出手法指南。"
+    },
+    "name": {
+      "en": "Zhongli",
+      "zh": "钟离"
     }
   },
   "albedo": {
@@ -2699,6 +2719,10 @@
     "desc": {
       "en": "Complete Albedo build guide for Genshin Impact v4.8. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide.",
       "zh": "原神4.8版本阿贝多完整培养指南。最佳武器排名（辰砂之纺锤、黎明神剑），最优圣遗物（华馆梦醒形骸记、黄金剧团），队伍搭配（纯岩队、双岩队）及输出手法指南。"
+    },
+    "name": {
+      "en": "Albedo",
+      "zh": "阿贝多"
     }
   },
   "proDemo": {
@@ -3009,6 +3033,10 @@
     "talent3_label": {
       "en": "Normal Attack",
       "zh": "普通攻击"
+    },
+    "name": {
+      "en": "Bennett",
+      "zh": "班尼特"
     }
   },
   "kazuha": {
@@ -3179,6 +3207,10 @@
     "talent3_label": {
       "en": "Normal Attack",
       "zh": "普通攻击"
+    },
+    "name": {
+      "en": "Kaedehara Kazuha",
+      "zh": "枫原万叶"
     }
   },
   "nahida": {
@@ -3349,6 +3381,10 @@
     "talent3_label": {
       "en": "Normal Attack",
       "zh": "普通攻击"
+    },
+    "name": {
+      "en": "Nahida",
+      "zh": "纳西妲"
     }
   },
   "arlecchino": {
@@ -3663,6 +3699,10 @@
     "desc": {
       "en": "Complete Arlecchino build guide for Genshin Impact v4.8. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide.",
       "zh": "阿蕾奇诺在《原神》4.8版本中的完整培养指南。最佳武器排名（赤月之形、白缨枪），最优圣遗物（谐律异想断章、角斗士的终幕礼），队伍搭配及输出手法指南。"
+    },
+    "name": {
+      "en": "Arlecchino",
+      "zh": "阿蕾奇诺"
     }
   },
   "neuvillette": {
@@ -3917,6 +3957,10 @@
     "desc": {
       "en": "Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.",
       "zh": "原神4.8版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。"
+    },
+    "name": {
+      "en": "Neuvillette",
+      "zh": "那维莱特"
     }
   },
   "xiangling": {
@@ -4035,6 +4079,10 @@
     "desc": {
       "en": "Complete Xiangling build guide for Genshin Impact v4.8. Best weapons (The Catch R5, Staff of Homa), optimal artifacts (Emblem of Severed Fate), team compositions (Raiden National), and rotation guide.",
       "zh": "原神4.8版本香菱完整培养指南。最佳武器（渔获精5、护摩之杖）、毕业圣遗物（绝缘之旗印）、配队推荐（雷神国家队）及循环手法。"
+    },
+    "name": {
+      "en": "Xiangling",
+      "zh": "香菱"
     }
   },
   "raiden": {
@@ -4173,6 +4221,10 @@
     "desc": {
       "en": "Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.",
       "zh": "原神4.8版本雷电将军完整培养指南。最佳武器排名（薙草之稻光、渔获），最优圣遗物（绝缘之旗印），队伍搭配和循环指南。"
+    },
+    "name": {
+      "en": "Raiden Shogun",
+      "zh": "雷电将军"
     }
   },
   "privacy": {
@@ -4439,6 +4491,10 @@
     "related_nahida": {
       "en": "Burn-Melt enabler",
       "zh": "燃融队核心"
+    },
+    "name": {
+      "en": "Ganyu",
+      "zh": "甘雨"
     }
   },
   "xiao": {
@@ -4561,6 +4617,266 @@
     "related_albedo": {
       "en": "Off-field DPS in Double Geo",
       "zh": "双岩队后台输出"
+    },
+    "name": {
+      "en": "Xiao",
+      "zh": "魈"
+    }
+  },
+  "wpn": {
+    "wpn_thousand_floating_dreams": {
+      "en": "A Thousand Floating Dreams",
+      "zh": "千夜浮梦"
+    },
+    "wpn_amos_bow": {
+      "en": "Amos' Bow",
+      "zh": "阿莫斯之弓"
+    },
+    "wpn_aqua_simulacra": {
+      "en": "Aqua Simulacra",
+      "zh": "若水"
+    },
+    "wpn_aquila_favonia": {
+      "en": "Aquila Favonia",
+      "zh": "风鹰剑"
+    },
+    "wpn_crimson_moons_semblance": {
+      "en": "Crimson Moon's Semblance",
+      "zh": "赤月之形"
+    },
+    "wpn_engulfing_lightning": {
+      "en": "Engulfing Lightning",
+      "zh": "薙草之稻光"
+    },
+    "wpn_freedom_sworn": {
+      "en": "Freedom-Sworn",
+      "zh": "苍古自由之誓"
+    },
+    "wpn_hunters_path": {
+      "en": "Hunter's Path",
+      "zh": "猎人之径"
+    },
+    "wpn_mistsplitter_reforged": {
+      "en": "Mistsplitter Reforged",
+      "zh": "雾切之回光"
+    },
+    "wpn_primordial_jade_cutter": {
+      "en": "Primordial Jade Cutter",
+      "zh": "磐岩结绿"
+    },
+    "wpn_primordial_jade_winged_spear": {
+      "en": "Primordial Jade Winged-Spear",
+      "zh": "和璞鸢"
+    },
+    "wpn_skyward_blade": {
+      "en": "Skyward Blade",
+      "zh": "天空之刃"
+    },
+    "wpn_splendor_of_tranquil_waters": {
+      "en": "Splendor of Tranquil Waters",
+      "zh": "静水流涌之辉"
+    },
+    "wpn_staff_of_homa": {
+      "en": "Staff of Homa",
+      "zh": "护摩之杖"
+    },
+    "wpn_tome_of_the_eternal_flow": {
+      "en": "Tome of the Eternal Flow",
+      "zh": "万世流涌大典"
+    },
+    "wpn_amenoma_kageuchi": {
+      "en": "Amenoma Kageuchi R5",
+      "zh": "天目影打刀R5"
+    },
+    "wpn_black_tassel": {
+      "en": "Black Tassel",
+      "zh": "黑缨枪"
+    },
+    "wpn_blackcliff_longsword": {
+      "en": "Blackcliff Longsword",
+      "zh": "黑岩长剑"
+    },
+    "wpn_blackcliff_pole": {
+      "en": "Blackcliff Pole R5",
+      "zh": "黑岩刺枪R5"
+    },
+    "wpn_cinnabar_spindle": {
+      "en": "Cinnabar Spindle R5",
+      "zh": "辰砂之纺锤R5"
+    },
+    "wpn_deathmatch": {
+      "en": "Deathmatch",
+      "zh": "决斗之枪"
+    },
+    "wpn_deathmatch_r5": {
+      "en": "Deathmatch R5",
+      "zh": "决斗之枪R5"
+    },
+    "wpn_dragons_bane": {
+      "en": "Dragon's Bane R5",
+      "zh": "匣里灭辰R5"
+    },
+    "wpn_favonius_lance": {
+      "en": "Favonius Lance",
+      "zh": "西风长枪"
+    },
+    "wpn_favonius_sword": {
+      "en": "Favonius Sword",
+      "zh": "西风剑"
+    },
+    "wpn_favonius_warbow": {
+      "en": "Favonius Warbow",
+      "zh": "西风猎弓"
+    },
+    "wpn_festering_desire": {
+      "en": "Festering Desire",
+      "zh": "腐殖之剑"
+    },
+    "wpn_finale_of_the_deep": {
+      "en": "Finale of the Deep",
+      "zh": "海渊终曲"
+    },
+    "wpn_fleuve_cendre_ferryman": {
+      "en": "Fleuve Cendre Ferryman R5",
+      "zh": "灰河渡手R5"
+    },
+    "wpn_hamayumi": {
+      "en": "Hamayumi R5",
+      "zh": "破魔之弓R5"
+    },
+    "wpn_harbinger_of_dawn": {
+      "en": "Harbinger of Dawn R5",
+      "zh": "黎明神剑R5"
+    },
+    "wpn_iron_sting": {
+      "en": "Iron Sting R5",
+      "zh": "铁蜂刺R5"
+    },
+    "wpn_magic_guide": {
+      "en": "Magic Guide R5",
+      "zh": "魔导绪论R5"
+    },
+    "wpn_prototype_amber": {
+      "en": "Prototype Amber R5",
+      "zh": "试作金珀R5"
+    },
+    "wpn_prototype_crescent": {
+      "en": "Prototype Crescent R5",
+      "zh": "试作澹月R5"
+    },
+    "wpn_sacrificial_bow": {
+      "en": "Sacrificial Bow",
+      "zh": "祭礼弓"
+    },
+    "wpn_sacrificial_fragments": {
+      "en": "Sacrificial Fragments",
+      "zh": "祭礼残章"
+    },
+    "wpn_sacrificial_jade": {
+      "en": "Sacrificial Jade R5",
+      "zh": "祭礼玉R5"
+    },
+    "wpn_sapwood_blade": {
+      "en": "Sapwood Blade R5",
+      "zh": "原木刀R5"
+    },
+    "wpn_the_catch": {
+      "en": "The Catch R5",
+      "zh": "「渔获」R5"
+    },
+    "wpn_the_stringless": {
+      "en": "The Stringless",
+      "zh": "绝弦"
+    },
+    "wpn_the_widsith": {
+      "en": "The Widsith",
+      "zh": "流浪乐章"
+    },
+    "wpn_white_tassel": {
+      "en": "White Tassel",
+      "zh": "白缨枪"
+    },
+    "wpn_white_tassel_r5": {
+      "en": "White Tassel R5",
+      "zh": "白缨枪R5"
+    },
+    "wpn_xiphos_moonlight": {
+      "en": "Xiphos' Moonlight",
+      "zh": "西福斯的月光"
+    }
+  },
+  "arti_names": {
+    "arti_archaic_petra": {
+      "en": "4pc Archaic Petra",
+      "zh": "悠古的磐岩4件套"
+    },
+    "arti_blizzard_strayer": {
+      "en": "4pc Blizzard Strayer",
+      "zh": "冰风迷途的勇士4件套"
+    },
+    "arti_crimson_witch": {
+      "en": "4pc Crimson Witch of Flames",
+      "zh": "炽烈的炎之魔女4件套"
+    },
+    "arti_deepwood_memories": {
+      "en": "4pc Deepwood Memories",
+      "zh": "深林的记忆4件套"
+    },
+    "arti_emblem_of_severed_fate": {
+      "en": "4pc Emblem of Severed Fate",
+      "zh": "绝缘之旗印4件套"
+    },
+    "arti_fragment_harmonic_whimsy": {
+      "en": "4pc Fragment of Harmonic Whimsy",
+      "zh": "谐律异想断章4件套"
+    },
+    "arti_gilded_dreams": {
+      "en": "4pc Gilded Dreams",
+      "zh": "饰金之梦4件套"
+    },
+    "arti_golden_troupe": {
+      "en": "4pc Golden Troupe",
+      "zh": "黄金剧团4件套"
+    },
+    "arti_heart_of_depth": {
+      "en": "4pc Heart of Depth",
+      "zh": "沉沦之心4件套"
+    },
+    "arti_husk_of_opulent_dreams": {
+      "en": "4pc Husk of Opulent Dreams",
+      "zh": "华馆梦醒形骸记4件套"
+    },
+    "arti_instructor": {
+      "en": "4pc Instructor",
+      "zh": "教官4件套"
+    },
+    "arti_marechaussee_hunter": {
+      "en": "4pc Marechaussee Hunter",
+      "zh": "逐影猎人4件套"
+    },
+    "arti_noblesse_oblige": {
+      "en": "4pc Noblesse Oblige",
+      "zh": "昔日宗室之仪4件套"
+    },
+    "arti_shimenawa_reminiscence": {
+      "en": "4pc Shimenawa's Reminiscence",
+      "zh": "追忆之注连4件套"
+    },
+    "arti_tenacity_of_millelith": {
+      "en": "4pc Tenacity of the Millelith",
+      "zh": "千岩牢固4件套"
+    },
+    "arti_vermillion_hereafter": {
+      "en": "4pc Vermillion Hereafter",
+      "zh": "辰砂往生录4件套"
+    },
+    "arti_viridescent_venerer": {
+      "en": "4pc Viridescent Venerer",
+      "zh": "翠绿之影4件套"
+    },
+    "arti_wanderers_troupe": {
+      "en": "4pc Wanderer's Troupe",
+      "zh": "流浪大地的乐团4件套"
     }
   }
 }

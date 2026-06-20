@@ -19,7 +19,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "CRIT Rate 22.1%",
-      "notes": "Signature. Grants BoL on hit. +DMG% when BoL above 30%. Tailor-made."
+      "notes": "Signature. Grants BoL on hit. +DMG% when BoL above 30%. Tailor-made.",
+      "wpn_key": "wpn_crimson_moons_semblance"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 3,
       "atk": 401,
       "substat": "CRIT Rate 23.4%",
-      "notes": "Best F2P. +48% NA DMG. Incredible for a 3-star. Free from Liyue chests."
+      "notes": "Best F2P. +48% NA DMG. Incredible for a 3-star. Free from Liyue chests.",
+      "wpn_key": "wpn_white_tassel_r5"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "CRIT DMG 66.2%",
-      "notes": "Universal stat stick. HP→ATK conversion. Strong alternative if you have it."
+      "notes": "Universal stat stick. HP→ATK conversion. Strong alternative if you have it.",
+      "wpn_key": "wpn_staff_of_homa"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "CRIT Rate 22.1%",
-      "notes": "Stacking ATK% buff. High base ATK. Solid all-rounder from standard banner."
+      "notes": "Stacking ATK% buff. High base ATK. Solid all-rounder from standard banner.",
+      "wpn_key": "wpn_primordial_jade_winged_spear"
     },
     {
       "rank": 5,
@@ -51,7 +55,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "CRIT Rate 36.8%",
-      "notes": "Battle Pass weapon. High CRIT Rate makes building easy. Good stat stick."
+      "notes": "Battle Pass weapon. High CRIT Rate makes building easy. Good stat stick.",
+      "wpn_key": "wpn_deathmatch_r5"
     }
   ],
   "best_artifact": "4-Piece Fragment of Harmonic Whimsy",

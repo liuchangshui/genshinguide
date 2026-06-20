@@ -16,7 +16,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "Physical DMG 41.3%",
-      "notes": "Highest base ATK sword. The Physical DMG substat is wasted on Bennett but the 674 ATK makes it BiS for buffing. Only pull if you get it from standard banner."
+      "notes": "Highest base ATK sword. The Physical DMG substat is wasted on Bennett but the 674 ATK makes it BiS for buffing. Only pull if you get it from standard banner.",
+      "wpn_key": "wpn_aquila_favonia"
     },
     {
       "rank": 2,
@@ -24,7 +25,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "CRIT DMG 44.1%",
-      "notes": "Same 674 base ATK as Aquila. CRIT DMG substat actually useful if you run DPS Bennett. Better than Aquila for overall value."
+      "notes": "Same 674 base ATK as Aquila. CRIT DMG substat actually useful if you run DPS Bennett. Better than Aquila for overall value.",
+      "wpn_key": "wpn_mistsplitter_reforged"
     },
     {
       "rank": 3,
@@ -32,7 +34,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "ER 30.6%",
-      "notes": "Best F2P option — free forgeable from Sumeru. 565 base ATK is the highest among 4-star swords. ER substat helps meet his energy needs. The leaf gives EM to the team."
+      "notes": "Best F2P option — free forgeable from Sumeru. 565 base ATK is the highest among 4-star swords. ER substat helps meet his energy needs. The leaf gives EM to the team.",
+      "wpn_key": "wpn_sapwood_blade"
     },
     {
       "rank": 4,
@@ -40,7 +43,8 @@
       "rarity": 5,
       "atk": 608,
       "substat": "ER 55.1%",
-      "notes": "Good balance of base ATK and ER. Makes building Bennett trivial. Standard banner weapon."
+      "notes": "Good balance of base ATK and ER. Makes building Bennett trivial. Standard banner weapon.",
+      "wpn_key": "wpn_skyward_blade"
     },
     {
       "rank": 5,
@@ -48,7 +52,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "ER 61.3%",
-      "notes": "Low base ATK but massive ER + team battery. Use only if you cannot meet 200% ER otherwise. Sacrifices buff strength for consistency."
+      "notes": "Low base ATK but massive ER + team battery. Use only if you cannot meet 200% ER otherwise. Sacrifices buff strength for consistency.",
+      "wpn_key": "wpn_favonius_sword"
     }
   ],
   "best_artifact": "4pc Noblesse Oblige",

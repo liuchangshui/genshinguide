@@ -19,7 +19,8 @@
       "rarity": 5,
       "atk": 674,
       "substat": "CRIT DMG 44.1%",
-      "notes": "Signature. High base ATK + CRIT DMG + Elemental DMG bonus. Made for Ayaka."
+      "notes": "Signature. High base ATK + CRIT DMG + Elemental DMG bonus. Made for Ayaka.",
+      "wpn_key": "wpn_mistsplitter_reforged"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "ATK% 55.1%",
-      "notes": "Best F2P. Craftable. Restores energy after burst — solves ER completely."
+      "notes": "Best F2P. Craftable. Restores energy after burst — solves ER completely.",
+      "wpn_key": "wpn_amenoma_kageuchi"
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "ATK% 27.6%",
-      "notes": "Craftable. High ATK bonus. Good F2P option if not needing Amenoma's energy."
+      "notes": "Craftable. High ATK bonus. Good F2P option if not needing Amenoma's energy.",
+      "wpn_key": "wpn_finale_of_the_deep"
     },
     {
       "rank": 4,
@@ -43,7 +46,8 @@
       "rarity": 4,
       "atk": 565,
       "substat": "CRIT DMG 36.8%",
-      "notes": "Starglitter shop. CRIT DMG stat stick. ATK passive on kills."
+      "notes": "Starglitter shop. CRIT DMG stat stick. ATK passive on kills.",
+      "wpn_key": "wpn_blackcliff_longsword"
     }
   ],
   "best_artifact": "4-Piece Blizzard Strayer",

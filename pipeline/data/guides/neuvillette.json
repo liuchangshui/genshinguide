@@ -20,7 +20,8 @@
       "rarity": 5,
       "atk": 542,
       "substat": "CRIT DMG 88.2%",
-      "notes": "Signature. HP manipulation = extra CA DMG. Massive CD stat stick."
+      "notes": "Signature. HP manipulation = extra CA DMG. Massive CD stat stick.",
+      "wpn_key": "wpn_tome_of_the_eternal_flow"
     },
     {
       "rank": 2,
@@ -28,7 +29,8 @@
       "rarity": 4,
       "atk": 510,
       "substat": "HP 41.3%",
-      "notes": "Best F2P. HP% substat + energy refund + team heal. Rivals 5-stars!"
+      "notes": "Best F2P. HP% substat + energy refund + team heal. Rivals 5-stars!",
+      "wpn_key": "wpn_prototype_amber"
     },
     {
       "rank": 3,
@@ -36,7 +38,8 @@
       "rarity": 4,
       "atk": 454,
       "substat": "CRIT Rate 36.8%",
-      "notes": "Battle Pass. Huge HP buff after 5s off-field. Requires rotation discipline."
+      "notes": "Battle Pass. Huge HP buff after 5s off-field. Requires rotation discipline.",
+      "wpn_key": "wpn_sacrificial_jade"
     }
   ],
   "best_artifact": "4-Piece Marechaussee Hunter",

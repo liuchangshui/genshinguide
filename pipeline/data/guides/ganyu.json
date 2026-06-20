@@ -10,11 +10,51 @@
   "intro": "Ganyu is a 5-star Cryo Bow DPS and one of the most consistent damage dealers in Genshin Impact. Her Charged Attack Level 2 (Frostflake Arrow) deals massive AoE Cryo damage with zero cooldown, making her top-tier in both Melt and Freeze teams. She excels at ranged combat, overworld sniping, and AoE-heavy Abyss floors. While newer DPS units compete on raw numbers, Ganyu's flexible team options and comfortable playstyle keep her as a top-tier pick for all content.",
   "weapon_bottom_line": "Amos' Bow is her signature BiS with up to 52% Charged ATK DMG bonus. Aqua Simulacra and Hunter's Path are close alternatives. For F2P, Prototype Crescent R5 rivals 5-star options if you can hit weak points consistently.",
   "weapons": [
-    {"rank": 1, "name": "Amos' Bow", "rarity": 5, "atk": 608, "substat": "ATK 49.6%", "notes": "Signature BiS. Passive grants up to 52% Charged ATK DMG bonus at long range. The frostflake bloom also benefits from the passive."},
-    {"rank": 2, "name": "Aqua Simulacra", "rarity": 5, "atk": 542, "substat": "CRIT DMG 88.2%", "notes": "Massive CD substat. Low base ATK means Bennett buff is almost mandatory. Passive gives universal 20% DMG bonus."},
-    {"rank": 3, "name": "Hunter's Path", "rarity": 5, "atk": 542, "substat": "CRIT Rate 44.1%", "notes": "Tighnari's signature but excellent on Melt Ganyu. Charged ATK DMG scales with EM — ideal for Melt builds stacking EM."},
-    {"rank": 4, "name": "Prototype Crescent R5", "rarity": 4, "atk": 510, "substat": "ATK 41.3%", "notes": "Best F2P option. R5 + weak point hit = 72% ATK buff for 10s. Rivals 5-star options. Requires weak point aiming skill."},
-    {"rank": 5, "name": "Hamayumi R5", "rarity": 4, "atk": 454, "substat": "ATK 55.1%", "notes": "Inazuma craftable. R5 gives 48% Charged ATK DMG at full energy. Good if you can't hit weak points for Prototype Crescent."}
+    {
+      "rank": 1,
+      "name": "Amos' Bow",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "ATK 49.6%",
+      "notes": "Signature BiS. Passive grants up to 52% Charged ATK DMG bonus at long range. The frostflake bloom also benefits from the passive.",
+      "wpn_key": "wpn_amos_bow"
+    },
+    {
+      "rank": 2,
+      "name": "Aqua Simulacra",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Massive CD substat. Low base ATK means Bennett buff is almost mandatory. Passive gives universal 20% DMG bonus.",
+      "wpn_key": "wpn_aqua_simulacra"
+    },
+    {
+      "rank": 3,
+      "name": "Hunter's Path",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT Rate 44.1%",
+      "notes": "Tighnari's signature but excellent on Melt Ganyu. Charged ATK DMG scales with EM — ideal for Melt builds stacking EM.",
+      "wpn_key": "wpn_hunters_path"
+    },
+    {
+      "rank": 4,
+      "name": "Prototype Crescent R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ATK 41.3%",
+      "notes": "Best F2P option. R5 + weak point hit = 72% ATK buff for 10s. Rivals 5-star options. Requires weak point aiming skill.",
+      "wpn_key": "wpn_prototype_crescent"
+    },
+    {
+      "rank": 5,
+      "name": "Hamayumi R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "ATK 55.1%",
+      "notes": "Inazuma craftable. R5 gives 48% Charged ATK DMG at full energy. Good if you can't hit weak points for Prototype Crescent.",
+      "wpn_key": "wpn_hamayumi"
+    }
   ],
   "best_artifact": "4pc Wanderer's Troupe",
   "artifact_why": "Best for Melt Ganyu. 80 EM bonus + 35% Charged ATK DMG. Ganyu's charged shots are her primary damage source, and the EM buff amplifies Melt reactions significantly.",
@@ -34,14 +74,38 @@
     "4. Energy Recharge — 120-130% for comfortable burst uptime"
   ],
   "teams": [
-    {"name": "Melt Ganyu (Premium)", "members": "Ganyu + Xiangling + Bennett + Zhongli", "desc": "The classic Melt team. Zhongli's shield lets Ganyu charge shot safely. Bennett buffs ATK, Xiangling applies Pyro. Ganyu's charged shots Melt for 1.5× damage. Best single-target DPS team for Ganyu."},
-    {"name": "Morgana (Freeze)", "members": "Ganyu + Kazuha/Venti + Mona/Kokomi + Diona", "desc": "AoE Freeze comp. Group enemies with Anemo CC, apply Hydro, freeze everything, then Ganyu's burst deals continuous Cryo damage. Devastating against groupable enemies, struggles against bosses."},
-    {"name": "Burn-Melt", "members": "Ganyu + Nahida + Bennett + Zhongli", "desc": "Nahida applies consistent Burning (Dendro + Pyro), which maintains Pyro aura for Ganyu to Melt every charged shot. More consistent Pyro application than Xiangling but lower team DPS ceiling."}
+    {
+      "name": "Melt Ganyu (Premium)",
+      "members": "Ganyu + Xiangling + Bennett + Zhongli",
+      "desc": "The classic Melt team. Zhongli's shield lets Ganyu charge shot safely. Bennett buffs ATK, Xiangling applies Pyro. Ganyu's charged shots Melt for 1.5× damage. Best single-target DPS team for Ganyu."
+    },
+    {
+      "name": "Morgana (Freeze)",
+      "members": "Ganyu + Kazuha/Venti + Mona/Kokomi + Diona",
+      "desc": "AoE Freeze comp. Group enemies with Anemo CC, apply Hydro, freeze everything, then Ganyu's burst deals continuous Cryo damage. Devastating against groupable enemies, struggles against bosses."
+    },
+    {
+      "name": "Burn-Melt",
+      "members": "Ganyu + Nahida + Bennett + Zhongli",
+      "desc": "Nahida applies consistent Burning (Dendro + Pyro), which maintains Pyro aura for Ganyu to Melt every charged shot. More consistent Pyro application than Xiangling but lower team DPS ceiling."
+    }
   ],
   "talent_priority": [
-    {"icon": "NA", "label": "Normal Attack", "priority": "Crown"},
-    {"icon": "Q", "label": "Elemental Burst", "priority": "Level 9"},
-    {"icon": "E", "label": "Elemental Skill", "priority": "Level 8"}
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Crown"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 9"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8"
+    }
   ],
   "rotation_title": "Melt Ganyu rotation:",
   "rotation_code": "Zhongli hold E (shield) → Bennett Q (ATK buff) → Xiangling E + Q (Pyro application) → Ganyu E (taunt + dodge) → Charged Shot spam (6-7 shots during Pyronado)",
@@ -54,9 +118,30 @@
   ],
   "pro_teaser_code": "// DMG Simulation: Melt Frostflake Arrow\n// ATK 2200 | CR 65% | CD 200% | EM 250 | Amos' Bow R1\n// Frostflake Bloom Melt: ~45,000 + ~78,000 = ~123,000 per charged shot\n// With Kazuha + Bennett + Xiangling buffs active",
   "related_guides": [
-    {"id": "zhongli", "name": "Zhongli", "element": "geo", "emoji": "🟡", "tier": "S", "desc": "Essential shield for Melt Ganyu"},
-    {"id": "kazuha", "name": "Kazuha", "element": "anemo", "emoji": "🍃", "tier": "S", "desc": "Cryo DMG buff + Freeze support"},
-    {"id": "nahida", "name": "Nahida", "element": "dendro", "emoji": "🌿", "tier": "S", "desc": "Burn-Melt enabler"}
+    {
+      "id": "zhongli",
+      "name": "Zhongli",
+      "element": "geo",
+      "emoji": "🟡",
+      "tier": "S",
+      "desc": "Essential shield for Melt Ganyu"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Cryo DMG buff + Freeze support"
+    },
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Burn-Melt enabler"
+    }
   ],
   "seo": {
     "title": "Ganyu Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",

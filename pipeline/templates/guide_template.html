@@ -37,13 +37,14 @@
 
 <section class="character-showcase {{ element }}">
   <div class="char-portrait">
-    <div class="char-portrait-placeholder {{ element }}" style="width:260px;height:320px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba({{ element_color_r }},{{ element_color_g }},{{ element_color_b }},0.15));">
+    <img src="../images/{{ char_id }}-card.webp" alt="{{ char_name }}" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba({{ element_color_r }},{{ element_color_g }},{{ element_color_b }},0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback {{ element }}" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba({{ element_color_r }},{{ element_color_g }},{{ element_color_b }},0.15));">
       <span>{{ char_id | capitalize }}</span>
     </div>
   </div>
   <div class="char-info">
     <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v{{ version }} · <span data-i18n="guide.updated_prefix">Updated</span> {{ date_modified }} · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
-    <h1 class="char-name">{{ char_name }} <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <h1 class="char-name"><span data-i18n="{{ prefix }}.name">{{ char_name }}</span> <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
     <div class="char-meta">
       <span class="elem-tag" data-i18n="guide.weapon_{{ char_weapon_type | lower }}">{{ char_weapon_type }}</span>
       <span class="elem-tag" data-i18n="guide.element_{{ element }}">{{ element_display }}</span>
@@ -101,7 +102,7 @@
       {% for w in weapons %}
       <tr>
         <td><span class="rank rank-{{ w.rank }}">{{ w.rank }}</span></td>
-        <td>{{ w.name }}</td>
+        <td data-i18n="wpn.{{ w.wpn_key }}">{{ w.name }}</td>
         <td>{{ '⭐' * w.rarity }}</td>
         <td>{{ w.atk }}</td>
         <td>{{ w.substat }}</td>
