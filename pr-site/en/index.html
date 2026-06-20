@@ -268,30 +268,30 @@
 // Rotate featured cards — pick 6 random characters daily
 (function(){
   var ALL = [
-    {id:'raiden',nameKey:'raiden.name',elem:'electro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_electro',elemLabel:'Electro',descKey:'guides.raiden_desc',desc:'Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National'},
-    {id:'furina',nameKey:'furina.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.furina_desc',desc:'Sub DPS / Buffer — Golden Troupe, Splendor, team-wide DMG buff'},
-    {id:'arlecchino',nameKey:'arlecchino.name',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_pyro',elemLabel:'Pyro',descKey:'guides.arlecchino_desc',desc:'Main DPS — Harmonic Whimsy, Crimson Moon, Bond of Life carry'},
-    {id:'neuvillette',nameKey:'neuvillette.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.neuvillette_desc',desc:'Main DPS — Marechaussee Hunter, Tome of Eternal Flow, HP-scaling CA'},
-    {id:'hutao',nameKey:'hutao.name',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_pyro',elemLabel:'Pyro',descKey:'guides.hutao_desc',desc:'Main DPS — Crimson Witch, Staff of Homa, Double Hydro'},
-    {id:'yelan',nameKey:'yelan.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.yelan_desc',desc:'Sub DPS / Support — Emblem set, Aqua Simulacra, off-field Hydro'},
-    {id:'nahida',nameKey:'nahida.name',elem:'dendro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemKey:'guide.element_dendro',elemLabel:'Dendro',descKey:'guides.nahida_desc',desc:'Sub DPS / Support — Deepwood set, EM build, Hyperbloom teams'},
-    {id:'kazuha',nameKey:'kazuha.name',elem:'anemo',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_anemo',elemLabel:'Anemo',descKey:'guides.kazuha_desc',desc:'Support / CC — VV set, EM/EM/EM, Freedom-Sworn, double swirl'},
-    {id:'zhongli',nameKey:'zhongli.name',elem:'geo',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_geo',elemLabel:'Geo',descKey:'guides.zhongli_desc',desc:'Shield / Support — Tenacity set, Black Tassel, universal shielder'},
-    {id:'bennett',nameKey:'bennett.name',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_pyro',elemLabel:'Pyro',descKey:'guides.bennett_desc',desc:'Support / Healer — Noblesse set, Aquila Favonia, ATK buffer'},
-    {id:'xiangling',nameKey:'xiangling.name',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_pyro',elemLabel:'Pyro',descKey:'guides.xiangling_desc',desc:'Sub DPS — Emblem set, The Catch, National team core'},
-    {id:'ayaka',nameKey:'ayaka.name',elem:'cryo',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_cryo',elemLabel:'Cryo',descKey:'guides.ayaka_desc',desc:'Main DPS — Blizzard Strayer, Mistsplitter, Premium Freeze'},
-    {id:'albedo',nameKey:'albedo.name',elem:'geo',tier:'a',tierLabel:'A',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_geo',elemLabel:'Geo',descKey:'guides.albedo_desc',desc:'Sub DPS — Husk set, Cinnabar Spindle, off-field Geo DMG'},
-    {id:'ganyu',elem:'cryo',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemKey:'guide.element_cryo',elemLabel:'Cryo',descKey:'guides.ganyu_desc',desc:'Main DPS — Wanderer\\'s Troupe, Amos\\' Bow, Melt/Freeze teams'},
-    {id:'xiao',nameKey:'xiao.name',elem:'anemo',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemKey:'guide.element_anemo',elemLabel:'Anemo',descKey:'guides.xiao_desc',desc:'Hypercarry DPS — Vermillion Hereafter, PJWS, FFXX team'},
-    {id:'kokomi',nameKey:'kokomi.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.kokomi_desc',desc:'Healer / Support — Ocean-Hued Clam, Prototype Amber, Freeze teams'},
-    {id:'tartaglia',nameKey:'tartaglia.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.tartaglia_desc',desc:'Main DPS — Heart of Depth, Polar Star, International team'},
-    {id:'alhaitham',nameKey:'alhaitham.name',elem:'dendro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_dendro',elemLabel:'Dendro',descKey:'guides.alhaitham_desc',desc:'Main DPS — Gilded Dreams, Light of Foliar, Spread/Quickbloom'},
-    {id:'yae-miko',elem:'electro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemKey:'guide.element_electro',elemLabel:'Electro',descKey:'guides.yae-miko_desc',desc:'Sub DPS — Golden Troupe, Kagura\\'s Verity, Aggravate teams'},
-    {id:'xingqiu',nameKey:'xingqiu.name',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_hydro',elemLabel:'Hydro',descKey:'guides.xingqiu_desc',desc:'Sub DPS — Emblem set, Sacrificial Sword, National/Hyperbloom'},
-    {id:'kuki-shinobu',nameKey:'kuki-shinobu.name',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemKey:'guide.element_electro',elemLabel:'Electro',descKey:'guides.kuki-shinobu_desc',desc:'Healer / Hyperbloom — Paradise Lost, full EM, off-field trigger'},
-    {id:'fischl',nameKey:'fischl.name',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemKey:'guide.element_electro',elemLabel:'Electro',descKey:'guides.fischl_desc',desc:'Sub DPS — Golden Troupe, Stringless, Aggravate enabler'},
-    {id:'beidou',nameKey:'beidou.name',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_claymore',wpnLabel:'Claymore',elemKey:'guide.element_electro',elemLabel:'Electro',descKey:'guides.beidou_desc',desc:'Sub DPS — Emblem set, Serpent Spine, Taser/Aggravate'},
-    {id:'sucrose',nameKey:'sucrose.name',elem:'anemo',tier:'a',tierLabel:'A',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemKey:'guide.element_anemo',elemLabel:'Anemo',descKey:'guides.sucrose_desc',desc:'Support — VV set, Sac Frags, EM share + grouping'}
+    {id:'raiden',name:'Raiden Shogun',elem:'electro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Electro',desc:'Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National'},
+    {id:'furina',name:'Furina',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Hydro',desc:'Sub DPS / Buffer — Golden Troupe, Splendor, team-wide DMG buff'},
+    {id:'arlecchino',name:'Arlecchino',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Pyro',desc:'Main DPS — Harmonic Whimsy, Crimson Moon, Bond of Life carry'},
+    {id:'neuvillette',name:'Neuvillette',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemLabel:'Hydro',desc:'Main DPS — Marechaussee Hunter, Tome of Eternal Flow, HP-scaling CA'},
+    {id:'hutao',name:'Hu Tao',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Pyro',desc:'Main DPS — Crimson Witch, Staff of Homa, Double Hydro'},
+    {id:'yelan',name:'Yelan',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemLabel:'Hydro',desc:'Sub DPS / Support — Emblem set, Aqua Simulacra, off-field Hydro'},
+    {id:'nahida',name:'Nahida',elem:'dendro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemLabel:'Dendro',desc:'Sub DPS / Support — Deepwood set, EM build, Hyperbloom teams'},
+    {id:'kazuha',name:'Kaedehara Kazuha',elem:'anemo',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Anemo',desc:'Support / CC — VV set, EM/EM/EM, Freedom-Sworn, double swirl'},
+    {id:'zhongli',name:'Zhongli',elem:'geo',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Geo',desc:'Shield / Support — Tenacity set, Black Tassel, universal shielder'},
+    {id:'bennett',name:'Bennett',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Pyro',desc:'Support / Healer — Noblesse set, Aquila Favonia, ATK buffer'},
+    {id:'xiangling',name:'Xiangling',elem:'pyro',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Pyro',desc:'Sub DPS — Emblem set, The Catch, National team core'},
+    {id:'ayaka',name:'Kamisato Ayaka',elem:'cryo',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Cryo',desc:'Main DPS — Blizzard Strayer, Mistsplitter, Premium Freeze'},
+    {id:'albedo',name:'Albedo',elem:'geo',tier:'a',tierLabel:'A',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Geo',desc:'Sub DPS — Husk set, Cinnabar Spindle, off-field Geo DMG'},
+    {id:'ganyu',elem:'cryo',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemLabel:'Cryo',desc:'Main DPS — Wanderers Troupe, Amos Bow, Melt/Freeze teams'},
+    {id:'xiao',name:'Xiao',elem:'anemo',tier:'s',tierLabel:'S',wpn:'guide.weapon_polearm',wpnLabel:'Polearm',elemLabel:'Anemo',desc:'Hypercarry DPS — Vermillion Hereafter, PJWS, FFXX team'},
+    {id:'kokomi',name:'Sangonomiya Kokomi',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemLabel:'Hydro',desc:'Healer / Support — Ocean-Hued Clam, Prototype Amber, Freeze teams'},
+    {id:'tartaglia',name:'Tartaglia',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemLabel:'Hydro',desc:'Main DPS — Heart of Depth, Polar Star, International team'},
+    {id:'alhaitham',name:'Alhaitham',elem:'dendro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Dendro',desc:'Main DPS — Gilded Dreams, Light of Foliar, Spread/Quickbloom'},
+    {id:'yae-miko',elem:'electro',tier:'s',tierLabel:'S',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemLabel:'Electro',desc:'Sub DPS — Golden Troupe, Kaguras Verity, Aggravate teams'},
+    {id:'xingqiu',name:'Xingqiu',elem:'hydro',tier:'s',tierLabel:'S',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Hydro',desc:'Sub DPS — Emblem set, Sacrificial Sword, National/Hyperbloom'},
+    {id:'kuki-shinobu',name:'Kuki Shinobu',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_sword',wpnLabel:'Sword',elemLabel:'Electro',desc:'Healer / Hyperbloom — Paradise Lost, full EM, off-field trigger'},
+    {id:'fischl',name:'Fischl',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_bow',wpnLabel:'Bow',elemLabel:'Electro',desc:'Sub DPS — Golden Troupe, Stringless, Aggravate enabler'},
+    {id:'beidou',name:'Beidou',elem:'electro',tier:'a',tierLabel:'A',wpn:'guide.weapon_claymore',wpnLabel:'Claymore',elemLabel:'Electro',desc:'Sub DPS — Emblem set, Serpent Spine, Taser/Aggravate'},
+    {id:'sucrose',name:'Sucrose',elem:'anemo',tier:'a',tierLabel:'A',wpn:'guide.weapon_catalyst',wpnLabel:'Catalyst',elemLabel:'Anemo',desc:'Support — VV set, Sac Frags, EM share + grouping'}
   ];
 
   // Shuffle with date-based seed (changes daily)
@@ -313,9 +313,9 @@
       '<img src="../images/' + c.id + '-card.webp" alt="' + c.id + '" style="width:100%;height:180px;object-fit:cover;">' +
       '</div>' +
       '<div class="guide-card-body">' +
-      '<div class="guide-card-name"><h3 style="margin:0;"><span>' + t(c.nameKey || c.id.replace(/-/g,' ').replace(/\b\w/g,function(l){return l.toUpperCase()})) + '</span></h3><span class="grade grade-' + c.tier + '">' + c.tierLabel + '</span></div>' +
-      '<p>' + (c.descKey ? t(c.descKey) : c.desc) + '</p>' +
-      '<div class="guide-card-tags"><span class="tag tag-elem-' + c.elem + '">' + t(c.elemKey) + '</span><span class="tag tag-weapon">' + t(c.wpn) + '</span><span class="tag tag-version">v5.6</span></div>' +
+      '<div class="guide-card-name"><h3 style="margin:0;"><span>' + t(c.name) + '</span></h3><span class="grade grade-' + c.tier + '">' + c.tierLabel + '</span></div>' +
+      '<p>' + t(c.desc) + '</p>' +
+      '<div class="guide-card-tags"><span class="tag tag-elem-' + c.elem + '">' + t(c.elemLabel) + '</span><span class="tag tag-weapon">' + t(c.wpnLabel) + '</span><span class="tag tag-version">v5.6</span></div>' +
       '</div>';
     grid.appendChild(a);
   });
