@@ -104,16 +104,17 @@
 
 <!-- QUICK ANSWER -->
 <div class="container" style="margin-bottom:48px;">
-  <div class="quick-answer-box">
-    <div style="font-size:0.85rem;color:var(--accent);font-weight:600;margin-bottom:12px;" data-i18n="home.quick_title">⚡ Instant Build Answers</div>
-    <div class="quick-answer-input">
+  <div class="quick-answer-box" style="position:relative;">
+    <div style="font-size:0.85rem;color:var(--accent);font-weight:600;margin-bottom:12px;" data-i18n="home.quick_title">⚡ Quick Jump to Guide</div>
+    <div class="quick-answer-input" style="position:relative;">
       <span style="font-size:1.3rem;">🔍</span>
-      <input type="text" data-i18n-placeholder="home.quick_placeholder" placeholder="Quick answer: e.g. 'best Raiden weapon' or 'Hu Tao artifact'…"
+      <input type="text" id="quick-jump-input" data-i18n-placeholder="home.quick_placeholder" placeholder="Type a character name: Raiden, Hu Tao, Ganyu…"
+             autocomplete="off"
              style="flex:1;min-width:200px;background:var(--bg-deep);border:1px solid var(--border);border-radius:8px;padding:11px 16px;color:var(--text-primary);font-size:0.95rem;outline:none;"
              onfocus="this.style.borderColor='var(--accent)';" onblur="this.style.borderColor='var(--border)';">
-      <button class="btn btn-primary" style="padding:10px 20px;font-size:0.9rem;" data-i18n="home.quick_btn">Get Answer</button>
+      <div id="quick-jump-dropdown" style="display:none;position:absolute;top:100%;left:28px;right:0;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;z-index:200;max-height:280px;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.5);"></div>
     </div>
-    <p style="font-size:0.75rem;color:var(--text-muted);margin-top:10px;margin-bottom:0;" data-i18n="home.quick_hint">Try: "Raiden best weapon" · "Hu Tao artifact" · "Yelan team comp"</p>
+    <p style="font-size:0.75rem;color:var(--text-muted);margin-top:10px;margin-bottom:0;" data-i18n="home.quick_hint">Try: "Raiden" · "Hu Tao" · "Ganyu" · "Xiao" · "Furina" · "Nahida"</p>
   </div>
 </div>
 

@@ -182,7 +182,7 @@ furina: {
       {n:'Double Geo',m:'Xiao + Albedo + Zhongli + Jean/Bennett',d:'Geo resonance alternative'}
     ]
   }
-};;
+};
 
 const WEAPONS_DATA = {
   engulfing:{n:'Engulfing Lightning',r:5,a:608,st:'Energy Recharge',sv:55.1},
@@ -198,8 +198,8 @@ const WEAPONS_DATA = {
   favbow:{n:'Favonius Warbow',r:4,a:454,st:'Energy Recharge',sv:61.3},
   sacfrag:{n:'Sacrificial Fragments',r:4,a:454,st:'Elemental Mastery',sv:221},
   favsword:{n:'Favonius Sword',r:4,a:454,st:'Energy Recharge',sv:61.3},
-  dragonsbane:{n:"Dragon's Bane",r:4,a:454,st:'Elemental Mastery',sv:221}
-splendor:{n:'Splendor of Tranquil Waters',r:5,a:542,st:'CRIT DMG',sv:88.2},
+  dragonsbane:{n:"Dragon's Bane",r:4,a:454,st:'Elemental Mastery',sv:221},
+  splendor:{n:'Splendor of Tranquil Waters',r:5,a:542,st:'CRIT DMG',sv:88.2},
   fleuve:{n:'Fleuve Cendre Ferryman',r:4,a:510,st:'Energy Recharge',sv:45.9},
   festering:{n:'Festering Desire',r:4,a:510,st:'Energy Recharge',sv:45.9},
   crimson:{n:"Crimson Moon's Semblance",r:5,a:674,st:'CRIT Rate',sv:22.1},
