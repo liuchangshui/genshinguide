@@ -1,0 +1,141 @@
+{
+  "_character_id": "alhaitham",
+  "_element": "dendro",
+  "_weapon_type": "sword",
+  "_game_version": "5.6",
+  "tldr_weapon": "Light of Foliar Incision (BiS) / Iron Sting R5 (F2P)",
+  "tldr_artifact": "4pc Gilded Dreams / 2pc Deepwood + 2pc EM",
+  "tldr_team": "Spread Hypercarry (Alhaitham·Nahida·Yae·Zhongli)",
+  "tldr_key_stats": "EM 300-500 · CR 70%+ · CD 150%+ · ER 120-130% · E > Q > NA",
+  "intro": "Alhaitham is a 5-star Dendro Sword DPS who uses Chisel-Light Mirrors to infuse his attacks with Dendro and deal massive Spread damage. As the Acting Grand Sage of the Akademiya, he's one of the strongest on-field DPS characters in the game, rivaling even Hyperbloom teams with his raw Spread damage. His mirror management creates a high skill ceiling — optimal rotations produce 3-mirror rain attacks that deal devastating AoE Dendro damage. For players willing to learn his mechanics, Alhaitham rewards with top-tier single-target and AoE performance.",
+  "weapon_bottom_line": "Light of Foliar Incision is his signature, scaling with EM. Primordial Jade Cutter and Mistsplitter are strong alternatives. For F2P, Iron Sting R5 provides EM and DMG bonus — excellent value. Harbinger of Dawn R5 is a surprising budget option if you can maintain >90% HP.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Light of Foliar Incision",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Signature BiS. CRIT DMG + Normal ATK DMG scales with EM. Perfect for Spread Alhaitham.",
+      "wpn_key": "wpn_light_of_foliar"
+    },
+    {
+      "rank": 2,
+      "name": "Primordial Jade Cutter",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT Rate 44.1%",
+      "notes": "High CR + HP→ATK conversion. Universal stat stick. Makes building much easier.",
+      "wpn_key": "wpn_primordial_jade_cutter"
+    },
+    {
+      "rank": 3,
+      "name": "Iron Sting R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "Elemental Mastery 165",
+      "notes": "Best F2P. EM substat + 24% DMG bonus at R5. Craftable — no gacha needed.",
+      "wpn_key": "wpn_iron_sting"
+    },
+    {
+      "rank": 4,
+      "name": "Harbinger of Dawn R5",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "CRIT DMG 46.9%",
+      "notes": "Budget option. Massive CRIT stats at >90% HP. Needs a strong shielder (Zhongli).",
+      "wpn_key": "wpn_harbinger_of_dawn"
+    }
+  ],
+  "best_artifact": "4pc Gilded Dreams",
+  "artifact_why": "Best for Spread teams. 14% ATK per different element + 50 EM per same element. Alhaitham usually gets 180 EM + 14% ATK in standard teams.",
+  "artifact_alt": "2pc Deepwood Memories + 2pc EM set (Gilded/Wanderer's) — if another teammate holds 4pc Deepwood. Easier to farm with good substats.",
+  "main_stats": {
+    "sands": "EM / ATK%",
+    "sands_note": "EM sands generally. ATK% sands if using high-ATK weapon like Jade Cutter.",
+    "goblet": "Dendro DMG%",
+    "goblet_note": "Always Dendro DMG for Spread damage.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Target 70:150+ ratio. CR circlet usually needed unless using Jade Cutter."
+  },
+  "sub_priority": [
+    "1. Elemental Mastery — 300-500 (before buffs)",
+    "2. CRIT Rate / CRIT DMG — 70:150+",
+    "3. ATK% — nice to have but less priority",
+    "4. Energy Recharge — 120-130% for burst every other rotation"
+  ],
+  "teams": [
+    {
+      "name": "Spread Hypercarry",
+      "members": "Alhaitham + Nahida + Yae Miko/Fischl + Zhongli",
+      "desc": "Premium Spread team. Nahida provides EM buff + Deepwood shred. Yae/Fischl applies Electro for Quicken. Zhongli shields + further RES shred. Alhaitham triggers Spread on every mirror attack."
+    },
+    {
+      "name": "Quickbloom",
+      "members": "Alhaitham + Nahida + Yelan/Xingqiu + Kuki Shinobu",
+      "desc": "Hybrid team. Yelan provides Hydro for occasional Hyperblooms. Kuki triggers both Hyperbloom and maintains Quicken aura. Higher floor than pure Spread."
+    },
+    {
+      "name": "Budget Spread",
+      "members": "Alhaitham + Dendro MC + Fischl + Beidou/Kuki",
+      "desc": "F2P-friendly. Dendro MC holds Deepwood. Fischl + Beidou provide off-field Electro. No 5-star supports needed — still very strong."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 8"
+    }
+  ],
+  "rotation_title": "Spread Hypercarry rotation:",
+  "rotation_code": "Nahida E+Q (EM buff + mark) → Zhongli hold E (shield) → Yae/Fischl E (Electro application) → Alhaitham Q → wait for 2 mirrors → E → 3-mirror NA spam (2 rain attacks) → Charged ATK → 3-mirror NA spam (2 more rain attacks) → Switch out",
+  "rotation_key": "The goal is to maintain 3 Chisel-Light Mirrors for maximum rain attacks. Use Q→E→CA combo: Q generates 3 mirrors (wait for 2 to appear first), E adds 1 back, CA adds another. This gives 2 full 3-mirror windows.",
+  "mistakes": [
+    "Not managing mirrors — losing 3-mirror state drops DPS by ~30%. Learn the Q→wait→E→CA combo.",
+    "Using Deepwood on Alhaitham — Deepwood should be on the support (Nahida/DMC). Alhaitham wants Gilded Dreams for personal damage.",
+    "Building ATK over EM — Alhaitham's A4 passive converts EM to DMG%. EM is more valuable than ATK for Spread teams.",
+    "Bursting without mirrors — always use Q with 0 mirrors for maximum projection attacks, then rebuild with E+CA."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Best Dendro support + EM buffer"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "S",
+      "desc": "Quickbloom Hydro enabler"
+    },
+    {
+      "id": "zhongli",
+      "name": "Zhongli",
+      "element": "geo",
+      "emoji": "🟡",
+      "tier": "S",
+      "desc": "Shield for uninterrupted combos"
+    }
+  ],
+  "seo": {
+    "title": "Alhaitham Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Alhaitham build guide for Genshin Impact v5.6. Best weapons, Gilded Dreams artifacts, Spread and Quickbloom teams, mirror management rotation guide."
+  }
+}

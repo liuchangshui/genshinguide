@@ -1,0 +1,141 @@
+{
+  "_character_id": "yae-miko",
+  "_element": "electro",
+  "_weapon_type": "catalyst",
+  "_game_version": "5.6",
+  "tldr_weapon": "Kagura's Verity (BiS) / The Widsith R5 (F2P)",
+  "tldr_artifact": "4pc Golden Troupe / 2pc ATK% + 2pc Electro DMG",
+  "tldr_team": "Aggravate (Yae·Nahida·Fischl·Kazuha)",
+  "tldr_key_stats": "ATK 1800+ · CR 70%+ · CD 180%+ · EM 100-200 · E > Q > NA",
+  "intro": "Yae Miko is a 5-star Electro Catalyst sub-DPS who deploys Sesshou Sakura turrets that deal continuous off-field Electro damage. As the Guuji of the Grand Narukami Shrine, she excels in Quicken (Aggravate) teams where her turrets consistently trigger the reaction. Her Elemental Burst delivers a massive nuke by consuming all active turrets. While her playstyle requires frequent field time to refresh turrets, Yae Miko rewards with some of the highest off-field Electro DPS in the game, especially when paired with Fischl as a battery and Dendro supports for Aggravate.",
+  "weapon_bottom_line": "Kagura's Verity is her signature, stacking Elemental Skill DMG. For F2P, The Widsith R5 provides massive buff windows. Solar Pearl (BP) and Skyward Atlas are strong alternatives.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Kagura's Verity",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT DMG 66.2%",
+      "notes": "Signature BiS. Stacks E DMG 12%×3. Yae can maintain full stacks easily with turret placement.",
+      "wpn_key": "wpn_kaguras_verity"
+    },
+    {
+      "rank": 2,
+      "name": "The Widsith R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "CRIT DMG 55.1%",
+      "notes": "Best 4-star. Random buff: 120% ATK, 96% Elemental DMG, or 480 EM. All three benefit Yae. 30s cooldown means buff every other rotation.",
+      "wpn_key": "wpn_the_widsith"
+    },
+    {
+      "rank": 3,
+      "name": "Skyward Atlas",
+      "rarity": 5,
+      "atk": 674,
+      "substat": "ATK 33.1%",
+      "notes": "High base ATK + Elemental DMG bonus. Passive cloud attack adds extra damage. Solid stat stick.",
+      "wpn_key": "wpn_skyward_atlas"
+    },
+    {
+      "rank": 4,
+      "name": "Sacrificial Fragments",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Elemental Mastery 221",
+      "notes": "EM-focused option for Aggravate. Skill reset allows extra turret placements. Good F2P choice.",
+      "wpn_key": "wpn_sacrificial_fragments"
+    }
+  ],
+  "best_artifact": "4pc Golden Troupe",
+  "artifact_why": "Best for off-field Yae. 70% Elemental Skill DMG bonus — her turrets deal the majority of her damage. The 2pc effect (20% Skill DMG) works even on-field.",
+  "artifact_alt": "2pc ATK% + 2pc Electro DMG (Gladiator + Thundering Fury) — easier to farm. Slightly behind Golden Troupe but competitive with good substats.",
+  "main_stats": {
+    "sands": "ATK% / EM",
+    "sands_note": "ATK% generally. EM sands in pure Aggravate teams with low ATK buffs.",
+    "goblet": "Electro DMG%",
+    "goblet_note": "Always Electro DMG.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Target 70:180+ ratio."
+  },
+  "sub_priority": [
+    "1. CRIT Rate / CRIT DMG — 70:180+",
+    "2. ATK% — 1800+ ATK",
+    "3. Elemental Mastery — 100-200 for Aggravate",
+    "4. Energy Recharge — 130-140% (lower with Fischl battery)"
+  ],
+  "teams": [
+    {
+      "name": "Aggravate",
+      "members": "Yae Miko + Nahida + Fischl + Kazuha",
+      "desc": "Premium Aggravate. Nahida provides EM buff + Deepwood shred. Fischl batteries Yae and triggers more Aggravates. Kazuha groups + Electro DMG buff. Consistent high DPS."
+    },
+    {
+      "name": "Raiden Hypercarry",
+      "members": "Raiden + Yae + Kazuha + Bennett",
+      "desc": "Double Electro nuke team. Raiden and Yae alternate bursts. Kazuha buffs Electro. Bennett provides ATK. Massive burst damage window."
+    },
+    {
+      "name": "Tighnari Spread",
+      "members": "Tighnari + Yae + Nahida + Zhongli",
+      "desc": "Quickswap Spread. Tighnari and Yae both deal Spread/Aggravate damage. Fast rotations. Zhongli provides comfort. High single-target damage."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 9"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "Aggravate rotation:",
+  "rotation_code": "Nahida E+Q (EM buff) → Kazuha E+Q (Electro swirl + DMG buff) → Fischl E/Q (Oz summon) → Yae E×3 (place turrets) → Yae Q (detonate turrets) → Yae E×3 (replace turrets) → Kazuha E (refresh VV) → Repeat",
+  "rotation_key": "Always place 3 turrets before Q — each turret consumed adds a lightning strike. Replace turrets immediately after burst. Yae needs field time, so rotations are longer than typical quickswap teams.",
+  "mistakes": [
+    "Bursting without 3 turrets — each turret consumed adds an extra lightning strike. Without 3, you lose massive damage.",
+    "Not refreshing turrets after burst — Q destroys all turrets. Always re-place E×3 immediately after.",
+    "Building full EM like Hyperbloom trigger — Yae's Aggravate damage scales with ATK and CRIT as well. Pure EM is only for Hyperbloom teams.",
+    "Using Yae as solo Electro — without Fischl battery, Yae needs 150%+ ER and loses significant damage potential."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Aggravate enabler + EM buffer"
+    },
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "element": "electro",
+      "emoji": "🟣",
+      "tier": "S",
+      "desc": "Double Electro burst duo"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Electro DMG buff + grouping"
+    }
+  ],
+  "seo": {
+    "title": "Yae Miko Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Yae Miko build guide for Genshin Impact v5.6. Best weapons (Kagura's Verity, The Widsith), Golden Troupe artifacts, Aggravate teams, rotation guide."
+  }
+}

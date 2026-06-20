@@ -39,16 +39,16 @@
       "zh": "⚡ 试试Build计算器"
     },
     "btn_guides": {
-      "en": "📚 Browse 15 Guides",
-      "zh": "📚 浏览15篇攻略"
+      "en": "📚 Browse 19 Guides",
+      "zh": "📚 浏览19篇攻略"
     },
     "btn_pro": {
       "en": "⭐ Go Pro $5/mo",
       "zh": "⭐ 开通会员 $5/月"
     },
     "stat1_num": {
-      "en": "15",
-      "zh": "15"
+      "en": "19",
+      "zh": "19"
     },
     "stat1_label": {
       "en": "Character Guides",
@@ -215,8 +215,8 @@
       "zh": "永久免费"
     },
     "free_f1": {
-      "en": "All 15 character guides",
-      "zh": "全部15篇角色攻略"
+      "en": "All 19 character guides",
+      "zh": "全部19篇角色攻略"
     },
     "free_f2": {
       "en": "Basic build calculator",
@@ -327,8 +327,8 @@
       "zh": "✅ 感谢订阅！请查收邮件。"
     },
     "view_all": {
-      "en": "View All 15 Guides →",
-      "zh": "查看全部15篇攻略 →"
+      "en": "View All 19 Guides →",
+      "zh": "查看全部19篇攻略 →"
     }
   },
   "guide": {
@@ -999,8 +999,8 @@
       "zh": "全部<span class=\"highlight\">角色攻略</span>"
     },
     "subtitle": {
-      "en": "15 data-driven guides. Click any character for full build details — weapons, artifacts, teams, rotations.",
-      "zh": "15篇数据驱动攻略。点击任意角色查看完整Build详情——武器、圣遗物、配队、输出循环。"
+      "en": "19 data-driven guides. Click any character for full build details.",
+      "zh": "19篇数据驱动攻略。点击任意角色查看完整Build详情。"
     },
     "raiden_desc": {
       "en": "Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National",
@@ -1105,6 +1105,14 @@
     "tartaglia_desc": {
       "en": "Main DPS — Heart of Depth, Polar Star, International team",
       "zh": "主C — 沉沦之心，冬极白星，万达国际"
+    },
+    "alhaitham_desc": {
+      "en": "Main DPS — Gilded Dreams, Light of Foliar, Spread/Quickbloom",
+      "zh": "主C — 饰金之梦，裁叶萃光，蔓激化/激绽"
+    },
+    "yae-miko_desc": {
+      "en": "Sub DPS — Golden Troupe, Kagura's Verity, Aggravate teams",
+      "zh": "副C — 黄金剧团，神乐之真意，激化队"
     }
   },
   "footer": {
@@ -5079,6 +5087,18 @@
     "wpn_viridescent_hunt": {
       "en": "The Viridescent Hunt",
       "zh": "苍翠猎弓"
+    },
+    "wpn_light_of_foliar": {
+      "en": "Light of Foliar Incision",
+      "zh": "裁叶萃光"
+    },
+    "wpn_kaguras_verity": {
+      "en": "Kagura's Verity",
+      "zh": "神乐之真意"
+    },
+    "wpn_skyward_atlas": {
+      "en": "Skyward Atlas",
+      "zh": "天空之卷"
     }
   },
   "arti_names": {
@@ -5437,6 +5457,290 @@
     "related_bennett": {
       "en": "ATK buff engine",
       "zh": "攻击增益引擎"
+    }
+  },
+  "alhaitham": {
+    "name": {
+      "en": "Alhaitham",
+      "zh": "艾尔海森"
+    },
+    "desc": {
+      "en": "The current scribe of the Sumeru Akademiya.",
+      "zh": "须弥教令院现任书记官。"
+    },
+    "intro": {
+      "en": "Alhaitham is a 5-star Dendro Sword DPS.",
+      "zh": "艾尔海森是五星草元素单手剑主C，使用琢光镜为攻击附加草元素附魔并造成高额蔓激化伤害。作为教令院代理贤者，他是游戏中最强的站场输出之一，纯蔓激化伤害堪比超绽放队伍。他的棱镜管理创造了高操作上限——最优循环产生三镜光雨攻击，造成毁灭性的范围草伤。愿意学习机制的玩家将获得顶级的对单和对群表现。"
+    },
+    "weapon_bottom_line": {
+      "en": "Light of Foliar Incision is his signature.",
+      "zh": "裁叶萃光是他的专武，基于精通提升伤害。磐岩结绿和雾切之回光是强力替代。零氪推荐铁蜂刺R5提供精通和增伤——性价比极高。黎明神剑R5在维持90%以上血量时是意外的强力廉价选择。"
+    },
+    "w1_notes": {
+      "en": "Signature BiS.",
+      "zh": "专属毕业武器。暴击伤害+精通转普攻伤害。完美适配蔓激化艾尔海森。"
+    },
+    "w2_notes": {
+      "en": "High CR + HP→ATK conversion.",
+      "zh": "高暴击率+生命转攻击。万用属性武器。大幅降低毕业难度。"
+    },
+    "w3_notes": {
+      "en": "Best F2P. EM substat + 24% DMG bonus at R5.",
+      "zh": "零氪最优。精通副词条+R5 24%增伤。锻造可得——无需抽卡。"
+    },
+    "w4_notes": {
+      "en": "Budget option. Massive CRIT at >90% HP.",
+      "zh": "廉价选择。90%血量以上提供极高双爆。需要强力盾辅（钟离）。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Gilded Dreams",
+      "zh": "🎯 最佳：饰金之梦4件套"
+    },
+    "arti_why": {
+      "en": "Best for Spread teams.",
+      "zh": "蔓激化队最佳。不同元素队友提供14%攻击力，相同元素提供50精通。标准配队中艾尔海森通常获得180精通+14%攻击力。"
+    },
+    "sands_note": {
+      "en": "EM sands generally.",
+      "zh": "精通沙一般是更好选择。使用高攻击武器（如磐岩结绿）时可选攻击沙。"
+    },
+    "goblet_note": {
+      "en": "Always Dendro DMG.",
+      "zh": "一律选择草伤杯。"
+    },
+    "circlet_note": {
+      "en": "Target 70:150+ ratio.",
+      "zh": "目标70:150+双爆比。除用磐岩结绿外通常需要暴击头。"
+    },
+    "sub1": {
+      "en": "1. Elemental Mastery — 300-500",
+      "zh": "1. 元素精通 — 300-500（buff前）"
+    },
+    "sub2": {
+      "en": "2. CRIT Rate / CRIT DMG — 70:150+",
+      "zh": "2. 暴击率/暴击伤害 — 70:150+"
+    },
+    "sub3": {
+      "en": "3. ATK%",
+      "zh": "3. 攻击力% — 锦上添花"
+    },
+    "sub4": {
+      "en": "4. Energy Recharge — 120-130%",
+      "zh": "4. 元素充能效率 — 120-130%"
+    },
+    "team1_name": {
+      "en": "Spread Hypercarry",
+      "zh": "蔓激化主C"
+    },
+    "team1_desc": {
+      "en": "Premium Spread team.",
+      "zh": "顶配蔓激化。纳西妲提供精通buff+深林减抗。八重/菲谢尔挂雷触发原激化。钟离护盾+进一步减抗。艾尔海森每次棱镜攻击触发蔓激化。"
+    },
+    "team2_name": {
+      "en": "Quickbloom",
+      "zh": "激绽队"
+    },
+    "team2_desc": {
+      "en": "Hybrid team. Higher floor than pure Spread.",
+      "zh": "混合队伍。夜兰提供水元素生成草原核。久岐忍触发超绽放同时维持原激化。下限比纯蔓激化更高。"
+    },
+    "team3_name": {
+      "en": "Budget Spread",
+      "zh": "平民蔓激化"
+    },
+    "team3_desc": {
+      "en": "F2P-friendly. No 5-star supports needed.",
+      "zh": "零氪友好。草主带深林套。菲谢尔+北斗提供后台雷。无需五星辅助——依然非常强力。"
+    },
+    "rotation_title": {
+      "en": "Spread Hypercarry rotation:",
+      "zh": "蔓激化主C循环："
+    },
+    "m1": {
+      "en": "Not managing mirrors",
+      "zh": "❌ 不管理棱镜——失去三镜状态DPS下降约30%。学习Q→等→E→重击循环。"
+    },
+    "m2": {
+      "en": "Using Deepwood on Alhaitham",
+      "zh": "❌ 艾尔海森带深林套——深林应由辅助（纳西妲/草主）带。艾尔海森要饰金之梦提升个人伤害。"
+    },
+    "m3": {
+      "en": "Building ATK over EM",
+      "zh": "❌ 堆攻击不堆精通——艾尔海森A4被动将精通转化为增伤。蔓激化队精通比攻击更有价值。"
+    },
+    "m4": {
+      "en": "Bursting without mirrors",
+      "zh": "❌ 有棱镜时开大——永远在0镜时开大最大化投射攻击，然后用E+重击重建棱镜。"
+    },
+    "tldr_weapon": {
+      "en": "Light of Foliar Incision (BiS) / Iron Sting R5 (F2P)",
+      "zh": "裁叶萃光 (专武) / 铁蜂刺 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Gilded Dreams / 2pc Deepwood + 2pc EM",
+      "zh": "饰金之梦4件套 / 深林2+精通2"
+    },
+    "tldr_team": {
+      "en": "Spread Hypercarry (Alhaitham·Nahida·Yae·Zhongli)",
+      "zh": "蔓激化主C (艾尔海森·纳西妲·八重·钟离)"
+    },
+    "tldr_key_stats": {
+      "en": "EM 300-500 · CR 70%+ · CD 150%+ · ER 120-130%",
+      "zh": "精通 300-500 · 暴击 70%+ · 爆伤 150%+ · 充能 120-130%"
+    },
+    "related_nahida": {
+      "en": "Best Dendro support + EM buffer",
+      "zh": "最佳草辅+精通拐"
+    },
+    "related_yelan": {
+      "en": "Quickbloom Hydro enabler",
+      "zh": "激绽队水元素启动"
+    },
+    "related_zhongli": {
+      "en": "Shield for uninterrupted combos",
+      "zh": "护盾保护连招不中断"
+    }
+  },
+  "yae-miko": {
+    "name": {
+      "en": "Yae Miko",
+      "zh": "八重神子"
+    },
+    "desc": {
+      "en": "The Guuji of the Grand Narukami Shrine.",
+      "zh": "鸣神大社的宫司大人。"
+    },
+    "intro": {
+      "en": "Yae Miko is a 5-star Electro Catalyst sub-DPS.",
+      "zh": "八重神子是五星雷元素法器副C，部署杀生樱炮台持续造成后台雷伤。作为鸣神大社的宫司，她在激化（超激化）队中表现出色，炮台持续触发反应。元素爆发通过引爆所有炮台造成毁灭性核爆。虽然她的玩法需要频繁站场刷新炮台，但八重神子配合菲谢尔充能和草系辅助激化，能提供全游戏最高的后台雷伤之一。"
+    },
+    "weapon_bottom_line": {
+      "en": "Kagura's Verity is her signature.",
+      "zh": "神乐之真意是她的专武，叠加元素战技伤害。零氪推荐流浪乐章R5提供强力buff窗口。匣里日月（纪行）和天空之卷是强力替代。"
+    },
+    "w1_notes": {
+      "en": "Signature BiS. Stacks E DMG 12%×3.",
+      "zh": "专属毕业武器。元素战技伤害叠加12%×3层。八重放置炮台即可轻松维持满层。"
+    },
+    "w2_notes": {
+      "en": "Best 4-star. Random buff — all benefit Yae.",
+      "zh": "最佳四星。随机buff：120%攻击/96%元素伤害/480精通。三种全对八重有益。30秒冷却意味着每隔一轮触发一次。"
+    },
+    "w3_notes": {
+      "en": "High base ATK + Elemental DMG bonus.",
+      "zh": "高白值+元素伤害加成。被动云朵攻击额外补伤害。扎实的五星属性武器。"
+    },
+    "w4_notes": {
+      "en": "EM-focused option for Aggravate.",
+      "zh": "激化队精通向选择。战技重置提供额外炮台次数。零氪好选择。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Golden Troupe",
+      "zh": "🎯 最佳：黄金剧团4件套"
+    },
+    "arti_why": {
+      "en": "Best for off-field Yae. 70% Elemental Skill DMG.",
+      "zh": "后台八重最佳。70%元素战技伤害加成——她的炮台是主要输出来源。"
+    },
+    "sands_note": {
+      "en": "ATK% generally. EM for pure Aggravate.",
+      "zh": "攻击%为主。纯激化队低攻击buff时用精通沙。"
+    },
+    "goblet_note": {
+      "en": "Always Electro DMG.",
+      "zh": "一律选择雷伤杯。"
+    },
+    "circlet_note": {
+      "en": "Target 70:180+ ratio.",
+      "zh": "目标70:180+双爆比。"
+    },
+    "sub1": {
+      "en": "1. CRIT Rate / CRIT DMG — 70:180+",
+      "zh": "1. 暴击率/暴击伤害 — 70:180+"
+    },
+    "sub2": {
+      "en": "2. ATK% — 1800+ ATK",
+      "zh": "2. 攻击力% — 1800+ 攻击力"
+    },
+    "sub3": {
+      "en": "3. Elemental Mastery — 100-200",
+      "zh": "3. 元素精通 — 激化队100-200"
+    },
+    "sub4": {
+      "en": "4. Energy Recharge — 130-140%",
+      "zh": "4. 元素充能效率 — 130-140%（有菲谢尔可降低）"
+    },
+    "team1_name": {
+      "en": "Aggravate",
+      "zh": "激化队"
+    },
+    "team1_desc": {
+      "en": "Premium Aggravate.",
+      "zh": "顶配激化。纳西妲提供精通buff+深林减抗。菲谢尔为八重充能并触发更多激化。万叶聚怪+雷伤增益。稳定的高输出。"
+    },
+    "team2_name": {
+      "en": "Raiden Hypercarry",
+      "zh": "雷神双核"
+    },
+    "team2_desc": {
+      "en": "Double Electro nuke team.",
+      "zh": "双雷核爆队。雷神与八重交替爆发。万叶雷伤增益。班尼特攻击力。巨大的爆发窗口伤害。"
+    },
+    "team3_name": {
+      "en": "Tighnari Spread",
+      "zh": "提纳里蔓激化"
+    },
+    "team3_desc": {
+      "en": "Quickswap Spread. High single-target.",
+      "zh": "速切蔓激化。提纳里与八重分别打出蔓激化/超激化。快速循环。钟离提供舒适度。高额对单伤害。"
+    },
+    "rotation_title": {
+      "en": "Aggravate rotation:",
+      "zh": "激化队循环："
+    },
+    "m1": {
+      "en": "Bursting without 3 turrets",
+      "zh": "❌ 不足3个炮台开大——每多引爆一个炮台增加一道天雷。没有3个损失大量伤害。"
+    },
+    "m2": {
+      "en": "Not refreshing turrets after burst",
+      "zh": "❌ 大招后不补炮台——Q摧毁所有炮台。务必立刻重新放置3个E。"
+    },
+    "m3": {
+      "en": "Building full EM like Hyperbloom trigger",
+      "zh": "❌ 全堆精通像超绽放触发器——八重的激化伤害同时依赖攻击和双爆。纯精通只适合超绽放队。"
+    },
+    "m4": {
+      "en": "Using Yae as solo Electro",
+      "zh": "❌ 八重单雷——没有菲谢尔充能，八重需要150%+充能效率且损失大量伤害潜力。"
+    },
+    "tldr_weapon": {
+      "en": "Kagura's Verity (BiS) / The Widsith R5 (F2P)",
+      "zh": "神乐之真意 (专武) / 流浪乐章 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Golden Troupe / 2pc ATK% + 2pc Electro DMG",
+      "zh": "黄金剧团4件套 / 攻击2+雷伤2"
+    },
+    "tldr_team": {
+      "en": "Aggravate (Yae·Nahida·Fischl·Kazuha)",
+      "zh": "激化队 (八重·纳西妲·菲谢尔·万叶)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 1800+ · CR 70%+ · CD 180%+ · EM 100-200",
+      "zh": "攻击 1800+ · 暴击 70%+ · 爆伤 180%+ · 精通 100-200"
+    },
+    "related_nahida": {
+      "en": "Aggravate enabler + EM buffer",
+      "zh": "激化启动器+精通拐"
+    },
+    "related_raiden": {
+      "en": "Double Electro burst duo",
+      "zh": "双雷爆发组合"
+    },
+    "related_kazuha": {
+      "en": "Electro DMG buff + grouping",
+      "zh": "雷伤增益+聚怪"
     }
   }
 }
