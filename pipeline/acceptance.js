@@ -95,6 +95,14 @@ fs.readdirSync(zhDir).filter(function(f) { return f.endsWith(".html"); }).forEac
         ERRORS.push("zh/" + f + ": English related name: " + relMatch[1]);
         zhIssues++;
     }
+    // Check homepage calculator uses t() for display values
+    if (f === "index.html") {
+        if (!/t\(c\.name\)/.test(html)) ERRORS.push("zh/index.html: home calc not using t(c.name)");
+        if (!/t\(arti\.best\)/.test(html)) ERRORS.push("zh/index.html: home calc not using t(arti.best)");
+        if (!/t\(main\.sands\)/.test(html)) ERRORS.push("zh/index.html: home calc not using t(main.sands)");
+        if (!/t\(tm\.name\)/.test(html)) ERRORS.push("zh/index.html: home calc not using t(tm.name)");
+        if (!/calc-i18n\.js/.test(html)) ERRORS.push("zh/index.html: missing calc-i18n.js script");
+    }
 });
 if (zhIssues === 0) {
     console.log("  ✅ No English residue");
