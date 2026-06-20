@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Faruzan build guide. Best ER build pre-C6, Tenacity support post-C6, Xiao and Wanderer team compositions, rotation guide.">
+<title>Faruzan Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Faruzan Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Faruzan build guide. Best ER build pre-C6, Tenacity support post-C6, Xiao and Wanderer team compositions, rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-faruzan.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Faruzan Build Guide — v5.6","description":"Complete Faruzan build guide. Best ER build pre-C6, Tenacity support post-C6, Xiao and Wanderer team compositions, rotation guide.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-faruzan.html"}}</script>
+</head>
+<body data-page="faruzan">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="tier-list.html" data-i18n="nav.tierlist">Tier List</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase anemo">
+  <div class="char-portrait">
+    <img src="../images/faruzan-card.webp" alt="Faruzan" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(77,182,172,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback anemo" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(77,182,172,0.15));">
+      <span>Faruzan</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v5.6 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-20 · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
+    <h1 class="char-name"><span data-i18n="faruzan.name">Faruzan</span> <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag" data-i18n="guide.weapon_bow">Bow</span>
+      <span class="elem-tag" data-i18n="guide.element_anemo">Anemo</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role" data-i18n="guide.role_support">Support</span>
+    </div>
+    <p class="char-desc" data-i18n="faruzan.desc">A researcher from 'one hundred years ago'. She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box anemo">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">🍃 <span data-i18n="guide.tldr_best_weapon">Best Weapon</span></div>
+        <div class="tldr-value" data-i18n="faruzan.tldr_weapon">Favonius Warbow (BiS) / Sacrificial Bow (F2P alt)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span data-i18n="guide.tldr_best_artifact">Best Artifact</span></div>
+        <div class="tldr-value" data-i18n="faruzan.tldr_artifact">4pc Emblem of Severed Fate / 4pc Tenacity of the Millelith</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span data-i18n="guide.tldr_best_team">Best Team</span></div>
+        <div class="tldr-value" data-i18n="faruzan.tldr_team">Xiao Hypercarry (Xiao·Faruzan·Furina·Xianyun)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span data-i18n="guide.tldr_key_stats_label">Key Stats</span></div>
+        <div class="tldr-value" data-i18n="faruzan.tldr_key_stats">ER 250-300% (pre-C6) · Base ATK for buff · C6 game-changer · Q > E > NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="faruzan.intro">Faruzan is a 4-star Anemo Bow support who provides the single strongest Anemo DMG buff in the game. Her Elemental Burst applies Anemo RES shred (30% at Lv10) and grants Anemo DMG bonus to the team. Her C6 is one of the most transformative constellations in the game — it generates continuous energy particles, provides 40% Anemo CRIT DMG, and applies her buffs automatically. Faruzan is the dedicated support for Xiao, Wanderer, and any future Anemo hypercarry. Pre-C6 she needs extreme ER investment (250-300%); post-C6 her ER needs drop dramatically.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="anemo" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box anemo">
+    <strong data-i18n="guide.bottom_line_label">Bottom line:</strong> <span data-i18n="faruzan.weapon_bottom_line">Favonius Warbow is her best — ER substat + team energy particles. Sacrificial Bow provides ER + skill reset for more energy. Elegy for the End (5-star) provides team EM + ATK buffs. Pre-C6, ER is the ONLY stat that matters.</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(77,182,172,0.2);">
+        <th data-i18n="guide.th_rank">Rank</th>
+        <th data-i18n="guide.th_weapon">Weapon</th>
+        <th data-i18n="guide.th_rarity">Rarity</th>
+        <th data-i18n="guide.th_atk">Base ATK</th>
+        <th data-i18n="guide.th_substat">Sub-stat</th>
+        <th data-i18n="guide.th_notes">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td data-i18n="wpn.wpn_favonius_warbow">Favonius Warbow</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>Energy Recharge 61.3%</td>
+        <td data-i18n="faruzan.w1_notes">Best overall. ER substat + team energy. Pre-C6 Faruzan needs every ER source available.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td data-i18n="wpn.wpn_sacrificial_bow">Sacrificial Bow</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>565</td>
+        <td>Energy Recharge 30.6%</td>
+        <td data-i18n="faruzan.w2_notes">Skill reset = double particles. Less ER than Favonius but more personal energy.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td data-i18n="wpn.wpn_elegy_for_the_end">Elegy for the End</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>Energy Recharge 55.1%</td>
+        <td data-i18n="faruzan.w3_notes">5-star support option. Team EM + ATK buff on skill/burst hit. Best for post-C6 Faruzan.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native" style="text-align:center;padding:24px;opacity:0.5;">
+    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:6px;" data-i18n="ad.label">Ad Space</div>
+    <div style="font-size:0.85rem;color:var(--text-secondary);" data-i18n="ad.placeholder">Ad placement — coming soon</div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="anemo" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box anemo">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="faruzan.arti_best">🎯 Best: 4pc Emblem of Severed Fate</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="faruzan.arti_why">Pre-C6: converts 250%+ ER into burst DMG. Faruzan's burst cost is 80 and she needs massive ER — Emblem doubles the value.</p>
+  </div>
+
+  <h3 class="anemo" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th data-i18n="guide.th_slot">Slot</th><th data-i18n="guide.th_mainstat">Main Stat</th><th data-i18n="guide.th_mnotes">Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span data-i18n="guide.sands_label">Sands</span></td>
+        <td>ER% / ATK%</td>
+        <td data-i18n="faruzan.sands_note">ER% pre-C6 until 250-300%. ATK% post-C6 when ER needs drop.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span data-i18n="guide.goblet_label">Goblet</span></td>
+        <td>Anemo DMG% / ATK%</td>
+        <td data-i18n="faruzan.goblet_note">Anemo DMG for personal damage. ATK% for pure support.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span data-i18n="guide.circlet_label">Circlet</span></td>
+        <td>CRIT Rate / ATK%</td>
+        <td data-i18n="faruzan.circlet_note">CRIT Rate if using Favonius. ATK% for pure support.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="anemo" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li data-i18n="faruzan.sub1">1. Energy Recharge — 250-300% pre-C6 (until comfortable)</li>
+    
+    <li data-i18n="faruzan.sub2">2. CRIT Rate — only if using Favonius Warbow</li>
+    
+    <li data-i18n="faruzan.sub3">3. ATK% — post-C6, for buff scaling</li>
+    
+    <li data-i18n="faruzan.sub4">4. Flat ATK</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="anemo" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  
+  <div class="emphasis-box anemo">
+    <strong data-i18n="faruzan.team1_name">Xiao FFXX</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Xiao + Faruzan C6 + Furina + Xianyun</span><br>
+    <span data-i18n="faruzan.team1_desc" style="font-size:0.88rem;">Xiao's best team. Faruzan C6 provides 30% Anemo RES shred + 40% Anemo CRIT DMG + continuous energy. Furina amplifies all damage. Xianyun enables higher plunges.</span>
+  </div>
+  
+  <div class="emphasis-box anemo">
+    <strong data-i18n="faruzan.team2_name">Wanderer Hypercarry</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Wanderer + Faruzan + Bennett + Zhongli</span><br>
+    <span data-i18n="faruzan.team2_desc" style="font-size:0.88rem;">Wanderer's best team. Faruzan buffs Anemo DMG. Bennett provides ATK. Zhongli shields. Consistent high DPS.</span>
+  </div>
+  
+  <div class="emphasis-box anemo">
+    <strong data-i18n="faruzan.team3_name">Budget Anemo Support</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Heizou + Faruzan + Bennett + Flex</span><br>
+    <span data-i18n="faruzan.team3_desc" style="font-size:0.88rem;">For accounts without Xiao/Wanderer. Heizou drives with Anemo DMG. Faruzan amplifies. Works with any Anemo DPS.</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="anemo" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#4db6ac;background:rgba(77,182,172,0.08);">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label" data-i18n="guide.talent1_label">Elemental Burst</div>
+      <div class="talent-priority p1">Level 9-10</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label" data-i18n="guide.talent2_label">Elemental Skill</div>
+      <div class="talent-priority p2">Level 6-8</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label" data-i18n="guide.talent3_label">Normal Attack</div>
+      <div class="talent-priority p3">Level 1 (skip)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="anemo" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box anemo">
+    <div data-i18n="faruzan.rotation_title">Xiao FFXX rotation:</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Faruzan Q (Anemo shred + buff) → Furina E+Q (Fanfare + Hydro) → Xianyun E+Q (heal + plunge buff) → Xiao EE → Q → Plunge spam → Faruzan E (energy funnel to Xiao) → Repeat</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="anemo" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="faruzan.m1">❌ Not building enough ER pre-C6 — Faruzan's 80-cost burst with poor particle generation means she needs 250-300% ER. Without it, you burst once every 3 rotations. This is the #1 mistake.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="faruzan.m2">❌ Leveling NA talent — Faruzan deals zero damage with normal attacks. Her value is entirely in Q and E buffs.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="faruzan.m3">❌ Using ATK weapon pre-C6 — pre-C6, Faruzan cannot burst without ER weapon. ATK weapons are only viable post-C6.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="faruzan.m4">❌ Not funneling particles to Xiao — pre-C6, use Faruzan E then immediately swap to Xiao to catch the Anemo particles. This is essential for Xiao's energy.</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#4db6ac;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p data-i18n="guide.pro_teaser_desc">Get exact damage numbers, compare artifact loadouts, and optimize your Faruzan build with the Pro DMG Simulator.</p>
+    <div class="teaser-cta">
+      <p data-i18n="guide.pro_teaser_cta">Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking. Coming soon.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      
+      <a href="guide-xiao.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/xiao-card.webp" alt="Xiao" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="xiao.name">Xiao</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="faruzan.related_xiao">Primary DPS — FFXX team core</p>
+        </div>
+      </a>
+      
+      <a href="guide-furina.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <img src="../images/furina-card.webp" alt="Furina" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon hydro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">💧</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="furina.name">Furina</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="faruzan.related_furina">DMG amplifier for Anemo teams</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/kazuha-card.webp" alt="Kaedehara Kazuha" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="kazuha.name">Kaedehara Kazuha</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="faruzan.related_kazuha">Alternative Anemo support (different role)</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

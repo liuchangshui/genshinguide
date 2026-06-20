@@ -43,16 +43,16 @@
       "zh": "⚡ 试试Build计算器"
     },
     "btn_guides": {
-      "en": "📚 Browse 24 Guides",
-      "zh": "📚 浏览24篇攻略"
+      "en": "📚 Browse 26 Guides",
+      "zh": "📚 浏览26篇攻略"
     },
     "btn_pro": {
       "en": "⭐ Go Pro $5/mo",
       "zh": "⭐ 开通会员 $5/月"
     },
     "stat1_num": {
-      "en": "24",
-      "zh": "24"
+      "en": "26",
+      "zh": "26"
     },
     "stat1_label": {
       "en": "Character Guides",
@@ -219,8 +219,8 @@
       "zh": "永久免费"
     },
     "free_f1": {
-      "en": "All 24 character guides",
-      "zh": "全部24篇角色攻略"
+      "en": "All 26 character guides",
+      "zh": "全部26篇角色攻略"
     },
     "free_f2": {
       "en": "Basic build calculator",
@@ -331,8 +331,8 @@
       "zh": "✅ 感谢订阅！请查收邮件。"
     },
     "view_all": {
-      "en": "View All 24 Guides →",
-      "zh": "查看全部24篇攻略 →"
+      "en": "View All 26 Guides →",
+      "zh": "查看全部26篇攻略 →"
     }
   },
   "guide": {
@@ -1003,8 +1003,8 @@
       "zh": "全部<span class=\"highlight\">角色攻略</span>"
     },
     "subtitle": {
-      "en": "24 data-driven guides. Click any character for full build details.",
-      "zh": "24篇数据驱动攻略。点击任意角色查看完整Build详情。"
+      "en": "26 data-driven guides.",
+      "zh": "26篇数据驱动攻略。"
     },
     "raiden_desc": {
       "en": "Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National",
@@ -1137,6 +1137,14 @@
     "sucrose_desc": {
       "en": "Support — VV set, Sac Frags, EM share + grouping",
       "zh": "辅助 — 风套，祭礼残章，精通共享+聚怪"
+    },
+    "yaoyao_desc": {
+      "en": "Healer — Deepwood set, Black Tassel, Nilou Bloom teams",
+      "zh": "治疗 — 深林套，黑缨枪，妮露绽放队"
+    },
+    "faruzan_desc": {
+      "en": "Support — Emblem set, Favonius Warbow, Anemo buffer (Xiao/Wanderer)",
+      "zh": "辅助 — 绝缘套，西风猎弓，风系专拐（魈/流浪者）"
     }
   },
   "footer": {
@@ -5147,6 +5155,14 @@
     "wpn_toukabou_shigure": {
       "en": "Toukabou Shigure",
       "zh": "东花坊时雨"
+    },
+    "wpn_kitain_cross_spear": {
+      "en": "Kitain Cross Spear R5",
+      "zh": "喜多院十文字R5"
+    },
+    "wpn_elegy_for_the_end": {
+      "en": "Elegy for the End",
+      "zh": "终末嗟叹之诗"
     }
   },
   "arti_names": {
@@ -6621,6 +6637,282 @@
     "albedo": {
       "en": "Off-field Geo DPS. Double Geo core.",
       "zh": "后台岩C。双岩核心。"
+    }
+  },
+  "yaoyao": {
+    "name": {
+      "en": "Yaoyao",
+      "zh": "瑶瑶"
+    },
+    "desc": {
+      "en": "A young disciple of the adepti.",
+      "zh": "仙人的年轻弟子。"
+    },
+    "intro": {
+      "en": "Yaoyao is a 4-star Dendro Polearm healer.",
+      "zh": "瑶瑶是四星草元素长柄治疗角色，部署月桂——一个弹跳的萝卜，治疗队友并造成草伤。她的大招召唤多个月桂实现巨量全队治疗。瑶瑶是稀有的草系治疗之一，在妮露绽放队中不可或缺，因为丰穰之核的自伤需要持续治疗。她也适合激化和原激化队伍，提供草共鸣和续航。虽是四星，瑶瑶的脱手草附着与全队治疗结合使她成为顶级辅助。"
+    },
+    "tldr_weapon": {
+      "en": "Favonius Lance (BiS) / Black Tassel R5 (F2P)",
+      "zh": "西风长枪 (最佳) / 黑缨枪 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Deepwood Memories (HP/HP/Healing)",
+      "zh": "深林的记忆4件套 (生命/生命/治疗)"
+    },
+    "tldr_team": {
+      "en": "Nilou Bloom (Nilou·Nahida·Yaoyao·Xingqiu)",
+      "zh": "妮露绽放 (妮露·纳西妲·瑶瑶·行秋)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 30K+ · ER 160-180% · Healing Bonus circlet",
+      "zh": "生命 30K+ · 充能 160-180% · 治疗头"
+    },
+    "weapon_bottom_line": {
+      "en": "Favonius Lance provides team energy.",
+      "zh": "西风长枪提供全队充能。黑缨枪R5是三星却有极高生命%加成。喜多院十文字（锻造）提供精通和回能。专注生命和充能——伤害属性无用。"
+    },
+    "w1_notes": {
+      "en": "Best support option.",
+      "zh": "最佳辅助选择。全队充能。充能副词条辅助大招覆盖。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. Massive HP% for max healing.",
+      "zh": "零氪最优。极高生命%最大化治疗。三星武器升级便宜。"
+    },
+    "w3_notes": {
+      "en": "Craftable. EM for reaction + energy refund.",
+      "zh": "锻造可得。精通辅助反应队+回能。绽放队好用。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Deepwood Memories",
+      "zh": "🎯 最佳：深林的记忆4件套"
+    },
+    "arti_why": {
+      "en": "Best support set. 30% Dendro RES shred.",
+      "zh": "最佳辅助套。30%草抗削减惠及全队草伤。瑶瑶的月桂脱手挂草维持减益。"
+    },
+    "sands_note": {
+      "en": "HP% for healing. ER% if below 160%.",
+      "zh": "生命%强化治疗。充能%低于160%时选择。"
+    },
+    "goblet_note": {
+      "en": "Always HP%.",
+      "zh": "一律生命杯。草伤杯对治疗无效。"
+    },
+    "circlet_note": {
+      "en": "Healing Bonus for max healing.",
+      "zh": "治疗头最大化治疗。生命%是过渡选择。"
+    },
+    "sub1": {
+      "en": "1. HP% — 30K+",
+      "zh": "1. 生命值% — 30K+"
+    },
+    "sub2": {
+      "en": "2. Energy Recharge — 160-180%",
+      "zh": "2. 元素充能效率 — 160-180%"
+    },
+    "sub3": {
+      "en": "3. Flat HP",
+      "zh": "3. 固定生命值"
+    },
+    "sub4": {
+      "en": "4. Elemental Mastery — Bloom only",
+      "zh": "4. 元素精通 — 仅绽放队"
+    },
+    "team1_name": {
+      "en": "Nilou Bloom",
+      "zh": "妮露绽放"
+    },
+    "team1_desc": {
+      "en": "Yaoyao's best team.",
+      "zh": "瑶瑶最佳配队。丰穰之核造成自伤——瑶瑶巨量全队治疗确保存活。双草共鸣提高精通。月桂脱手挂草。"
+    },
+    "team2_name": {
+      "en": "Aggravate Support",
+      "zh": "激化辅助"
+    },
+    "team2_desc": {
+      "en": "Yaoyao provides Dendro + healing.",
+      "zh": "瑶瑶提供草元素触发原激化+治疗。一兼两职。菲谢尔/八重打超激化伤害。"
+    },
+    "team3_name": {
+      "en": "Alhaitham Spread",
+      "zh": "艾尔海森蔓激化"
+    },
+    "team3_desc": {
+      "en": "Budget Spread team.",
+      "zh": "平民蔓激化。瑶瑶提供双草共鸣+治疗。艾尔海森触发蔓激化。菲谢尔挂雷维持原激化。"
+    },
+    "rotation_title": {
+      "en": "Nilou Bloom rotation:",
+      "zh": "妮露绽放循环："
+    },
+    "m1": {
+      "en": "Building DMG stats on Yaoyao",
+      "zh": "❌ 瑶瑶堆输出属性——她是纯治疗。攻击/草伤/双爆几乎无效。只有生命和治疗加成有效。"
+    },
+    "m2": {
+      "en": "Not using Deepwood if no one else has it",
+      "zh": "❌ 没人带深林套——30%草抗削减对草队至关重要。队里必须有人带4件套。"
+    },
+    "m3": {
+      "en": "Using Q unnecessarily",
+      "zh": "❌ 不必要开大——瑶瑶大招期间强制站场5秒。只在全队残血时使用。平时E治疗足够。"
+    },
+    "m4": {
+      "en": "Not leveling E talent",
+      "zh": "❌ 不升E技能——月桂的治疗量取决于E技能等级。优先E而非Q。"
+    },
+    "related_nahida": {
+      "en": "Dendro enabler + EM buffer",
+      "zh": "草系启动+精通拐"
+    },
+    "related_alhaitham": {
+      "en": "Spread team DPS",
+      "zh": "蔓激化主C"
+    },
+    "related_kuki-shinobu": {
+      "en": "Alternative healer for Hyperbloom",
+      "zh": "超绽放替代治疗"
+    }
+  },
+  "faruzan": {
+    "name": {
+      "en": "Faruzan",
+      "zh": "珐露珊"
+    },
+    "desc": {
+      "en": "A researcher from the Akademiya.",
+      "zh": "教令院的研究员。"
+    },
+    "intro": {
+      "en": "Faruzan is a 4-star Anemo Bow support.",
+      "zh": "珐露珊是四星风元素弓辅助，提供全游戏最强的风伤增益。大招施加风抗削减（Lv10为30%）并为全队提供风伤加成。她的六命是游戏中最质变的命座之一——持续生成能量微粒、提供40%风元素暴击伤害、自动施加buff。珐露珊是魈、流浪者及任何未来风系主C的专属辅助。六命前需要极高的充能投入（250-300%），六命后充能需求大幅下降。"
+    },
+    "tldr_weapon": {
+      "en": "Favonius Warbow (BiS) / Sacrificial Bow (F2P)",
+      "zh": "西风猎弓 (最佳) / 祭礼弓 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate / 4pc Tenacity (post-C6)",
+      "zh": "绝缘之旗印4件套 / 千岩牢固4件套 (六命后)"
+    },
+    "tldr_team": {
+      "en": "Xiao FFXX (Xiao·Faruzan·Furina·Xianyun)",
+      "zh": "魈FFXX (魈·珐露珊·芙宁娜·闲云)"
+    },
+    "tldr_key_stats": {
+      "en": "ER 250-300% (pre-C6) · C6 game-changer",
+      "zh": "充能 250-300% (六命前) · C6质变"
+    },
+    "weapon_bottom_line": {
+      "en": "Favonius Warbow is her best.",
+      "zh": "西风猎弓是最佳选择——充能副词条+全队能量。祭礼弓提供充能+战技重置更多产球。终末嗟叹之诗（五星）提供全队精通+攻击buff。六命前，充能是唯一重要的属性。"
+    },
+    "w1_notes": {
+      "en": "Best overall. ER substat + team energy.",
+      "zh": "综合最佳。充能副词条+全队充能。六命前珐露珊需要一切充能来源。"
+    },
+    "w2_notes": {
+      "en": "Skill reset = double particles.",
+      "zh": "战技重置=双倍产球。充能比西风少但自身回能更多。"
+    },
+    "w3_notes": {
+      "en": "5-star support option.",
+      "zh": "五星辅助选项。全队精通+攻击buff。六命后珐露珊最佳选择。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Emblem of Severed Fate",
+      "zh": "🎯 最佳：绝缘之旗印4件套"
+    },
+    "arti_why": {
+      "en": "Pre-C6: converts 250%+ ER into burst DMG.",
+      "zh": "六命前：250%+充能转化为大招伤害。珐露珊大招80能量且需要极高充能——绝缘套加倍收益。"
+    },
+    "sands_note": {
+      "en": "ER% pre-C6. ATK% post-C6.",
+      "zh": "六命前充能沙到250-300%。六命后充能够了用攻击沙。"
+    },
+    "goblet_note": {
+      "en": "Anemo DMG for damage. ATK% for pure support.",
+      "zh": "风伤杯打伤害。攻击杯纯辅助。"
+    },
+    "circlet_note": {
+      "en": "CRIT Rate if Favonius. ATK% for support.",
+      "zh": "用西风弓就暴击头。纯辅助就攻击头。"
+    },
+    "sub1": {
+      "en": "1. Energy Recharge — 250-300% pre-C6",
+      "zh": "1. 元素充能效率 — 六命前250-300%"
+    },
+    "sub2": {
+      "en": "2. CRIT Rate — for Favonius",
+      "zh": "2. 暴击率 — 仅西风弓需要"
+    },
+    "sub3": {
+      "en": "3. ATK% — post-C6",
+      "zh": "3. 攻击力% — 六命后"
+    },
+    "sub4": {
+      "en": "4. Flat ATK",
+      "zh": "4. 固定攻击力"
+    },
+    "team1_name": {
+      "en": "Xiao FFXX",
+      "zh": "魈FFXX队"
+    },
+    "team1_desc": {
+      "en": "Xiao's best team.",
+      "zh": "魈的最强配队。珐露珊C6提供30%风抗削减+40%风爆伤+持续充能。芙宁娜放大所有伤害。闲云增强下落攻击。"
+    },
+    "team2_name": {
+      "en": "Wanderer Hypercarry",
+      "zh": "流浪者主C"
+    },
+    "team2_desc": {
+      "en": "Wanderer's best team.",
+      "zh": "流浪者最佳配队。珐露珊增益风伤。班尼特提供攻击力。钟离护盾保护。稳定高DPS。"
+    },
+    "team3_name": {
+      "en": "Budget Anemo Support",
+      "zh": "平民风辅"
+    },
+    "team3_desc": {
+      "en": "For accounts without Xiao/Wanderer.",
+      "zh": "没有魈/流浪者的账号。平藏站场输出风伤。珐露珊放大伤害。适配任何风C。"
+    },
+    "rotation_title": {
+      "en": "Xiao FFXX rotation:",
+      "zh": "魈FFXX循环："
+    },
+    "m1": {
+      "en": "Not building enough ER pre-C6",
+      "zh": "❌ 六命前充能不足——珐露珊80能量大招产球低，需要250-300%充能。不够三轮才开一次大。这是#1错误。"
+    },
+    "m2": {
+      "en": "Leveling NA talent",
+      "zh": "❌ 升级普攻——珐露珊普攻零伤害。价值全在Q和E的buff。"
+    },
+    "m3": {
+      "en": "Using ATK weapon pre-C6",
+      "zh": "❌ 六命前用攻击武器——没有充能武器珐露珊无法开大。攻击武器仅六命后可用。"
+    },
+    "m4": {
+      "en": "Not funneling particles to Xiao",
+      "zh": "❌ 不喂球给魈——六命前，珐露珊E后立刻切魈吃风元素微粒。这是魈充能的关键。"
+    },
+    "related_xiao": {
+      "en": "Primary DPS — FFXX team core",
+      "zh": "主力输出——FFXX队核心"
+    },
+    "related_furina": {
+      "en": "DMG amplifier for Anemo teams",
+      "zh": "风队增伤放大器"
+    },
+    "related_kazuha": {
+      "en": "Alternative Anemo support (different role)",
+      "zh": "替代风辅（不同定位）"
     }
   }
 }

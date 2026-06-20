@@ -1,0 +1,132 @@
+{
+  "_character_id": "yaoyao",
+  "_element": "dendro",
+  "_weapon_type": "polearm",
+  "_game_version": "5.6",
+  "tldr_weapon": "Favonius Lance (BiS) / Black Tassel R5 (F2P)",
+  "tldr_artifact": "4pc Deepwood Memories (HP/HP/Healing) / 4pc Tenacity of the Millelith",
+  "tldr_team": "Nilou Bloom (Nilou·Nahida·Yaoyao·Xingqiu)",
+  "tldr_key_stats": "HP 30K+ · ER 160-180% · Healing Bonus circlet · E > Q > NA",
+  "intro": "Yaoyao is a 4-star Dendro Polearm healer who deploys Yuegui, a bouncing radish that heals allies and deals Dendro DMG. Her Elemental Burst summons multiple Yueguis for massive team-wide healing. As one of the few Dendro healers in the game, Yaoyao is invaluable in Nilou Bloom teams where self-damage from Bountiful Cores requires constant healing. She also fits comfortably in Aggravate and Quicken teams, providing Dendro resonance and sustain. Despite being a 4-star, Yaoyao's combination of off-field Dendro application and team healing makes her a top-tier support.",
+  "weapon_bottom_line": "Favonius Lance provides team energy. Black Tassel R5 is a 3-star with massive HP% for healing. Kitain Cross Spear (craftable) provides EM and energy. Focus on HP and ER — damage stats are irrelevant.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Favonius Lance",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "Energy Recharge 30.6%",
+      "notes": "Best support option. Generates team energy. ER substat helps burst uptime.",
+      "wpn_key": "wpn_favonius_lance"
+    },
+    {
+      "rank": 2,
+      "name": "Black Tassel R5",
+      "rarity": 3,
+      "atk": 354,
+      "substat": "HP 46.9%",
+      "notes": "Best F2P. Massive HP% for max healing. 3-star means cheap to level.",
+      "wpn_key": "wpn_black_tassel"
+    },
+    {
+      "rank": 3,
+      "name": "Kitain Cross Spear R5",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "Elemental Mastery 110",
+      "notes": "Craftable. EM for reaction teams + energy refund. Good for Bloom teams.",
+      "wpn_key": "wpn_kitain_cross_spear"
+    }
+  ],
+  "best_artifact": "4pc Deepwood Memories",
+  "artifact_why": "Best support set. 30% Dendro RES shred benefits the entire team's Dendro damage. Yaoyao's Yuegui applies Dendro off-field to maintain the debuff.",
+  "artifact_alt": "4pc Tenacity of the Millelith — 20% ATK + shield strength for the team. Use if another teammate already holds Deepwood.",
+  "main_stats": {
+    "sands": "HP% / ER%",
+    "sands_note": "HP% for healing. ER% sands if below 160% ER.",
+    "goblet": "HP%",
+    "goblet_note": "Always HP%. Dendro DMG does nothing for healing.",
+    "circlet": "Healing Bonus / HP%",
+    "circlet_note": "Healing Bonus for max healing. HP% is a budget option."
+  },
+  "sub_priority": [
+    "1. HP% — 30K+ for max Yuegui healing",
+    "2. Energy Recharge — 160-180% for burst uptime",
+    "3. Flat HP — minor healing boost",
+    "4. Elemental Mastery — only for Bloom teams"
+  ],
+  "teams": [
+    {
+      "name": "Nilou Bloom",
+      "members": "Nilou + Nahida + Yaoyao + Xingqiu/Yelan",
+      "desc": "Yaoyao's best team. Bountiful Cores deal self-damage — Yaoyao's massive team healing keeps everyone alive. Dendro resonance boosts EM. Off-field Dendro application from Yuegui."
+    },
+    {
+      "name": "Aggravate Support",
+      "members": "Keqing/Yae + Fischl + Yaoyao + Kazuha/Sucrose",
+      "desc": "Yaoyao provides Dendro for Quicken + healing. Consolidates two roles into one slot. Fischl/Yae deal Aggravate damage."
+    },
+    {
+      "name": "Alhaitham Spread",
+      "members": "Alhaitham + Yaoyao + Fischl + Flex",
+      "desc": "Budget Spread team. Yaoyao provides Dendro resonance + healing. Alhaitham triggers Spread. Fischl applies Electro for Quicken."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 6-8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "Nilou Bloom rotation:",
+  "rotation_code": "Nilou E×3 (Bountiful Core stance) → Nahida E+Q (mark + EM buff) → Yaoyao E (Yuegui, Dendro application) → Xingqiu E+Q (rain swords) → Yaoyao Q (team heal if needed) → Repeat",
+  "rotation_key": "Yaoyao's Q requires her to stay on-field and jump/run to throw radishes. Use only when team needs emergency healing. In normal rotations, E alone provides sufficient healing.",
+  "mistakes": [
+    "Building DMG stats on Yaoyao — she's a pure healer. ATK/Dendro DMG/Crit do almost nothing. HP and Healing Bonus only.",
+    "Not using Deepwood if no one else has it — 30% Dendro RES shred is essential for Dendro teams. Someone on the team MUST hold 4pc Deepwood.",
+    "Using Q unnecessarily — Yaoyao's burst locks her on-field for 5 seconds. Only use when team is low HP. Her E heals enough normally.",
+    "Not leveling E talent — Yuegui's healing scales with E talent level. Prioritize E over Q."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Dendro enabler + EM buffer"
+    },
+    {
+      "id": "alhaitham",
+      "name": "Alhaitham",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Spread team DPS"
+    },
+    {
+      "id": "kuki-shinobu",
+      "name": "Kuki Shinobu",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "A",
+      "desc": "Alternative healer for Hyperbloom"
+    }
+  ],
+  "seo": {
+    "title": "Yaoyao Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Yaoyao build guide for Genshin Impact v5.6. Best weapons for healing, Deepwood Memories build, Nilou Bloom and Aggravate team compositions."
+  }
+}

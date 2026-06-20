@@ -1,0 +1,132 @@
+{
+  "_character_id": "faruzan",
+  "_element": "anemo",
+  "_weapon_type": "bow",
+  "_game_version": "5.6",
+  "tldr_weapon": "Favonius Warbow (BiS) / Sacrificial Bow (F2P alt)",
+  "tldr_artifact": "4pc Emblem of Severed Fate / 4pc Tenacity of the Millelith",
+  "tldr_team": "Xiao Hypercarry (Xiao·Faruzan·Furina·Xianyun)",
+  "tldr_key_stats": "ER 250-300% (pre-C6) · Base ATK for buff · C6 game-changer · Q > E > NA",
+  "intro": "Faruzan is a 4-star Anemo Bow support who provides the single strongest Anemo DMG buff in the game. Her Elemental Burst applies Anemo RES shred (30% at Lv10) and grants Anemo DMG bonus to the team. Her C6 is one of the most transformative constellations in the game — it generates continuous energy particles, provides 40% Anemo CRIT DMG, and applies her buffs automatically. Faruzan is the dedicated support for Xiao, Wanderer, and any future Anemo hypercarry. Pre-C6 she needs extreme ER investment (250-300%); post-C6 her ER needs drop dramatically.",
+  "weapon_bottom_line": "Favonius Warbow is her best — ER substat + team energy particles. Sacrificial Bow provides ER + skill reset for more energy. Elegy for the End (5-star) provides team EM + ATK buffs. Pre-C6, ER is the ONLY stat that matters.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Favonius Warbow",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Energy Recharge 61.3%",
+      "notes": "Best overall. ER substat + team energy. Pre-C6 Faruzan needs every ER source available.",
+      "wpn_key": "wpn_favonius_warbow"
+    },
+    {
+      "rank": 2,
+      "name": "Sacrificial Bow",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "Energy Recharge 30.6%",
+      "notes": "Skill reset = double particles. Less ER than Favonius but more personal energy.",
+      "wpn_key": "wpn_sacrificial_bow"
+    },
+    {
+      "rank": 3,
+      "name": "Elegy for the End",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "Energy Recharge 55.1%",
+      "notes": "5-star support option. Team EM + ATK buff on skill/burst hit. Best for post-C6 Faruzan.",
+      "wpn_key": "wpn_elegy_for_the_end"
+    }
+  ],
+  "best_artifact": "4pc Emblem of Severed Fate",
+  "artifact_why": "Pre-C6: converts 250%+ ER into burst DMG. Faruzan's burst cost is 80 and she needs massive ER — Emblem doubles the value.",
+  "artifact_alt": "4pc Tenacity of the Millelith — post-C6: 20% ATK buff for team. Faruzan's C6 triggers her skill effects constantly, maintaining Tenacity uptime.",
+  "main_stats": {
+    "sands": "ER% / ATK%",
+    "sands_note": "ER% pre-C6 until 250-300%. ATK% post-C6 when ER needs drop.",
+    "goblet": "Anemo DMG% / ATK%",
+    "goblet_note": "Anemo DMG for personal damage. ATK% for pure support.",
+    "circlet": "CRIT Rate / ATK%",
+    "circlet_note": "CRIT Rate if using Favonius. ATK% for pure support."
+  },
+  "sub_priority": [
+    "1. Energy Recharge — 250-300% pre-C6 (until comfortable)",
+    "2. CRIT Rate — only if using Favonius Warbow",
+    "3. ATK% — post-C6, for buff scaling",
+    "4. Flat ATK"
+  ],
+  "teams": [
+    {
+      "name": "Xiao FFXX",
+      "members": "Xiao + Faruzan C6 + Furina + Xianyun",
+      "desc": "Xiao's best team. Faruzan C6 provides 30% Anemo RES shred + 40% Anemo CRIT DMG + continuous energy. Furina amplifies all damage. Xianyun enables higher plunges."
+    },
+    {
+      "name": "Wanderer Hypercarry",
+      "members": "Wanderer + Faruzan + Bennett + Zhongli",
+      "desc": "Wanderer's best team. Faruzan buffs Anemo DMG. Bennett provides ATK. Zhongli shields. Consistent high DPS."
+    },
+    {
+      "name": "Budget Anemo Support",
+      "members": "Heizou + Faruzan + Bennett + Flex",
+      "desc": "For accounts without Xiao/Wanderer. Heizou drives with Anemo DMG. Faruzan amplifies. Works with any Anemo DPS."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 6-8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "Xiao FFXX rotation:",
+  "rotation_code": "Faruzan Q (Anemo shred + buff) → Furina E+Q (Fanfare + Hydro) → Xianyun E+Q (heal + plunge buff) → Xiao EE → Q → Plunge spam → Faruzan E (energy funnel to Xiao) → Repeat",
+  "rotation_key": "Pre-C6: funnel Faruzan's E particles to Xiao. Post-C6: Faruzan's Q generates particles automatically — no funnel needed. Always cast Faruzan Q first so buffs are active for the entire DPS window.",
+  "mistakes": [
+    "Not building enough ER pre-C6 — Faruzan's 80-cost burst with poor particle generation means she needs 250-300% ER. Without it, you burst once every 3 rotations. This is the #1 mistake.",
+    "Leveling NA talent — Faruzan deals zero damage with normal attacks. Her value is entirely in Q and E buffs.",
+    "Using ATK weapon pre-C6 — pre-C6, Faruzan cannot burst without ER weapon. ATK weapons are only viable post-C6.",
+    "Not funneling particles to Xiao — pre-C6, use Faruzan E then immediately swap to Xiao to catch the Anemo particles. This is essential for Xiao's energy."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "xiao",
+      "name": "Xiao",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Primary DPS — FFXX team core"
+    },
+    {
+      "id": "furina",
+      "name": "Furina",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "S",
+      "desc": "DMG amplifier for Anemo teams"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Alternative Anemo support (different role)"
+    }
+  ],
+  "seo": {
+    "title": "Faruzan Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Faruzan build guide. Best ER build pre-C6, Tenacity support post-C6, Xiao and Wanderer team compositions, rotation guide."
+  }
+}
