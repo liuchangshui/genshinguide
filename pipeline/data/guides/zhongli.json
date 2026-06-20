@@ -3,14 +3,14 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Zhongli Build Guide — GenshinGuide",
-    "description": "Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide."
+    "description": "Complete Zhongli build guide for Genshin Impact v5.6. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Staff of Homa (F2P: Black Tassel)",
   "tldr_artifact": "4pc Tenacity of the Millelith (HP/HP/HP)",
   "tldr_team": "Universal Shield (Zhongli + any 3 — fits every team)",
   "tldr_key_stats": "HP 40K+ · CRIT 60/120 · E > Q > NA",
-  "intro": "Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v4.8.",
+  "intro": "Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v5.6.",
   "weapon_bottom_line": "Staff of Homa is BiS for damage. Black Tassel (3★) is shockingly effective for pure shield — and essentially free. Favonius Lance for team energy.",
   "weapons": [
     {

@@ -3,7 +3,7 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Arlecchino Build Guide — GenshinGuide",
-    "description": "Complete Arlecchino build guide for Genshin Impact v4.8. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide."
+    "description": "Complete Arlecchino build guide for Genshin Impact v5.6. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Crimson Moon's Semblance (F2P: White Tassel R5)",
@@ -11,7 +11,7 @@
   "tldr_team": "Vape Arle (Arlecchino·Yelan·Kazuha·Bennett)",
   "tldr_key_stats": "ATK 2000+ · CRIT 80/180 · NA > E > Q",
   "_weapon_type": "sword",
-  "intro": "Arlecchino is a top-tier on-field Pyro DPS who scales uniquely with her Bond of Life mechanic. She cannot be healed by allies — instead, her burst is her only source of recovery. This guide covers everything you need to master the Knave in v4.8.",
+  "intro": "Arlecchino is a top-tier on-field Pyro DPS who scales uniquely with her Bond of Life mechanic. She cannot be healed by allies — instead, her burst is her only source of recovery. This guide covers everything you need to master the Knave in v5.6.",
   "weapons": [
     {
       "rank": 1,

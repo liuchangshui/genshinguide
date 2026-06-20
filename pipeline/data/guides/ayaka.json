@@ -3,14 +3,14 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Kamisato Ayaka Build Guide — GenshinGuide",
-    "description": "Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide."
+    "description": "Complete Kamisato Ayaka build guide for Genshin Impact v5.6. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Mistsplitter Reforged (F2P: Amenoma Kageuchi)",
   "tldr_artifact": "4pc Blizzard Strayer (ATK%/Cryo DMG/CRIT DMG)",
   "tldr_team": "Premium Freeze (Ayaka·Kokomi·Kazuha·Shenhe)",
   "tldr_key_stats": "CRIT DMG 200%+ · ATK 2000+ · CRIT Rate 30-45% · Q > NA > E",
-  "intro": "Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v4.8.",
+  "intro": "Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v5.6.",
   "weapon_bottom_line": "Mistsplitter Reforged is BiS — massive CRIT DMG + Elemental DMG bonus. Amenoma Kageuchi is craftable, solves ER, and is excellent F2P. Finale of the Deep is a strong craftable ATK option.",
   "weapons": [
     {

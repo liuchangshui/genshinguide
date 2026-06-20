@@ -3,14 +3,14 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Hu Tao Build Guide — GenshinGuide",
-    "description": "Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide."
+    "description": "Complete Hu Tao build guide for Genshin Impact v5.6. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Staff of Homa (F2P: Dragon's Bane)",
   "tldr_artifact": "4pc Crimson Witch / 4pc Shimenawa (HP%/Pyro DMG/CRIT)",
   "tldr_team": "Double Hydro Vape (HuTao·Yelan·XQ·Zhongli)",
   "tldr_key_stats": "HP 30K · EM 100-200 · CRIT 70/200 · NA > E > Q",
-  "intro": "Hu Tao is a top-tier Pyro polearm main DPS. Her E sacrifices HP to infuse her attacks with Pyro and massively boost her ATK based on max HP. She deals devastating charged attack DMG when below 50% HP. She requires animation canceling to reach her ceiling — C1 eliminates stamina concerns. This guide covers everything you need to build her optimally in v4.8.",
+  "intro": "Hu Tao is a top-tier Pyro polearm main DPS. Her E sacrifices HP to infuse her attacks with Pyro and massively boost her ATK based on max HP. She deals devastating charged attack DMG when below 50% HP. She requires animation canceling to reach her ceiling — C1 eliminates stamina concerns. This guide covers everything you need to build her optimally in v5.6.",
   "weapon_bottom_line": "Staff of Homa is BiS and practically tailor-made for Hu Tao. Dragon's Bane (R5) is shockingly strong for vape — often better than 5-star stat sticks. Only pull Homa if you want the absolute best.",
   "weapons": [
     {

@@ -3,14 +3,14 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Yelan Build Guide — GenshinGuide",
-    "description": "Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide."
+    "description": "Complete Yelan build guide for Genshin Impact v5.6. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Aqua Simulacra (F2P: Favonius Warbow)",
   "tldr_artifact": "4pc Emblem of Severed Fate (HP%/Hydro DMG/CRIT)",
   "tldr_team": "Double Hydro / Hyperbloom (HuTao·Yelan·XQ·Zhongli)",
   "tldr_key_stats": "HP 30K+ · ER 180-200% · CRIT 70/140 · Q > E >>> NA",
-  "intro": "Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v4.8.",
+  "intro": "Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v5.6.",
   "weapon_bottom_line": "Aqua Simulacra is BiS — massive CRIT DMG and HP% bonus. Favonius Warbow solves all energy problems. Use Favonius unless you have C1 or enough ER from artifacts.",
   "weapons": [
     {

@@ -3,14 +3,14 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Albedo Build Guide — GenshinGuide",
-    "description": "Complete Albedo build guide for Genshin Impact v4.8. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide."
+    "description": "Complete Albedo build guide for Genshin Impact v5.6. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide."
   },
   "_element": "pyro",
   "tldr_weapon": "Cinnabar Spindle (F2P: Harbinger of Dawn)",
   "tldr_artifact": "4pc Husk of Opulent Dreams (DEF%/Geo DMG/CRIT)",
   "tldr_team": "Mono Geo (Itto·Albedo·Gorou·Zhongli)",
   "tldr_key_stats": "DEF 2500+ · CRIT 60/120 · E > Q >>> NA",
-  "intro": "Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with \"unwanted\" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v4.8.",
+  "intro": "Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with \"unwanted\" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v5.6.",
   "weapon_bottom_line": "Cinnabar Spindle R5 (event exclusive) is BiS with massive DEF% and E DMG bonus. Harbinger of Dawn R5 (3★) is shockingly competitive for F2P — just keep HP above 90%.",
   "weapons": [
     {

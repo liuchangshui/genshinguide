@@ -3,7 +3,7 @@
   "_game_version": "5.6",
   "seo": {
     "title": "Neuvillette Build Guide — GenshinGuide",
-    "description": "Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide."
+    "description": "Complete Neuvillette build guide for Genshin Impact v5.6. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide."
   },
   "_element": "hydro",
   "tldr_weapon": "Tome of the Eternal Flow (F2P: Prototype Amber R5)",
@@ -11,7 +11,7 @@
   "tldr_team": "Neuvillette Hypercarry (Neuv·Furina·Kazuha·Baizhu)",
   "tldr_key_stats": "HP 35k-42k · CRIT 64/250+ · NA > E == Q",
   "_weapon_type": "catalyst",
-  "intro": "Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v4.8.",
+  "intro": "Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v5.6.",
   "weapon_bottom_line": "Tome of the Eternal Flow is his signature and BiS. Prototype Amber R5 is shockingly close — and craftable for free. Only pull signature if you want to min-max.",
   "weapons": [
     {

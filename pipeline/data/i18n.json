@@ -63,11 +63,11 @@
       "zh": "24小时内更新"
     },
     "stat3_num": {
-      "en": "6",
-      "zh": "6"
+      "en": "1",
+      "zh": "1"
     },
     "stat3_label": {
-      "en": "Interactive Tools",
+      "en": "Interactive Tool",
       "zh": "交互工具"
     },
     "stat4_num": {
@@ -1561,12 +1561,28 @@
     "name": {
       "en": "Furina",
       "zh": "芙宁娜"
+    },
+    "tldr_weapon": {
+      "en": "Splendor of Tranquil Waters (F2P: Fleuve Cendre Ferryman R5)",
+      "zh": "静水流涌之辉 (专武) / 灰河渡手 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Golden Troupe (HP%/HP% or Hydro/CRIT)",
+      "zh": "黄金剧团4件套 (生命/生命或水伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Neuvillette Hypercarry (Neuvi·Furina·Kazuha·Xilonen)",
+      "zh": "那维莱特主C (那维莱特·芙宁娜·万叶·白术)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 35-40k · CRIT 70/140 · E > Q >>> NA",
+      "zh": "生命 35K+ · 充能 160-180% · 双爆 60/120 · 战技 > 大招"
     }
   },
   "hutao": {
     "intro": {
       "en": "Hu Tao is a top-tier Pyro polearm main DPS. Her E sacrifices HP to infuse her attacks with Pyro and massively boost her ATK based on max HP. She deals devastating charged attack DMG when below 50% HP. She requires animation canceling to reach her ceiling — C1 eliminates stamina concerns. This guide covers everything you need to build her optimally in v4.8.",
-      "zh": "胡桃是顶级火系长柄武器站场输出角色。元素战技消耗生命值使攻击附魔火元素，并根据生命值上限大幅提升攻击力。生命值低于50%时，重击伤害极为可观。需要利用取消后摇技巧才能发挥上限——第一命之座消除体力消耗问题。本指南涵盖4.8版本中培养她的全部要点。"
+      "zh": "胡桃是顶级火系长柄武器站场输出角色。元素战技消耗生命值使攻击附魔火元素，并根据生命值上限大幅提升攻击力。生命值低于50%时，重击伤害极为可观。需要利用取消后摇技巧才能发挥上限——第一命之座消除体力消耗问题。本指南涵盖5.6版本中培养她的全部要点。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -1790,17 +1806,33 @@
     },
     "desc": {
       "en": "Complete Hu Tao build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Dragon's Bane), optimal artifacts (Crimson Witch, Shimenawa), team compositions (Double Hydro, Vape), and rotation guide.",
-      "zh": "原神4.8版本胡桃完整培养指南。最佳武器排名（护摩之杖、匣里灭辰），圣遗物选择（炽烈的炎之魔女、追忆之注连），队伍搭配（双水、蒸发），以及输出手法指南。"
+      "zh": "原神5.6版本胡桃完整培养指南。最佳武器排名（护摩之杖、匣里灭辰），圣遗物选择（炽烈的炎之魔女、追忆之注连），队伍搭配（双水、蒸发），以及输出手法指南。"
     },
     "name": {
       "en": "Hu Tao",
       "zh": "胡桃"
+    },
+    "tldr_weapon": {
+      "en": "Staff of Homa (F2P: Dragon's Bane)",
+      "zh": "护摩之杖 (专武) / 匣里灭辰 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Crimson Witch / 4pc Shimenawa (HP%/Pyro DMG/CRIT)",
+      "zh": "炽烈的炎之魔女4件套 / 追忆之注连4件套 (生命/火伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Double Hydro Vape (HuTao·Yelan·XQ·Zhongli)",
+      "zh": "双水蒸发 (胡桃·夜兰·行秋·钟离)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 30K · EM 100-200 · CRIT 70/200 · NA > E > Q",
+      "zh": "生命 30K · 精通 100-200 · 双爆 70/200 · 普攻 > 战技 > 大招"
     }
   },
   "ayaka": {
     "intro": {
       "en": "Kamisato Ayaka is the premiere Cryo main DPS: a devastating burst that deals 20 ticks of Cryo DMG, cryo-infused normal/charged attacks after dash, and the best freeze DPS in the game. 4pc Blizzard Strayer gives her 40% free CRIT Rate against frozen enemies, letting you stack CRIT DMG to extreme levels. This guide covers everything you need to build her optimally in v4.8.",
-      "zh": "神里绫华是顶级冰元素主C：元素爆发可造成20段冰元素伤害，冲刺后普攻/重击获得冰附魔，是游戏中最强冻结输出。4件套冰风迷途的勇士在冻结敌人时提供40%暴击率加成，让你能极限堆叠暴击伤害。本指南涵盖在4.8版本中优化培养她所需的一切。"
+      "zh": "神里绫华是顶级冰元素主C：元素爆发可造成20段冰元素伤害，冲刺后普攻/重击获得冰附魔，是游戏中最强冻结输出。4件套冰风迷途的勇士在冻结敌人时提供40%暴击率加成，让你能极限堆叠暴击伤害。本指南涵盖在5.6版本中优化培养她所需的一切。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -2024,17 +2056,33 @@
     },
     "desc": {
       "en": "Complete Kamisato Ayaka build guide for Genshin Impact v4.8. Best weapons ranked (Mistsplitter Reforged, Amenoma Kageuchi), optimal artifacts (Blizzard Strayer), team compositions (Freeze), and rotation guide.",
-      "zh": "神里绫华4.8版本完整培养指南。最佳武器排名（雾切之回光、天目影打刀），最优圣遗物（冰风迷途的勇士），队伍搭配（永冻队）及输出手法指南。"
+      "zh": "神里绫华5.6版本完整培养指南。最佳武器排名（雾切之回光、天目影打刀），最优圣遗物（冰风迷途的勇士），队伍搭配（永冻队）及输出手法指南。"
     },
     "name": {
       "en": "Kamisato Ayaka",
       "zh": "神里绫华"
+    },
+    "tldr_weapon": {
+      "en": "Mistsplitter Reforged (F2P: Amenoma Kageuchi)",
+      "zh": "雾切之回光 (专武) / 天目影打刀 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Blizzard Strayer (ATK%/Cryo DMG/CRIT DMG)",
+      "zh": "冰风迷途的勇士4件套 (攻击/冰伤/爆伤)"
+    },
+    "tldr_team": {
+      "en": "Premium Freeze (Ayaka·Kokomi·Kazuha·Shenhe)",
+      "zh": "顶配永冻 (神里绫华·心海·万叶·申鹤)"
+    },
+    "tldr_key_stats": {
+      "en": "CRIT DMG 200%+ · ATK 2000+ · CRIT Rate 30-45% · Q > NA > E",
+      "zh": "攻击 2000+ · 爆伤 240%+ · 充能 130-140% · 大招 > 普攻"
     }
   },
   "yelan": {
     "intro": {
       "en": "Yelan is a top-tier Hydro sub-DPS: off-field coordinated Hydro attacks that trigger on normal attacks, massive personal DMG that scales with HP, and a ramping DMG buff for the active character. She is basically a 5-star Xingqiu with more damage and slightly less Hydro application. This guide covers everything you need to build her optimally in v4.8.",
-      "zh": "夜兰是顶级水系副C：基于普通攻击触发的后台协同水元素攻击，生命值加成的高额个人伤害，以及为当前场上角色提供的递增伤害加成。她基本相当于伤害更高、挂水能力稍弱的五星行秋。本指南涵盖在4.8版本中优化培养她的所有内容。"
+      "zh": "夜兰是顶级水系副C：基于普通攻击触发的后台协同水元素攻击，生命值加成的高额个人伤害，以及为当前场上角色提供的递增伤害加成。她基本相当于伤害更高、挂水能力稍弱的五星行秋。本指南涵盖在5.6版本中优化培养她的所有内容。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -2258,17 +2306,33 @@
     },
     "desc": {
       "en": "Complete Yelan build guide for Genshin Impact v4.8. Best weapons ranked (Aqua Simulacra, Favonius Warbow), optimal artifacts (Emblem of Severed Fate), team compositions (Double Hydro, Hyperbloom), and rotation guide.",
-      "zh": "《原神》4.8版本夜兰完整培养指南。武器排名（若水、西风猎弓），最佳圣遗物（绝缘之旗印），队伍搭配（双水队、超绽放队）及输出手法指南。"
+      "zh": "《原神》5.6版本夜兰完整培养指南。武器排名（若水、西风猎弓），最佳圣遗物（绝缘之旗印），队伍搭配（双水队、超绽放队）及输出手法指南。"
     },
     "name": {
       "en": "Yelan",
       "zh": "夜兰"
+    },
+    "tldr_weapon": {
+      "en": "Aqua Simulacra (F2P: Favonius Warbow)",
+      "zh": "若水 (专武) / 西风猎弓 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate (HP%/Hydro DMG/CRIT)",
+      "zh": "绝缘之旗印4件套 (生命/水伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Double Hydro / Hyperbloom (HuTao·Yelan·XQ·Zhongli)",
+      "zh": "胡桃双水 (胡桃·夜兰·行秋·钟离)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 30K+ · ER 180-200% · CRIT 70/140 · Q > E >>> NA",
+      "zh": "生命 30K+ · 充能 180-200% · 双爆 70/140 · 大招 > 战技"
     }
   },
   "zhongli": {
     "intro": {
       "en": "Zhongli is the ultimate comfort pick: the strongest shield in the game (20s duration, 12s CD), 20% universal RES shred, and a massive AoE petrification burst. He fits into literally every team. This guide covers everything you need to build him optimally in v4.8.",
-      "zh": "钟离是最安逸的选择：游戏中最强的护盾（持续20秒，冷却12秒），20%全属性减抗，以及大范围石化元素爆发。他能融入任何队伍。本指南涵盖在4.8版本中优化培养他的所有要点。"
+      "zh": "钟离是最安逸的选择：游戏中最强的护盾（持续20秒，冷却12秒），20%全属性减抗，以及大范围石化元素爆发。他能融入任何队伍。本指南涵盖在5.6版本中优化培养他的所有要点。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -2492,17 +2556,33 @@
     },
     "desc": {
       "en": "Complete Zhongli build guide for Genshin Impact v4.8. Best weapons ranked (Staff of Homa, Black Tassel), optimal artifacts (Tenacity of the Millelith, Archaic Petra), team compositions (Mono Geo, Universal Shield), and rotation guide.",
-      "zh": "原神4.8版本钟离完整培养指南。最佳武器排名（护摩之杖、黑缨枪），最优圣遗物（千岩牢固、悠古的磐岩），队伍搭配（纯岩队、通用护盾队）及输出手法指南。"
+      "zh": "原神5.6版本钟离完整培养指南。最佳武器排名（护摩之杖、黑缨枪），最优圣遗物（千岩牢固、悠古的磐岩），队伍搭配（纯岩队、通用护盾队）及输出手法指南。"
     },
     "name": {
       "en": "Zhongli",
       "zh": "钟离"
+    },
+    "tldr_weapon": {
+      "en": "Staff of Homa (F2P: Black Tassel)",
+      "zh": "护摩之杖 (输出) / 黑缨枪 (纯盾)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Tenacity of the Millelith (HP/HP/HP)",
+      "zh": "千岩牢固4件套 (生命/生命/生命)"
+    },
+    "tldr_team": {
+      "en": "Universal Shield (Zhongli + any 3 — fits every team)",
+      "zh": "万能护盾 (钟离 + 任意3人)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 40K+ · CRIT 60/120 · E > Q > NA",
+      "zh": "生命 35K-50K · 充能 130%+ · 战技 > 大招"
     }
   },
   "albedo": {
     "intro": {
       "en": "Albedo is a premium Geo off-field sub-DPS: his E creates a field where enemies take Geo DMG every 2 seconds. His damage scales entirely off DEF, making him easy to build with \"unwanted\" artifacts. He fits perfectly into Mono Geo teams and any team that wants a flex slot with consistent off-field damage and EM buffing via his Q. This guide covers everything you need to build him optimally in v4.8.",
-      "zh": "阿贝多是一位优质的后台岩系副C：他的元素战技会生成一个领域，每2秒对敌人造成岩元素伤害。他的伤害完全基于防御力，因此很容易用“没人要”的圣遗物来培养。他完美适配纯岩队，以及任何需要稳定后台伤害和通过元素爆发提供元素精通加成的灵活位置。本指南涵盖在4.8版本中优化培养他所需的一切。"
+      "zh": "阿贝多是一位优质的后台岩系副C：他的元素战技会生成一个领域，每2秒对敌人造成岩元素伤害。他的伤害完全基于防御力，因此很容易用“没人要”的圣遗物来培养。他完美适配纯岩队，以及任何需要稳定后台伤害和通过元素爆发提供元素精通加成的灵活位置。本指南涵盖在5.6版本中优化培养他所需的一切。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -2726,11 +2806,27 @@
     },
     "desc": {
       "en": "Complete Albedo build guide for Genshin Impact v4.8. Best weapons ranked (Cinnabar Spindle, Harbinger of Dawn), optimal artifacts (Husk of Opulent Dreams, Golden Troupe), team compositions (Mono Geo, Double Geo), and rotation guide.",
-      "zh": "原神4.8版本阿贝多完整培养指南。最佳武器排名（辰砂之纺锤、黎明神剑），最优圣遗物（华馆梦醒形骸记、黄金剧团），队伍搭配（纯岩队、双岩队）及输出手法指南。"
+      "zh": "原神5.6版本阿贝多完整培养指南。最佳武器排名（辰砂之纺锤、黎明神剑），最优圣遗物（华馆梦醒形骸记、黄金剧团），队伍搭配（纯岩队、双岩队）及输出手法指南。"
     },
     "name": {
       "en": "Albedo",
       "zh": "阿贝多"
+    },
+    "tldr_weapon": {
+      "en": "Cinnabar Spindle (F2P: Harbinger of Dawn)",
+      "zh": "辰砂之纺锤 R5 (活动) / 黎明神剑 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Husk of Opulent Dreams (DEF%/Geo DMG/CRIT)",
+      "zh": "华馆梦醒形骸记4件套 (防御/岩伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Mono Geo (Itto·Albedo·Gorou·Zhongli)",
+      "zh": "纯岩队 (一斗·阿贝多·五郎·钟离)"
+    },
+    "tldr_key_stats": {
+      "en": "DEF 2500+ · CRIT 60/120 · E > Q >>> NA",
+      "zh": "防御 2500+ · 双爆 60/120 · 战技 > 大招"
     }
   },
   "proDemo": {
@@ -2984,7 +3080,7 @@
     },
     "desc": {
       "en": "Complete Bennett build guide for Genshin Impact v4.8. Best weapons ranked (Aquila Favonia, Sapwood Blade), optimal artifacts (Noblesse Oblige), best teams (National, International), and rotation guide.",
-      "zh": "《原神》4.8版本班尼特完整培养指南。最佳武器排名（风鹰剑、原木刀），最优圣遗物（昔日宗室之仪），最佳队伍（国家队、国际队）及循环手法指南。"
+      "zh": "《原神》5.6版本班尼特完整培养指南。最佳武器排名（风鹰剑、原木刀），最优圣遗物（昔日宗室之仪），最佳队伍（国家队、国际队）及循环手法指南。"
     },
     "sub1": {
       "en": "1. Energy Recharge — until 200%+. Non-negotiable. Burst must be available every rotation.",
@@ -3045,6 +3141,22 @@
     "name": {
       "en": "Bennett",
       "zh": "班尼特"
+    },
+    "tldr_weapon": {
+      "en": "Aquila Favonia (F2P: Sapwood Blade R5)",
+      "zh": "风鹰剑 (最高白值) / 原木刀 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Noblesse Oblige (HP%/HP%/Healing Bonus or HP%)",
+      "zh": "昔日宗室之仪4件套 (充能/生命/治疗)"
+    },
+    "tldr_team": {
+      "en": "Raiden National (Raiden·Xiangling·Xingqiu·Bennett)",
+      "zh": "国家队 (班尼特·香菱·行秋·雷神)"
+    },
+    "tldr_key_stats": {
+      "en": "Base ATK from weapon only · ER 200%+ · HP for healing · Q > E >>> NA",
+      "zh": "充能 200%+ · 生命 25K+ · 大招 > 战技"
     }
   },
   "kazuha": {
@@ -3170,7 +3282,7 @@
     },
     "desc": {
       "en": "Complete Kazuha build guide for Genshin Impact v4.8. Best weapons ranked (Freedom-Sworn, Iron Sting), optimal artifacts (Viridescent Venerer), best teams (International, Freeze, Aggravate), rotation and EM breakpoints.",
-      "zh": "《原神》4.8版本万叶完整培养指南。最佳武器排名（苍古自由之誓、铁蜂刺），最优圣遗物（翠绿之影），最佳队伍（国际队、冻结队、激化队），循环及元素精通阈值。"
+      "zh": "《原神》5.6版本万叶完整培养指南。最佳武器排名（苍古自由之誓、铁蜂刺），最优圣遗物（翠绿之影），最佳队伍（国际队、冻结队、激化队），循环及元素精通阈值。"
     },
     "sub1": {
       "en": "1. Elemental Mastery — every substat roll matters. Aim for 800-1000 total EM.",
@@ -3219,6 +3331,22 @@
     "name": {
       "en": "Kaedehara Kazuha",
       "zh": "枫原万叶"
+    },
+    "tldr_weapon": {
+      "en": "Freedom-Sworn (F2P: Iron Sting R5)",
+      "zh": "苍古自由之誓 (专武) / 铁蜂刺 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Viridescent Venerer (EM/EM/EM)",
+      "zh": "翠绿之影4件套 (精通/精通/精通)"
+    },
+    "tldr_team": {
+      "en": "International (Childe·Xiangling·Kazuha·Bennett)",
+      "zh": "万达国际 (达达利亚·香菱·万叶·班尼特)"
+    },
+    "tldr_key_stats": {
+      "en": "EM 800-1000 · ER 160%+ · Triple EM main stats · E > Q >>> NA",
+      "zh": "精通 800-1000 · 充能 160-180% · 战技 > 大招"
     }
   },
   "nahida": {
@@ -3344,7 +3472,7 @@
     },
     "desc": {
       "en": "Complete Nahida build guide for Genshin Impact v4.8. Best weapons ranked (A Thousand Floating Dreams, Sacrificial Fragments), optimal artifacts (Deepwood Memories), best teams (Hyperbloom, Aggravate, Nilou Bloom), and EM breakpoints.",
-      "zh": "原神4.8版本纳西妲完整培养指南。最佳武器排名（千夜浮梦、祭礼残章），最优圣遗物（深林的记忆），最佳队伍（超绽放、激化、妮露绽放）及元素精通阈值。"
+      "zh": "原神5.6版本纳西妲完整培养指南。最佳武器排名（千夜浮梦、祭礼残章），最优圣遗物（深林的记忆），最佳队伍（超绽放、激化、妮露绽放）及元素精通阈值。"
     },
     "sub1": {
       "en": "1. Elemental Mastery — to 1000 (soft cap for A4 passive). Every point below 1000 matters.",
@@ -3393,6 +3521,22 @@
     "name": {
       "en": "Nahida",
       "zh": "纳西妲"
+    },
+    "tldr_weapon": {
+      "en": "A Thousand Floating Dreams (F2P: Sacrificial Fragments)",
+      "zh": "千夜浮梦 (专武) / 祭礼残章 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Deepwood Memories (EM/EM or Dendro DMG/EM or CRIT)",
+      "zh": "深林的记忆4件套 (精通/精通/双爆)"
+    },
+    "tldr_team": {
+      "en": "Hyperbloom (Nahida·Xingqiu·Kuki Shinobu·Flex)",
+      "zh": "超绽放 (纳西妲·行秋·久岐忍·灵活位)"
+    },
+    "tldr_key_stats": {
+      "en": "EM 800-1000 · CRIT 40/120 · ER 130%+ · E > Q >>> NA",
+      "zh": "精通 800-1000 · 双爆 40/120 · 充能 130% · 战技 > 大招"
     }
   },
   "arlecchino": {
@@ -3402,7 +3546,7 @@
     },
     "intro": {
       "en": "Arlecchino is a top-tier on-field Pyro DPS who scales uniquely with her Bond of Life mechanic. She cannot be healed by allies — instead, her burst is her only source of recovery. This guide covers everything you need to master the Knave in v4.8.",
-      "zh": "阿蕾奇诺是一位顶级的站场火元素输出角色，其独特之处在于依赖「生命之契」机制。她无法被队友治疗——元素爆发是她唯一的恢复手段。本指南将涵盖在4.8版本中掌握「仆人」所需的一切。"
+      "zh": "阿蕾奇诺是一位顶级的站场火元素输出角色，其独特之处在于依赖「生命之契」机制。她无法被队友治疗——元素爆发是她唯一的恢复手段。本指南将涵盖在5.6版本中掌握「仆人」所需的一切。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -3706,11 +3850,27 @@
     },
     "desc": {
       "en": "Complete Arlecchino build guide for Genshin Impact v4.8. Best weapons ranked (Crimson Moon's Semblance, White Tassel), optimal artifacts (Fragment of Harmonic Whimsy, Gladiator's Finale), team compositions, and rotation guide.",
-      "zh": "阿蕾奇诺在《原神》4.8版本中的完整培养指南。最佳武器排名（赤月之形、白缨枪），最优圣遗物（谐律异想断章、角斗士的终幕礼），队伍搭配及输出手法指南。"
+      "zh": "阿蕾奇诺在《原神》5.6版本中的完整培养指南。最佳武器排名（赤月之形、白缨枪），最优圣遗物（谐律异想断章、角斗士的终幕礼），队伍搭配及输出手法指南。"
     },
     "name": {
       "en": "Arlecchino",
       "zh": "阿蕾奇诺"
+    },
+    "tldr_weapon": {
+      "en": "Crimson Moon's Semblance (F2P: White Tassel R5)",
+      "zh": "赤月之形 (专武) / 白缨枪 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Fragment of Harmonic Whimsy (ATK%/Pyro DMG/CRIT)",
+      "zh": "谐律异想断章4件套 (攻击/火伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Vape Arle (Arlecchino·Yelan·Kazuha·Bennett)",
+      "zh": "蒸发队 (阿蕾奇诺·夜兰·万叶·班尼特)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 2000+ · CRIT 80/180 · NA > E > Q",
+      "zh": "攻击 2000+ · 双爆 70/180 · 精通 100+ · 普攻 > 大招"
     }
   },
   "neuvillette": {
@@ -3720,7 +3880,7 @@
     },
     "intro": {
       "en": "Neuvillette is one of the strongest on-field Hydro DPS characters in Genshin Impact. His charged attack beam deals continuous AoE damage that scales entirely with HP — not ATK. With 4pc Marechaussee Hunter providing 36% free CRIT Rate, you can stack CRIT DMG to absurd levels. This guide covers everything you need to build him optimally in v4.8.",
-      "zh": "那维莱特是《原神》中最强站场水元素输出角色之一。他的蓄力攻击光束能造成持续范围伤害，且完全基于生命值——而非攻击力。搭配「逐影猎人」四件套提供的36%免费暴击率，你可以将暴击伤害堆到离谱的程度。本指南涵盖在4.8版本中优化培养他所需的一切。"
+      "zh": "那维莱特是《原神》中最强站场水元素输出角色之一。他的蓄力攻击光束能造成持续范围伤害，且完全基于生命值——而非攻击力。搭配「逐影猎人」四件套提供的36%免费暴击率，你可以将暴击伤害堆到离谱的程度。本指南涵盖在5.6版本中优化培养他所需的一切。"
     },
     "sec_weapons": {
       "en": "1. Best Weapons (Ranked)",
@@ -3964,11 +4124,27 @@
     },
     "desc": {
       "en": "Complete Neuvillette build guide for Genshin Impact v4.8. Best weapons ranked (Tome of the Eternal Flow, Prototype Amber), optimal artifacts (Marechaussee Hunter), team compositions, and rotation guide.",
-      "zh": "原神4.8版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。"
+      "zh": "原神5.6版本那维莱特完整培养指南。最佳武器排名（万世流涌大典、试作金珀），最优圣遗物（逐影猎人），队伍搭配及输出手法指南。"
     },
     "name": {
       "en": "Neuvillette",
       "zh": "那维莱特"
+    },
+    "tldr_weapon": {
+      "en": "Tome of the Eternal Flow (F2P: Prototype Amber R5)",
+      "zh": "万世流涌大典 (专武) / 试作金珀 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Marechaussee Hunter (HP%/Hydro or HP%/CRIT DMG or HP%)",
+      "zh": "逐影猎人4件套 (生命/水伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Neuvillette Hypercarry (Neuv·Furina·Kazuha·Baizhu)",
+      "zh": "主C队 (那维莱特·芙宁娜·万叶·白术)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 35k-42k · CRIT 64/250+ · NA > E == Q",
+      "zh": "生命 35K+ · 双爆 64/250+ · 充能 120-140% · 普攻 > 战技"
     }
   },
   "xiangling": {
@@ -4086,17 +4262,33 @@
     },
     "desc": {
       "en": "Complete Xiangling build guide for Genshin Impact v4.8. Best weapons (The Catch R5, Staff of Homa), optimal artifacts (Emblem of Severed Fate), team compositions (Raiden National), and rotation guide.",
-      "zh": "原神4.8版本香菱完整培养指南。最佳武器（渔获精5、护摩之杖）、毕业圣遗物（绝缘之旗印）、配队推荐（雷神国家队）及循环手法。"
+      "zh": "原神5.6版本香菱完整培养指南。最佳武器（渔获精5、护摩之杖）、毕业圣遗物（绝缘之旗印）、配队推荐（雷神国家队）及循环手法。"
     },
     "name": {
       "en": "Xiangling",
       "zh": "香菱"
+    },
+    "tldr_weapon": {
+      "en": "The Catch R5 (Bis: Staff of Homa)",
+      "zh": "「渔获」R5 (最佳) / 护摩之杖 (五星替代)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate (ER/Pyro DMG/CRIT)",
+      "zh": "绝缘之旗印4件套 (充能或攻击/火伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Raiden National (XL·XQ·Bennett·Raiden)",
+      "zh": "国家队 (香菱·班尼特·行秋·雷神)"
+    },
+    "tldr_key_stats": {
+      "en": "ER 180-200% · CRIT 60/120 · Burst > Skill",
+      "zh": "充能 180-220% · 双爆 60/120 · 精通 200+ · 大招 > 战技"
     }
   },
   "raiden": {
     "intro": {
       "en": "Raiden Shogun is one of Genshin's most versatile characters: team battery, sub-DPS, and enabler. This guide covers everything you need to build her optimally in v4.8.",
-      "zh": "雷电将军是原神中最全能的角色之一：队伍充电宝、副输出和辅助。本指南涵盖在4.8版本中优化培养她所需的一切。"
+      "zh": "雷电将军是原神中最全能的角色之一：队伍充电宝、副输出和辅助。本指南涵盖在5.6版本中优化培养她所需的一切。"
     },
     "weapon_bottom_line": {
       "en": "Engulfing Lightning is BiS. The Catch R5 is 85% as good — and free. Only pull signature if you want to min-max.",
@@ -4228,11 +4420,27 @@
     },
     "desc": {
       "en": "Complete Raiden Shogun build guide for Genshin Impact v4.8. Best weapons ranked (Engulfing Lightning, The Catch), optimal artifacts (Emblem of Severed Fate), team compositions, and rotation guide.",
-      "zh": "原神4.8版本雷电将军完整培养指南。最佳武器排名（薙草之稻光、渔获），最优圣遗物（绝缘之旗印），队伍搭配和循环指南。"
+      "zh": "原神5.6版本雷电将军完整培养指南。最佳武器排名（薙草之稻光、渔获），最优圣遗物（绝缘之旗印），队伍搭配和循环指南。"
     },
     "name": {
       "en": "Raiden Shogun",
       "zh": "雷电将军"
+    },
+    "tldr_weapon": {
+      "en": "Engulfing Lightning (F2P: The Catch R5)",
+      "zh": "薙草之稻光 (专武) / 「渔获」R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate (ER/Electro DMG/CRIT)",
+      "zh": "绝缘之旗印4件套 (充能/雷伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Raiden National (Raiden·XL·XQ·Bennett)",
+      "zh": "雷神国家队 (雷神·香菱·行秋·班尼特)"
+    },
+    "tldr_key_stats": {
+      "en": "ER 250-270% · CRIT 70/140 · Burst > Skill > NA",
+      "zh": "充能 250-270% · 双爆 70/140 · 大招 > 战技 > 普攻"
     }
   },
   "privacy": {
@@ -4503,6 +4711,22 @@
     "name": {
       "en": "Ganyu",
       "zh": "甘雨"
+    },
+    "tldr_weapon": {
+      "en": "Amos' Bow (BiS) / Prototype Crescent R5 (F2P)",
+      "zh": "阿莫斯之弓 (专武) / 试作澹月 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Wanderer's Troupe (Melt) / 4pc Blizzard Strayer (Freeze)",
+      "zh": "流浪大地的乐团4件套 (攻击或精通/冰伤/双爆)"
+    },
+    "tldr_team": {
+      "en": "Melt: Ganyu + Xiangling + Bennett + Zhongli",
+      "zh": "融甘 (甘雨·香菱·班尼特·钟离)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 2000+ · CR 60% (Melt) / 30% (Freeze) · CD 180%+ · EM 200+ (Melt)",
+      "zh": "攻击 2000+ · 双爆 60/180 · 精通 200+ · 普攻 > 大招"
     }
   },
   "xiao": {
@@ -4629,6 +4853,22 @@
     "name": {
       "en": "Xiao",
       "zh": "魈"
+    },
+    "tldr_weapon": {
+      "en": "Jade Winged-Spear (BiS) / Blackcliff Pole R5 (F2P)",
+      "zh": "和璞鸢 (专武) / 黑岩刺枪 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Vermillion Hereafter / 4pc Marechaussee Hunter (with Furina)",
+      "zh": "辰砂往生录4件套 / 逐影猎人4件套 (配芙宁娜)"
+    },
+    "tldr_team": {
+      "en": "Xiao + Faruzan + Furina + Xianyun (FFXX)",
+      "zh": "FFXX顶配 (魈·珐露珊·芙宁娜·闲云)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 2000+ · CR 75%+ · CD 180%+ · ER 120-130%",
+      "zh": "攻击 2000+ · 双爆 75/180+ · 充能 120-130% · 普攻 = 大招"
     }
   },
   "wpn": {
