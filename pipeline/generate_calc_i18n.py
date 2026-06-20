@@ -322,6 +322,29 @@ def generate(i18n):
         if en not in calc:
             add(en, zh)
 
+
+    # ── Element/weapon UI labels ────────────────────────────────────
+    for en, zh in {
+        "Electro": "雷", "Pyro": "火", "Hydro": "水", "Cryo": "冰",
+        "Anemo": "风", "Geo": "岩", "Dendro": "草",
+        "Polearm": "长柄武器", "Sword": "单手剑", "Bow": "弓",
+        "Catalyst": "法器", "Claymore": "双手剑",
+    }.items():
+        if en not in calc:
+            add(en, zh)
+
+    # ── Guide card descriptions for homepage rotation ──────────────
+    for cid in ['raiden','hutao','yelan','nahida','kazuha','zhongli','furina','arlecchino',
+                'neuvillette','bennett','xiangling','ayaka','albedo','ganyu','xiao',
+                'kokomi','tartaglia','alhaitham','yae-miko','xingqiu','kuki-shinobu',
+                'fischl','beidou','sucrose','yaoyao','faruzan']:
+        key = f'guides.{cid}_desc'
+        if 'guides' in i18n and key.replace('guides.','') in i18n.get('guides',{}):
+            val = i18n['guides'][key.replace('guides.','')]
+            if val['en'] not in calc:
+                add(val['en'], val['zh'])
+
+
     # ── Write JS file ──────────────────────────────────────────────────
     entries = []
     for en, pair in sorted(calc.items()):

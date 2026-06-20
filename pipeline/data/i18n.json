@@ -6637,6 +6637,34 @@
     "albedo": {
       "en": "Off-field Geo DPS. Double Geo core.",
       "zh": "后台岩C。双岩核心。"
+    },
+    "b_tier": {
+      "en": "👍 B-Tier — Situational but Strong",
+      "zh": "👍 B级 — 特定场合强力"
+    },
+    "b_desc": {
+      "en": "Good characters that excel in specific teams or need higher investment. Still perfectly viable for all content.",
+      "zh": "在特定队伍中表现出色或需要较高练度的优秀角色。全内容依然可用。"
+    },
+    "albedo_b": {
+      "en": "Off-field Geo DPS. Limited team options.",
+      "zh": "后台岩C。双岩核心。配队选择有限但投入低。"
+    },
+    "beidou_b": {
+      "en": "AoE Electro sub-DPS. Needs C2 + Fischl.",
+      "zh": "范围雷副C。需要C2+菲谢尔充能才能正常运作。"
+    },
+    "sucrose_b": {
+      "en": "EM share + VV shred. Kazuha side-grade.",
+      "zh": "精通共享+风套。万叶替代品。零氪友好。"
+    },
+    "yaoyao_b": {
+      "en": "Dendro healer. Nilou Bloom teams.",
+      "zh": "草系治疗。妮露绽放队核心。草队外用途有限。"
+    },
+    "faruzan_b": {
+      "en": "Anemo buffer. Xiao/Wanderer support.",
+      "zh": "风系专拐。魈/流浪者必备。六命前充能需求极高。"
     }
   },
   "yaoyao": {
