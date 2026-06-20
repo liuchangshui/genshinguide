@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.">
+<title>Tartaglia (Childe) Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Tartaglia (Childe) Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-tartaglia.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Tartaglia Build Guide — v5.6","description":"Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-tartaglia.html"}}</script>
+</head>
+<body data-page="tartaglia">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle active" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <img src="../images/tartaglia-card.webp" alt="Tartaglia" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback hydro" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));">
+      <span>Tartaglia</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v5.6 · <span>更新于</span> 2026-06-20 · <span>人工审核</span></div>
+    <h1 class="char-name"><span>达达利亚（公子）</span> <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">弓</span>
+      <span class="elem-tag">水</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">辅助</span>
+    </div>
+    <p class="char-desc">愚人众第十一执行官。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 <span>最佳武器</span></div>
+        <div class="tldr-value">冬极白星 (专武) / 弓藏 R5 (零氪)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">沉沦之心4件套 / 沉沦2+攻击2</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">万达国际 (公子·香菱·万叶·班尼特)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">攻击 1800+ · 暴击 70%+ · 爆伤 150%+ · 精通 100+ · 战技 > 大招 > 普攻</div>
+      </div>
+    </div>
+  </div>
+
+  <p>达达利亚（公子）是五星水元素弓C，独特的双形态切换机制在远程弓击和近战水刃间转换。他的元素战技施加断流标记，连锁造成范围水伤，使他成为游戏中最强的对群输出之一。他是传奇'万达国际'队的核心——被广泛认为是原神史上最强最全能的配队。虽然冷却管理需要技巧，但操作得当的公子清怪速度几乎无人能及。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box hydro">
+    <strong>结论：</strong> <span>冬极白星是他的专武，命中叠加攻击力。若水和飞雷之弦振是强力替代。零氪推荐弓藏R5提供稳定普攻加成。苍翠猎弓（纪行）聚怪辅助断流连锁。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(68,138,255,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>冬极白星</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>CRIT Rate 33.1%</td>
+        <td>专属毕业武器。命中叠加攻击力%。完美配合达达利亚的高速近战。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>若水</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT DMG 88.2%</td>
+        <td>极高的爆伤+全伤害加成。低白值需要班尼特增益。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>弓藏R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>ATK 41.3%</td>
+        <td>零氪最优。R5 +80%普攻伤害。减10%重击伤害对近战公子无影响。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>苍翠猎弓</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>CRIT Rate 27.6%</td>
+        <td>纪行选择。旋风聚怪→完美配合断流范围连锁。暴击副词条降低毕业难度。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native" style="text-align:center;padding:24px;opacity:0.5;">
+    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:6px;">广告位</div>
+    <div style="font-size:0.85rem;color:var(--text-secondary);">广告位 — 即将开放</div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：沉沦之心4件套</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">公子最佳。15%水伤+开E后30%普攻/重击伤害。近战形态攻击属于普攻伤害。</p>
+  </div>
+
+  <h3 class="hydro">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>ATK% / EM</td>
+        <td>攻击%为主。高攻 buff（班尼特）的蒸发队可用精通沙。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Hydro DMG%</td>
+        <td>一律选择水伤杯。无例外。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td>暴击或爆伤取决于武器。目标70:150+。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>1. 暴击率/暴击伤害 — 目标70:150+</li>
+    
+    <li>2. 攻击力% — 1800+ 攻击力</li>
+    
+    <li>3. 元素精通 — 蒸发队100+</li>
+    
+    <li>4. 元素充能效率 — 110-120%</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box hydro">
+    <strong>万达国际</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Xiangling + Kazuha + Bennett</span><br>
+    <span style="font-size:0.88rem;">传奇配队。香菱每击旋火轮触发蒸发。万叶双扩散水火。班尼特同时增益公子和香菱。全游戏最高对群伤害上限。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>感电队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Fischl + Beidou + Bennett/Flex</span><br>
+    <span style="font-size:0.88rem;">感电范围乱舞。北斗大招在敌人间连锁闪电。菲谢尔为北斗充能。对群极其有效。</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong>超绽放驾驶员</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Nahida + Raiden/Kuki + Flex</span><br>
+    <span style="font-size:0.88rem;">公子提供快速水附着生成种子。雷神/久岐忍后台触发超绽放。低投入高回报的惊喜配队。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#448aff;background:rgba(68,138,255,0.08);">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Level 9-10</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Level 8-9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Level 6 (melee attacks scale from E, not NA)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro">5. 输出循环指南</h2>
+  <div class="emphasis-box hydro">
+    <div>万达国际循环：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Tartaglia E (apply Hydro) → Bennett Q (ATK buff) → Kazuha E+Q (double swirl Hydro+Pyro) → Xiangling E+Q (snapshot buffs) → Tartaglia E + melee combo (7-9 seconds) → Ranged Q (if available) → Switch out before E cooldown gets too long</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="hydro">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 近战形态停留过久——公子E冷却 = 停留时间 + 6秒。最多7-9秒确保循环顺畅。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 升级普通攻击天赋——公子的近战攻击伤害来自E技能天赋，不是普攻天赋。普攻只影响弓形态。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 弓藏配水伤杯——弓藏提供大量增伤，攻击杯有时因稀释反而优于水伤杯。建议用计算器测试。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 不预先挂水——在完整循环前先E一次上水，为万叶双扩散做准备。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#448aff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <div class="teaser-cta">
+      <p>Pro伤害模拟器——精确伤害数值、圣遗物对比、队伍DPS排名。即将上线。</p>
+      <a href="pricing.html" class="btn btn-gold">了解更多</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <img src="../images/xiangling-card.webp" alt="Xiangling" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon pyro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>香菱</span> <span class="grade grade-s">S</span></h4>
+          <p>万达国际蒸发核心</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/kazuha-card.webp" alt="Kaedehara Kazuha" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>枫原万叶</span> <span class="grade grade-s">S</span></h4>
+          <p>双扩散+增伤</p>
+        </div>
+      </a>
+      
+      <a href="guide-bennett.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <img src="../images/bennett-card.webp" alt="Bennett" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon pyro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>班尼特</span> <span class="grade grade-s">S</span></h4>
+          <p>攻击增益引擎</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

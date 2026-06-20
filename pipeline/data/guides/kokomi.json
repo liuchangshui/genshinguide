@@ -1,0 +1,141 @@
+{
+  "_character_id": "kokomi",
+  "_element": "hydro",
+  "_weapon_type": "catalyst",
+  "_game_version": "5.6",
+  "tldr_weapon": "Everlasting Moonglow (BiS) / Prototype Amber R5 (F2P)",
+  "tldr_artifact": "4pc Ocean-Hued Clam (healer) / 4pc Tenacity of the Millelith (support)",
+  "tldr_team": "Ayaka Freeze (Ayaka·Kokomi·Kazuha·Shenhe)",
+  "tldr_key_stats": "HP 35K+ · ER 160-180% · Healing Bonus circlet · E > Q",
+  "intro": "Sangonomiya Kokomi is a 5-star Hydro Catalyst healer who combines sustained off-field Hydro application with massive team-wide healing. Her Elemental Skill (Kurage's Oath) provides AoE Hydro application and healing every 2 seconds, while her Burst refreshes the skill duration and enhances her normal attacks. Kokomi is the premier comfort pick for Freeze and Bloom teams — she consolidates the healer and Hydro applicator roles into one slot, freeing your team for more damage. While often underestimated, she's one of the most versatile and valuable supports in the game.",
+  "weapon_bottom_line": "Everlasting Moonglow provides HP and Healing Bonus, but Prototype Amber R5 is nearly as good and free. Thrilling Tales of Dragon Slayers R5 is a strong support option that buffs your main DPS.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Everlasting Moonglow",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "HP 49.6%",
+      "notes": "Signature. HP substat + Healing Bonus + Normal ATK DMG based on HP. Best for on-field Kokomi.",
+      "wpn_key": "wpn_everlasting_moonglow"
+    },
+    {
+      "rank": 2,
+      "name": "Prototype Amber R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "HP 41.3%",
+      "notes": "Best F2P. HP substat + team energy refund on Burst. At R5, nearly matches Moonglow for healing.",
+      "wpn_key": "wpn_prototype_amber"
+    },
+    {
+      "rank": 3,
+      "name": "Thrilling Tales of Dragon Slayers R5",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "HP 35.2%",
+      "notes": "Support option. R5 gives 48% ATK to next character. Ideal for freeze support Kokomi.",
+      "wpn_key": "wpn_thrilling_tales"
+    },
+    {
+      "rank": 4,
+      "name": "Sacrificial Fragments",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Elemental Mastery 221",
+      "notes": "Bloom team option. EM substat + skill reset for continuous jellyfish uptime.",
+      "wpn_key": "wpn_sacrificial_fragments"
+    }
+  ],
+  "best_artifact": "4pc Ocean-Hued Clam",
+  "artifact_why": "Best for healer Kokomi. Converts healing into physical AoE damage (up to 27K per bubble). Kokomi's consistent healing maxes the bubble easily.",
+  "artifact_alt": "4pc Tenacity of the Millelith — full support build. 20% ATK buff for team + shield strength. Use when Kokomi is purely off-field.",
+  "main_stats": {
+    "sands": "HP% / ER%",
+    "sands_note": "HP% for healing. ER% sands if below 160% ER and not using Prototype Amber.",
+    "goblet": "Hydro DMG / HP%",
+    "goblet_note": "Hydro DMG for on-field Burst mode. HP% for pure healing.",
+    "circlet": "Healing Bonus / HP%",
+    "circlet_note": "Healing Bonus maximizes both healing and Clam bubble damage. HP% is a budget option."
+  },
+  "sub_priority": [
+    "1. HP% — 35K+ target for max healing",
+    "2. Energy Recharge — 160-180% (lower with Prototype Amber)",
+    "3. Elemental Mastery — only for Bloom/Nilou teams",
+    "4. Flat HP — minor healing boost"
+  ],
+  "teams": [
+    {
+      "name": "Ayaka Freeze",
+      "members": "Ayaka + Kokomi + Kazuha + Shenhe",
+      "desc": "Premium freeze team. Kokomi provides 100% uptime AoE Hydro with her jellyfish. Consolidates healer + Hydro slot. Kazuha groups + buffs Cryo DMG."
+    },
+    {
+      "name": "Nilou Bloom",
+      "members": "Nilou + Kokomi + Nahida + Flex Dendro",
+      "desc": "Kokomi is the best driver for Nilou Bloom. Her healing offsets self-damage from blooms. Full EM build for maximum bloom damage."
+    },
+    {
+      "name": "Taser Driver",
+      "members": "Kokomi + Fischl + Beidou + Kazuha/Sucrose",
+      "desc": "On-field Kokomi drives Electro-Charged. Clam set provides additional AoE damage. Very comfortable and safe team."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip unless on-field)"
+    }
+  ],
+  "rotation_title": "Ayaka Freeze rotation:",
+  "rotation_code": "Shenhe E+Q (Cryo buff) → Kazuha E+Q (Cryo swirl + group) → Kokomi E (jellyfish, Hydro apply) → Ayaka dash + E + Q → Ayaka NA/CA spam → Refresh Kokomi E with Q before it expires",
+  "rotation_key": "Use Kokomi's Q right before the jellyfish expires to refresh its duration. In freeze teams, prioritize jellyfish uptime over personal damage.",
+  "mistakes": [
+    "Building ATK/Crit on healer Kokomi — her passive gives -100% CR. She cannot crit. HP and Healing Bonus are the only stats that matter.",
+    "Not refreshing jellyfish — Kokomi's E has 12s duration, 20s cooldown. Use Q to refresh before it expires for 100% uptime.",
+    "Using HP goblet over Hydro DMG in on-field teams — during Burst, Kokomi's normal attacks deal significant damage with Hydro goblet.",
+    "Ignoring ER — without Prototype Amber or sufficient ER, Kokomi cannot Burst to refresh her jellyfish."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "ayaka",
+      "name": "Kamisato Ayaka",
+      "element": "cryo",
+      "emoji": "❄️",
+      "tier": "S",
+      "desc": "Freeze team DPS core"
+    },
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Bloom team enabler"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Grouping + elemental DMG buff"
+    }
+  ],
+  "seo": {
+    "title": "Kokomi Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Kokomi build guide for Genshin Impact v5.6. Best weapons ranked (Everlasting Moonglow, Prototype Amber), optimal artifacts (Ocean-Hued Clam, Tenacity), Freeze and Bloom team compositions, rotation guide, and common mistakes."
+  }
+}

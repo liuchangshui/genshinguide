@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Kokomi build guide for Genshin Impact v5.6. Best weapons ranked (Everlasting Moonglow, Prototype Amber), optimal artifacts (Ocean-Hued Clam, Tenacity), Freeze and Bloom team compositions, rotation guide, and common mistakes.">
+<title>Kokomi Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Kokomi Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Kokomi build guide for Genshin Impact v5.6. Best weapons ranked (Everlasting Moonglow, Prototype Amber), optimal artifacts (Ocean-Hued Clam, Tenacity), Freeze and Bloom team compositions, rotation guide, and common mistakes.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-kokomi.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Sangonomiya Kokomi Build Guide — v5.6","description":"Complete Kokomi build guide for Genshin Impact v5.6. Best weapons ranked (Everlasting Moonglow, Prototype Amber), optimal artifacts (Ocean-Hued Clam, Tenacity), Freeze and Bloom team compositions, rotation guide, and common mistakes.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-kokomi.html"}}</script>
+</head>
+<body data-page="kokomi">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <img src="../images/kokomi-card.webp" alt="Sangonomiya Kokomi" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback hydro" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));">
+      <span>Kokomi</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v5.6 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-20 · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
+    <h1 class="char-name"><span data-i18n="kokomi.name">Sangonomiya Kokomi</span> <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag" data-i18n="guide.weapon_catalyst">Catalyst</span>
+      <span class="elem-tag" data-i18n="guide.element_hydro">Hydro</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role" data-i18n="guide.role_support">Support</span>
+    </div>
+    <p class="char-desc" data-i18n="kokomi.desc">The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 <span data-i18n="guide.tldr_best_weapon">Best Weapon</span></div>
+        <div class="tldr-value" data-i18n="kokomi.tldr_weapon">Everlasting Moonglow (BiS) / Prototype Amber R5 (F2P)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span data-i18n="guide.tldr_best_artifact">Best Artifact</span></div>
+        <div class="tldr-value" data-i18n="kokomi.tldr_artifact">4pc Ocean-Hued Clam (healer) / 4pc Tenacity of the Millelith (support)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span data-i18n="guide.tldr_best_team">Best Team</span></div>
+        <div class="tldr-value" data-i18n="kokomi.tldr_team">Ayaka Freeze (Ayaka·Kokomi·Kazuha·Shenhe)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span data-i18n="guide.tldr_key_stats_label">Key Stats</span></div>
+        <div class="tldr-value" data-i18n="kokomi.tldr_key_stats">HP 35K+ · ER 160-180% · Healing Bonus circlet · E > Q</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="kokomi.intro">Sangonomiya Kokomi is a 5-star Hydro Catalyst healer who combines sustained off-field Hydro application with massive team-wide healing. Her Elemental Skill (Kurage's Oath) provides AoE Hydro application and healing every 2 seconds, while her Burst refreshes the skill duration and enhances her normal attacks. Kokomi is the premier comfort pick for Freeze and Bloom teams — she consolidates the healer and Hydro applicator roles into one slot, freeing your team for more damage. While often underestimated, she's one of the most versatile and valuable supports in the game.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="guide.bottom_line_label">Bottom line:</strong> <span data-i18n="kokomi.weapon_bottom_line">Everlasting Moonglow provides HP and Healing Bonus, but Prototype Amber R5 is nearly as good and free. Thrilling Tales of Dragon Slayers R5 is a strong support option that buffs your main DPS.</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(68,138,255,0.2);">
+        <th data-i18n="guide.th_rank">Rank</th>
+        <th data-i18n="guide.th_weapon">Weapon</th>
+        <th data-i18n="guide.th_rarity">Rarity</th>
+        <th data-i18n="guide.th_atk">Base ATK</th>
+        <th data-i18n="guide.th_substat">Sub-stat</th>
+        <th data-i18n="guide.th_notes">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td data-i18n="wpn.wpn_everlasting_moonglow">Everlasting Moonglow</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>HP 49.6%</td>
+        <td data-i18n="kokomi.w1_notes">Signature. HP substat + Healing Bonus + Normal ATK DMG based on HP. Best for on-field Kokomi.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td data-i18n="wpn.wpn_prototype_amber">Prototype Amber R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>HP 41.3%</td>
+        <td data-i18n="kokomi.w2_notes">Best F2P. HP substat + team energy refund on Burst. At R5, nearly matches Moonglow for healing.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td data-i18n="wpn.wpn_thrilling_tales">Thrilling Tales of Dragon Slayers R5</td>
+        <td>⭐⭐⭐</td>
+        <td>401</td>
+        <td>HP 35.2%</td>
+        <td data-i18n="kokomi.w3_notes">Support option. R5 gives 48% ATK to next character. Ideal for freeze support Kokomi.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td data-i18n="wpn.wpn_sacrificial_fragments">Sacrificial Fragments</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>454</td>
+        <td>Elemental Mastery 221</td>
+        <td data-i18n="kokomi.w4_notes">Bloom team option. EM substat + skill reset for continuous jellyfish uptime.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native" style="text-align:center;padding:24px;opacity:0.5;">
+    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:6px;" data-i18n="ad.label">Ad Space</div>
+    <div style="font-size:0.85rem;color:var(--text-secondary);" data-i18n="ad.placeholder">Ad placement — coming soon</div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="kokomi.arti_best">🎯 Best: 4pc Ocean-Hued Clam</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="kokomi.arti_why">Best for healer Kokomi. Converts healing into physical AoE damage (up to 27K per bubble). Kokomi's consistent healing maxes the bubble easily.</p>
+  </div>
+
+  <h3 class="hydro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th data-i18n="guide.th_slot">Slot</th><th data-i18n="guide.th_mainstat">Main Stat</th><th data-i18n="guide.th_mnotes">Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span data-i18n="guide.sands_label">Sands</span></td>
+        <td>HP% / ER%</td>
+        <td data-i18n="kokomi.sands_note">HP% for healing. ER% sands if below 160% ER and not using Prototype Amber.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span data-i18n="guide.goblet_label">Goblet</span></td>
+        <td>Hydro DMG / HP%</td>
+        <td data-i18n="kokomi.goblet_note">Hydro DMG for on-field Burst mode. HP% for pure healing.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span data-i18n="guide.circlet_label">Circlet</span></td>
+        <td>Healing Bonus / HP%</td>
+        <td data-i18n="kokomi.circlet_note">Healing Bonus maximizes both healing and Clam bubble damage. HP% is a budget option.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li data-i18n="kokomi.sub1">1. HP% — 35K+ target for max healing</li>
+    
+    <li data-i18n="kokomi.sub2">2. Energy Recharge — 160-180% (lower with Prototype Amber)</li>
+    
+    <li data-i18n="kokomi.sub3">3. Elemental Mastery — only for Bloom/Nilou teams</li>
+    
+    <li data-i18n="kokomi.sub4">4. Flat HP — minor healing boost</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="kokomi.team1_name">Ayaka Freeze</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Ayaka + Kokomi + Kazuha + Shenhe</span><br>
+    <span data-i18n="kokomi.team1_desc" style="font-size:0.88rem;">Premium freeze team. Kokomi provides 100% uptime AoE Hydro with her jellyfish. Consolidates healer + Hydro slot. Kazuha groups + buffs Cryo DMG.</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="kokomi.team2_name">Nilou Bloom</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Nilou + Kokomi + Nahida + Flex Dendro</span><br>
+    <span data-i18n="kokomi.team2_desc" style="font-size:0.88rem;">Kokomi is the best driver for Nilou Bloom. Her healing offsets self-damage from blooms. Full EM build for maximum bloom damage.</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="kokomi.team3_name">Taser Driver</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Kokomi + Fischl + Beidou + Kazuha/Sucrose</span><br>
+    <span data-i18n="kokomi.team3_desc" style="font-size:0.88rem;">On-field Kokomi drives Electro-Charged. Clam set provides additional AoE damage. Very comfortable and safe team.</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#448aff;background:rgba(68,138,255,0.08);">
+      <div class="talent-icon">E</div>
+      <div class="talent-label" data-i18n="guide.talent1_label">Elemental Skill</div>
+      <div class="talent-priority p1">Level 9-10</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label" data-i18n="guide.talent2_label">Elemental Burst</div>
+      <div class="talent-priority p2">Level 8-9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label" data-i18n="guide.talent3_label">Normal Attack</div>
+      <div class="talent-priority p3">Level 1 (skip unless on-field)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box hydro">
+    <div data-i18n="kokomi.rotation_title">Ayaka Freeze rotation:</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Shenhe E+Q (Cryo buff) → Kazuha E+Q (Cryo swirl + group) → Kokomi E (jellyfish, Hydro apply) → Ayaka dash + E + Q → Ayaka NA/CA spam → Refresh Kokomi E with Q before it expires</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="hydro" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="kokomi.m1">❌ Building ATK/Crit on healer Kokomi — her passive gives -100% CR. She cannot crit. HP and Healing Bonus are the only stats that matter.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="kokomi.m2">❌ Not refreshing jellyfish — Kokomi's E has 12s duration, 20s cooldown. Use Q to refresh before it expires for 100% uptime.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="kokomi.m3">❌ Using HP goblet over Hydro DMG in on-field teams — during Burst, Kokomi's normal attacks deal significant damage with Hydro goblet.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="kokomi.m4">❌ Ignoring ER — without Prototype Amber or sufficient ER, Kokomi cannot Burst to refresh her jellyfish.</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#448aff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p data-i18n="guide.pro_teaser_desc">Get exact damage numbers, compare artifact loadouts, and optimize your Sangonomiya Kokomi build with the Pro DMG Simulator.</p>
+    <div class="teaser-cta">
+      <p data-i18n="guide.pro_teaser_cta">Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking. Coming soon.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      
+      <a href="guide-ayaka.html" class="guide-card cryo">
+        <div class="guide-card-img cryo">
+          <img src="../images/ayaka-card.webp" alt="Kamisato Ayaka" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon cryo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">❄️</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="ayaka.name">Kamisato Ayaka</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="kokomi.related_ayaka">Freeze team DPS core</p>
+        </div>
+      </a>
+      
+      <a href="guide-nahida.html" class="guide-card dendro">
+        <div class="guide-card-img dendro">
+          <img src="../images/nahida-card.webp" alt="Nahida" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon dendro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🌿</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="nahida.name">Nahida</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="kokomi.related_nahida">Bloom team enabler</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/kazuha-card.webp" alt="Kaedehara Kazuha" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="kazuha.name">Kaedehara Kazuha</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="kokomi.related_kazuha">Grouping + elemental DMG buff</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

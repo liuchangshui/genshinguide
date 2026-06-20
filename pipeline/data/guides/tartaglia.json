@@ -1,0 +1,141 @@
+{
+  "_character_id": "tartaglia",
+  "_element": "hydro",
+  "_weapon_type": "bow",
+  "_game_version": "5.6",
+  "tldr_weapon": "Polar Star (BiS) / The Viridescent Hunt (BP) / Rust R5 (F2P)",
+  "tldr_artifact": "4pc Heart of Depth / 2pc HoD + 2pc ATK%",
+  "tldr_team": "International (Tartaglia·Xiangling·Kazuha·Bennett)",
+  "tldr_key_stats": "ATK 1800+ · CR 70%+ · CD 150%+ · EM 100+ · E > Q > NA",
+  "intro": "Tartaglia (Childe) is a 5-star Hydro Bow DPS whose unique stance-change mechanic switches between ranged Bow attacks and fast melee Hydro blades. His Elemental Skill applies Riptide marks that chain AoE Hydro damage, making him one of the best AoE damage dealers in the game. He's the core of the legendary 'International' team — widely considered the strongest and most versatile team composition in Genshin history. While his cooldown management requires skill, a well-played Tartaglia clears content faster than almost any other carry.",
+  "weapon_bottom_line": "Polar Star is his signature BiS, stacking ATK with hits. Aqua Simulacra and Thundering Pulse are strong alternatives. For F2P, Rust R5 provides consistent Normal Attack DMG. The Viridescent Hunt (Battle Pass) groups enemies for easier Riptide chains.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Polar Star",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT Rate 33.1%",
+      "notes": "Signature BiS. Stacks ATK% with hits. Perfect for Tartaglia's rapid melee attacks.",
+      "wpn_key": "wpn_polar_star"
+    },
+    {
+      "rank": 2,
+      "name": "Aqua Simulacra",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Massive CD + universal DMG bonus. Low base ATK needs Bennett buff.",
+      "wpn_key": "wpn_aqua_simulacra"
+    },
+    {
+      "rank": 3,
+      "name": "Rust R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ATK 41.3%",
+      "notes": "Best F2P. +80% Normal ATK DMG at R5. Note: -10% Charged ATK DMG is irrelevant since Tartaglia uses melee normals.",
+      "wpn_key": "wpn_rust"
+    },
+    {
+      "rank": 4,
+      "name": "The Viridescent Hunt",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "CRIT Rate 27.6%",
+      "notes": "Battle Pass option. Cyclone groups enemies → perfect for Riptide AoE chains. CR substat makes building easier.",
+      "wpn_key": "wpn_viridescent_hunt"
+    }
+  ],
+  "best_artifact": "4pc Heart of Depth",
+  "artifact_why": "Best for Tartaglia. 15% Hydro DMG + 30% Normal/Charged ATK DMG after using skill. His melee stance attacks count as Normal ATK DMG.",
+  "artifact_alt": "2pc Heart of Depth + 2pc ATK% (Gladiator/Shimenawa) — nearly equal DPS with better substats. Easier to farm.",
+  "main_stats": {
+    "sands": "ATK% / EM",
+    "sands_note": "ATK% generally. EM sands if using in Vape teams with high ATK buffs from Bennett.",
+    "goblet": "Hydro DMG%",
+    "goblet_note": "Always Hydro DMG. No exception.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "CR or CD depending on weapon. Target 70:150+ ratio."
+  },
+  "sub_priority": [
+    "1. CRIT Rate / CRIT DMG — target 70:150+",
+    "2. ATK% — 1800+ ATK",
+    "3. Elemental Mastery — 100+ for Vape teams",
+    "4. Energy Recharge — 110-120% (burst is secondary)"
+  ],
+  "teams": [
+    {
+      "name": "International",
+      "members": "Tartaglia + Xiangling + Kazuha + Bennett",
+      "desc": "The legendary team. Xiangling vapes every Pyronado hit. Kazuha double-swirls Hydro + Pyro. Bennett buffs both Tartaglia and Xiangling. Highest AoE damage ceiling in the game."
+    },
+    {
+      "name": "Taser",
+      "members": "Tartaglia + Fischl + Beidou + Bennett/Flex",
+      "desc": "Electro-Charged AoE mayhem. Beidou's burst chains lightning between enemies. Fischl batteries Beidou. Extremely effective against grouped enemies."
+    },
+    {
+      "name": "Hyperbloom Driver",
+      "members": "Tartaglia + Nahida + Raiden/Kuki + Flex",
+      "desc": "Tartaglia provides rapid Hydro application for bloom seeds. Raiden/Kuki triggers Hyperbloom from off-field. Surprisingly effective with low investment."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 6 (melee attacks scale from E, not NA)"
+    }
+  ],
+  "rotation_title": "International rotation:",
+  "rotation_code": "Tartaglia E (apply Hydro) → Bennett Q (ATK buff) → Kazuha E+Q (double swirl Hydro+Pyro) → Xiangling E+Q (snapshot buffs) → Tartaglia E + melee combo (7-9 seconds) → Ranged Q (if available) → Switch out before E cooldown gets too long",
+  "rotation_key": "Stay in melee stance for 7-9 seconds max. Longer = longer cooldown. Switch out when Xiangling's Pyronado ends. Use Q in ranged form for energy refund.",
+  "mistakes": [
+    "Staying in melee stance too long — Tartaglia's E cooldown = time spent + 6s. Stay 7-9s max for clean rotations.",
+    "Leveling Normal Attack talent — Tartaglia's melee attacks scale from his E talent, NOT his NA talent. NA only affects bow shots.",
+    "Using Hydro DMG goblet with ATK% weapon — if using Rust, ATK% goblet can sometimes beat Hydro DMG due to oversaturation. Test with optimizer.",
+    "Not pre-applying Hydro — cast E once before the full rotation to apply Hydro for Kazuha's double swirl setup."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "International team Vape core"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Double swirl + DMG buff"
+    },
+    {
+      "id": "bennett",
+      "name": "Bennett",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "ATK buff engine"
+    }
+  ],
+  "seo": {
+    "title": "Tartaglia (Childe) Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes."
+  }
+}

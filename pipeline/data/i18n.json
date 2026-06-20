@@ -1097,6 +1097,14 @@
     "xiangling_desc": {
       "en": "Sub DPS — Emblem set, The Catch, National team core",
       "zh": "副C — 绝缘套，「渔获」，国家队核心"
+    },
+    "kokomi_desc": {
+      "en": "Healer / Support — Ocean-Hued Clam, Prototype Amber, Freeze teams",
+      "zh": "治疗/辅助 — 海染砗磲，试作金珀，永冻队"
+    },
+    "tartaglia_desc": {
+      "en": "Main DPS — Heart of Depth, Polar Star, International team",
+      "zh": "主C — 沉沦之心，冬极白星，万达国际"
     }
   },
   "footer": {
@@ -5051,6 +5059,26 @@
     "wpn_xiphos_moonlight": {
       "en": "Xiphos' Moonlight",
       "zh": "西福斯的月光"
+    },
+    "wpn_everlasting_moonglow": {
+      "en": "Everlasting Moonglow",
+      "zh": "不灭月华"
+    },
+    "wpn_thrilling_tales": {
+      "en": "Thrilling Tales of Dragon Slayers R5",
+      "zh": "讨龙英杰谭R5"
+    },
+    "wpn_polar_star": {
+      "en": "Polar Star",
+      "zh": "冬极白星"
+    },
+    "wpn_rust": {
+      "en": "Rust R5",
+      "zh": "弓藏R5"
+    },
+    "wpn_viridescent_hunt": {
+      "en": "The Viridescent Hunt",
+      "zh": "苍翠猎弓"
     }
   },
   "arti_names": {
@@ -5125,6 +5153,290 @@
     "arti_wanderers_troupe": {
       "en": "4pc Wanderer's Troupe",
       "zh": "流浪大地的乐团4件套"
+    }
+  },
+  "kokomi": {
+    "name": {
+      "en": "Sangonomiya Kokomi",
+      "zh": "珊瑚宫心海"
+    },
+    "desc": {
+      "en": "The Divine Priestess of Watatsumi Island.",
+      "zh": "海祇岛的现人神巫女。"
+    },
+    "intro": {
+      "en": "Sangonomiya Kokomi is a 5-star Hydro Catalyst healer.",
+      "zh": "珊瑚宫心海是五星水元素法器治疗角色，结合了持续的脱手水元素附着与强力的全队治疗。她的元素战技（化海月）每2秒提供范围水附着和治疗，元素爆发刷新战技持续时间并增强普攻。心海是永冻和绽放队伍的舒适之选——她将治疗和水元素附着合二为一，为队伍腾出更多输出位置。虽然常被低估，但她是游戏中最全面、最有价值的辅助之一。"
+    },
+    "weapon_bottom_line": {
+      "en": "Everlasting Moonglow provides HP and Healing Bonus.",
+      "zh": "不灭月华提供生命值和治疗加成，但试作金珀R5几乎一样好且免费。讨龙英杰谭R5是强力辅助选择，可为下一位角色提供48%攻击力。"
+    },
+    "w1_notes": {
+      "en": "Signature. HP substat + Healing Bonus.",
+      "zh": "专武。生命副词条+治疗加成+基于生命值的普攻伤害。站场心海最佳选择。"
+    },
+    "w2_notes": {
+      "en": "Best F2P. HP substat + team energy refund.",
+      "zh": "零氪最优。生命副词条+大招全队回能。R5治疗量接近专武。"
+    },
+    "w3_notes": {
+      "en": "Support option. R5 gives 48% ATK to next character.",
+      "zh": "辅助选择。R5为下一位角色提供48%攻击力。永冻辅助心海的首选。"
+    },
+    "w4_notes": {
+      "en": "Bloom team option. EM substat + skill reset.",
+      "zh": "绽放队选择。精通副词条+战技重置确保持续水母覆盖。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Ocean-Hued Clam",
+      "zh": "🎯 最佳：海染砗磲4件套"
+    },
+    "arti_why": {
+      "en": "Best for healer Kokomi. Converts healing into physical DMG.",
+      "zh": "治疗心海最佳。将治疗量转化为物理范围伤害（最高每3.5秒27K）。心海的持续治疗轻松叠满泡泡。"
+    },
+    "sands_note": {
+      "en": "HP% for healing. ER% if below 160% ER.",
+      "zh": "生命%强化治疗。充能%低于160%且不用试作金珀时选择。"
+    },
+    "goblet_note": {
+      "en": "Hydro DMG for on-field. HP% for pure healing.",
+      "zh": "站场大招模式用水伤杯。纯治疗用生命杯。"
+    },
+    "circlet_note": {
+      "en": "Healing Bonus maximizes healing and Clam DMG.",
+      "zh": "治疗加成同时最大化治疗和海染泡泡伤害。生命%是过渡选择。"
+    },
+    "sub1": {
+      "en": "1. HP% — 35K+ target",
+      "zh": "1. 生命值% — 目标35K+"
+    },
+    "sub2": {
+      "en": "2. Energy Recharge — 160-180%",
+      "zh": "2. 元素充能效率 — 160-180%（用试作金珀可降低）"
+    },
+    "sub3": {
+      "en": "3. Elemental Mastery — Bloom teams",
+      "zh": "3. 元素精通 — 仅绽放/妮露队"
+    },
+    "sub4": {
+      "en": "4. Flat HP",
+      "zh": "4. 固定生命值"
+    },
+    "team1_name": {
+      "en": "Ayaka Freeze",
+      "zh": "神里永冻"
+    },
+    "team1_desc": {
+      "en": "Premium freeze team.",
+      "zh": "顶配永冻队。心海的化海月提供100%覆盖的范围水附着。将治疗+挂水合二为一。万叶聚怪+冰伤增益。"
+    },
+    "team2_name": {
+      "en": "Nilou Bloom",
+      "zh": "妮露绽放"
+    },
+    "team2_desc": {
+      "en": "Kokomi is the best driver for Nilou Bloom.",
+      "zh": "心海是妮露绽放的最佳驾驶员。她的治疗抵消丰穰之核的自伤。全精通配装最大化绽放伤害。"
+    },
+    "team3_name": {
+      "en": "Taser Driver",
+      "zh": "感电驾驶员"
+    },
+    "team3_desc": {
+      "en": "On-field Kokomi drives Electro-Charged.",
+      "zh": "站场心海驱动感电反应。海染套提供额外范围伤害。非常舒适安全的队伍。"
+    },
+    "rotation_title": {
+      "en": "Ayaka Freeze rotation:",
+      "zh": "神里永冻循环："
+    },
+    "m1": {
+      "en": "Building ATK/Crit on healer Kokomi",
+      "zh": "❌ 治疗心海堆攻击/暴击——被动给-100%暴击率。她不能暴击。只有生命和治疗加成有效。"
+    },
+    "m2": {
+      "en": "Not refreshing jellyfish",
+      "zh": "❌ 不刷新水母——心海E持续12秒，冷却20秒。在消失前用Q刷新以实现100%覆盖。"
+    },
+    "m3": {
+      "en": "Using HP goblet over Hydro DMG on-field",
+      "zh": "❌ 站场队用生命杯而非水伤杯——大招期间心海普攻伤害可观，水伤杯提升明显。"
+    },
+    "m4": {
+      "en": "Ignoring ER",
+      "zh": "❌ 忽略充能——没有试作金珀或足够充能，心海无法用大招刷新水母。"
+    },
+    "tldr_weapon": {
+      "en": "Everlasting Moonglow (BiS) / Prototype Amber R5 (F2P)",
+      "zh": "不灭月华 (专武) / 试作金珀 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Ocean-Hued Clam (healer) / 4pc Tenacity of the Millelith (support)",
+      "zh": "海染砗磲4件套 (治疗) / 千岩牢固4件套 (辅助)"
+    },
+    "tldr_team": {
+      "en": "Ayaka Freeze (Ayaka·Kokomi·Kazuha·Shenhe)",
+      "zh": "神里永冻 (神里绫华·心海·万叶·申鹤)"
+    },
+    "tldr_key_stats": {
+      "en": "HP 35K+ · ER 160-180% · Healing Bonus circlet · E > Q",
+      "zh": "生命 35K+ · 充能 160-180% · 治疗头 · 战技 > 大招"
+    },
+    "related_ayaka": {
+      "en": "Freeze team DPS core",
+      "zh": "永冻队输出核心"
+    },
+    "related_nahida": {
+      "en": "Bloom team enabler",
+      "zh": "绽放队启动器"
+    },
+    "related_kazuha": {
+      "en": "Grouping + elemental DMG buff",
+      "zh": "聚怪+元素增伤"
+    }
+  },
+  "tartaglia": {
+    "name": {
+      "en": "Tartaglia (Childe)",
+      "zh": "达达利亚（公子）"
+    },
+    "desc": {
+      "en": "No. 11 of the Fatui Harbingers.",
+      "zh": "愚人众第十一执行官。"
+    },
+    "intro": {
+      "en": "Tartaglia (Childe) is a 5-star Hydro Bow DPS.",
+      "zh": "达达利亚（公子）是五星水元素弓C，独特的双形态切换机制在远程弓击和近战水刃间转换。他的元素战技施加断流标记，连锁造成范围水伤，使他成为游戏中最强的对群输出之一。他是传奇'万达国际'队的核心——被广泛认为是原神史上最强最全能的配队。虽然冷却管理需要技巧，但操作得当的公子清怪速度几乎无人能及。"
+    },
+    "weapon_bottom_line": {
+      "en": "Polar Star is his signature BiS.",
+      "zh": "冬极白星是他的专武，命中叠加攻击力。若水和飞雷之弦振是强力替代。零氪推荐弓藏R5提供稳定普攻加成。苍翠猎弓（纪行）聚怪辅助断流连锁。"
+    },
+    "w1_notes": {
+      "en": "Signature BiS. Stacks ATK% with hits.",
+      "zh": "专属毕业武器。命中叠加攻击力%。完美配合达达利亚的高速近战。"
+    },
+    "w2_notes": {
+      "en": "Massive CD + universal DMG bonus.",
+      "zh": "极高的爆伤+全伤害加成。低白值需要班尼特增益。"
+    },
+    "w3_notes": {
+      "en": "Best F2P. +80% Normal ATK DMG at R5.",
+      "zh": "零氪最优。R5 +80%普攻伤害。减10%重击伤害对近战公子无影响。"
+    },
+    "w4_notes": {
+      "en": "Battle Pass option. Cyclone groups enemies.",
+      "zh": "纪行选择。旋风聚怪→完美配合断流范围连锁。暴击副词条降低毕业难度。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Heart of Depth",
+      "zh": "🎯 最佳：沉沦之心4件套"
+    },
+    "arti_why": {
+      "en": "Best for Tartaglia. 15% Hydro DMG + 30% Normal/Charged ATK DMG.",
+      "zh": "公子最佳。15%水伤+开E后30%普攻/重击伤害。近战形态攻击属于普攻伤害。"
+    },
+    "sands_note": {
+      "en": "ATK% generally. EM sands for Vape teams.",
+      "zh": "攻击%为主。高攻 buff（班尼特）的蒸发队可用精通沙。"
+    },
+    "goblet_note": {
+      "en": "Always Hydro DMG. No exception.",
+      "zh": "一律选择水伤杯。无例外。"
+    },
+    "circlet_note": {
+      "en": "CR or CD depending on weapon. Target 70:150+.",
+      "zh": "暴击或爆伤取决于武器。目标70:150+。"
+    },
+    "sub1": {
+      "en": "1. CRIT Rate / CRIT DMG — target 70:150+",
+      "zh": "1. 暴击率/暴击伤害 — 目标70:150+"
+    },
+    "sub2": {
+      "en": "2. ATK% — 1800+ ATK",
+      "zh": "2. 攻击力% — 1800+ 攻击力"
+    },
+    "sub3": {
+      "en": "3. Elemental Mastery — 100+ for Vape",
+      "zh": "3. 元素精通 — 蒸发队100+"
+    },
+    "sub4": {
+      "en": "4. Energy Recharge — 110-120%",
+      "zh": "4. 元素充能效率 — 110-120%"
+    },
+    "team1_name": {
+      "en": "International",
+      "zh": "万达国际"
+    },
+    "team1_desc": {
+      "en": "The legendary team. Xiangling vapes every Pyronado hit.",
+      "zh": "传奇配队。香菱每击旋火轮触发蒸发。万叶双扩散水火。班尼特同时增益公子和香菱。全游戏最高对群伤害上限。"
+    },
+    "team2_name": {
+      "en": "Taser",
+      "zh": "感电队"
+    },
+    "team2_desc": {
+      "en": "Electro-Charged AoE mayhem.",
+      "zh": "感电范围乱舞。北斗大招在敌人间连锁闪电。菲谢尔为北斗充能。对群极其有效。"
+    },
+    "team3_name": {
+      "en": "Hyperbloom Driver",
+      "zh": "超绽放驾驶员"
+    },
+    "team3_desc": {
+      "en": "Tartaglia provides rapid Hydro application for bloom.",
+      "zh": "公子提供快速水附着生成种子。雷神/久岐忍后台触发超绽放。低投入高回报的惊喜配队。"
+    },
+    "rotation_title": {
+      "en": "International rotation:",
+      "zh": "万达国际循环："
+    },
+    "m1": {
+      "en": "Staying in melee stance too long",
+      "zh": "❌ 近战形态停留过久——公子E冷却 = 停留时间 + 6秒。最多7-9秒确保循环顺畅。"
+    },
+    "m2": {
+      "en": "Leveling Normal Attack talent",
+      "zh": "❌ 升级普通攻击天赋——公子的近战攻击伤害来自E技能天赋，不是普攻天赋。普攻只影响弓形态。"
+    },
+    "m3": {
+      "en": "Using Hydro DMG goblet with Rust",
+      "zh": "❌ 弓藏配水伤杯——弓藏提供大量增伤，攻击杯有时因稀释反而优于水伤杯。建议用计算器测试。"
+    },
+    "m4": {
+      "en": "Not pre-applying Hydro",
+      "zh": "❌ 不预先挂水——在完整循环前先E一次上水，为万叶双扩散做准备。"
+    },
+    "tldr_weapon": {
+      "en": "Polar Star (BiS) / Rust R5 (F2P)",
+      "zh": "冬极白星 (专武) / 弓藏 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Heart of Depth / 2pc HoD + 2pc ATK%",
+      "zh": "沉沦之心4件套 / 沉沦2+攻击2"
+    },
+    "tldr_team": {
+      "en": "International (Tartaglia·XL·Kazuha·Bennett)",
+      "zh": "万达国际 (公子·香菱·万叶·班尼特)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 1800+ · CR 70%+ · CD 150%+ · EM 100+ · E > Q > NA",
+      "zh": "攻击 1800+ · 暴击 70%+ · 爆伤 150%+ · 精通 100+ · 战技 > 大招 > 普攻"
+    },
+    "related_xiangling": {
+      "en": "International team Vape core",
+      "zh": "万达国际蒸发核心"
+    },
+    "related_kazuha": {
+      "en": "Double swirl + DMG buff",
+      "zh": "双扩散+增伤"
+    },
+    "related_bennett": {
+      "en": "ATK buff engine",
+      "zh": "攻击增益引擎"
     }
   }
 }

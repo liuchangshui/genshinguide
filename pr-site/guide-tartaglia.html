@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.">
+<title>Tartaglia (Childe) Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Tartaglia (Childe) Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-tartaglia.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Tartaglia Build Guide — v5.6","description":"Complete Tartaglia build guide for Genshin Impact v5.6. Best weapons ranked (Polar Star, Rust), optimal artifacts (Heart of Depth), International team guide, rotation tips, and common mistakes.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-tartaglia.html"}}</script>
+</head>
+<body data-page="tartaglia">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="guides.html" class="active" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase hydro">
+  <div class="char-portrait">
+    <img src="../images/tartaglia-card.webp" alt="Tartaglia" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback hydro" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(68,138,255,0.15));">
+      <span>Tartaglia</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span data-i18n="guide.version_prefix">Applicable to</span> v5.6 · <span data-i18n="guide.updated_prefix">Updated</span> 2026-06-20 · <span data-i18n="guide.reviewed_by">Human-reviewed</span></div>
+    <h1 class="char-name"><span data-i18n="tartaglia.name">Tartaglia</span> <span style="color:var(--accent);" data-i18n="guide.build_guide_suffix">Build Guide</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag" data-i18n="guide.weapon_bow">Bow</span>
+      <span class="elem-tag" data-i18n="guide.element_hydro">Hydro</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role" data-i18n="guide.role_support">Support</span>
+    </div>
+    <p class="char-desc" data-i18n="tartaglia.desc">No. 11 of The Harbingers, also known as "Childe". His name is highly feared on the battlefield.</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box hydro">
+    <div class="tldr-title" data-i18n="guide.tldr_title">⚡ TL;DR — Quick Answer (30s read)</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">💧 <span data-i18n="guide.tldr_best_weapon">Best Weapon</span></div>
+        <div class="tldr-value" data-i18n="tartaglia.tldr_weapon">Polar Star (BiS) / The Viridescent Hunt (BP) / Rust R5 (F2P)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span data-i18n="guide.tldr_best_artifact">Best Artifact</span></div>
+        <div class="tldr-value" data-i18n="tartaglia.tldr_artifact">4pc Heart of Depth / 2pc HoD + 2pc ATK%</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span data-i18n="guide.tldr_best_team">Best Team</span></div>
+        <div class="tldr-value" data-i18n="tartaglia.tldr_team">International (Tartaglia·Xiangling·Kazuha·Bennett)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span data-i18n="guide.tldr_key_stats_label">Key Stats</span></div>
+        <div class="tldr-value" data-i18n="tartaglia.tldr_key_stats">ATK 1800+ · CR 70%+ · CD 150%+ · EM 100+ · E > Q > NA</div>
+      </div>
+    </div>
+  </div>
+
+  <p data-i18n="tartaglia.intro">Tartaglia (Childe) is a 5-star Hydro Bow DPS whose unique stance-change mechanic switches between ranged Bow attacks and fast melee Hydro blades. His Elemental Skill applies Riptide marks that chain AoE Hydro damage, making him one of the best AoE damage dealers in the game. He's the core of the legendary 'International' team — widely considered the strongest and most versatile team composition in Genshin history. While his cooldown management requires skill, a well-played Tartaglia clears content faster than almost any other carry.</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="hydro" data-i18n="guide.sec_weapons">1. Best Weapons (Ranked)</h2>
+  <div class="emphasis-box hydro">
+    <strong data-i18n="guide.bottom_line_label">Bottom line:</strong> <span data-i18n="tartaglia.weapon_bottom_line">Polar Star is his signature BiS, stacking ATK with hits. Aqua Simulacra and Thundering Pulse are strong alternatives. For F2P, Rust R5 provides consistent Normal Attack DMG. The Viridescent Hunt (Battle Pass) groups enemies for easier Riptide chains.</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(68,138,255,0.2);">
+        <th data-i18n="guide.th_rank">Rank</th>
+        <th data-i18n="guide.th_weapon">Weapon</th>
+        <th data-i18n="guide.th_rarity">Rarity</th>
+        <th data-i18n="guide.th_atk">Base ATK</th>
+        <th data-i18n="guide.th_substat">Sub-stat</th>
+        <th data-i18n="guide.th_notes">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td data-i18n="wpn.wpn_polar_star">Polar Star</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>CRIT Rate 33.1%</td>
+        <td data-i18n="tartaglia.w1_notes">Signature BiS. Stacks ATK% with hits. Perfect for Tartaglia's rapid melee attacks.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td data-i18n="wpn.wpn_aqua_simulacra">Aqua Simulacra</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>542</td>
+        <td>CRIT DMG 88.2%</td>
+        <td data-i18n="tartaglia.w2_notes">Massive CD + universal DMG bonus. Low base ATK needs Bennett buff.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td data-i18n="wpn.wpn_rust">Rust R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>ATK 41.3%</td>
+        <td data-i18n="tartaglia.w3_notes">Best F2P. +80% Normal ATK DMG at R5. Note: -10% Charged ATK DMG is irrelevant since Tartaglia uses melee normals.</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td data-i18n="wpn.wpn_viridescent_hunt">The Viridescent Hunt</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>CRIT Rate 27.6%</td>
+        <td data-i18n="tartaglia.w4_notes">Battle Pass option. Cyclone groups enemies → perfect for Riptide AoE chains. CR substat makes building easier.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native" style="text-align:center;padding:24px;opacity:0.5;">
+    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:6px;" data-i18n="ad.label">Ad Space</div>
+    <div style="font-size:0.85rem;color:var(--text-secondary);" data-i18n="ad.placeholder">Ad placement — coming soon</div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="hydro" data-i18n="guide.sec_artifacts">2. Best Artifact Sets</h2>
+  <div class="emphasis-box hydro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;" data-i18n="tartaglia.arti_best">🎯 Best: 4pc Heart of Depth</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);" data-i18n="tartaglia.arti_why">Best for Tartaglia. 15% Hydro DMG + 30% Normal/Charged ATK DMG after using skill. His melee stance attacks count as Normal ATK DMG.</p>
+  </div>
+
+  <h3 class="hydro" data-i18n="guide.sec_mainstats">Main Stats Priority</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th data-i18n="guide.th_slot">Slot</th><th data-i18n="guide.th_mainstat">Main Stat</th><th data-i18n="guide.th_mnotes">Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span data-i18n="guide.sands_label">Sands</span></td>
+        <td>ATK% / EM</td>
+        <td data-i18n="tartaglia.sands_note">ATK% generally. EM sands if using in Vape teams with high ATK buffs from Bennett.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span data-i18n="guide.goblet_label">Goblet</span></td>
+        <td>Hydro DMG%</td>
+        <td data-i18n="tartaglia.goblet_note">Always Hydro DMG. No exception.</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span data-i18n="guide.circlet_label">Circlet</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td data-i18n="tartaglia.circlet_note">CR or CD depending on weapon. Target 70:150+ ratio.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="hydro" data-i18n="guide.sec_substats">Sub-stat Priority</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li data-i18n="tartaglia.sub1">1. CRIT Rate / CRIT DMG — target 70:150+</li>
+    
+    <li data-i18n="tartaglia.sub2">2. ATK% — 1800+ ATK</li>
+    
+    <li data-i18n="tartaglia.sub3">3. Elemental Mastery — 100+ for Vape teams</li>
+    
+    <li data-i18n="tartaglia.sub4">4. Energy Recharge — 110-120% (burst is secondary)</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="hydro" data-i18n="guide.sec_teams">3. Best Team Compositions</h2>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="tartaglia.team1_name">International</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Xiangling + Kazuha + Bennett</span><br>
+    <span data-i18n="tartaglia.team1_desc" style="font-size:0.88rem;">The legendary team. Xiangling vapes every Pyronado hit. Kazuha double-swirls Hydro + Pyro. Bennett buffs both Tartaglia and Xiangling. Highest AoE damage ceiling in the game.</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="tartaglia.team2_name">Taser</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Fischl + Beidou + Bennett/Flex</span><br>
+    <span data-i18n="tartaglia.team2_desc" style="font-size:0.88rem;">Electro-Charged AoE mayhem. Beidou's burst chains lightning between enemies. Fischl batteries Beidou. Extremely effective against grouped enemies.</span>
+  </div>
+  
+  <div class="emphasis-box hydro">
+    <strong data-i18n="tartaglia.team3_name">Hyperbloom Driver</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Tartaglia + Nahida + Raiden/Kuki + Flex</span><br>
+    <span data-i18n="tartaglia.team3_desc" style="font-size:0.88rem;">Tartaglia provides rapid Hydro application for bloom seeds. Raiden/Kuki triggers Hyperbloom from off-field. Surprisingly effective with low investment.</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="hydro" data-i18n="guide.sec_talent">4. Talent Priority</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#448aff;background:rgba(68,138,255,0.08);">
+      <div class="talent-icon">E</div>
+      <div class="talent-label" data-i18n="guide.talent1_label">Elemental Skill</div>
+      <div class="talent-priority p1">Level 9-10</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label" data-i18n="guide.talent2_label">Elemental Burst</div>
+      <div class="talent-priority p2">Level 8-9</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label" data-i18n="guide.talent3_label">Normal Attack</div>
+      <div class="talent-priority p3">Level 6 (melee attacks scale from E, not NA)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="hydro" data-i18n="guide.sec_rotation">5. Rotation Guide</h2>
+  <div class="emphasis-box hydro">
+    <div data-i18n="tartaglia.rotation_title">International rotation:</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Tartaglia E (apply Hydro) → Bennett Q (ATK buff) → Kazuha E+Q (double swirl Hydro+Pyro) → Xiangling E+Q (snapshot buffs) → Tartaglia E + melee combo (7-9 seconds) → Ranged Q (if available) → Switch out before E cooldown gets too long</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="hydro" data-i18n="guide.sec_mistakes">6. Common Mistakes</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="tartaglia.m1">❌ Staying in melee stance too long — Tartaglia's E cooldown = time spent + 6s. Stay 7-9s max for clean rotations.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="tartaglia.m2">❌ Leveling Normal Attack talent — Tartaglia's melee attacks scale from his E talent, NOT his NA talent. NA only affects bow shots.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="tartaglia.m3">❌ Using Hydro DMG goblet with ATK% weapon — if using Rust, ATK% goblet can sometimes beat Hydro DMG due to oversaturation. Test with optimizer.</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;" data-i18n="tartaglia.m4">❌ Not pre-applying Hydro — cast E once before the full rotation to apply Hydro for Kazuha's double swirl setup.</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#448aff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3 data-i18n="guide.pro_teaser_title">Pro Deep Dive — DMG Simulation Preview</h3>
+    </div>
+    <p data-i18n="guide.pro_teaser_desc">Get exact damage numbers, compare artifact loadouts, and optimize your Tartaglia build with the Pro DMG Simulator.</p>
+    <div class="teaser-cta">
+      <p data-i18n="guide.pro_teaser_cta">Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking. Coming soon.</p>
+      <a href="pricing.html" class="btn btn-gold" data-i18n="guide.pro_lock_btn">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3 data-i18n="guide.related_title">📚 Related Build Guides</h3>
+    <div class="related-grid">
+      
+      <a href="guide-xiangling.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <img src="../images/xiangling-card.webp" alt="Xiangling" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon pyro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="xiangling.name">Xiangling</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="tartaglia.related_xiangling">International team Vape core</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/kazuha-card.webp" alt="Kaedehara Kazuha" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="kazuha.name">Kaedehara Kazuha</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="tartaglia.related_kazuha">Double swirl + DMG buff</p>
+        </div>
+      </a>
+      
+      <a href="guide-bennett.html" class="guide-card pyro">
+        <div class="guide-card-img pyro">
+          <img src="../images/bennett-card.webp" alt="Bennett" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon pyro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🔥</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span data-i18n="bennett.name">Bennett</span> <span class="grade grade-s">S</span></h4>
+          <p data-i18n="tartaglia.related_bennett">ATK buff engine</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
+    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+  </div>
+  <p data-i18n="footer.copyright">Fan-made project. Not affiliated with HoYoverse. Game data (c) Cognosphere.</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>
