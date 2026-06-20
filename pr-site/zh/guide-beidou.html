@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-8260551090770188">
+<meta name="description" content="Complete Beidou build guide for Genshin Impact v5.6. Best weapons, Emblem of Severed Fate artifacts, Taser and Aggravate team compositions, counter timing and rotation guide.">
+<title>Beidou Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide</title>
+<link rel="stylesheet" href="../css/style.css">
+<meta property="og:title" content="Beidou Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide">
+<meta property="og:description" content="Complete Beidou build guide for Genshin Impact v5.6. Best weapons, Emblem of Severed Fate artifacts, Taser and Aggravate team compositions, counter timing and rotation guide.">
+<meta property="og:image" content="/images/og-default.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bricklayer.tech/guide-beidou.html">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Beidou Build Guide — v5.6","description":"Complete Beidou build guide for Genshin Impact v5.6. Best weapons, Emblem of Severed Fate artifacts, Taser and Aggravate team compositions, counter timing and rotation guide.","dateModified":"2026-06-20","datePublished":"2026-06-18","author":{"@type":"Person","name":"GenshinGuide Editor"},"reviewedBy":{"@type":"Person","name":"GenshinGuide Team"},"image":"/images/og-default.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bricklayer.tech/guide-beidou.html"}}</script>
+</head>
+<body data-page="beidou">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">⚡ Genshin<span>Guide</span></a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="guides.html" class="active">攻略</a></li>
+        <li><a href="calculator.html">计算器</a></li>
+        <li><a href="pricing.html" class="btn-pro">会员 $5/月</a></li>
+      </ul>
+      <div class="lang-toggle-group">
+        <button class="lang-toggle" data-lang="en">EN</button>
+        <button class="lang-toggle active" data-lang="zh">中</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="character-showcase electro">
+  <div class="char-portrait">
+    <img src="../images/beidou-card.webp" alt="Beidou" style="width:260px;height:320px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,var(--bg-card),rgba(179,136,255,0.15));" onerror="this.style.display='none';this.parentNode.querySelector('.char-portrait-fallback').style.display='flex';">
+    <div class="char-portrait-fallback electro" style="width:260px;height:320px;border-radius:14px;display:none;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,var(--bg-card),rgba(179,136,255,0.15));">
+      <span>Beidou</span>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="version-badge">✅ <span>适用于</span> v5.6 · <span>更新于</span> 2026-06-20 · <span>人工审核</span></div>
+    <h1 class="char-name"><span>北斗</span> <span style="color:var(--accent);">攻略</span></h1>
+    <div class="char-meta">
+      <span class="elem-tag">双手剑</span>
+      <span class="elem-tag">雷</span>
+      <span class="grade grade-s">S</span>
+      <span class="char-role">辅助</span>
+    </div>
+    <p class="char-desc">南十字舰队船长。</p>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <!-- TL;DR Quick Answer -->
+  <div class="tldr-box electro">
+    <div class="tldr-title">⚡ TL;DR — 快速答案（30秒读懂）</div>
+    <div class="tldr-grid">
+      <div class="tldr-item">
+        <div class="tldr-label">⚡ <span>最佳武器</span></div>
+        <div class="tldr-value">螭骨剑 R5 (纪行) / 试作古华 (零氪)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">🎯 <span>最佳圣遗物</span></div>
+        <div class="tldr-value">绝缘之旗印4件套 / 如雷2+攻击2</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">👥 <span>最佳配队</span></div>
+        <div class="tldr-value">感电队 (砂糖·北斗·菲谢尔·行秋)</div>
+      </div>
+      <div class="tldr-item">
+        <div class="tldr-label">📊 <span>关键属性</span></div>
+        <div class="tldr-value">充能 160-180% · 暴击 60%+ · 爆伤 130%+ · 攻击 1700+</div>
+      </div>
+    </div>
+  </div>
+
+  <p>北斗是四星雷元素大剑副C，元素爆发（斫雷）召唤雷电在敌人间连锁，造成巨额范围雷伤。元素战技（捉浪）是独特的弹反/格挡机制，完美时机释放造成毁灭性伤害。北斗对2+敌人表现最佳——她的大招每次放电连锁5次，使她成为游戏中最强的对群输出之一。配合菲谢尔充电，她组成了传奇「感电队」的核心。</p>
+
+  <!-- Section 1: Weapons -->
+  <h2 class="electro">1. 最佳武器（按推荐度排序）</h2>
+  <div class="emphasis-box electro">
+    <strong>结论：</strong> <span>螭骨剑（纪行）是她最佳四星——暴击副词条+增伤。恶王丸R5在团队高能量下表现出色。零氪推荐试作古华锻造。衔珠海皇（活动）如有的话极佳。</span>
+  </div>
+  <table class="weapon-table">
+    <thead>
+      <tr style="border-bottom-color:rgba(179,136,255,0.2);">
+        <th>排名</th>
+        <th>武器</th>
+        <th>稀有度</th>
+        <th>基础攻击</th>
+        <th>副属性</th>
+        <th>说明</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><span class="rank rank-1">1</span></td>
+        <td>螭骨剑R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>CRIT Rate 27.6%</td>
+        <td>最佳四星。暴击率+最高50%增伤。北斗在后台不丢失层数。纪行限定。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-2">2</span></td>
+        <td>狼的末路</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>608</td>
+        <td>ATK 49.6%</td>
+        <td>高白值+全队攻击buff。扎实的五星属性武器。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-3">3</span></td>
+        <td>恶王丸R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>510</td>
+        <td>ATK 41.3%</td>
+        <td>极佳。大招伤害随全队元素能量总值提升。感电队（80+80+80+60=300）下巨幅增伤。</td>
+      </tr>
+      
+      <tr>
+        <td><span class="rank rank-4">4</span></td>
+        <td>Prototype Archaic R5</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>565</td>
+        <td>ATK 27.6%</td>
+        <td>零氪锻造。扎实的攻击武器。被动造成额外范围伤害。</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <!-- Native Ad -->
+  <div class="ad-native" style="text-align:center;padding:24px;opacity:0.5;">
+    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:6px;">广告位</div>
+    <div style="font-size:0.85rem;color:var(--text-secondary);">广告位 — 即将开放</div>
+  </div>
+
+  <!-- Section 2: Artifacts -->
+  <h2 class="electro">2. 最佳圣遗物套装</h2>
+  <div class="emphasis-box electro">
+    <div style="font-weight:700;color:var(--accent);margin-bottom:4px;">🎯 最佳：绝缘之旗印4件套</div>
+    <p style="margin:0;font-size:0.88rem;color:var(--text-secondary);">综合最佳。充能转大招伤害。北斗单雷需要160-180%充能，绝缘套提供约40%大招增伤。大招是她的主要输出。</p>
+  </div>
+
+  <h3 class="electro">主词条优先级</h3>
+  <table class="weapon-table">
+    <thead>
+      <tr><th>部位</th><th>主词条</th><th>说明</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="elem-icon-small sands">🕐</span> <span>时之沙</span></td>
+        <td>ER% / ATK%</td>
+        <td>单雷用充能沙。配菲谢尔可用攻击沙。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small goblet">🍷</span> <span>空之杯</span></td>
+        <td>Electro DMG%</td>
+        <td>一律雷伤杯。</td>
+      </tr>
+      <tr>
+        <td><span class="elem-icon-small circlet">👑</span> <span>理之冠</span></td>
+        <td>CRIT Rate / CRIT DMG</td>
+        <td>目标60:130+双爆比。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="electro">副词条优先级</h3>
+  <ol style="padding-left:20px;margin:12px 0;">
+    
+    <li>1. 元素充能效率 — 单雷160-180%，配菲谢尔120-140%</li>
+    
+    <li>2. 暴击率/暴击伤害 — 60:130+</li>
+    
+    <li>3. 攻击力% — 1700+ 攻击力</li>
+    
+    <li>4. 元素精通 — 锦上添花</li>
+    
+  </ol>
+
+  <!-- Section 3: Teams -->
+  <h2 class="electro">3. 最佳配队方案</h2>
+  
+  <div class="emphasis-box electro">
+    <strong>感电队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Sucrose + Beidou + Fischl + Xingqiu</span><br>
+    <span style="font-size:0.88rem;">经典感电。砂糖普攻驱动。北斗+菲谢尔提供后台雷。行秋提供水。巨额范围感电连锁。</span>
+  </div>
+  
+  <div class="emphasis-box electro">
+    <strong>激化队</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Keqing/Yae + Beidou + Fischl + Nahida/Yaoyao</span><br>
+    <span style="font-size:0.88rem;">双雷激化。北斗提供范围伤害+减伤。菲谢尔充能。纳西妲提供精通buff。对2+敌人极强。</span>
+  </div>
+  
+  <div class="emphasis-box electro">
+    <strong>超载（夏沃蕾）</strong><br>
+    <span style="font-size:0.85rem;color:var(--text-muted);">👥 Arlecchino/Yoimiya + Beidou + Fischl + Chevreuse</span><br>
+    <span style="font-size:0.88rem;">超载队。北斗提供范围雷伤+抗打断。夏沃蕾减火雷双抗。</span>
+  </div>
+  
+
+  <!-- Section 4: Talents -->
+  <h2 class="electro">4. 天赋优先级</h2>
+  <div class="talent-row">
+    
+    <div class="talent-item" style="border-color:#b388ff;background:rgba(179,136,255,0.08);">
+      <div class="talent-icon">Q</div>
+      <div class="talent-label">元素爆发</div>
+      <div class="talent-priority p1">Level 9-10</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">E</div>
+      <div class="talent-label">元素战技</div>
+      <div class="talent-priority p2">Level 8</div>
+    </div>
+    
+    <div class="talent-item">
+      <div class="talent-icon">NA</div>
+      <div class="talent-label">普通攻击</div>
+      <div class="talent-priority p3">Level 1 (skip)</div>
+    </div>
+    
+  </div>
+
+  <!-- Section 5: Rotation -->
+  <h2 class="electro">5. 输出循环指南</h2>
+  <div class="emphasis-box electro">
+    <div>感电循环：</div>
+    <code style="font-size:0.85rem;display:block;margin-top:8px;">Fischl E (summon Oz) → Beidou E+Q (snapshot buffs) → Xingqiu E+Q (rain swords) → Sucrose NA spam (driver + swirl) → Beidou E (counter) → Repeat</code>
+  </div>
+
+  <!-- Section 6: Common Mistakes -->
+  <h2 class="electro">6. 常见错误</h2>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 单雷不带充能——80能量大招需要菲谢尔充电或160%+充能。否则三轮才开一次大招。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 不升C2——C2使斫雷连锁5个敌人（从3个）。这是北斗最大的质变。值得在商城里换。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 不锁面板——北斗大招锁攻击和增伤buff。务必先上buff再开Q。</p>
+  </div>
+  
+  <div class="emphasis-box warn">
+    <p style="margin:2px 0;">❌ 升级普攻——北斗伤害来自E和Q。普攻只有站场驾驶员才需要。</p>
+  </div>
+  
+
+  <!-- Pro Teaser -->
+  <div class="pro-teaser" style="border-color:#b388ff;">
+    <div class="pro-teaser-header">
+      <div class="icon">🔮</div>
+      <h3>Pro 深度分析 — 伤害模拟预览</h3>
+    </div>
+    <p>这是我们的伤害模拟器为雷电将军输出的结果。Pro 会员可获取完整帧数据、增益时机和队伍DPS对比。</p>
+    <div class="teaser-cta">
+      <p>Pro伤害模拟器——精确伤害数值、圣遗物对比、队伍DPS排名。即将上线。</p>
+      <a href="pricing.html" class="btn btn-gold">了解更多</a>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>📚 相关角色攻略</h3>
+    <div class="related-grid">
+      
+      <a href="guide-fischl.html" class="guide-card electro">
+        <div class="guide-card-img electro">
+          <img src="../images/fischl-card.webp" alt="Fischl" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon electro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">⚡</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>菲谢尔</span> <span class="grade grade-a">A</span></h4>
+          <p>最佳雷系充电宝+副C</p>
+        </div>
+      </a>
+      
+      <a href="guide-kazuha.html" class="guide-card anemo">
+        <div class="guide-card-img anemo">
+          <img src="../images/kazuha-card.webp" alt="Kaedehara Kazuha" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon anemo" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">🍃</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>枫原万叶</span> <span class="grade grade-s">S</span></h4>
+          <p>雷伤增益+聚怪</p>
+        </div>
+      </a>
+      
+      <a href="guide-yelan.html" class="guide-card hydro">
+        <div class="guide-card-img hydro">
+          <img src="../images/yelan-card.webp" alt="Yelan" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon hydro" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">💧</div>
+        </div>
+        <div class="guide-card-body">
+          <h4><span>夜兰</span> <span class="grade grade-s">S</span></h4>
+          <p>感电队水启动</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+
+</article>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">首页</a>
+    <a href="guides.html">攻略</a>
+    <a href="calculator.html">计算器</a>
+    <a href="pricing.html">会员</a>
+    <a href="about.html">关于</a>
+    <a href="privacy.html">隐私</a>
+  </div>
+  <p>粉丝制作项目。与HoYoverse无关。游戏数据 © Cognosphere。</p>
+</footer>
+
+<script src="../js/lang-switcher.js"></script>
+</body>
+</html>

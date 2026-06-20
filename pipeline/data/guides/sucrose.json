@@ -1,0 +1,140 @@
+{
+  "_character_id": "sucrose",
+  "_element": "anemo",
+  "_weapon_type": "catalyst",
+  "_game_version": "5.6",
+  "tldr_weapon": "Sacrificial Fragments R5 (BiS) / Thrilling Tales R5 (support)",
+  "tldr_artifact": "4pc Viridescent Venerer (EM/EM/EM)",
+  "tldr_team": "Taser (Sucrose·Beidou·Fischl·Xingqiu)",
+  "tldr_key_stats": "EM 800-900 · ER 150-170% · Level 90 · Level 90",
+  "intro": "Sucrose is a 4-star Anemo Catalyst support who provides Elemental Mastery sharing, enemy grouping, and Viridescent Venerer RES shred. Her A4 passive shares 20% of her EM with the team, and her C6 provides 20% Elemental DMG bonus. She's the F2P-friendly alternative to Kazuha, and in reaction-heavy teams (Taser, Vaporize, Aggravate), her EM sharing can actually outperform him. Sucrose also serves as the premier on-field driver for Taser teams, swirling Electro-Charged with every normal attack.",
+  "weapon_bottom_line": "Sacrificial Fragments R5 is her best — EM substat + skill reset for double E = double particles + double grouping. Thrilling Tales R5 for pure support: 48% ATK buff for the next character.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Sacrificial Fragments R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Elemental Mastery 221",
+      "notes": "Best overall. Highest EM among 4-star catalysts + skill reset enables double E for massive swirl damage.",
+      "wpn_key": "wpn_sacrificial_fragments"
+    },
+    {
+      "rank": 2,
+      "name": "A Thousand Floating Dreams",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "Elemental Mastery 265",
+      "notes": "Highest EM catalyst. Team EM/DMG buff based on elements. Overkill but BiS for pure EM.",
+      "wpn_key": "wpn_thousand_floating_dreams"
+    },
+    {
+      "rank": 3,
+      "name": "Thrilling Tales of Dragon Slayers R5",
+      "rarity": 3,
+      "atk": 401,
+      "substat": "HP 35.2%",
+      "notes": "Pure support. 48% ATK buff for next character. No EM but the ATK buff can be more valuable than personal swirl damage.",
+      "wpn_key": "wpn_thrilling_tales"
+    },
+    {
+      "rank": 4,
+      "name": "Magic Guide R5",
+      "rarity": 3,
+      "atk": 354,
+      "substat": "Elemental Mastery 187",
+      "notes": "Budget EM option. Higher EM than most 4-stars. Good if you don't have Sacrificial Fragments."
+    }
+  ],
+  "best_artifact": "4pc Viridescent Venerer",
+  "artifact_why": "Mandatory for all Anemo supports. 60% Swirl DMG + 40% Elemental RES shred. Triples Sucrose's team contribution.",
+  "artifact_alt": "None — 4pc VV is non-negotiable. Even with bad substats, the 4pc effect is more valuable than any other set.",
+  "main_stats": {
+    "sands": "EM",
+    "sands_note": "Always EM. More EM = more team EM share + more swirl damage.",
+    "goblet": "EM",
+    "goblet_note": "Always EM. Anemo DMG goblet adds little — Sucrose's damage is from swirls, not Anemo.",
+    "circlet": "EM",
+    "circlet_note": "Always EM. Triple EM is the only build for support Sucrose."
+  },
+  "sub_priority": [
+    "1. Elemental Mastery — as high as possible, target 800+",
+    "2. Energy Recharge — 150-170% for burst uptime",
+    "3. Flat ATK / ATK% — minor, only for personal Anemo damage",
+    "4. CRIT — irrelevant for full EM build"
+  ],
+  "teams": [
+    {
+      "name": "Taser Driver",
+      "members": "Sucrose + Beidou + Fischl + Xingqiu",
+      "desc": "Classic Taser. Sucrose drives on-field, swirling Electro-Charged with every normal attack. Her EM share buffs the entire team's reaction damage."
+    },
+    {
+      "name": "Vaporize Support",
+      "members": "Hu Tao/Diluc + Sucrose + Xingqiu + Bennett/Flex",
+      "desc": "Sucrose provides VV shred + EM share for the Pyro DPS. Her grouping helps AoE Vaporize hits. Thrilling Tales buff further amplifies damage."
+    },
+    {
+      "name": "Aggravate Support",
+      "members": "Keqing/Yae + Fischl + Sucrose + Nahida/Yaoyao",
+      "desc": "Sucrose provides VV shred + EM share for the Electro DPS. Her grouping helps AoE Aggravate. Kazuha gives DMG%, Sucrose gives EM — pick based on team needs."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 6-8"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 6-8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip unless driver)"
+    }
+  ],
+  "rotation_title": "Taser rotation:",
+  "rotation_code": "Fischl E (summon Oz) → Beidou E+Q (snapshot) → Xingqiu E+Q (rain swords) → Sucrose E+Q → Sucrose NA spam (swirl driver) → Sucrose E (refresh) → Repeat",
+  "rotation_key": "Sucrose's normal attacks trigger Raincutter + Stormbreaker + Oz simultaneously. Use E whenever available for grouping and energy. Her Q infuses an element — prioritize Electro or Hydro for Taser.",
+  "mistakes": [
+    "Building ATK/Crit on support Sucrose — her damage comes from swirls, which only scale with EM and level. ATK/Crit do almost nothing.",
+    "Not leveling to 90 — Swirl damage scales with character level. Level 80→90 is a ~34% swirl damage increase.",
+    "Using the wrong weapon — Sacrificial Fragments gives EM + double skill. Don't use Mappa Mare or other ATK% catalysts.",
+    "Not using VV set — without 4pc VV, Sucrose loses 40% RES shred. Even bad VV artifacts are better than perfect non-VV ones."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "fischl",
+      "name": "Fischl",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "A",
+      "desc": "Taser Electro battery"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Alternative Anemo support"
+    },
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "Vaporize team DPS"
+    }
+  ],
+  "seo": {
+    "title": "Sucrose Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Sucrose build guide for Genshin Impact v5.6. Best EM build, Viridescent Venerer artifacts, Taser driver and support team compositions, rotation guide."
+  }
+}

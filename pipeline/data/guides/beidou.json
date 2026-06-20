@@ -1,0 +1,140 @@
+{
+  "_character_id": "beidou",
+  "_element": "electro",
+  "_weapon_type": "claymore",
+  "_game_version": "5.6",
+  "tldr_weapon": "Serpent Spine R5 (BP) / Akuoumaru R5 / Prototype Archaic (F2P)",
+  "tldr_artifact": "4pc Emblem of Severed Fate / 2pc TF + 2pc ATK%",
+  "tldr_team": "Taser (Sucrose·Beidou·Fischl·Xingqiu)",
+  "tldr_key_stats": "ER 160-180% · CR 60%+ · CD 130%+ · ATK 1700+ · Q > E > NA",
+  "intro": "Beidou is a 4-star Electro Claymore sub-DPS whose Elemental Burst (Stormbreaker) creates a lightning arc that chains between enemies, dealing massive AoE Electro damage. Her Elemental Skill (Tidecaller) is a unique parry/counter that deals devastating damage when timed correctly. Beidou excels against 2+ enemies — her burst chains 5 times per discharge, making her one of the strongest AoE damage dealers in the game. Paired with Fischl as a battery, she forms the core of the legendary 'Taser' team composition.",
+  "weapon_bottom_line": "Serpent Spine (BP) is her best 4-star — CR substat + DMG bonus. Akuoumaru R5 excels with high team energy. For F2P, Prototype Archaic is a solid craftable. Luxurious Sea-Lord (event) is excellent if you have it.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Serpent Spine R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "CRIT Rate 27.6%",
+      "notes": "Best 4-star. CR + up to 50% DMG bonus at R5. Beidou is off-field so she won't lose stacks. Battle Pass exclusive.",
+      "wpn_key": "wpn_serpent_spine"
+    },
+    {
+      "rank": 2,
+      "name": "Wolf's Gravestone",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "ATK 49.6%",
+      "notes": "High base ATK + team ATK buff. Good stat stick. Passive triggers on low-HP enemies for extra team ATK.",
+      "wpn_key": "wpn_wolfs_gravestone"
+    },
+    {
+      "rank": 3,
+      "name": "Akuoumaru R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "ATK 41.3%",
+      "notes": "Excellent. Burst DMG scales with total team energy cost. In Taser team (80+80+80+60=300), huge burst bonus.",
+      "wpn_key": "wpn_akuoumaru"
+    },
+    {
+      "rank": 4,
+      "name": "Prototype Archaic R5",
+      "rarity": 4,
+      "atk": 565,
+      "substat": "ATK 27.6%",
+      "notes": "F2P craftable. Solid ATK stat stick. Passive deals extra AoE damage on hit. Always available."
+    }
+  ],
+  "best_artifact": "4pc Emblem of Severed Fate",
+  "artifact_why": "Best overall. Converts ER into Burst DMG. Beidou needs 160-180% ER as solo Electro, so Emblem provides ~40% Burst DMG bonus. Her burst is her primary damage source.",
+  "artifact_alt": "2pc Thundering Fury + 2pc ATK% — competitive if you have good substats. Less ER-dependent.",
+  "main_stats": {
+    "sands": "ER% / ATK%",
+    "sands_note": "ER% if below 160% (solo Electro). ATK% if paired with Fischl battery.",
+    "goblet": "Electro DMG%",
+    "goblet_note": "Always Electro DMG.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Target 60:130+."
+  },
+  "sub_priority": [
+    "1. Energy Recharge — 160-180% solo, 120-140% with Fischl",
+    "2. CRIT Rate / CRIT DMG — 60:130+",
+    "3. ATK% — 1700+ ATK",
+    "4. Elemental Mastery — nice but not priority"
+  ],
+  "teams": [
+    {
+      "name": "Taser",
+      "members": "Sucrose + Beidou + Fischl + Xingqiu",
+      "desc": "The classic. Sucrose drives with normal attacks. Beidou + Fischl provide off-field Electro. Xingqiu provides Hydro. Massive AoE Electro-Charged chains."
+    },
+    {
+      "name": "Aggravate",
+      "members": "Keqing/Yae + Beidou + Fischl + Nahida/Yaoyao",
+      "desc": "Double Electro Aggravate. Beidou provides AoE + damage reduction. Fischl batteries. Nahida provides EM buff. Strong against 2+ enemies."
+    },
+    {
+      "name": "Overload (Chevreuse)",
+      "members": "Arlecchino/Yoimiya + Beidou + Fischl + Chevreuse",
+      "desc": "Overload team. Beidou provides AoE Electro + interrupt resistance. Chevreuse shreds Pyro/Electro RES."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "Taser rotation:",
+  "rotation_code": "Fischl E (summon Oz) → Beidou E+Q (snapshot buffs) → Xingqiu E+Q (rain swords) → Sucrose NA spam (driver + swirl) → Beidou E (counter) → Repeat",
+  "rotation_key": "Beidou's Q snapshots — cast after all buffs are active. Her perfect counter (E) deals massive damage — learn enemy attack patterns. C2 makes her burst chain to 2 additional targets (5 total).",
+  "mistakes": [
+    "Running Beidou as solo Electro without ER — her 80-cost burst needs Fischl battery or 160%+ ER. Without it, you burst once every 3 rotations.",
+    "Not using C2 — C2 makes Stormbreaker chain to 5 enemies (from 3). This is her biggest power spike. Worth buying from Paimon's Bargains.",
+    "Not snapshotting — Beidou's burst snapshots ATK and DMG% buffs. Always cast buffs first, then Q.",
+    "Leveling Normal Attack — Beidou's damage comes from E and Q. NA only matters if she's the on-field driver."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "fischl",
+      "name": "Fischl",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "A",
+      "desc": "Best Electro battery + sub-DPS"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Electro DMG buff + grouping"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "S",
+      "desc": "Taser Hydro enabler"
+    }
+  ],
+  "seo": {
+    "title": "Beidou Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Beidou build guide for Genshin Impact v5.6. Best weapons, Emblem of Severed Fate artifacts, Taser and Aggravate team compositions, counter timing and rotation guide."
+  }
+}

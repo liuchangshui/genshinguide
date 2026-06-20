@@ -110,14 +110,6 @@
   "pro_teaser_code": "// Nahida Tri-Karma Calculator\n// Skill Lv10: 185.8% ATK + 371.5% EM\n// A4: EM above 200 → CRIT Rate bonus (max 24%)\n// A4: EM above 200 → DMG bonus (max 80%)\n// Soft cap: 1000 EM\n// Example: 1000 EM Nahida (Deepwood, Sac Frags)\n//   E proc damage: ~25-35K per Tri-Karma (crit)\n// [Unlock Pro for full team reaction simulation]",
   "related_guides": [
     {
-      "id": "raiden",
-      "name": "Raiden Shogun",
-      "emoji": "🟣",
-      "element": "electro",
-      "tier": "S",
-      "desc": "Hyperbloom trigger"
-    },
-    {
       "id": "yelan",
       "name": "Yelan",
       "emoji": "💧",
@@ -132,6 +124,14 @@
       "element": "hydro",
       "tier": "S",
       "desc": "Hyperbloom driver option"
+    },
+    {
+      "id": "kuki-shinobu",
+      "name": "Kuki Shinobu",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "A",
+      "desc": "Hyperbloom trigger + healer"
     }
   ],
   "seo": {

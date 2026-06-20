@@ -110,14 +110,6 @@
   "pro_teaser_code": "",
   "related_guides": [
     {
-      "id": "nahida",
-      "name": "Nahida",
-      "element": "dendro",
-      "emoji": "🌿",
-      "tier": "S",
-      "desc": "Best Dendro support + EM buffer"
-    },
-    {
       "id": "yelan",
       "name": "Yelan",
       "element": "hydro",
@@ -132,6 +124,14 @@
       "emoji": "🟡",
       "tier": "S",
       "desc": "Shield for uninterrupted combos"
+    },
+    {
+      "id": "kuki-shinobu",
+      "name": "Kuki Shinobu",
+      "element": "electro",
+      "emoji": "⚡",
+      "tier": "A",
+      "desc": "Quickbloom trigger + healer"
     }
   ],
   "seo": {

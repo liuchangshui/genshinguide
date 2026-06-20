@@ -1,0 +1,132 @@
+{
+  "_character_id": "xingqiu",
+  "_element": "hydro",
+  "_weapon_type": "sword",
+  "_game_version": "5.6",
+  "tldr_weapon": "Sacrificial Sword R5 (BiS) / Favonius Sword (F2P alt)",
+  "tldr_artifact": "4pc Emblem of Severed Fate / 2pc HoD + 2pc Noblesse",
+  "tldr_team": "National (Raiden·Xingqiu·Xiangling·Bennett)",
+  "tldr_key_stats": "ER 180-220% · CR 60%+ · CD 120%+ · ATK 1500+ · Q > E > NA",
+  "intro": "Xingqiu is a 4-star Hydro Sword sub-DPS who provides the best off-field Hydro application in the game. His Elemental Burst (Raincutter) summons rain swords that attack with your active character, applying Hydro on every hit. Combined with damage reduction, minor healing, and interruption resistance from his Elemental Skill, Xingqiu is the backbone of virtually every Vaporize, Freeze, and Hyperbloom team. Despite being a 4-star, he's considered one of the most valuable characters in Genshin Impact — many players consider him a 'hidden 6-star.'",
+  "weapon_bottom_line": "Sacrificial Sword R5 is his signature 4-star — the skill reset allows double E for massive energy. Favonius Sword is the F2P alternative for team energy. If using in a team with Raiden, ER requirements drop significantly.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Sacrificial Sword R5",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Energy Recharge 61.3%",
+      "notes": "Best in slot. Skill reset = double E = double particles + massive damage. At R5, 80% chance to reset. Non-negotiable for most teams.",
+      "wpn_key": "wpn_sacrificial_sword"
+    },
+    {
+      "rank": 2,
+      "name": "Favonius Sword",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Energy Recharge 61.3%",
+      "notes": "F2P alternative. Generates white particles for the team. Use if you don't have Sacrificial R3+.",
+      "wpn_key": "wpn_favonius_sword"
+    },
+    {
+      "rank": 3,
+      "name": "Primordial Jade Cutter",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT Rate 44.1%",
+      "notes": "5-star option. High CR + HP→ATK conversion. Massive personal damage but loses ER — needs ER sands.",
+      "wpn_key": "wpn_primordial_jade_cutter"
+    }
+  ],
+  "best_artifact": "4pc Emblem of Severed Fate",
+  "artifact_why": "Best overall. Converts ER into Burst DMG — Xingqiu needs high ER anyway, so Emblem doubles the value. At 200% ER → 50% Burst DMG bonus.",
+  "artifact_alt": "2pc Heart of Depth + 2pc Noblesse Oblige — better if you already have 200%+ ER from weapon and subs. 15% Hydro + 20% Burst DMG.",
+  "main_stats": {
+    "sands": "ER% / ATK%",
+    "sands_note": "ER% until 180-220% (depends on team and weapon). ATK% if ER needs are met.",
+    "goblet": "Hydro DMG%",
+    "goblet_note": "Always Hydro DMG for rain sword damage.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "CR or CD. Target 60:120+ ratio."
+  },
+  "sub_priority": [
+    "1. Energy Recharge — 180-220% (until comfortable)",
+    "2. CRIT Rate / CRIT DMG — 60:120+",
+    "3. ATK% — 1500+ ATK",
+    "4. Flat ATK"
+  ],
+  "teams": [
+    {
+      "name": "National / Rational",
+      "members": "Raiden/Childe + Xingqiu + Xiangling + Bennett",
+      "desc": "The classic. Xingqiu provides Hydro for Xiangling to Vaporize every hit. His rain swords + Pyronado = devastating single-target DPS."
+    },
+    {
+      "name": "Hu Tao Double Hydro",
+      "members": "Hu Tao + Xingqiu + Yelan + Zhongli",
+      "desc": "Hu Tao's best team. Xingqiu + Yelan provide massive off-field Hydro for consistent Vaporize. Zhongli shields for low-HP safety."
+    },
+    {
+      "name": "Hyperbloom",
+      "members": "Nahida + Xingqiu + Kuki Shinobu + Flex",
+      "desc": "Xingqiu provides Hydro for bloom seeds. Kuki triggers Hyperbloom. Nahida provides EM buff. Extremely high floor damage."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "National rotation:",
+  "rotation_code": "Raiden E (Electro application) → Xingqiu E+Q (rain swords) → Bennett E+Q (ATK buff) → Xiangling E+Q (snapshot buffs) → Raiden Q (battery + DPS) → Repeat",
+  "rotation_key": "Always use Xingqiu's E before Q when using Sacrificial — if it resets, use second E immediately after Q to catch all particles.",
+  "mistakes": [
+    "Not building enough ER — Xingqiu's burst costs 80 energy. Without enough ER, you can't burst every rotation and lose all your damage and Hydro application.",
+    "Using ATK sands without sufficient ER — Xingqiu without burst = useless. ER first, damage second.",
+    "Not using Sacrificial Sword if available — the skill reset doubles his energy generation and damage. Even R1 Sacrificial is worth it.",
+    "Leveling Normal Attack — Xingqiu's rain swords scale from his Q talent. NA talent only affects the 2 seconds he's on field."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "xiangling",
+      "name": "Xiangling",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "Vaporize DPS partner"
+    },
+    {
+      "id": "raiden",
+      "name": "Raiden Shogun",
+      "element": "electro",
+      "emoji": "🟣",
+      "tier": "S",
+      "desc": "Rational team battery"
+    },
+    {
+      "id": "hutao",
+      "name": "Hu Tao",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "Double Hydro DPS"
+    }
+  ],
+  "seo": {
+    "title": "Xingqiu Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Xingqiu build guide for Genshin Impact v5.6. Best weapons (Sacrificial Sword), Emblem of Severed Fate artifacts, National and Hyperbloom team compositions, rotation guide."
+  }
+}

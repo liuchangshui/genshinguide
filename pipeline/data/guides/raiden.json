@@ -104,14 +104,6 @@
   ],
   "related_guides": [
     {
-      "id": "xiangling",
-      "name": "Xiangling",
-      "emoji": "🔥",
-      "element": "pyro",
-      "tier": "S",
-      "desc": "Rational — overload DPS core"
-    },
-    {
       "id": "yelan",
       "name": "Yelan",
       "emoji": "💧",
@@ -126,6 +118,14 @@
       "element": "pyro",
       "tier": "S",
       "desc": "Rational — ATK buff engine"
+    },
+    {
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "A",
+      "desc": "National team Hydro enabler"
     }
   ],
   "pro_teaser_code": "// Raiden Burst DMG Simulation (C0, 90, 4pc Emblem, 265% ER) Weapon: Engulfing Lightning R1 | Enemy: Lv.103 · RES 10% [Frame 032] Burst Slash #1: 28,432 DMG (CRIT) [Frame 058] Burst Slash #2: ███ CRIT ███ ← Pro only [Frame 084] Burst Slash #3: ████ CRIT ████ ← Pro only ... [Frame 380] Total Burst DMG: ███,███ ← Unlock Optimizer: \"Swap ER% → Electro DMG goblet = +8.3% team DPS\" ► Full simulation: 15 frames · buff snapshotting · energy calc → Pro"

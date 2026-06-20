@@ -1,0 +1,141 @@
+{
+  "_character_id": "fischl",
+  "_element": "electro",
+  "_weapon_type": "bow",
+  "_game_version": "5.6",
+  "tldr_weapon": "Aqua Simulacra / The Stringless R5 (F2P)",
+  "tldr_artifact": "4pc Golden Troupe / 2pc ATK + 2pc Electro",
+  "tldr_team": "Aggravate (Keqing/Yae·Fischl·Nahida·Kazuha)",
+  "tldr_key_stats": "ATK 1700+ · CR 65%+ · CD 140%+ · EM 100+ · E > Q > NA",
+  "intro": "Fischl is a 4-star Electro Bow sub-DPS whose Elemental Skill summons Oz, a raven that deals continuous off-field Electro damage. Her A4 passive triggers an extra Electro attack every time your active character triggers an Electro-related reaction — making her the best Aggravate enabler in the game. She's also an excellent battery, generating massive Electro particles for energy-hungry teammates like Yae Miko and Beidou. Despite being a 1.0 character, Fischl remains top-tier and is present in almost every Electro-based team composition.",
+  "weapon_bottom_line": "Aqua Simulacra provides massive CD and universal DMG bonus. The Stringless R5 is the best 4-star with EM + Skill/Burst DMG. For pure support, Elegy for the End provides team EM and ATK buffs.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Aqua Simulacra",
+      "rarity": 5,
+      "atk": 542,
+      "substat": "CRIT DMG 88.2%",
+      "notes": "Massive CD + universal 20% DMG bonus. Best for personal damage. Oz snapshots the buff.",
+      "wpn_key": "wpn_aqua_simulacra"
+    },
+    {
+      "rank": 2,
+      "name": "The Stringless R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "Elemental Mastery 165",
+      "notes": "Best 4-star. 48% Skill + Burst DMG. Oz counts as Skill DMG. EM substat helps Aggravate.",
+      "wpn_key": "wpn_the_stringless"
+    },
+    {
+      "rank": 3,
+      "name": "Polar Star",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "CRIT Rate 33.1%",
+      "notes": "High base ATK + CR. Fischl can easily stack the passive with Oz + charged shots. Strong alternative.",
+      "wpn_key": "wpn_polar_star"
+    },
+    {
+      "rank": 4,
+      "name": "Favonius Warbow",
+      "rarity": 4,
+      "atk": 454,
+      "substat": "Energy Recharge 61.3%",
+      "notes": "Support option. Generates team energy. Use if your team needs more battery power.",
+      "wpn_key": "wpn_favonius_warbow"
+    }
+  ],
+  "best_artifact": "4pc Golden Troupe",
+  "artifact_why": "Best for off-field Fischl. 70% Elemental Skill DMG — Oz deals all of Fischl's damage as Skill DMG. Massive boost.",
+  "artifact_alt": "2pc ATK% + 2pc Electro DMG — easier to farm with good substats. Competitive if Golden Troupe substats are bad.",
+  "main_stats": {
+    "sands": "ATK% / EM",
+    "sands_note": "ATK% generally. EM sands if pure Aggravate team with low ATK buffs.",
+    "goblet": "Electro DMG%",
+    "goblet_note": "Always Electro DMG.",
+    "circlet": "CRIT Rate / CRIT DMG",
+    "circlet_note": "Target 65:140+."
+  },
+  "sub_priority": [
+    "1. CRIT Rate / CRIT DMG — 65:140+",
+    "2. ATK% — 1700+ ATK",
+    "3. Elemental Mastery — 100+ for Aggravate",
+    "4. Energy Recharge — not needed, Oz generates enough"
+  ],
+  "teams": [
+    {
+      "name": "Aggravate",
+      "members": "Keqing/Yae + Fischl + Nahida + Kazuha/Sucrose",
+      "desc": "The team where Fischl shines brightest. Her A4 triggers on every Aggravate, doubling her damage output. Nahida provides EM. Kazuha/Sucrose buffs Electro DMG."
+    },
+    {
+      "name": "Taser",
+      "members": "Sucrose + Fischl + Beidou + Xingqiu",
+      "desc": "Classic Taser. Sucrose drives with normal attacks. Fischl + Beidou provide off-field Electro. Xingqiu provides Hydro. Massive AoE Electro-Charged damage."
+    },
+    {
+      "name": "Overload (Chevreuse)",
+      "members": "Arlecchino/Yoimiya + Fischl + Chevreuse + Bennett",
+      "desc": "Overload team enabled by Chevreuse. Fischl provides off-field Electro. Chevreuse shreds Pyro/Electro RES."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 9-10"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 6-8"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip unless physical DPS)"
+    }
+  ],
+  "rotation_title": "Aggravate rotation:",
+  "rotation_code": "Nahida E+Q (EM buff) → Kazuha E+Q (Electro swirl) → Fischl E (summon Oz) → Keqing/Yae combo → Fischl Q (refresh Oz) → Repeat",
+  "rotation_key": "Alternate Fischl's E and Q to maintain 100% Oz uptime. Use Q to reposition Oz if enemies move. Oz snapshots — cast him after all buffs are active.",
+  "mistakes": [
+    "Not refreshing Oz — Oz has 10s (12s at C6) duration. Fischl's Q is used purely to refresh Oz, not for damage.",
+    "Casting E before buffs — Oz snapshots. Always apply team buffs before summoning Oz for maximum damage.",
+    "Building ER on Fischl — she generates so many particles that ER is wasted. 100% base ER is sufficient.",
+    "Using ATK goblet — Electro DMG goblet is always better for sub-DPS Fischl."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Aggravate enabler + EM buffer"
+    },
+    {
+      "id": "kazuha",
+      "name": "Kaedehara Kazuha",
+      "element": "anemo",
+      "emoji": "🍃",
+      "tier": "S",
+      "desc": "Electro DMG buff + grouping"
+    },
+    {
+      "id": "arlecchino",
+      "name": "Arlecchino",
+      "element": "pyro",
+      "emoji": "🔥",
+      "tier": "S",
+      "desc": "Overload team DPS"
+    }
+  ],
+  "seo": {
+    "title": "Fischl Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Fischl build guide for Genshin Impact v5.6. Best weapons, Golden Troupe artifacts, Aggravate and Taser team compositions, rotation guide."
+  }
+}

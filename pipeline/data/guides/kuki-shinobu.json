@@ -1,0 +1,141 @@
+{
+  "_character_id": "kuki-shinobu",
+  "_element": "electro",
+  "_weapon_type": "sword",
+  "_game_version": "5.6",
+  "tldr_weapon": "Freedom-Sworn (BiS) / Iron Sting R5 (F2P)",
+  "tldr_artifact": "4pc Flower of Paradise Lost / 4pc Gilded Dreams",
+  "tldr_team": "Hyperbloom (Nahida·Xingqiu·Kuki·Flex)",
+  "tldr_key_stats": "EM 900-1000 · HP doesn't matter · Level 90 mandatory · E > Q > NA",
+  "intro": "Kuki Shinobu is a 4-star Electro Sword healer who became one of the most valuable 4-stars in the game with the introduction of Dendro. Her Elemental Skill sacrifices HP to create a ring that heals and applies Electro in an AoE every 1.5 seconds — making her the best off-field Hyperbloom trigger in the game. She consolidates healing and Hyperbloom trigger into one slot, freeing your team for more damage. Level 90 is mandatory for Kuki because Hyperbloom damage scales primarily with character level and EM.",
+  "weapon_bottom_line": "Freedom-Sworn provides the most EM. Iron Sting R5 is the best F2P craftable. Xiphos' Moonlight converts EM into ER for the team. Any EM sword works — Kuki's damage comes from Hyperbloom, not her personal stats.",
+  "weapons": [
+    {
+      "rank": 1,
+      "name": "Freedom-Sworn",
+      "rarity": 5,
+      "atk": 608,
+      "substat": "Elemental Mastery 198",
+      "notes": "Best for EM. High base EM + team buff on reaction. Overkill for pure Hyperbloom trigger but best-in-slot.",
+      "wpn_key": "wpn_freedom_sworn"
+    },
+    {
+      "rank": 2,
+      "name": "Xiphos' Moonlight",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "Elemental Mastery 165",
+      "notes": "Excellent. Converts EM to ER for Kuki and the team. Solves energy problems for the whole party.",
+      "wpn_key": "wpn_xiphos_moonlight"
+    },
+    {
+      "rank": 3,
+      "name": "Iron Sting R5",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "Elemental Mastery 165",
+      "notes": "Best F2P. EM substat + DMG bonus passive. Craftable, no gacha needed.",
+      "wpn_key": "wpn_iron_sting"
+    },
+    {
+      "rank": 4,
+      "name": "Toukabou Shigure",
+      "rarity": 4,
+      "atk": 510,
+      "substat": "Elemental Mastery 165",
+      "notes": "Event weapon. EM substat + mark debuff on enemy. Good if you have it from the event.",
+      "wpn_key": "wpn_toukabou_shigure"
+    }
+  ],
+  "best_artifact": "4pc Flower of Paradise Lost",
+  "artifact_why": "Best for Hyperbloom damage. 80 EM + 40% Bloom/Hyperbloom/Burgeon DMG. About 5-8% more Hyperbloom damage than Gilded Dreams.",
+  "artifact_alt": "4pc Gilded Dreams — nearly as good and much more resin-efficient to farm (Deepwood domain). If substats are better, use this instead.",
+  "main_stats": {
+    "sands": "EM",
+    "sands_note": "Always EM. Hyperbloom damage only cares about EM and level.",
+    "goblet": "EM",
+    "goblet_note": "Always EM. Electro DMG goblet does nothing for Hyperbloom.",
+    "circlet": "EM / Healing Bonus",
+    "circlet_note": "EM for max damage. Healing Bonus if you need more healing comfort."
+  },
+  "sub_priority": [
+    "1. Elemental Mastery — as high as possible, target 900+",
+    "2. HP% — for healing (secondary, not for damage)",
+    "3. Energy Recharge — nice to have for burst uptime",
+    "4. Flat HP — minor healing boost"
+  ],
+  "teams": [
+    {
+      "name": "Hyperbloom",
+      "members": "Nahida + Xingqiu/Yelan + Kuki + Flex",
+      "desc": "The team that made Kuki meta. Nahida provides EM buff + Deepwood shred. Xingqiu/Yelan provides Hydro for seeds. Kuki triggers 30K+ Hyperblooms from off-field."
+    },
+    {
+      "name": "Quickbloom",
+      "members": "Alhaitham + Kuki + Yelan/Xingqiu + Nahida",
+      "desc": "Alhaitham drives on-field while Kuki triggers Hyperblooms from off-field. Alhaitham also triggers Spread. Dual DPS, extremely high team damage."
+    },
+    {
+      "name": "Aggravate Support",
+      "members": "Keqing/Yae + Fischl + Kuki + Kazuha/Sucrose",
+      "desc": "Kuki provides healing + Electro resonance for energy. Less damage than Hyperbloom but enables non-Dendro teams."
+    }
+  ],
+  "talent_priority": [
+    {
+      "icon": "E",
+      "label": "Elemental Skill",
+      "priority": "Level 8-9"
+    },
+    {
+      "icon": "Q",
+      "label": "Elemental Burst",
+      "priority": "Level 6 (optional)"
+    },
+    {
+      "icon": "NA",
+      "label": "Normal Attack",
+      "priority": "Level 1 (skip)"
+    }
+  ],
+  "rotation_title": "Hyperbloom rotation:",
+  "rotation_code": "Nahida E+Q (mark + EM buff) → Xingqiu E+Q (rain swords) → Kuki E (ring, apply Electro) → Flex actions → Kuki E refresh → Repeat",
+  "rotation_key": "Kuki's ring has 12s duration, 15s cooldown. At C2, duration extends to 15s = 100% uptime. Refresh ring whenever it expires. Stay close to enemies to ensure the ring hits.",
+  "mistakes": [
+    "Not leveling Kuki to 90 — Hyperbloom damage scales primarily with character level. Level 80→90 is a ~34% damage increase. Non-negotiable.",
+    "Building HP over EM — Kuki's healing is sufficient even with full EM build. You don't need to sacrifice EM for HP.",
+    "Using Electro DMG goblet — Hyperbloom damage only scales with EM and level. Electro DMG bonus does nothing.",
+    "Not using C2 if available — C2 extends the ring from 12s to 15s, giving 100% uptime. Huge quality of life improvement."
+  ],
+  "pro_teaser_code": "",
+  "related_guides": [
+    {
+      "id": "nahida",
+      "name": "Nahida",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Hyperbloom enabler + EM buffer"
+    },
+    {
+      "id": "alhaitham",
+      "name": "Alhaitham",
+      "element": "dendro",
+      "emoji": "🌿",
+      "tier": "S",
+      "desc": "Quickbloom on-field DPS"
+    },
+    {
+      "id": "yelan",
+      "name": "Yelan",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "S",
+      "desc": "Off-field Hydro for bloom seeds"
+    }
+  ],
+  "seo": {
+    "title": "Kuki Shinobu Build Guide — Best Weapons, Artifacts, Teams | GenshinGuide",
+    "description": "Complete Kuki Shinobu build guide for Genshin Impact v5.6. Best EM weapons, Hyperbloom trigger build with Flower of Paradise Lost, team compositions, and rotation guide."
+  }
+}

@@ -39,16 +39,16 @@
       "zh": "⚡ 试试Build计算器"
     },
     "btn_guides": {
-      "en": "📚 Browse 19 Guides",
-      "zh": "📚 浏览19篇攻略"
+      "en": "📚 Browse 24 Guides",
+      "zh": "📚 浏览24篇攻略"
     },
     "btn_pro": {
       "en": "⭐ Go Pro $5/mo",
       "zh": "⭐ 开通会员 $5/月"
     },
     "stat1_num": {
-      "en": "19",
-      "zh": "19"
+      "en": "24",
+      "zh": "24"
     },
     "stat1_label": {
       "en": "Character Guides",
@@ -215,8 +215,8 @@
       "zh": "永久免费"
     },
     "free_f1": {
-      "en": "All 19 character guides",
-      "zh": "全部19篇角色攻略"
+      "en": "All 24 character guides",
+      "zh": "全部24篇角色攻略"
     },
     "free_f2": {
       "en": "Basic build calculator",
@@ -327,8 +327,8 @@
       "zh": "✅ 感谢订阅！请查收邮件。"
     },
     "view_all": {
-      "en": "View All 19 Guides →",
-      "zh": "查看全部19篇攻略 →"
+      "en": "View All 24 Guides →",
+      "zh": "查看全部24篇攻略 →"
     }
   },
   "guide": {
@@ -999,8 +999,8 @@
       "zh": "全部<span class=\"highlight\">角色攻略</span>"
     },
     "subtitle": {
-      "en": "19 data-driven guides. Click any character for full build details.",
-      "zh": "19篇数据驱动攻略。点击任意角色查看完整Build详情。"
+      "en": "24 data-driven guides. Click any character for full build details.",
+      "zh": "24篇数据驱动攻略。点击任意角色查看完整Build详情。"
     },
     "raiden_desc": {
       "en": "Sub DPS / Battery — Emblem set, Engulfing Lightning, Raiden National",
@@ -1113,6 +1113,26 @@
     "yae-miko_desc": {
       "en": "Sub DPS — Golden Troupe, Kagura's Verity, Aggravate teams",
       "zh": "副C — 黄金剧团，神乐之真意，激化队"
+    },
+    "xingqiu_desc": {
+      "en": "Sub DPS — Emblem set, Sacrificial Sword, National/Hyperbloom",
+      "zh": "副C — 绝缘套，祭礼剑，国家队/超绽放"
+    },
+    "kuki-shinobu_desc": {
+      "en": "Healer / Hyperbloom — Paradise Lost, full EM, off-field trigger",
+      "zh": "治疗/超绽放 — 乐园套，全精通，后台触发器"
+    },
+    "fischl_desc": {
+      "en": "Sub DPS — Golden Troupe, Stringless, Aggravate enabler",
+      "zh": "副C — 黄金剧团，绝弦，激化启动器"
+    },
+    "beidou_desc": {
+      "en": "Sub DPS — Emblem set, Serpent Spine, Taser/Aggravate",
+      "zh": "副C — 绝缘套，螭骨剑，感电/激化队"
+    },
+    "sucrose_desc": {
+      "en": "Support — VV set, Sac Frags, EM share + grouping",
+      "zh": "辅助 — 风套，祭礼残章，精通共享+聚怪"
     }
   },
   "footer": {
@@ -5099,6 +5119,26 @@
     "wpn_skyward_atlas": {
       "en": "Skyward Atlas",
       "zh": "天空之卷"
+    },
+    "wpn_sacrificial_sword": {
+      "en": "Sacrificial Sword R5",
+      "zh": "祭礼剑R5"
+    },
+    "wpn_serpent_spine": {
+      "en": "Serpent Spine R5",
+      "zh": "螭骨剑R5"
+    },
+    "wpn_wolfs_gravestone": {
+      "en": "Wolf's Gravestone",
+      "zh": "狼的末路"
+    },
+    "wpn_akuoumaru": {
+      "en": "Akuoumaru R5",
+      "zh": "恶王丸R5"
+    },
+    "wpn_toukabou_shigure": {
+      "en": "Toukabou Shigure",
+      "zh": "东花坊时雨"
     }
   },
   "arti_names": {
@@ -5741,6 +5781,712 @@
     "related_kazuha": {
       "en": "Electro DMG buff + grouping",
       "zh": "雷伤增益+聚怪"
+    }
+  },
+  "xingqiu": {
+    "name": {
+      "en": "Xingqiu",
+      "zh": "行秋"
+    },
+    "desc": {
+      "en": "A young man carrying a longsword.",
+      "zh": "手持长剑的少年。"
+    },
+    "intro": {
+      "en": "Xingqiu is a 4-star Hydro Sword sub-DPS.",
+      "zh": "行秋是四星水元素单手剑副C，提供全游戏最好的脱手水附着。元素爆发（裁雨留虹）召唤雨帘剑随站场角色攻击，每次命中施加水元素。配合减伤、微量治疗和抗打断，行秋是几乎所有蒸发、永冻和超绽放队伍的核心。虽是四星，却被公认为原神最有价值的角色之一——很多玩家称他为「隐藏六星」。"
+    },
+    "tldr_weapon": {
+      "en": "Sacrificial Sword R5 (BiS) / Favonius Sword (F2P alt)",
+      "zh": "祭礼剑 R5 (最佳) / 西风剑 (零氪替代)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate / 2pc HoD + 2pc Noblesse",
+      "zh": "绝缘之旗印4件套 / 沉沦2+宗室2"
+    },
+    "tldr_team": {
+      "en": "National (Raiden·Xingqiu·Xiangling·Bennett)",
+      "zh": "国家队 (雷神·行秋·香菱·班尼特)"
+    },
+    "tldr_key_stats": {
+      "en": "ER 180-220% · CR 60%+ · CD 120%+ · ATK 1500+",
+      "zh": "充能 180-220% · 暴击 60%+ · 爆伤 120%+ · 攻击 1500+"
+    },
+    "weapon_bottom_line": {
+      "en": "Sacrificial Sword R5 is his signature 4-star.",
+      "zh": "祭礼剑R5是他的四星专武——战技重置允许双E提供大量充能。西风剑是零氪替代为全队充能。若在雷神队中，充能需求大幅降低。"
+    },
+    "w1_notes": {
+      "en": "Best in slot. Skill reset = double E = double particles.",
+      "zh": "最佳选择。战技重置 = 双E = 双倍产球 + 高额伤害。R5时80%概率重置。大多数配队的必备之选。"
+    },
+    "w2_notes": {
+      "en": "F2P alternative. Generates white particles for the team.",
+      "zh": "零氪替代。为全队生成白球。没有祭礼剑R3以上时使用。"
+    },
+    "w3_notes": {
+      "en": "5-star option. High CR + HP→ATK conversion.",
+      "zh": "五星选择。高暴击率+生命转攻击。大幅提高个人伤害但失去充能——需要充能沙。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Emblem of Severed Fate",
+      "zh": "🎯 最佳：绝缘之旗印4件套"
+    },
+    "arti_why": {
+      "en": "Best overall. Converts ER into Burst DMG.",
+      "zh": "综合最佳。充能转大招伤害——行秋本来就需要高充能，绝缘套加倍收益。200%充能→50%大招增伤。"
+    },
+    "sands_note": {
+      "en": "ER% until 180-220%.",
+      "zh": "充能沙到180-220%（取决于配队和武器）。充能够了用攻击沙。"
+    },
+    "goblet_note": {
+      "en": "Always Hydro DMG.",
+      "zh": "一律水伤杯——雨帘剑伤害为水元素。"
+    },
+    "circlet_note": {
+      "en": "Target 60:120+.",
+      "zh": "目标60:120+双爆比。"
+    },
+    "sub1": {
+      "en": "1. Energy Recharge — 180-220%",
+      "zh": "1. 元素充能效率 — 180-220%"
+    },
+    "sub2": {
+      "en": "2. CRIT Rate / CRIT DMG — 60:120+",
+      "zh": "2. 暴击率/暴击伤害 — 60:120+"
+    },
+    "sub3": {
+      "en": "3. ATK% — 1500+ ATK",
+      "zh": "3. 攻击力% — 1500+ 攻击力"
+    },
+    "sub4": {
+      "en": "4. Flat ATK",
+      "zh": "4. 固定攻击力"
+    },
+    "team1_name": {
+      "en": "National / Rational",
+      "zh": "国家队 / 雷国"
+    },
+    "team1_desc": {
+      "en": "The classic.",
+      "zh": "经典组合。行秋为香菱提供每击蒸发所需的水元素。雨帘剑+旋火轮=毁灭性的对单DPS。"
+    },
+    "team2_name": {
+      "en": "Hu Tao Double Hydro",
+      "zh": "胡桃双水"
+    },
+    "team2_desc": {
+      "en": "Hu Tao's best team.",
+      "zh": "胡桃最强配队。行秋+夜兰提供大量后台水元素确保持续蒸发。钟离护盾保护低血量安全。"
+    },
+    "team3_name": {
+      "en": "Hyperbloom",
+      "zh": "超绽放"
+    },
+    "team3_desc": {
+      "en": "Xingqiu provides Hydro for bloom seeds.",
+      "zh": "行秋提供水元素生成草原核。久岐忍触发超绽放。纳西妲提供精通buff。极高的下限伤害。"
+    },
+    "rotation_title": {
+      "en": "National rotation:",
+      "zh": "国家队循环："
+    },
+    "m1": {
+      "en": "Not building enough ER",
+      "zh": "❌ 充能不足——行秋大招需要80能量。充能够才能每轮爆发，不够=没用。"
+    },
+    "m2": {
+      "en": "Using ATK sands without sufficient ER",
+      "zh": "❌ 充能够前用攻击沙——行秋没大招=没用。先充能，后伤害。"
+    },
+    "m3": {
+      "en": "Not using Sacrificial Sword if available",
+      "zh": "❌ 有祭礼剑不用——战技重置翻倍充能和伤害。即使是R1也值得用。"
+    },
+    "m4": {
+      "en": "Leveling Normal Attack",
+      "zh": "❌ 升级普通攻击——行秋的雨帘剑伤害来自Q天赋。普攻只影响他站场的2秒。"
+    },
+    "related_xiangling": {
+      "en": "Vaporize DPS partner",
+      "zh": "蒸发输出搭档"
+    },
+    "related_raiden": {
+      "en": "Rational team battery",
+      "zh": "雷国队伍充电宝"
+    },
+    "related_hutao": {
+      "en": "Double Hydro DPS",
+      "zh": "双水主C"
+    }
+  },
+  "kuki-shinobu": {
+    "name": {
+      "en": "Kuki Shinobu",
+      "zh": "久岐忍"
+    },
+    "desc": {
+      "en": "The deputy leader of the Arataki Gang.",
+      "zh": "荒泷派二把手。"
+    },
+    "intro": {
+      "en": "Kuki Shinobu is a 4-star Electro Sword healer.",
+      "zh": "久岐忍是四星雷元素单手剑治疗角色，随着草元素的引入成为游戏中最有价值的四星之一。她的元素战技消耗生命值生成一个环，每1.5秒在范围内治疗并施加雷元素——使她成为游戏中最好的后台超绽放触发器。她将治疗和超绽放触发合二为一，为队伍腾出更多输出位置。久岐忍必须升到90级，因为超绽放伤害主要取决于角色等级和精通。"
+    },
+    "tldr_weapon": {
+      "en": "Freedom-Sworn (BiS) / Iron Sting R5 (F2P)",
+      "zh": "苍古自由之誓 (最佳) / 铁蜂刺 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Flower of Paradise Lost / 4pc Gilded Dreams",
+      "zh": "乐园遗落之花4件套 / 饰金之梦4件套"
+    },
+    "tldr_team": {
+      "en": "Hyperbloom (Nahida·Xingqiu·Kuki·Flex)",
+      "zh": "超绽放 (纳西妲·行秋·久岐忍·灵活位)"
+    },
+    "tldr_key_stats": {
+      "en": "EM 900-1000 · Level 90 mandatory",
+      "zh": "精通 900-1000 · 必须90级"
+    },
+    "weapon_bottom_line": {
+      "en": "Freedom-Sworn provides the most EM.",
+      "zh": "苍古自由之誓提供最高精通。铁蜂刺R5是最佳零氪锻造武器。西福斯的月光将精通转化为全队充能。任何精通单手剑都可——久岐忍的伤害来自超绽放而非个人属性。"
+    },
+    "w1_notes": {
+      "en": "Best for EM. High base EM + team buff.",
+      "zh": "精通最佳。高基础精通+反应触发全队buff。纯超绽放触发器来说有些大材小用但是毕业之选。"
+    },
+    "w2_notes": {
+      "en": "Excellent. Converts EM to ER for the team.",
+      "zh": "极佳。将精通转化为久岐忍和全队的充能效率。解决全队充能问题。"
+    },
+    "w3_notes": {
+      "en": "Best F2P. EM substat + DMG bonus passive.",
+      "zh": "零氪最优。精通副词条+增伤被动。锻造可得——无需抽卡。"
+    },
+    "w4_notes": {
+      "en": "Event weapon. EM substat + mark debuff.",
+      "zh": "活动武器。精通副词条+标记减益。如果活动期间获得的话是不错的选择。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Flower of Paradise Lost",
+      "zh": "🎯 最佳：乐园遗落之花4件套"
+    },
+    "arti_why": {
+      "en": "Best for Hyperbloom damage.",
+      "zh": "超绽放伤害最佳。80精通+40%绽放/超绽放/烈绽放伤害。比饰金之梦多约5-8%超绽放伤害。"
+    },
+    "sands_note": {
+      "en": "Always EM.",
+      "zh": "一律精通沙。超绽放伤害只看精通和等级。"
+    },
+    "goblet_note": {
+      "en": "Always EM.",
+      "zh": "一律精通杯。雷伤杯对超绽放无效。"
+    },
+    "circlet_note": {
+      "en": "EM for max damage. Healing Bonus for comfort.",
+      "zh": "精通头最大化伤害。治疗头增加舒适度。"
+    },
+    "sub1": {
+      "en": "1. Elemental Mastery — 900+",
+      "zh": "1. 元素精通 — 越高越好，900+"
+    },
+    "sub2": {
+      "en": "2. HP% — for healing",
+      "zh": "2. 生命值% — 影响治疗量（次要）"
+    },
+    "sub3": {
+      "en": "3. Energy Recharge",
+      "zh": "3. 元素充能效率 — 非必须"
+    },
+    "sub4": {
+      "en": "4. Flat HP",
+      "zh": "4. 固定生命值 — 微幅治疗提升"
+    },
+    "team1_name": {
+      "en": "Hyperbloom",
+      "zh": "超绽放"
+    },
+    "team1_desc": {
+      "en": "The team that made Kuki meta.",
+      "zh": "让久岐忍成为版本答案的队伍。纳西妲提供精通buff+深林减抗。行秋/夜兰提供水元素生成种子。久岐忍后台触发30K+超绽放。"
+    },
+    "team2_name": {
+      "en": "Quickbloom",
+      "zh": "激绽队"
+    },
+    "team2_desc": {
+      "en": "Alhaitham drives on-field.",
+      "zh": "艾尔海森站场输出的同时久岐忍后台触发超绽放。艾尔海森同时触发蔓激化。双输出，队伍伤害极高。"
+    },
+    "team3_name": {
+      "en": "Aggravate Support",
+      "zh": "激化辅助"
+    },
+    "team3_desc": {
+      "en": "Kuki provides healing + Electro resonance.",
+      "zh": "久岐忍提供治疗+双雷共鸣充能。伤害不如超绽放但支持非草系队伍。"
+    },
+    "rotation_title": {
+      "en": "Hyperbloom rotation:",
+      "zh": "超绽放循环："
+    },
+    "m1": {
+      "en": "Not leveling Kuki to 90",
+      "zh": "❌ 不升90级——超绽放伤害主要取决于角色等级。80→90伤害提升约34%。必须升。"
+    },
+    "m2": {
+      "en": "Building HP over EM",
+      "zh": "❌ 堆生命不堆精通——全精通配装下久岐忍的治疗依然足够。不必牺牲精通换生命。"
+    },
+    "m3": {
+      "en": "Using Electro DMG goblet",
+      "zh": "❌ 用雷伤杯——超绽放伤害只看精通和等级。雷伤加成完全无效。"
+    },
+    "m4": {
+      "en": "Not using C2 if available",
+      "zh": "❌ 不升C2——C2将环持续时间从12秒延长至15秒，实现100%覆盖。巨大体验提升。"
+    },
+    "related_nahida": {
+      "en": "Hyperbloom enabler + EM buffer",
+      "zh": "超绽放启动+精通拐"
+    },
+    "related_alhaitham": {
+      "en": "Quickbloom on-field DPS",
+      "zh": "激绽站场主C"
+    },
+    "related_yelan": {
+      "en": "Off-field Hydro for bloom seeds",
+      "zh": "后台水元素生成种子"
+    }
+  },
+  "fischl": {
+    "name": {
+      "en": "Fischl",
+      "zh": "菲谢尔"
+    },
+    "desc": {
+      "en": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\".",
+      "zh": "自称「断罪之皇女」的神秘少女。"
+    },
+    "tldr_weapon": {
+      "en": "Aqua Simulacra / The Stringless R5 (F2P)",
+      "zh": "若水 / 绝弦 R5 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Golden Troupe / 2pc ATK + 2pc Electro",
+      "zh": "黄金剧团4件套 / 攻击2+雷伤2"
+    },
+    "tldr_team": {
+      "en": "Aggravate (Keqing/Yae·Fischl·Nahida·Kazuha)",
+      "zh": "激化队 (刻晴/八重·菲谢尔·纳西妲·万叶)"
+    },
+    "tldr_key_stats": {
+      "en": "ATK 1700+ · CR 65%+ · CD 140%+ · EM 100+",
+      "zh": "攻击 1700+ · 暴击 65%+ · 爆伤 140%+ · 精通 100+"
+    },
+    "intro": {
+      "en": "Fischl is a 4-star Electro Bow sub-DPS.",
+      "zh": "菲谢尔是四星雷元素弓副C，元素战技召唤夜鸦奥兹持续造成后台雷伤。她的A4被动在站场角色触发雷系反应时额外发动雷击——使她在激化队中伤害翻倍。她同时也是优秀的充电宝，为八重神子和北斗等充能困难户提供大量雷元素微粒。虽是1.0老角色，菲谢尔依然是版本顶级四星，几乎出现在每个雷系队伍中。"
+    },
+    "weapon_bottom_line": {
+      "en": "Aqua Simulacra provides massive CD.",
+      "zh": "若水提供极高的爆伤和全伤害加成。绝弦R5是最佳四星，具有精通+战技/爆发伤害。纯辅助可选终末嗟叹之诗提供全队精通和攻击力。"
+    },
+    "w1_notes": {
+      "en": "Massive CD + universal 20% DMG bonus.",
+      "zh": "极高的爆伤+全队20%全伤害加成。个人伤害最佳选择。奥兹锁面板享受buff。"
+    },
+    "w2_notes": {
+      "en": "Best 4-star.",
+      "zh": "最佳四星。48%战技+大招伤害。奥兹属于战技伤害。精通副词条辅助激化。"
+    },
+    "w3_notes": {
+      "en": "High base ATK + CR.",
+      "zh": "高白值+暴击率。菲谢尔可通过奥兹+重击轻松叠满被动。强力替代品。"
+    },
+    "w4_notes": {
+      "en": "Support option. Generates team energy.",
+      "zh": "辅助选择。为全队充能。队伍需要更多充能时使用。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Golden Troupe",
+      "zh": "🎯 最佳：黄金剧团4件套"
+    },
+    "arti_why": {
+      "en": "Best for off-field Fischl. 70% Elemental Skill DMG.",
+      "zh": "后台菲谢尔最佳。70%元素战技伤害——奥兹造成的所有伤害都是战技伤害。巨大提升。"
+    },
+    "sands_note": {
+      "en": "ATK% generally. EM for pure Aggravate.",
+      "zh": "攻击%为主。纯激化队低攻击buff时用精通沙。"
+    },
+    "goblet_note": {
+      "en": "Always Electro DMG.",
+      "zh": "一律雷伤杯。"
+    },
+    "circlet_note": {
+      "en": "Target 65:140+.",
+      "zh": "目标65:140+。"
+    },
+    "sub1": {
+      "en": "1. CRIT Rate / CRIT DMG — 65:140+",
+      "zh": "1. 暴击率/暴击伤害 — 65:140+"
+    },
+    "sub2": {
+      "en": "2. ATK% — 1700+ ATK",
+      "zh": "2. 攻击力% — 1700+ 攻击力"
+    },
+    "sub3": {
+      "en": "3. Elemental Mastery — 100+",
+      "zh": "3. 元素精通 — 激化队100+"
+    },
+    "sub4": {
+      "en": "4. Energy Recharge — not needed",
+      "zh": "4. 元素充能效率 — 不需要"
+    },
+    "team1_name": {
+      "en": "Aggravate",
+      "zh": "激化队"
+    },
+    "team1_desc": {
+      "en": "The team where Fischl shines.",
+      "zh": "菲谢尔最闪耀的队伍。A4被动在每个激化反应上触发，伤害翻倍。纳西妲提供精通。万叶/砂糖增益雷伤。"
+    },
+    "team2_name": {
+      "en": "Taser",
+      "zh": "感电队"
+    },
+    "team2_desc": {
+      "en": "Classic Taser.",
+      "zh": "经典感电。砂糖普攻驱动。菲谢尔+北斗提供后台雷。行秋提供水。巨额范围感电伤害。"
+    },
+    "team3_name": {
+      "en": "Overload (Chevreuse)",
+      "zh": "超载（夏沃蕾）"
+    },
+    "team3_desc": {
+      "en": "Overload team enabled by Chevreuse.",
+      "zh": "夏沃蕾机制下的超载队。菲谢尔提供后台雷。夏沃蕾减火雷双抗。"
+    },
+    "rotation_title": {
+      "en": "Aggravate rotation:",
+      "zh": "激化循环："
+    },
+    "m1": {
+      "en": "Not refreshing Oz",
+      "zh": "❌ 不刷新奥兹——奥兹持续10秒（C6为12秒）。菲谢尔的Q就是用来刷新奥兹的，不是用来打伤害的。"
+    },
+    "m2": {
+      "en": "Casting E before buffs",
+      "zh": "❌ buff前放E——奥兹锁面板。务必在所有buff激活后再召唤奥兹。"
+    },
+    "m3": {
+      "en": "Building ER on Fischl",
+      "zh": "❌ 堆充能——菲谢尔产球极多，充能完全浪费。100%基础充能足够。"
+    },
+    "m4": {
+      "en": "Using ATK goblet",
+      "zh": "❌ 用攻击杯——副C菲谢尔永远用雷伤杯。"
+    },
+    "related_nahida": {
+      "en": "Aggravate enabler + EM buffer",
+      "zh": "激化启动+精通拐"
+    },
+    "related_kazuha": {
+      "en": "Electro DMG buff + grouping",
+      "zh": "雷伤增益+聚怪"
+    },
+    "related_arlecchino": {
+      "en": "Overload team DPS",
+      "zh": "超载队主C"
+    }
+  },
+  "beidou": {
+    "name": {
+      "en": "Beidou",
+      "zh": "北斗"
+    },
+    "desc": {
+      "en": "Captain of the Crux Fleet.",
+      "zh": "南十字舰队船长。"
+    },
+    "tldr_weapon": {
+      "en": "Serpent Spine R5 (BP) / Prototype Archaic (F2P)",
+      "zh": "螭骨剑 R5 (纪行) / 试作古华 (零氪)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Emblem of Severed Fate / 2pc TF + 2pc ATK%",
+      "zh": "绝缘之旗印4件套 / 如雷2+攻击2"
+    },
+    "tldr_team": {
+      "en": "Taser (Sucrose·Beidou·Fischl·Xingqiu)",
+      "zh": "感电队 (砂糖·北斗·菲谢尔·行秋)"
+    },
+    "tldr_key_stats": {
+      "en": "ER 160-180% · CR 60%+ · CD 130%+ · ATK 1700+",
+      "zh": "充能 160-180% · 暴击 60%+ · 爆伤 130%+ · 攻击 1700+"
+    },
+    "intro": {
+      "en": "Beidou is a 4-star Electro Claymore sub-DPS.",
+      "zh": "北斗是四星雷元素大剑副C，元素爆发（斫雷）召唤雷电在敌人间连锁，造成巨额范围雷伤。元素战技（捉浪）是独特的弹反/格挡机制，完美时机释放造成毁灭性伤害。北斗对2+敌人表现最佳——她的大招每次放电连锁5次，使她成为游戏中最强的对群输出之一。配合菲谢尔充电，她组成了传奇「感电队」的核心。"
+    },
+    "weapon_bottom_line": {
+      "en": "Serpent Spine (BP) is her best 4-star.",
+      "zh": "螭骨剑（纪行）是她最佳四星——暴击副词条+增伤。恶王丸R5在团队高能量下表现出色。零氪推荐试作古华锻造。衔珠海皇（活动）如有的话极佳。"
+    },
+    "w1_notes": {
+      "en": "Best 4-star. CR + up to 50% DMG bonus.",
+      "zh": "最佳四星。暴击率+最高50%增伤。北斗在后台不丢失层数。纪行限定。"
+    },
+    "w2_notes": {
+      "en": "High base ATK + team ATK buff.",
+      "zh": "高白值+全队攻击buff。扎实的五星属性武器。"
+    },
+    "w3_notes": {
+      "en": "Excellent. Burst DMG scales with team energy.",
+      "zh": "极佳。大招伤害随全队元素能量总值提升。感电队（80+80+80+60=300）下巨幅增伤。"
+    },
+    "w4_notes": {
+      "en": "F2P craftable. Solid ATK stat stick.",
+      "zh": "零氪锻造。扎实的攻击武器。被动造成额外范围伤害。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Emblem of Severed Fate",
+      "zh": "🎯 最佳：绝缘之旗印4件套"
+    },
+    "arti_why": {
+      "en": "Best overall. Converts ER into Burst DMG.",
+      "zh": "综合最佳。充能转大招伤害。北斗单雷需要160-180%充能，绝缘套提供约40%大招增伤。大招是她的主要输出。"
+    },
+    "sands_note": {
+      "en": "ER% if solo Electro. ATK% with Fischl.",
+      "zh": "单雷用充能沙。配菲谢尔可用攻击沙。"
+    },
+    "goblet_note": {
+      "en": "Always Electro DMG.",
+      "zh": "一律雷伤杯。"
+    },
+    "circlet_note": {
+      "en": "Target 60:130+.",
+      "zh": "目标60:130+双爆比。"
+    },
+    "sub1": {
+      "en": "1. Energy Recharge — 160-180%",
+      "zh": "1. 元素充能效率 — 单雷160-180%，配菲谢尔120-140%"
+    },
+    "sub2": {
+      "en": "2. CRIT Rate / CRIT DMG — 60:130+",
+      "zh": "2. 暴击率/暴击伤害 — 60:130+"
+    },
+    "sub3": {
+      "en": "3. ATK% — 1700+ ATK",
+      "zh": "3. 攻击力% — 1700+ 攻击力"
+    },
+    "sub4": {
+      "en": "4. Elemental Mastery",
+      "zh": "4. 元素精通 — 锦上添花"
+    },
+    "team1_name": {
+      "en": "Taser",
+      "zh": "感电队"
+    },
+    "team1_desc": {
+      "en": "The classic.",
+      "zh": "经典感电。砂糖普攻驱动。北斗+菲谢尔提供后台雷。行秋提供水。巨额范围感电连锁。"
+    },
+    "team2_name": {
+      "en": "Aggravate",
+      "zh": "激化队"
+    },
+    "team2_desc": {
+      "en": "Double Electro Aggravate.",
+      "zh": "双雷激化。北斗提供范围伤害+减伤。菲谢尔充能。纳西妲提供精通buff。对2+敌人极强。"
+    },
+    "team3_name": {
+      "en": "Overload (Chevreuse)",
+      "zh": "超载（夏沃蕾）"
+    },
+    "team3_desc": {
+      "en": "Overload team.",
+      "zh": "超载队。北斗提供范围雷伤+抗打断。夏沃蕾减火雷双抗。"
+    },
+    "rotation_title": {
+      "en": "Taser rotation:",
+      "zh": "感电循环："
+    },
+    "m1": {
+      "en": "Running Beidou as solo Electro without ER",
+      "zh": "❌ 单雷不带充能——80能量大招需要菲谢尔充电或160%+充能。否则三轮才开一次大招。"
+    },
+    "m2": {
+      "en": "Not using C2",
+      "zh": "❌ 不升C2——C2使斫雷连锁5个敌人（从3个）。这是北斗最大的质变。值得在商城里换。"
+    },
+    "m3": {
+      "en": "Not snapshotting",
+      "zh": "❌ 不锁面板——北斗大招锁攻击和增伤buff。务必先上buff再开Q。"
+    },
+    "m4": {
+      "en": "Leveling Normal Attack",
+      "zh": "❌ 升级普攻——北斗伤害来自E和Q。普攻只有站场驾驶员才需要。"
+    },
+    "related_fischl": {
+      "en": "Best Electro battery + sub-DPS",
+      "zh": "最佳雷系充电宝+副C"
+    },
+    "related_kazuha": {
+      "en": "Electro DMG buff + grouping",
+      "zh": "雷伤增益+聚怪"
+    },
+    "related_yelan": {
+      "en": "Taser Hydro enabler",
+      "zh": "感电队水启动"
+    }
+  },
+  "sucrose": {
+    "name": {
+      "en": "Sucrose",
+      "zh": "砂糖"
+    },
+    "desc": {
+      "en": "An alchemist with an insatiable curiosity.",
+      "zh": "对世界充满好奇的炼金术士。"
+    },
+    "tldr_weapon": {
+      "en": "Sacrificial Fragments R5 (BiS) / Thrilling Tales R5 (support)",
+      "zh": "祭礼残章 R5 (最佳) / 讨龙英杰谭 R5 (辅助)"
+    },
+    "tldr_artifact": {
+      "en": "4pc Viridescent Venerer (EM/EM/EM)",
+      "zh": "翠绿之影4件套 (精通/精通/精通)"
+    },
+    "tldr_team": {
+      "en": "Taser (Sucrose·Beidou·Fischl·Xingqiu)",
+      "zh": "感电队 (砂糖·北斗·菲谢尔·行秋)"
+    },
+    "tldr_key_stats": {
+      "en": "EM 800-900 · ER 150-170% · Level 90",
+      "zh": "精通 800-900 · 充能 150-170% · 90级"
+    },
+    "intro": {
+      "en": "Sucrose is a 4-star Anemo Catalyst support.",
+      "zh": "砂糖是四星风元素法器辅助，提供元素精通共享、聚怪和翠绿之影减抗。A4被动为全队共享20%精通，C6提供20%元素伤害加成。她是万叶的零氪友好替代品，在反应队伍（感电、蒸发、激化）中，她的精通共享有时能超越万叶。砂糖也是感电队的顶级站场驾驶员，每次普攻都能扩散感电。"
+    },
+    "weapon_bottom_line": {
+      "en": "Sacrificial Fragments R5 is her best.",
+      "zh": "祭礼残章R5是最佳选择——精通副词条+战技重置实现双E=双倍产球+双倍聚怪。讨龙英杰谭R5纯辅助：48%攻击buff给下一位角色。"
+    },
+    "w1_notes": {
+      "en": "Best overall. Highest EM + skill reset.",
+      "zh": "综合最佳。四星法器最高精通+战技重置双重聚怪和充能。"
+    },
+    "w2_notes": {
+      "en": "Highest EM catalyst. Team buff.",
+      "zh": "最高精通法器。基于元素类型提供全队精通/伤害buff。纯精通毕业选择。"
+    },
+    "w3_notes": {
+      "en": "Pure support. 48% ATK buff for next character.",
+      "zh": "纯辅助。48%攻击buff给下一位角色。没有精通但攻击buff可能比个人扩散伤害更有价值。"
+    },
+    "w4_notes": {
+      "en": "Budget EM option.",
+      "zh": "廉价精通选择。比大多数四星法器的精通都高。没有祭礼残章时使用。"
+    },
+    "arti_best": {
+      "en": "🎯 Best: 4pc Viridescent Venerer",
+      "zh": "🎯 最佳：翠绿之影4件套"
+    },
+    "arti_why": {
+      "en": "Mandatory for all Anemo supports.",
+      "zh": "所有风系辅助必备。60%扩散伤害+40%元素减抗。将砂糖的团队贡献提升三倍。"
+    },
+    "sands_note": {
+      "en": "Always EM.",
+      "zh": "一律精通沙。更多精通=更多全队精通共享+更多扩散伤害。"
+    },
+    "goblet_note": {
+      "en": "Always EM.",
+      "zh": "一律精通杯。风伤杯增幅有限——砂糖的伤害来自扩散而非风伤。"
+    },
+    "circlet_note": {
+      "en": "Always EM. Triple EM is the only build.",
+      "zh": "一律精通头。三精通是辅助砂糖唯一的配装。"
+    },
+    "sub1": {
+      "en": "1. Elemental Mastery — 800+",
+      "zh": "1. 元素精通 — 越高越好，800+"
+    },
+    "sub2": {
+      "en": "2. Energy Recharge — 150-170%",
+      "zh": "2. 元素充能效率 — 150-170%"
+    },
+    "sub3": {
+      "en": "3. Flat ATK / ATK%",
+      "zh": "3. 攻击力% — 微幅提升，仅影响自身风伤"
+    },
+    "sub4": {
+      "en": "4. CRIT — irrelevant for EM build",
+      "zh": "4. 双爆 — 纯精通流不需要"
+    },
+    "team1_name": {
+      "en": "Taser Driver",
+      "zh": "感电驾驶员"
+    },
+    "team1_desc": {
+      "en": "Classic Taser.",
+      "zh": "经典感电。砂糖站场普攻，每次普攻扩散感电。她的精通共享为全队反应伤害提供增益。"
+    },
+    "team2_name": {
+      "en": "Vaporize Support",
+      "zh": "蒸发辅助"
+    },
+    "team2_desc": {
+      "en": "Sucrose provides VV shred + EM share.",
+      "zh": "砂糖提供风套减抗+精通共享给火C。聚怪辅助范围蒸发。讨龙buff进一步放大伤害。"
+    },
+    "team3_name": {
+      "en": "Aggravate Support",
+      "zh": "激化辅助"
+    },
+    "team3_desc": {
+      "en": "Sucrose provides VV shred + EM share.",
+      "zh": "砂糖提供风套减抗+精通共享给雷C。聚怪辅助范围激化。万叶给增伤，砂糖给精通——根据队伍选择。"
+    },
+    "rotation_title": {
+      "en": "Taser rotation:",
+      "zh": "感电循环："
+    },
+    "m1": {
+      "en": "Building ATK/Crit on support Sucrose",
+      "zh": "❌ 辅助砂糖堆攻击/双爆——她的伤害来自扩散，只看精通和等级。攻击和双爆几乎无效。"
+    },
+    "m2": {
+      "en": "Not leveling to 90",
+      "zh": "❌ 不升90级——扩散伤害取决于角色等级。80→90扩散伤害提升约34%。"
+    },
+    "m3": {
+      "en": "Using the wrong weapon",
+      "zh": "❌ 用错武器——祭礼残章提供精通+双E。不要用万国诸海图谱或其他攻击%法器。"
+    },
+    "m4": {
+      "en": "Not using VV set",
+      "zh": "❌ 不带风套——没有4件套效果，砂糖失去40%减抗。即使是差副词条的风套也比完美的非风套强。"
+    },
+    "related_fischl": {
+      "en": "Taser Electro battery",
+      "zh": "感电队充电宝"
+    },
+    "related_kazuha": {
+      "en": "Alternative Anemo support",
+      "zh": "替代风系辅助"
+    },
+    "related_hutao": {
+      "en": "Vaporize team DPS",
+      "zh": "蒸发队主C"
     }
   }
 }

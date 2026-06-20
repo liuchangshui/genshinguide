@@ -93,14 +93,6 @@
   ],
   "related_guides": [
     {
-      "id": "raiden",
-      "name": "Raiden Shogun",
-      "emoji": "🟣",
-      "element": "electro",
-      "tier": "S",
-      "desc": "Battery + overload enabler"
-    },
-    {
       "id": "bennett",
       "name": "Bennett",
       "emoji": "🔥",
@@ -115,6 +107,14 @@
       "element": "pyro",
       "tier": "S",
       "desc": "Alternative Pyro DPS comparison"
+    },
+    {
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "element": "hydro",
+      "emoji": "💧",
+      "tier": "A",
+      "desc": "Vaporize reaction enabler"
     }
   ],
   "pro_teaser_code": "// Pro DMG simulation — unlock for full data",
