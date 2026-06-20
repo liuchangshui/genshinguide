@@ -1,37 +1,5 @@
 // Genshin Build Calculator — Enhanced Data Layer
-
-// Minimal i18n for calculator (replaces 162KB i18n.js)
-(function(){
-  var zh = document.documentElement.lang.startsWith('zh');
-  var DICT = {
-    'calcJS.sands_label':         [ 'Sands', '时之沙' ],
-    'calcJS.goblet_label':        [ 'Goblet', '空之杯' ],
-    'calcJS.circlet_label':       [ 'Circlet', '理之冠' ],
-    'calcJS.build_summary':       [ 'Build Summary', 'Build总结' ],
-    'calcJS.build_grade':         [ 'Build Grade', 'Build评级' ],
-    'calcJS.optimal_meta':        [ 'Optimal — Meta choice', '最优 — 版本答案' ],
-    'calcJS.strong_viable':       [ 'Strong — Viable in all content', '强力 — 全内容可用' ],
-    'calcJS.functional_budget':   [ 'Functional — Budget build', '可用 — 平民配装' ],
-    'calcJS.best_arti':           [ 'Best Artifact Set', '最佳圣遗物' ],
-    'calcJS.total_atk':           [ 'Total ATK', '总攻击力' ],
-    'calcJS.char_atk':            [ 'char', '角色' ],
-    'calcJS.weapon_atk':          [ 'wpn', '武器' ],
-    'calcJS.wpn_substat':         [ 'Weapon Sub-stat', '武器副词条' ],
-    'calcJS.main_priority':       [ 'Main Stats Priority', '主词条优先级' ],
-    'calcJS.sub_priority':        [ 'Sub-stat Priority', '副词条优先级' ],
-    'calcJS.best_teams':          [ 'Best Teams', '最佳配队' ],
-    'home.calc_wpn_placeholder':  [ '— Select Weapon —', '— 选择武器 —' ],
-    'home.calc_hint':             [ '👈 Select a character to see build recommendations', '👈 选择角色查看Build推荐' ],
-    'home.calc_placeholder':      [ '— Select Character —', '— 选择角色 —' ],
-    'home.preview_label':         [ '🔮 Pro DMG Simulator — Preview', '🔮 Pro伤害模拟器 — 预览' ],
-    'guide.pro_lock_desc':        [ 'Unlock full damage simulation and build optimization.', '解锁完整伤害模拟与Build优化。' ],
-    'guide.pro_lock_btn':         [ 'Unlock Pro — $5/month', '开通Pro — $5/月' ],
-  };
-  window.t = function(key){
-    var entry = DICT[key];
-    return entry ? entry[zh ? 1 : 0] : key;
-  };
-})();
+// (i18n: t() function provided by lang-switcher.js)
 
 // Character data (internal)
 const DATA = {
