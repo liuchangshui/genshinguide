@@ -218,7 +218,8 @@
       {% for related in related_guides %}
       <a href="guide-{{ related.id }}.html" class="guide-card {{ related.element }}">
         <div class="guide-card-img {{ related.element }}">
-          <div class="elem-icon {{ related.element }}">{{ related.emoji }}</div>
+          <img src="../images/{{ related.id }}-card.webp" alt="{{ related.name }}" style="width:100%;height:180px;object-fit:cover;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="elem-icon {{ related.element }}" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;">{{ related.emoji }}</div>
         </div>
         <div class="guide-card-body">
           <h4>{{ related.name }} <span class="grade grade-{{ related.tier | lower }}">{{ related.tier }}</span></h4>
