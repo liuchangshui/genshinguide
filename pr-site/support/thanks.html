@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — GenshinGuide</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0a0a1a; color:#e0e0e0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+  .card { max-width:480px; width:90%; background:#12122a; border:2px solid #e84a7a; border-radius:16px; padding:40px 32px; text-align:center; box-shadow:0 0 60px rgba(232,74,122,0.15); }
+  .logo { font-size:1.6rem; font-weight:800; margin-bottom:24px; }
+  .logo span { color:var(--accent,#6ba3ff); }
+  .heart { font-size:4rem; margin-bottom:16px; }
+  h1 { font-size:1.5rem; margin-bottom:8px; color:#fff; }
+  .subtitle { font-size:0.95rem; color:#999; margin-bottom:24px; line-height:1.5; }
+  .info { background:rgba(255,255,255,0.04); border-radius:8px; padding:16px; margin-bottom:24px; font-size:0.9rem; }
+  .info-row { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.06); }
+  .info-row:last-child { border-bottom:none; }
+  .info-label { color:#999; }
+  .info-value { color:#fff; font-weight:600; }
+  .actions { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+  .btn { padding:10px 20px; border-radius:8px; font-size:0.9rem; cursor:pointer; border:none; color:#fff; text-decoration:none; display:inline-block; }
+  .btn-primary { background:linear-gradient(135deg,#e84a7a,#c0392b); }
+  .btn-secondary { background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); }
+  .footer { margin-top:24px; font-size:0.78rem; color:#666; }
+  .footer a { color:#6ba3ff; }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<div class="card" id="card">
+  <div class="logo">⚡ Genshin<span>Guide</span></div>
+
+  <!-- Loading -->
+  <div id="loading">
+    <p style="color:#999;">Loading your thank-you card…</p>
+  </div>
+
+  <!-- Card content (hidden until loaded) -->
+  <div id="content" class="hidden">
+    <div class="heart">❤️</div>
+    <h1>Thank You for Supporting</h1>
+    <p class="subtitle">Your support keeps 26 guides updated and free for everyone.</p>
+    <div class="info">
+      <div class="info-row">
+        <span class="info-label">Email</span>
+        <span class="info-value" id="email">—</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Date</span>
+        <span class="info-value" id="date">—</span>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" onclick="shareCard()">📸 Screenshot & Share</button>
+      <button class="btn btn-secondary" onclick="copyLink()">📋 Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Error -->
+  <div id="error" class="hidden">
+    <p style="color:#e84a7a;margin-bottom:12px;">⚠️ Could not load your card.</p>
+    <p style="color:#999;font-size:0.85rem;">If you just paid, it may take a moment. Try refreshing.<br>Contact support@bricklayer.tech if the issue persists.</p>
+  </div>
+
+  <div class="footer">
+    <a href="/">← Back to GenshinGuide</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  var WORKER_URL = 'https://pro.bricklayer.tech'; // Placeholder
+  var orderId = new URLSearchParams(location.search).get('order');
+
+  if (!orderId) {
+    document.getElementById('loading').innerHTML = '<p style="color:#999;">Support the project to get your personalized thank-you card.</p><p style="margin-top:12px;"><a href="/pricing" class="btn btn-primary">☕ Support $5</a></p>';
+    return;
+  }
+
+  // Fetch order info from Worker
+  fetch(WORKER_URL + '/lookup?order=' + encodeURIComponent(orderId))
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if (data.email) {
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('content').classList.remove('hidden');
+        document.getElementById('email').textContent = data.email;
+        document.getElementById('date').textContent = data.paid_at || 'Today';
+
+        // Store JWT for future visits
+        if (data.token) {
+          localStorage.setItem('pro_jwt', data.token);
+        }
+      } else {
+        showError();
+      }
+    })
+    .catch(function(){
+      showError();
+    });
+
+  function showError() {
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('error').classList.remove('hidden');
+  }
+
+  window.copyLink = function() {
+    var url = location.href;
+    navigator.clipboard.writeText(url).then(function(){
+      alert('Link copied! Share it anywhere.');
+    }).catch(function(){
+      prompt('Copy this link:', url);
+    });
+  };
+
+  window.shareCard = function() {
+    var text = 'I just supported GenshinGuide ❤️\n26 free Genshin Impact build guides.\n' + location.href;
+    var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+    window.open(url, '_blank');
+  };
+})();
+</script>
+</body>
+</html>

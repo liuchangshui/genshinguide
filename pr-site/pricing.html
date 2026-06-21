@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="google-adsense-account" content="ca-pub-8260551090770188">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GenshinGuide Pro — $5/month unlocks advanced DMG simulator, artifact optimizer, rotation analyzer, and ad-free experience.">
-<title>Pro Membership — GenshinGuide</title>
+<meta name="description" content="Support GenshinGuide — 26 free character build guides. Buy me a coffee to keep the project running.">
+<title>Support — GenshinGuide</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body data-page="pricing">
@@ -17,8 +17,9 @@
       <ul class="nav-links">
         <li><a href="index.html" data-i18n="nav.home">Home</a></li>
         <li><a href="guides.html" data-i18n="nav.guides">Guides</a></li>
+        <li><a href="tier-list.html" data-i18n="nav.tierlist">Tier List</a></li>
         <li><a href="calculator.html" data-i18n="nav.calculator">Calculator</a></li>
-        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">Pro $5/mo</a></li>
+        <li><a href="pricing.html" class="btn-pro" data-i18n="nav.pro">☕ Support</a></li>
       </ul>
       <div class="lang-toggle-group">
         <button class="lang-toggle" data-lang="en">EN</button>
@@ -28,123 +29,84 @@
   </div>
 </nav>
 
+<!-- HERO -->
 <section class="hero container" style="padding-bottom:30px;">
-  <div class="hero-badge" style="background:rgba(255,215,0,0.1);border-color:rgba(255,215,0,0.3);color:var(--gold);" data-i18n="pricing.badge">💎 PRO MEMBERSHIP</div>
-  <h1 data-i18n="pricing.title">Level Up Your <span class="highlight" style="color:var(--gold);">Builds</span></h1>
-  <p class="hero-sub" data-i18n="pricing.subtitle">Build guides stay free. Pro tools for $5/month — less than half a Welkin Moon. Every patch brings new value.</p>
+  <div class="hero-badge" style="background:rgba(255,215,0,0.1);border-color:rgba(255,215,0,0.3);color:var(--gold);" data-i18n="support.badge">☕ SUPPORT</div>
+  <h1 data-i18n="support.title">Support This <span class="highlight" style="color:var(--gold);">Project</span></h1>
+  <p class="hero-sub" data-i18n="support.subtitle">26 guides, free forever. If they helped you, buy me a coffee.</p>
 </section>
-
-<!-- THE WHY: Value examples — tell, don't just list -->
-<section class="container" style="margin-bottom:48px;">
-  <h2 class="section-title" data-i18n="valueEx.title">💡 What Pro Solves</h2>
-  <div class="value-examples">
-    <div class="value-card">
-      <div class="scenario" data-i18n="valueEx.sc1_title">SCENARIO 1: "Is this goblet actually better?"</div>
-      <div class="question" data-i18n="valueEx.sc1_q">You got an ATK% goblet with great substats. Current Electro DMG goblet has mediocre rolls. Which to use?</div>
-      <div class="answer" data-i18n="valueEx.sc1_a">Pro Simulator tells you: <span class="gold">ATK% goblet = +4.2% personal DMG for Raiden with Engulfing Lightning R1</span>. No guessing. Exact math.</div>
-    </div>
-    <div class="value-card">
-      <div class="scenario" data-i18n="valueEx.sc2_title">SCENARIO 2: "Should I pull this weapon?"</div>
-      <div class="question" data-i18n="valueEx.sc2_q">New weapon banner. You have The Catch R5. Is signature worth 70+ wishes?</div>
-      <div class="answer" data-i18n="valueEx.sc2_a">Pro Comparison shows: <span class="gold">Engulfing Lightning = +12.8% over The Catch R5 in Raiden National</span>. Now decide if 12.8% is worth your primogems.</div>
-    </div>
-    <div class="value-card">
-      <div class="scenario" data-i18n="valueEx.sc3_title">SCENARIO 3: "Which team clears faster?"</div>
-      <div class="question" data-i18n="valueEx.sc3_q">Your Raiden is built. National, Hypercarry, or Hyperbloom for this Abyss floor?</div>
-      <div class="answer" data-i18n="valueEx.sc3_a">Pro Analyzer compares all 3 teams against <span class="gold">current Abyss enemy lineups</span>. See exact clear times. Optimization, not trial-and-error.</div>
-    </div>
-  </div>
-</section>
-
-<!-- Why Monthly -->
-<div class="container" style="max-width:780px;margin-bottom:32px;text-align:center;">
-  <div class="why-monthly-box" data-i18n="pricing.why_monthly_desc">
-    <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;">💡 <strong style="color:var(--text-primary);">Why monthly?</strong> Genshin updates every 6 weeks. Your guides stay current. Cancel anytime — no lock-in. <strong style="color:var(--gold);">$5 = less than a Welkin Moon refill.</strong></p>
-  </div>
-</div>
 
 <!-- Pricing Grid -->
 <section class="container" style="margin-bottom:48px;">
   <div class="pricing-grid">
+    <!-- Free -->
     <div class="pricing-card">
-      <div class="pricing-name" data-i18n="home.free_label">Free</div>
+      <div class="pricing-name" data-i18n="support.free_label">Free</div>
       <div class="pricing-price"><span class="free">$0</span></div>
-      <div class="text-muted-sm" data-i18n="home.free_sub">Forever free</div>
+      <div class="text-muted-sm" data-i18n="support.free_sub">Forever free</div>
       <ul class="pricing-features" style="margin-bottom:20px;">
-        <li data-i18n="home.free_f1">All 26 character guides</li>
-        <li data-i18n="home.free_f2">Basic build calculator</li>
-        <li data-i18n="home.free_f3">Tier lists & rankings</li>
-        <li data-i18n="home.free_f4">Team recommendations</li>
-        <li data-i18n="pricing.fee_f5">Element filter browsing</li>
-        <li data-i18n="pricing.fee_f6">Version-tracked content</li>
-        <li class="no" data-i18n="home.free_n1">Advanced DMG simulation</li>
-        <li class="no" data-i18n="home.free_n2">Artifact optimizer</li>
-        <li class="no" data-i18n="home.free_n3">Ad-free experience</li>
-        <li class="no" data-i18n="pricing.fee_n5">Rotation analyzer</li>
-        <li class="no" data-i18n="pricing.fee_n6">Build comparison tool</li>
+        <li data-i18n="support.free_f1">26 character guides</li>
+        <li data-i18n="support.free_f2">Basic build calculator</li>
+        <li data-i18n="support.free_f3">Tier list & rankings</li>
+        <li data-i18n="support.free_f4">Team recommendations</li>
       </ul>
-      <a href="guides.html" class="btn btn-secondary"  data-i18n="home.free_btn">Start Free</a>
+      <a href="guides.html" class="btn btn-secondary" data-i18n="support.free_btn">Browse Guides</a>
     </div>
+    <!-- Supporter -->
     <div class="pricing-card pro">
-      <div class="pricing-badge" data-i18n="home.pro_badge">MOST POPULAR</div>
-      <div class="pricing-name" data-i18n="home.pro_label">Pro</div>
-      <div class="pricing-price"><span class="pro-price">$5</span><small data-i18n="home.pro_period"> / month</small></div>
-      <div class="text-muted-sm" data-i18n="home.pro_sub">Cancel anytime</div>
+      <div class="pricing-name" data-i18n="support.supporter_label">☕ Supporter</div>
+      <div class="pricing-price"><span class="pro-price">$5</span><small data-i18n="support.supporter_sub"> · one-time</small></div>
+      <div class="text-muted-sm" data-i18n="support.supporter_note">No subscription. No lock-in.</div>
       <ul class="pricing-features" style="margin-bottom:20px;">
-        <li data-i18n="home.pro_f1">Everything in Free</li>
-        <li data-i18n="home.pro_f2">Advanced DMG simulation</li>
-        <li data-i18n="home.pro_f3">Artifact substat optimizer</li>
-        <li data-i18n="home.pro_f4">Ad-free experience</li>
-        <li data-i18n="home.pro_f5">Weekly meta newsletter</li>
-        <li data-i18n="home.pro_f6">Priority guide updates</li>
-        <li data-i18n="home.pro_f7">Early access to new tools</li>
-        <li data-i18n="home.pro_f8">Support indie dev ✌️</li>
+        <li data-i18n="support.supporter_f1">Everything in Free</li>
+        <li data-i18n="support.supporter_f2">📧 New guide email alerts</li>
+        <li data-i18n="support.supporter_f3">❤️ Personalized thank-you card</li>
+        <li data-i18n="support.supporter_f4">🙏 Keep this project alive</li>
       </ul>
-      <a href="#" class="btn btn-gold"  onclick="alert(t('pricing.checkout_soon'))" data-i18n="home.pro_btn">Go Pro — $5/month</a>
-      <p class="text-muted-sm" data-i18n="pricing.pay_hint">🔒 Secure payment via Lemon Squeezy</p>
+      <!-- PLACEHOLDER: replace with LS checkout URL after registering -->
+      <a href="#" class="btn btn-gold" onclick="alert('Payment coming soon — register Lemon Squeezy first.')" data-i18n="support.cta">☕ Support $5</a>
+      <p class="text-muted-sm" data-i18n="support.pay_hint">🔒 Secure payment via Lemon Squeezy</p>
     </div>
   </div>
 </section>
 
-<!-- Annual Plan Banner -->
-<div class="container" style="max-width:780px;margin-bottom:60px;">
-  <div class="annual-banner">
-    <div style="flex:1;min-width:200px;">
-      <div style="font-size:0.85rem;color:#6ba3ff;font-weight:600;margin-bottom:4px;">💙 ANNUAL PLAN</div>
-      <div style="font-size:1.4rem;font-weight:800;color:var(--text-primary);"><span data-i18n="pricing.annual_price">$36</span><span style="font-size:0.9rem;color:var(--text-muted);">/year</span></div>
-      <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:4px;"><span data-i18n="pricing.annual_sub"><span data-i18n="pricing.annual_sub">Save ¥24 — equivalent to just ¥3/month</span></span></div>
+<!-- Already a supporter? -->
+<div class="container" style="max-width:600px;margin-bottom:16px;">
+  <div style="text-align:center;padding:24px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border);">
+    <div style="font-size:1rem;font-weight:600;margin-bottom:8px;color:var(--text-primary);" data-i18n="support.existing_title">Already a supporter?</div>
+    <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:14px;" data-i18n="support.existing_desc">Enter your email to restore access on this device.</p>
+    <div style="display:flex;gap:10px;max-width:400px;margin:0 auto;">
+      <input type="email" id="pro-email-input" data-i18n-placeholder="support.email_placeholder" placeholder="your@email.com"
+             style="flex:1;padding:10px 14px;background:var(--bg-deep);border:1px solid var(--border);border-radius:8px;color:var(--text-primary);font-size:0.9rem;">
+      <button id="pro-verify-btn" class="btn btn-secondary" style="padding:10px 20px;white-space:nowrap;" data-i18n="support.verify_btn">Restore</button>
     </div>
-    <a href="#" class="btn btn-secondary" style="border-color:#448aff;color:#6ba3ff;white-space:nowrap;padding:12px 24px;" onclick="alert(t('pricing.checkout_soon'))" data-i18n="pricing.annual_btn">Go Annual →</a>
+    <p id="pro-status" style="font-size:0.8rem;color:var(--text-muted);margin-top:10px;margin-bottom:0;"></p>
   </div>
 </div>
 
 <!-- FAQ -->
-<section class="container" style="max-width:780px;margin:0 auto 60px;">
-  <h2 class="section-title" data-i18n="pricing.faq_title">❓ FAQ</h2>
+<section class="container" style="max-width:780px;margin:60px auto;">
+  <h2 class="section-title" data-i18n="support.faq_title">❓ FAQ</h2>
   <div style="display:flex;flex-direction:column;gap:20px;">
     <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq1_q">What's the difference between Free and Pro?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq1_a">Free gives you all guides, basic calculator, and tier lists. Pro unlocks DMG simulator, artifact optimizer, rotation analyzer, and build comparison. Plus ad-free and weekly newsletter.</p>
+      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="support.faq1_q">Where does the money go?</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="support.faq1_a">Domain renewal, and coffee for late-night guide writing. I'm a solo dev — every dollar helps keep the lights on.</p>
     </div>
     <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq2_q">Can I cancel anytime?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq2_a">Yes. One click. Pro access stays until billing period ends. No questions asked.</p>
+      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="support.faq2_q">How do guides stay updated?</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="support.faq2_a">Every Genshin version update, affected guides are refreshed within 48 hours. Each guide shows its applicable version.</p>
     </div>
     <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq3_q">Is content actually up-to-date?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq3_a">Yes. Auto-syncs with game data daily. Patch drops → guides flagged and regenerated within 24h. Every guide shows applicable version.</p>
+      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="support.faq3_q">Can I get a refund?</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="support.faq3_a">Of course. Email me within 7 days and I'll refund, no questions asked. This is a passion project, not a business.</p>
     </div>
     <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq4_q">Do you cover other games?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq4_a">Currently focused on Genshin Impact. Honkai: Star Rail planned once Genshin reaches 100+ Pro members. Help us get there! 🚀</p>
+      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="support.faq4_q">Why is this different from game8 or KQM?</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="support.faq4_a">I'm one person, not a company. Every guide is hand-written, every recommendation is tested. No AI fluff. No copy-paste wiki spam.</p>
     </div>
     <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq5_q">How is this different from game8 / KQM?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq5_a">We combine AI content generation (fast updates) with interactive tools (calculator, optimizer) that pure content sites don't offer. Every guide auto-tracks game version.</p>
-    </div>
-    <div class="card" style="padding:20px;">
-      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="pricing.faq6_q">Why monthly instead of one-time purchase?</h3>
-      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="pricing.faq6_a">Genshin gets a new version every 6 weeks — new characters, new weapons, new meta. Our tools recalculate everything each patch. Monthly pricing matches the game's update rhythm: you always have current data, and we can sustainably keep the tools running. If we charged one-time, we'd run out of money before version 5.0 drops.</p>
+      <h3 style="font-size:0.95rem;margin-bottom:8px;" data-i18n="support.faq5_q">Payment issues?</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;" data-i18n="support.faq5_a">Contact me at support@bricklayer.tech and I'll sort it out personally.</p>
     </div>
   </div>
 </section>
@@ -153,8 +115,9 @@
   <div class="footer-links">
     <a href="index.html" data-i18n="footer.home">Home</a>
     <a href="guides.html" data-i18n="footer.guides">Guides</a>
+    <a href="tier-list.html" data-i18n="footer.tierlist">Tier List</a>
     <a href="calculator.html" data-i18n="footer.calc">Calculator</a>
-    <a href="pricing.html" data-i18n="footer.pro">Pro</a>
+    <a href="pricing.html" data-i18n="footer.pro">Support</a>
     <a href="about.html" data-i18n="footer.about">About</a>
     <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
   </div>
@@ -162,5 +125,6 @@
 </footer>
 
 <script src="../js/lang-switcher.js"></script>
+<script src="../js/pro.js"></script>
 </body>
 </html>

@@ -13,8 +13,8 @@
       "zh": "计算器"
     },
     "pro": {
-      "en": "Pro $5/mo",
-      "zh": "会员 $5/月"
+      "en": "☕ Support",
+      "zh": "☕ 支持"
     },
     "tierlist": {
       "en": "Tier List",
@@ -47,8 +47,8 @@
       "zh": "📚 浏览26篇攻略"
     },
     "btn_pro": {
-      "en": "⭐ Go Pro $5/mo",
-      "zh": "⭐ 开通会员 $5/月"
+      "en": "☕ Support",
+      "zh": "☕ 支持"
     },
     "stat1_num": {
       "en": "26",
@@ -235,16 +235,16 @@
       "zh": "配队推荐"
     },
     "free_n1": {
-      "en": "Advanced DMG simulation",
-      "zh": "高级伤害模拟"
+      "en": "",
+      "zh": ""
     },
     "free_n2": {
-      "en": "Artifact optimizer",
-      "zh": "圣遗物优化器"
+      "en": "",
+      "zh": ""
     },
     "free_n3": {
-      "en": "Ad-free experience",
-      "zh": "无广告体验"
+      "en": "",
+      "zh": ""
     },
     "free_n4": {
       "en": "Email newsletter",
@@ -255,60 +255,60 @@
       "zh": "免费使用"
     },
     "pro_badge": {
-      "en": "MOST POPULAR",
-      "zh": "最受欢迎"
+      "en": "",
+      "zh": ""
     },
     "pro_label": {
-      "en": "Pro",
-      "zh": "专业版"
+      "en": "Supporter",
+      "zh": "支持者"
     },
     "pro_price": {
       "en": "$5",
       "zh": "$5"
     },
     "pro_period": {
-      "en": "/ month",
-      "zh": "/ 月"
+      "en": "",
+      "zh": ""
     },
     "pro_sub": {
-      "en": "Cancel anytime",
-      "zh": "随时可取消"
+      "en": "One-time · No subscription",
+      "zh": "一次性 · 无订阅"
     },
     "pro_f1": {
       "en": "Everything in Free",
-      "zh": "免费版全部功能"
+      "zh": "所有免费权益"
     },
     "pro_f2": {
-      "en": "Advanced DMG simulation",
-      "zh": "高级伤害模拟"
+      "en": "📧 New guide email alerts",
+      "zh": "📧 新攻略邮件通知"
     },
     "pro_f3": {
-      "en": "Artifact substat optimizer",
-      "zh": "圣遗物副词条优化"
+      "en": "❤️ Personalized thank-you card",
+      "zh": "❤️ 专属感谢卡片"
     },
     "pro_f4": {
-      "en": "Ad-free experience",
-      "zh": "无广告体验"
+      "en": "🙏 Keep this project alive",
+      "zh": "🙏 让项目持续更新"
     },
     "pro_f5": {
-      "en": "Weekly meta newsletter",
-      "zh": "每周Meta周报"
+      "en": "",
+      "zh": ""
     },
     "pro_f6": {
-      "en": "Priority guide updates",
-      "zh": "优先攻略更新"
+      "en": "",
+      "zh": ""
     },
     "pro_f7": {
-      "en": "Early access to new tools",
-      "zh": "新工具抢先体验"
+      "en": "",
+      "zh": ""
     },
     "pro_f8": {
-      "en": "Support indie dev ✌️",
-      "zh": "支持独立开发者 ✌️"
+      "en": "",
+      "zh": ""
     },
     "pro_btn": {
-      "en": "Go Pro — $5/month",
-      "zh": "开通会员 — $5/月"
+      "en": "☕ Support $5",
+      "zh": "☕ 支持 ¥35"
     },
     "subscribe_title": {
       "en": "📬 Get Weekly Genshin Meta Updates",
@@ -529,8 +529,8 @@
       "zh": "高级伤害模拟、圣遗物副词条优化器、详细循环帧数据属于 <strong>Pro 功能</strong>。"
     },
     "pro_lock_btn": {
-      "en": "Learn More",
-      "zh": "了解更多"
+      "en": "☕ Support $5",
+      "zh": "☕ 支持 ¥35"
     },
     "tldr_title": {
       "en": "⚡ TL;DR — Quick Answer (30s read)",
@@ -545,16 +545,16 @@
       "zh": "雷电将军是原神中最全能且最强大的角色之一。她既是顶级队伍充能拐，又能通过爆发造成高额后台伤害，还能激活游戏中最强配队之一。本攻略涵盖4.8版本最优Build的全部要点。"
     },
     "pro_teaser_title": {
-      "en": "Pro DMG Simulator — Coming Soon",
-      "zh": "Pro 伤害模拟器 — 即将上线"
+      "en": "❤️ Support This Project",
+      "zh": "❤️ 支持这个项目"
     },
     "pro_teaser_desc": {
-      "en": "Get exact damage numbers for every character. Compare artifact loadouts. Rank team DPS. Pro features in development — stay tuned.",
-      "zh": "获取每个角色的精确伤害数值。对比圣遗物配置。排名队伍DPS。Pro功能开发中——敬请期待。"
+      "en": "26 guides, free forever. If they helped you, consider supporting.",
+      "zh": "26篇攻略，永远免费。如果对你有帮助，请考虑支持。"
     },
     "pro_teaser_cta": {
-      "en": "Pro DMG Simulator — exact damage numbers, artifact comparison, team DPS ranking.",
-      "zh": "Pro伤害模拟器——精确伤害数值、圣遗物对比、队伍DPS排名。即将上线。"
+      "en": "Every guide hand-written, every recommendation tested. No AI fluff.",
+      "zh": "每篇攻略手写，每条推荐实测。没有AI水货。"
     },
     "related_title": {
       "en": "📚 Related Build Guides",
@@ -876,34 +876,6 @@
     }
   },
   "pricing": {
-    "badge": {
-      "en": "💎 PRO MEMBERSHIP",
-      "zh": "💎 会员订阅"
-    },
-    "title": {
-      "en": "Level Up Your <span class=\"highlight\" style=\"color:var(--gold);\">Builds</span>",
-      "zh": "升级你的<span class=\"highlight\" style=\"color:var(--gold);\">Build</span>"
-    },
-    "subtitle": {
-      "en": "Free guides are great. Pro tools make you a theorycrafting machine. One price, all features.",
-      "zh": "免费攻略很棒。Pro 工具让你成为配装大师。一个价格，全部功能。"
-    },
-    "fee_f5": {
-      "en": "Element filter browsing",
-      "zh": "元素筛选浏览"
-    },
-    "fee_f6": {
-      "en": "Version-tracked content",
-      "zh": "版本追踪内容"
-    },
-    "fee_n5": {
-      "en": "Rotation analyzer",
-      "zh": "循环分析器"
-    },
-    "fee_n6": {
-      "en": "Build comparison tool",
-      "zh": "Build对比工具"
-    },
     "fee_n7": {
       "en": "Priority guide updates",
       "zh": "优先攻略更新"
@@ -912,85 +884,9 @@
       "en": "🔒 Secure payment via Lemon Squeezy",
       "zh": "🔒 Lemon Squeezy 安全支付"
     },
-    "faq_title": {
-      "en": "❓ FAQ",
-      "zh": "❓ 常见问题"
-    },
-    "faq1_q": {
-      "en": "What's the difference between Free and Pro?",
-      "zh": "免费版和专业版有什么区别？"
-    },
-    "faq1_a": {
-      "en": "Free gives you all the guides, basic calculator, and tier lists. Pro unlocks advanced simulation tools: damage calculator, artifact optimizer, rotation analyzer, and build comparison. Plus ad-free browsing and weekly newsletter.",
-      "zh": "免费版提供全部攻略、基础计算器和强度排行。Pro 解锁高级模拟工具：伤害计算器、圣遗物优化器、循环分析器和Build对比。外加无广告浏览和每周周报。"
-    },
-    "faq2_q": {
-      "en": "Can I cancel anytime?",
-      "zh": "可以随时取消吗？"
-    },
-    "faq2_a": {
-      "en": "Yes. Cancel with one click. You keep Pro access until the end of your billing period. No questions asked.",
-      "zh": "可以。一键取消。Pro 权限保留到当前计费周期结束。无需解释。"
-    },
-    "faq3_q": {
-      "en": "Is the content actually up-to-date?",
-      "zh": "内容真的保持更新吗？"
-    },
-    "faq3_a": {
-      "en": "Yes. Our system automatically syncs with game data daily. When a patch drops, affected guides are flagged and regenerated. Every guide shows the version it applies to.",
-      "zh": "是的。系统每日自动同步游戏数据。版本更新时受影响的攻略自动标记并重新生成。每篇攻略都标注适用版本。"
-    },
-    "faq4_q": {
-      "en": "Do you cover other games?",
-      "zh": "你们覆盖其他游戏吗？"
-    },
-    "faq4_a": {
-      "en": "Currently focused on Genshin Impact. Honkai: Star Rail is planned next once Genshin reaches 100+ Pro members. Help us get there! 🚀",
-      "zh": "目前专注原神。崩坏：星穹铁道计划在 Pro 会员超过100人后启动。帮我们达成目标！🚀"
-    },
-    "faq5_q": {
-      "en": "How is this different from game8 / KQM / wiki?",
-      "zh": "这和 game8 / KQM / wiki 有什么不同？"
-    },
-    "faq5_a": {
-      "en": "We combine AI-powered content generation (fast updates) with interactive tools (calculator, optimizer) that pure content sites don't offer. Plus, every guide auto-tracks game version — no stale builds.",
-      "zh": "我们结合AI驱动的内容生成（快速更新）和交互工具（计算器、优化器），这是纯内容站无法提供的。加上每篇攻略自动追踪游戏版本——告别过期Build。"
-    },
-    "faq6_q": {
-      "en": "Why monthly instead of one-time payment?",
-      "zh": "为什么按月付费而不是一次性买断？"
-    },
-    "faq6_a": {
-      "en": "Genshin updates every 6 weeks — new characters, new artifacts, new meta. Our tools recalculate everything each patch. Monthly matches the game's rhythm: always-current data, sustainable operations. One-time pricing can't sustain continuous updates — we'd run out of money before v5.0 drops.",
-      "zh": "原神每6周更新一次——新角色、新圣遗物、新Meta。我们的工具每次版本更新都会重新计算。月付匹配游戏节奏：数据永不过时，运营可持续。一次性买断无法支撑持续更新——我们可能在5.0版本到来前就资金枯竭了。"
-    },
     "why_monthly_title": {
       "en": "💡 Why Monthly?",
       "zh": "💡 为什么是月付？"
-    },
-    "why_monthly_desc": {
-      "en": "Genshin updates every 6 weeks. Monthly means your guides stay current. Cancel anytime — no lock-in. ¥5 = less than a Welkin Moon refill.",
-      "zh": "原神每6周更新。月付意味着攻略始终有效。随时可取消，无绑定。¥5 = 不到一次小月卡充值。"
-    },
-    "annual_label": {
-      "en": "💙 ANNUAL PLAN",
-      "zh": "💙 年度方案"
-    },
-    "annual_price": {
-      "en": "¥36<span style=\"font-size:0.9rem;color:var(--text-muted);\">/year</span>",
-      "zh": "¥36<span style=\"font-size:0.9rem;color:var(--text-muted);\">/年</span>"
-    },
-    "annual_sub": {
-      "en": "Save ¥24 — just ¥3/month",
-      "zh": "省¥24 — 仅 ¥3/月"
-    },
-    "annual_btn": {
-      "en": "Go Annual →",
-      "zh": "开通年度 →"
-    },
-    "checkout_soon": {
-      "en": "Checkout coming soon! We use Lemon Squeezy for secure payments.",
-      "zh": "支付功能即将上线！我们使用 Lemon Squeezy 处理安全支付。"
     }
   },
   "guides": {
@@ -1165,8 +1061,8 @@
       "zh": "计算器"
     },
     "pro": {
-      "en": "Pro",
-      "zh": "会员"
+      "en": "Support",
+      "zh": "支持"
     },
     "copyright": {
       "en": "Fan-made project. Not affiliated with HoYoverse. Game data © Cognosphere.",
@@ -2961,48 +2857,6 @@
     "team_dps_hyperbloom": {
       "en": "Team DPS (Hyperbloom)",
       "zh": "队伍DPS（超绽放）"
-    }
-  },
-  "valueEx": {
-    "title": {
-      "en": "💡 What Pro Solves",
-      "zh": "💡 Pro 解决的问题"
-    },
-    "sc1_title": {
-      "en": "SCENARIO 1: \"Is this goblet actually better?\"",
-      "zh": "场景1：\"这个杯子真的更好吗？\""
-    },
-    "sc1_q": {
-      "en": "You got an ATK% goblet with great substats. Current Electro DMG goblet has mediocre rolls. Which to use?",
-      "zh": "你刚得到一个副词条极好的攻击杯。当前雷伤杯副词条一般。该用哪个？"
-    },
-    "sc1_a": {
-      "en": "Pro Simulator tells you: <span class=\"gold\">ATK% goblet = +4.2% personal DMG for Raiden with Engulfing Lightning R1</span>. No guessing. Exact math.",
-      "zh": "Pro 模拟器告诉你：<span class=\"gold\">攻击杯 = 雷神使用薙草R1时个人伤害 +4.2%</span>。不用猜，精确计算。"
-    },
-    "sc2_title": {
-      "en": "SCENARIO 2: \"Should I pull this weapon?\"",
-      "zh": "场景2：\"该抽这把武器吗？\""
-    },
-    "sc2_q": {
-      "en": "New weapon banner. You have The Catch R5. Is signature worth 70+ wishes?",
-      "zh": "新武器池子。你有渔获R5。专武值得花70+抽吗？"
-    },
-    "sc2_a": {
-      "en": "Pro Comparison shows: <span class=\"gold\">Engulfing Lightning = +12.8% over The Catch R5 in Raiden National</span>. Now decide if 12.8% is worth your primogems.",
-      "zh": "Pro 对比显示：<span class=\"gold\">雷神国家队中，薙草比渔获R5提升12.8%</span>。现在你可以判断12.8%是否值得花原石。"
-    },
-    "sc3_title": {
-      "en": "SCENARIO 3: \"Which team clears faster?\"",
-      "zh": "场景3：\"哪个配队更快通关？\""
-    },
-    "sc3_q": {
-      "en": "Your Raiden is built. National, Hypercarry, or Hyperbloom for this Abyss floor?",
-      "zh": "雷神已练好。这期深渊该用国家队、纯伤队还是超绽放？"
-    },
-    "sc3_a": {
-      "en": "Pro Analyzer compares all 3 teams against <span class=\"gold\">current Abyss enemy lineups</span>. See exact clear times. Optimization, not trial-and-error.",
-      "zh": "Pro 分析器针对<span class=\"gold\">当前深渊阵容</span>对比3个配队。看到精确通关时间。优化，不是试错。"
     }
   },
   "bennett": {
@@ -6941,6 +6795,168 @@
     "related_kazuha": {
       "en": "Alternative Anemo support (different role)",
       "zh": "替代风辅（不同定位）"
+    }
+  },
+  "support": {
+    "badge": {
+      "en": "☕ SUPPORT",
+      "zh": "☕ 支持"
+    },
+    "title": {
+      "en": "Support This <span class=\"highlight\" style=\"color:var(--gold);\">Project</span>",
+      "zh": "支持这个<span class=\"highlight\" style=\"color:var(--gold);\">项目</span>"
+    },
+    "subtitle": {
+      "en": "26 guides, free forever. If they helped you, buy me a coffee.",
+      "zh": "26篇攻略，永远免费。如果对你有帮助，请我一杯咖啡。"
+    },
+    "free_label": {
+      "en": "Free",
+      "zh": "免费"
+    },
+    "free_sub": {
+      "en": "Forever free",
+      "zh": "永远免费"
+    },
+    "free_btn": {
+      "en": "Browse Guides",
+      "zh": "浏览攻略"
+    },
+    "free_f1": {
+      "en": "26 character guides",
+      "zh": "26篇角色攻略"
+    },
+    "free_f2": {
+      "en": "Basic build calculator",
+      "zh": "基础Build计算器"
+    },
+    "free_f3": {
+      "en": "Tier list & rankings",
+      "zh": "强度榜与排行"
+    },
+    "free_f4": {
+      "en": "Team recommendations",
+      "zh": "配队推荐"
+    },
+    "supporter_label": {
+      "en": "☕ Supporter",
+      "zh": "☕ 支持者"
+    },
+    "supporter_sub": {
+      "en": " · one-time",
+      "zh": " · 一次性"
+    },
+    "supporter_note": {
+      "en": "No subscription. No lock-in.",
+      "zh": "无订阅。无绑定。"
+    },
+    "supporter_f1": {
+      "en": "Everything in Free",
+      "zh": "所有免费权益"
+    },
+    "supporter_f2": {
+      "en": "📧 New guide email alerts",
+      "zh": "📧 新攻略邮件通知"
+    },
+    "supporter_f3": {
+      "en": "❤️ Personalized thank-you card",
+      "zh": "❤️ 专属感谢卡片"
+    },
+    "supporter_f4": {
+      "en": "🙏 Keep this project alive",
+      "zh": "🙏 让项目持续更新"
+    },
+    "cta": {
+      "en": "☕ Support $5",
+      "zh": "☕ 支持 ¥35"
+    },
+    "pay_hint": {
+      "en": "🔒 Secure payment via Lemon Squeezy",
+      "zh": "🔒 Lemon Squeezy 安全支付"
+    },
+    "existing_title": {
+      "en": "Already a supporter?",
+      "zh": "已经是支持者？"
+    },
+    "existing_desc": {
+      "en": "Enter your email to restore access on this device.",
+      "zh": "输入邮箱，恢复此设备上的支持者权益。"
+    },
+    "email_placeholder": {
+      "en": "your@email.com",
+      "zh": "你的邮箱"
+    },
+    "verify_btn": {
+      "en": "Restore",
+      "zh": "恢复"
+    },
+    "faq_title": {
+      "en": "❓ FAQ",
+      "zh": "❓ 常见问题"
+    },
+    "faq1_q": {
+      "en": "Where does the money go?",
+      "zh": "钱用在哪？"
+    },
+    "faq1_a": {
+      "en": "Domain renewal, and coffee for late-night guide writing. I'm a solo dev — every dollar helps keep the lights on.",
+      "zh": "域名续费，以及熬夜更新攻略的咖啡。我是个人开发者——每一点支持都有帮助。"
+    },
+    "faq2_q": {
+      "en": "How do guides stay updated?",
+      "zh": "攻略怎么保持更新？"
+    },
+    "faq2_a": {
+      "en": "Every Genshin version update, affected guides are refreshed within 48 hours. Each guide shows its applicable version.",
+      "zh": "每次原神版本更新，48小时内更新受影响攻略。每篇攻略都标注适用版本。"
+    },
+    "faq3_q": {
+      "en": "Can I get a refund?",
+      "zh": "可以退款吗？"
+    },
+    "faq3_a": {
+      "en": "Of course. Email me within 7 days and I'll refund, no questions asked. This is a passion project, not a business.",
+      "zh": "当然。7天内发邮件给我，无条件退款。这是个人爱好项目，不是生意。"
+    },
+    "faq4_q": {
+      "en": "Why is this different from game8 or KQM?",
+      "zh": "和 game8 / KQM 有什么不同？"
+    },
+    "faq4_a": {
+      "en": "I'm one person, not a company. Every guide is hand-written, every recommendation is tested. No AI fluff. No copy-paste wiki spam.",
+      "zh": "我是一个人，不是公司。每篇攻略手写，每条推荐实测。没有 AI 水货。没有 Wiki 复制粘贴。"
+    },
+    "faq5_q": {
+      "en": "Payment issues?",
+      "zh": "支付遇到问题？"
+    },
+    "faq5_a": {
+      "en": "Contact me at support@bricklayer.tech and I'll sort it out personally.",
+      "zh": "联系 support@bricklayer.tech，我会亲自处理。"
+    },
+    "nav_badge": {
+      "en": "Supporter",
+      "zh": "支持者"
+    },
+    "checking": {
+      "en": "Checking...",
+      "zh": "验证中…"
+    },
+    "restored": {
+      "en": "✅ Restored! Refreshing...",
+      "zh": "✅ 已恢复！刷新中…"
+    },
+    "not_found": {
+      "en": "❌ No purchase found for this email",
+      "zh": "❌ 此邮箱无购买记录"
+    },
+    "invalid_email": {
+      "en": "Please enter a valid email",
+      "zh": "请输入有效邮箱"
+    },
+    "error": {
+      "en": "Network error. Please try again.",
+      "zh": "网络错误，请重试。"
     }
   }
 }
